@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import { parseWarcrierRoster } from './import/warcrierImport'
+import { isAbilityEligibleForFighter } from './integration/abilityEligibility'
 import type { WarcryAbility, WarcryFighter } from './types/warcry'
 import './App.css'
 
@@ -76,14 +77,6 @@ function findBestFighterMatch(fighters: WarcryFighter[], importedName: string): 
   })
 
   return looseMatches[0]
-}
-
-function abilityAppliesToFighter(ability: WarcryAbility, fighter: WarcryFighter): boolean {
-  if (!ability.runemarks || ability.runemarks.length === 0) {
-    return true
-  }
-
-  return ability.runemarks.every((runemark) => fighter.runemarks.includes(runemark))
 }
 
 function normalizeCost(cost: string): string {
@@ -169,7 +162,7 @@ function App() {
         return {
           importedName: name,
           fighter,
-          abilities: abilities.filter((ability) => abilityAppliesToFighter(ability, fighter)),
+          abilities: abilities.filter((ability) => isAbilityEligibleForFighter(ability, fighter)),
         }
       })
 
