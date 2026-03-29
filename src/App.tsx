@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { parseWarcrierRoster } from './import/warcrierImport'
 import type { WarcryAbility, WarcryFighter } from './types/warcry'
 import './App.css'
@@ -100,6 +100,7 @@ function App() {
   const [warband, setWarband] = useState<string | null>(null)
   const [importedCards, setImportedCards] = useState<ImportedCard[]>([])
   const [importStatus, setImportStatus] = useState('')
+  const warbandDataCache = useRef<Record<string, { fighters: WarcryFighter[]; abilities: WarcryAbility[] }>>({})
 
   async function importRoster() {
     const parsed = parseWarcrierRoster(rosterText)
@@ -133,17 +134,27 @@ function App() {
         return
       }
 
-      const [fightersResponse, abilitiesResponse] = await Promise.all([
-        fetch(warbandEntry.fightersPath),
-        fetch(warbandEntry.abilitiesPath),
-      ])
+      let fighters: WarcryFighter[]
+      let abilities: WarcryAbility[]
 
-      if (!fightersResponse.ok || !abilitiesResponse.ok) {
-        throw new Error('Failed to load fighters/abilities for detected warband')
+      const cached = warbandDataCache.current[warbandEntry.key]
+      if (cached) {
+        fighters = cached.fighters
+        abilities = cached.abilities
+      } else {
+        const [fightersResponse, abilitiesResponse] = await Promise.all([
+          fetch(warbandEntry.fightersPath),
+          fetch(warbandEntry.abilitiesPath),
+        ])
+
+        if (!fightersResponse.ok || !abilitiesResponse.ok) {
+          throw new Error('Failed to load fighters/abilities for detected warband')
+        }
+
+        fighters = (await fightersResponse.json()) as WarcryFighter[]
+        abilities = (await abilitiesResponse.json()) as WarcryAbility[]
+        warbandDataCache.current[warbandEntry.key] = { fighters, abilities }
       }
-
-      const fighters = (await fightersResponse.json()) as WarcryFighter[]
-      const abilities = (await abilitiesResponse.json()) as WarcryAbility[]
 
       const cards: ImportedCard[] = fighterNames.map((name) => {
         const fighter = findBestFighterMatch(fighters, name)
