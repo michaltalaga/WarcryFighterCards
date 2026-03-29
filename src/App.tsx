@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { parseWarcrierRoster, type ImportedRoster } from './import/warcrierImport'
 import type { WarcryAbility as Ability, WarcryFighter as Fighter } from './types/warcry'
 import './App.css'
 
@@ -12,11 +13,6 @@ type WarbandManifest = {
 
 type Manifest = {
   warbands: WarbandManifest[]
-}
-
-type ParsedRoster = {
-  warbandName: string | null
-  fighterNames: string[]
 }
 
 type RosterMatchResult = {
@@ -62,41 +58,6 @@ function makeDefaultCounts(fighters: Fighter[], value: number): Record<string, n
     counts[fighter._id] = value
   }
   return counts
-}
-
-function parseRosterText(input: string): ParsedRoster {
-  const rawLines = input
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter((line) => line.length > 0)
-    .filter((line) => !line.startsWith('```'))
-    .filter((line) => !/^[-]{4,}$/.test(line))
-
-  const fighterNames = rawLines
-    .filter((line) => line.startsWith('- '))
-    .map((line) => line.replace(/^[-]\s+/, ''))
-    .map((line) => line.replace(/\s*\([^)]*\)\s*$/, ''))
-
-  let warbandName: string | null = null
-  for (const line of rawLines) {
-    if (line.startsWith('- ')) {
-      continue
-    }
-    if (/^generated on/i.test(line)) {
-      continue
-    }
-    if (/pts\s*\|/i.test(line)) {
-      continue
-    }
-    if (/^".*"$/.test(line)) {
-      continue
-    }
-
-    warbandName = line
-    break
-  }
-
-  return { warbandName, fighterNames }
 }
 
 function findWarbandKey(manifest: Manifest | null, warbandName: string | null): string | null {
@@ -175,7 +136,7 @@ function App() {
   const [selectedFighterCounts, setSelectedFighterCounts] = useState<Record<string, number>>({})
   const [nameFilter, setNameFilter] = useState('')
   const [rosterText, setRosterText] = useState('')
-  const [pendingRosterImport, setPendingRosterImport] = useState<ParsedRoster | null>(null)
+  const [pendingRosterImport, setPendingRosterImport] = useState<ImportedRoster | null>(null)
   const [importStatus, setImportStatus] = useState('')
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
@@ -312,11 +273,12 @@ function App() {
       return
     }
 
-    const result = buildRosterMatch(fighters, pendingRosterImport.fighterNames)
+    const importedFighterNames = pendingRosterImport.fighters.map((fighter) => fighter.name)
+    const result = buildRosterMatch(fighters, importedFighterNames)
     setSelectedFighterCounts(result.counts)
     setPendingRosterImport(null)
 
-    const base = `Roster imported: matched ${result.matched}/${pendingRosterImport.fighterNames.length}`
+    const base = `Roster imported: matched ${result.matched}/${importedFighterNames.length}`
     if (result.unmatched.length > 0) {
       setImportStatus(`${base}. Unmatched: ${result.unmatched.join(', ')}`)
       return
@@ -356,18 +318,20 @@ function App() {
   }
 
   function importRoster() {
-    const parsed = parseRosterText(rosterText)
-    if (parsed.fighterNames.length === 0) {
+    const parsed = parseWarcrierRoster(rosterText)
+    const importedFighterNames = parsed.fighters.map((fighter) => fighter.name)
+
+    if (importedFighterNames.length === 0) {
       setImportStatus('No fighter lines found. Paste the full Warcrier export block.')
       return
     }
 
-    const rosterWarbandKey = findWarbandKey(manifest, parsed.warbandName)
+    const rosterWarbandKey = findWarbandKey(manifest, parsed.warband)
     setPendingRosterImport(parsed)
 
     if (rosterWarbandKey && rosterWarbandKey !== selectedWarbandKey) {
       setSelectedWarbandKey(rosterWarbandKey)
-      setImportStatus(`Detected ${parsed.warbandName ?? 'warband'} and switched warband before import.`)
+      setImportStatus(`Detected ${parsed.warband ?? 'warband'} and switched warband before import.`)
       return
     }
 
@@ -377,11 +341,11 @@ function App() {
       return
     }
 
-    const result = buildRosterMatch(fighters, parsed.fighterNames)
+    const result = buildRosterMatch(fighters, importedFighterNames)
     setSelectedFighterCounts(result.counts)
     setPendingRosterImport(null)
 
-    const base = `Roster imported: matched ${result.matched}/${parsed.fighterNames.length}`
+    const base = `Roster imported: matched ${result.matched}/${importedFighterNames.length}`
     if (result.unmatched.length > 0) {
       setImportStatus(`${base}. Unmatched: ${result.unmatched.join(', ')}`)
       return
