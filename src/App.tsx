@@ -101,6 +101,7 @@ function parseRosterText(input: string): ParsedRoster {
     .split(/\r?\n/)
     .map((line) => line.trim())
     .filter((line) => line.length > 0)
+    .filter((line) => !line.startsWith('```'))
     .filter((line) => !/^[-]{4,}$/.test(line))
 
   const fighterNames = rawLines
