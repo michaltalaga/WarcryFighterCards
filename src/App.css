@@ -129,6 +129,10 @@
 .fighter-card h2 {
   margin: 0;
   font-size: 1.05rem;
+  line-height: 1.15;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  flex: 1 1 auto;
 }
 
 .points-pill {
@@ -140,6 +144,8 @@
   line-height: 1;
   padding: 0.3rem 0.55rem;
   white-space: nowrap;
+  flex: 0 0 auto;
+  align-self: flex-start;
 }
 
 .fighter-card p {
@@ -152,24 +158,31 @@
   margin: var(--space-2) 0 0;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: var(--space-1);
+  gap: 0.2rem;
 }
 
 .stats-grid div {
   border: 1px solid #c3baa6;
   border-radius: 8px;
-  padding: 0.25rem;
+  padding: 0.18rem 0.22rem;
 }
 
 .stats-grid dt {
-  font-size: 0.65rem;
-  color: #566b73;
+  line-height: 1;
+  margin-bottom: 0.08rem;
 }
 
 .stats-grid dd {
   margin: 0;
-  font-size: 1.12rem;
+  font-size: 1.06rem;
   font-weight: 700;
+}
+
+.stat-icon {
+  width: 0.78rem;
+  height: 0.78rem;
+  object-fit: contain;
+  opacity: 0.9;
 }
 
 .fighter-card section {

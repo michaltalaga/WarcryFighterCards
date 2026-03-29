@@ -1,4 +1,5 @@
 import type { ImportedCard } from '../types/cards'
+import { characteristicIconPath } from '../utils/cardHelpers'
 import { FighterRunemarkBadge } from './FighterRunemarkBadge'
 import { WeaponSection } from './WeaponSection'
 import { AbilitySection } from './AbilitySection'
@@ -21,15 +22,21 @@ export function FighterCard({ card }: FighterCardProps) {
         <>
           <dl className="stats-grid">
             <div>
-              <dt>M</dt>
+              <dt>
+                <img className="stat-icon" src={characteristicIconPath('move')} alt="Move" />
+              </dt>
               <dd>{card.fighter.movement}</dd>
             </div>
             <div>
-              <dt>T</dt>
+              <dt>
+                <img className="stat-icon" src={characteristicIconPath('toughness')} alt="Toughness" />
+              </dt>
               <dd>{card.fighter.toughness}</dd>
             </div>
             <div>
-              <dt>W</dt>
+              <dt>
+                <img className="stat-icon" src={characteristicIconPath('wounds')} alt="Wounds" />
+              </dt>
               <dd>{card.fighter.wounds}</dd>
             </div>
           </dl>
