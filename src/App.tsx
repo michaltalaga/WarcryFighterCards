@@ -290,7 +290,7 @@ function App() {
 
         setFighters(fightersData)
         setAbilities(abilitiesData)
-        setSelectedFighterCounts(makeDefaultCounts(fightersData, 1))
+        setSelectedFighterCounts(makeDefaultCounts(fightersData, 0))
       } catch (loadError) {
         if (!active) {
           return
