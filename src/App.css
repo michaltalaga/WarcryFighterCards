@@ -85,3 +85,51 @@
   font-size: 0.88rem;
   color: #334247;
 }
+
+.stats-grid {
+  margin: 0.6rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.35rem;
+}
+
+.stats-grid div {
+  border: 1px solid #c3baa6;
+  border-radius: 8px;
+  padding: 0.25rem;
+}
+
+.stats-grid dt {
+  font-size: 0.65rem;
+  color: #566b73;
+}
+
+.stats-grid dd {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.fighter-card section {
+  margin-top: 0.6rem;
+}
+
+.fighter-card h3 {
+  margin: 0;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #30444d;
+}
+
+.abilities-list {
+  margin: 0.35rem 0 0;
+  padding-left: 1rem;
+  font-size: 0.82rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.22rem;
+}
+
+.unmatched {
+  color: #7f1d1d;
+}
