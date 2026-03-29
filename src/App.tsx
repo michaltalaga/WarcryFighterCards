@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { parseWarcrierRoster, type ImportedRoster } from './import/warcrierImport'
+import { buildRosterSelection } from './integration/rosterSelection'
 import type { WarcryAbility as Ability, WarcryFighter as Fighter } from './types/warcry'
 import './App.css'
 
@@ -13,12 +14,6 @@ type WarbandManifest = {
 
 type Manifest = {
   warbands: WarbandManifest[]
-}
-
-type RosterMatchResult = {
-  counts: Record<string, number>
-  matched: number
-  unmatched: string[]
 }
 
 type PendingRosterImport = {
@@ -85,52 +80,6 @@ function findWarbandKey(manifest: Manifest | null, warbandName: string | null): 
       normalizeText(warbandName).includes(normalizeText(entry.warbandSlug)),
   )
   return loose?.key ?? null
-}
-
-function buildRosterMatch(fighters: Fighter[], rosterFighterNames: string[]): RosterMatchResult {
-  const counts = makeDefaultCounts(fighters, 0)
-  const normalizedToFighter = new Map<string, Fighter>()
-
-  for (const fighter of fighters) {
-    normalizedToFighter.set(normalizeText(fighter.name), fighter)
-  }
-
-  const unmatched: string[] = []
-  let matched = 0
-
-  for (const rosterName of rosterFighterNames) {
-    const normalizedRosterName = normalizeText(rosterName)
-    const exactMatch = normalizedToFighter.get(normalizedRosterName)
-
-    if (exactMatch) {
-      counts[exactMatch._id] += 1
-      matched += 1
-      continue
-    }
-
-    const looseMatches = fighters.filter((fighter) => {
-      const normalizedFighterName = normalizeText(fighter.name)
-      return (
-        normalizedFighterName.includes(normalizedRosterName) ||
-        normalizedRosterName.includes(normalizedFighterName)
-      )
-    })
-
-    if (looseMatches.length > 0) {
-      looseMatches.sort((a, b) => {
-        const aLengthDiff = Math.abs(a.name.length - rosterName.length)
-        const bLengthDiff = Math.abs(b.name.length - rosterName.length)
-        return aLengthDiff - bLengthDiff
-      })
-      counts[looseMatches[0]._id] += 1
-      matched += 1
-      continue
-    }
-
-    unmatched.push(rosterName)
-  }
-
-  return { counts, matched, unmatched }
 }
 
 function App() {
@@ -286,12 +235,11 @@ function App() {
       return
     }
 
-    const importedFighterNames = pendingRosterImport.roster.fighters.map((fighter) => fighter.name)
-    const result = buildRosterMatch(fighters, importedFighterNames)
-    setSelectedFighterCounts(result.counts)
+    const result = buildRosterSelection(fighters, pendingRosterImport.roster)
+    setSelectedFighterCounts(result.countsByFighterId)
     setPendingRosterImport(null)
 
-    const base = `Roster imported: matched ${result.matched}/${importedFighterNames.length}`
+    const base = `Roster imported: matched ${result.matched}/${pendingRosterImport.roster.fighters.length}`
     if (result.unmatched.length > 0) {
       setImportStatus(`${base}. Unmatched: ${result.unmatched.join(', ')}`)
       return
