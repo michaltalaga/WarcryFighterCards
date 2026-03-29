@@ -117,6 +117,8 @@
   background: linear-gradient(180deg, #fefcf6 0%, #f2ebd8 100%);
   padding: var(--space-3);
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
 .fighter-card-header {
@@ -192,6 +194,21 @@
 
 .fighter-card section {
   margin-top: var(--space-2);
+}
+
+.fighter-card-body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.fighter-card-body > :first-child {
+  margin-top: var(--space-2);
+}
+
+.reactions-section {
+  margin-top: auto;
+  padding-top: var(--space-2);
 }
 
 .fighter-card h3 {
@@ -449,5 +466,10 @@
   .warband-header-card {
     break-inside: avoid;
     page-break-inside: avoid;
+  }
+
+  .reactions-section {
+    margin-top: var(--space-2);
+    padding-top: 0;
   }
 }
