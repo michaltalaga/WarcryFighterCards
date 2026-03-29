@@ -172,6 +172,19 @@
   gap: 0.22rem;
 }
 
+.ability-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.cost-icon {
+  width: 1.1rem;
+  text-align: center;
+  color: #163f4f;
+  font-weight: 700;
+}
+
 .unmatched {
   color: #7f1d1d;
 }
