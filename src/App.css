@@ -178,6 +178,15 @@
   justify-content: stretch;
 }
 
+.cards-grid-backs {
+  align-items: start;
+}
+
+.cards-grid-backs .fighter-card {
+  height: auto;
+  min-height: var(--fighter-card-web-height);
+}
+
 .card-back-frame {
   box-sizing: border-box;
   width: 100%;
@@ -238,8 +247,7 @@
   flex-direction: column;
   gap: var(--card-back-list-gap);
   min-height: 0;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: visible;
 }
 
 .card-back-ability-item {
@@ -687,6 +695,21 @@
     border-radius: 2.5mm;
     gap: 0;
     overflow: hidden;
+  }
+
+  .cards-grid-backs .fighter-card {
+    height: 89mm;
+    min-height: 89mm;
+    max-height: 89mm;
+  }
+
+  .fighter-card-back {
+    --card-back-list-gap: 0.45mm;
+    --card-back-item-pad: 0.35mm;
+    --card-back-name-size: 5.5pt;
+    --card-back-cost-size: 4.8pt;
+    --card-back-dice-size: 5.2pt;
+    --card-back-desc-size: 4.5pt;
   }
 
   .fighter-card-header {

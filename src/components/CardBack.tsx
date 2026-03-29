@@ -14,12 +14,12 @@ export function CardBack({ card }: CardBackProps) {
   const abilityCount = describedAbilities.length
 
   const backStyle = {
-    '--card-back-list-gap': abilityCount >= 6 ? '0.08rem' : abilityCount >= 4 ? '0.12rem' : '0.16rem',
-    '--card-back-item-pad': abilityCount >= 6 ? '0.08rem' : abilityCount >= 4 ? '0.11rem' : '0.14rem',
-    '--card-back-name-size': abilityCount >= 6 ? '0.5rem' : abilityCount >= 4 ? '0.54rem' : '0.57rem',
-    '--card-back-cost-size': abilityCount >= 6 ? '0.4rem' : abilityCount >= 4 ? '0.43rem' : '0.46rem',
-    '--card-back-dice-size': abilityCount >= 6 ? '0.44rem' : abilityCount >= 4 ? '0.48rem' : '0.52rem',
-    '--card-back-desc-size': abilityCount >= 6 ? '0.4rem' : abilityCount >= 4 ? '0.42rem' : '0.45rem',
+    '--card-back-list-gap': abilityCount >= 6 ? '0.2rem' : abilityCount >= 4 ? '0.24rem' : '0.3rem',
+    '--card-back-item-pad': abilityCount >= 6 ? '0.14rem' : abilityCount >= 4 ? '0.18rem' : '0.22rem',
+    '--card-back-name-size': abilityCount >= 6 ? '0.78rem' : abilityCount >= 4 ? '0.84rem' : '0.9rem',
+    '--card-back-cost-size': abilityCount >= 6 ? '0.68rem' : abilityCount >= 4 ? '0.72rem' : '0.76rem',
+    '--card-back-dice-size': abilityCount >= 6 ? '0.74rem' : abilityCount >= 4 ? '0.8rem' : '0.86rem',
+    '--card-back-desc-size': abilityCount >= 6 ? '0.62rem' : abilityCount >= 4 ? '0.68rem' : '0.74rem',
   } as CSSProperties
 
   function renderAbilityCost(cost: string) {
