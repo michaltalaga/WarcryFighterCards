@@ -32,6 +32,23 @@ The sync script copies original data files without changing their schema:
 - npm run sync-data
   - Copies source data into public static folder and regenerates manifest.
 
+## GitHub Pages
+
+This repo is configured for GitHub Pages deployment via GitHub Actions:
+
+- Workflow: `.github/workflows/deploy-pages.yml`
+- Build output: `dist/`
+- Vite base path is auto-derived in Actions from `GITHUB_REPOSITORY`.
+
+To publish:
+
+1. Create a GitHub repository (for example `WarcryFighterCards`) under your account.
+2. Add remote:
+  - `git remote add origin https://github.com/<your-user>/<your-repo>.git`
+3. Push:
+  - `git push -u origin main`
+4. In GitHub repo settings, ensure Pages is configured to use `GitHub Actions`.
+
 ## MVP Features
 
 - Warband selector generated from discovered JSON files.
