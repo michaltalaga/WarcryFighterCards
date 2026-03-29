@@ -16,11 +16,11 @@ export function CardBack({ card }: CardBackProps) {
   const backStyle = {
     '--card-back-list-gap': abilityCount >= 6 ? '0.08rem' : abilityCount >= 4 ? '0.12rem' : '0.16rem',
     '--card-back-item-pad': abilityCount >= 6 ? '0.08rem' : abilityCount >= 4 ? '0.11rem' : '0.14rem',
-    '--card-back-name-size': abilityCount >= 6 ? '0.57rem' : abilityCount >= 4 ? '0.6rem' : '0.63rem',
-    '--card-back-cost-size': abilityCount >= 6 ? '0.45rem' : '0.5rem',
-    '--card-back-dice-size': abilityCount >= 6 ? '0.5rem' : '0.56rem',
-    '--card-back-desc-size': abilityCount >= 6 ? '0.44rem' : abilityCount >= 4 ? '0.47rem' : '0.5rem',
-    '--card-back-desc-lines': abilityCount >= 6 ? '1' : abilityCount >= 4 ? '2' : '4',
+    '--card-back-name-size': abilityCount >= 6 ? '0.5rem' : abilityCount >= 4 ? '0.54rem' : '0.57rem',
+    '--card-back-cost-size': abilityCount >= 6 ? '0.4rem' : abilityCount >= 4 ? '0.43rem' : '0.46rem',
+    '--card-back-dice-size': abilityCount >= 6 ? '0.44rem' : abilityCount >= 4 ? '0.48rem' : '0.52rem',
+    '--card-back-desc-size': abilityCount >= 6 ? '0.4rem' : abilityCount >= 4 ? '0.42rem' : '0.45rem',
+    '--card-back-desc-lines': abilityCount >= 6 ? '1' : abilityCount >= 4 ? '2' : '3',
   } as CSSProperties
 
   function renderAbilityCost(cost: string) {
