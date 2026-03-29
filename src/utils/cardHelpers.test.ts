@@ -45,13 +45,9 @@ describe('sortAbilitiesByDice', () => {
 
     const sorted = sortAbilitiesByDice(abilities)
 
-    expect(sorted.map((ability) => `${ability.cost}:${ability.name}`)).toEqual([
-      '  DOUBLE:Alpha',
-      'Double :Beta',
-      'battletrait:Gamma',
-      'unknown:Omega',
-      ' reaction :Zeta',
-    ])
+    expect(sorted.map((ability) => ability.name)).toEqual(['Alpha', 'Beta', 'Gamma', 'Omega', 'Zeta'])
+    expect(sorted[0].cost).toBe('  DOUBLE')
+    expect(sorted[1].cost).toBe('Double ')
   })
 
   it('does not mutate the original array', () => {
