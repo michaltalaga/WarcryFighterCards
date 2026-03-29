@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useMemo, useRef, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiceD6, faStar } from '@fortawesome/free-solid-svg-icons'
 import { parseWarcrierRoster } from './import/warcrierImport'
@@ -26,8 +26,14 @@ type ImportedCard = {
 }
 
 type WarbandHeaderInfo = {
-  warband: string
+  warbandName: string
+  warbandSlug: string
   faction: string
+}
+
+type FactionRunemarkProps = {
+  candidates: string[]
+  alt: string
 }
 
 function normalizeText(value: string): string {
@@ -85,6 +91,82 @@ function findBestFighterMatch(fighters: WarcryFighter[], importedName: string): 
   })
 
   return looseMatches[0]
+}
+
+function toWords(value: string): string[] {
+  return value
+    .toLowerCase()
+    .replace(/['`]/g, '')
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, ' ')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+}
+
+function toSingularWord(word: string): string {
+  if (word.length > 3 && word.endsWith('s')) {
+    return word.slice(0, -1)
+  }
+  return word
+}
+
+function buildWarbandNameVariants(value: string): string[] {
+  const words = toWords(value)
+  if (words.length === 0) {
+    return []
+  }
+
+  const singularWords = words.map((word) => toSingularWord(word))
+  const variants = new Set<string>()
+
+  variants.add(words.join('-'))
+  variants.add(words.join(''))
+  variants.add(singularWords.join('-'))
+  variants.add(singularWords.join(''))
+  variants.add(words[0])
+  variants.add(singularWords[0])
+
+  if (words.length >= 2) {
+    variants.add(`${words[0]}-${words[1]}`)
+    variants.add(`${singularWords[0]}-${singularWords[1]}`)
+  }
+
+  return [...variants].filter(Boolean)
+}
+
+function buildFactionRunemarkCandidates(warbandInfo: WarbandHeaderInfo): string[] {
+  const candidates = new Set<string>()
+  const faction = toWords(warbandInfo.faction).join('-')
+  const baseNames = [warbandInfo.warbandSlug, warbandInfo.warbandName]
+
+  for (const baseName of baseNames) {
+    for (const variant of buildWarbandNameVariants(baseName)) {
+      candidates.add(`/warcry_assets/runemarks/black/factions-${faction}-${variant}.svg`)
+      candidates.add(`/warcry_assets/runemarks/black/bladeborn-${variant}.svg`)
+    }
+  }
+
+  candidates.add(`/warcry_assets/runemarks/black/grand-alliance-${faction}.svg`)
+  return [...candidates]
+}
+
+function FactionRunemark({ candidates, alt }: FactionRunemarkProps) {
+  const [candidateIndex, setCandidateIndex] = useState(0)
+
+  if (candidateIndex >= candidates.length) {
+    return null
+  }
+
+  const src = candidates[candidateIndex]
+  return (
+    <img
+      className="faction-runemark"
+      src={src}
+      alt={alt}
+      onError={() => setCandidateIndex((prev) => prev + 1)}
+    />
+  )
 }
 
 function getAbilityCostVisual(cost: string):
@@ -189,7 +271,11 @@ function App() {
         return
       }
 
-      setWarbandInfo({ warband: warbandEntry.warbandSlug, faction: warbandEntry.grandAlliance })
+      setWarbandInfo({
+        warbandName: parsed.warband ?? warbandEntry.warbandSlug,
+        warbandSlug: warbandEntry.warbandSlug,
+        faction: warbandEntry.grandAlliance,
+      })
 
       let fighters: WarcryFighter[]
       let abilities: WarcryAbility[]
@@ -256,6 +342,11 @@ function App() {
     }
   }
 
+  const runemarkCandidates = useMemo(
+    () => (warbandInfo ? buildFactionRunemarkCandidates(warbandInfo) : []),
+    [warbandInfo],
+  )
+
   return (
     <main className="app-shell">
       <header className="app-header">
@@ -280,12 +371,23 @@ function App() {
       <section className="cards-grid">
         {(rosterName || warbandInfo) && (
           <article className="warband-header-card">
-            <h2>{rosterName || 'Imported Roster'}</h2>
-            {warbandInfo && (
-              <p>
-                {warbandInfo.warband} | {warbandInfo.faction}
-              </p>
-            )}
+            <div className="warband-header-top">
+              <div>
+                <h2>{rosterName || 'Imported Roster'}</h2>
+                {warbandInfo && (
+                  <p>
+                    {warbandInfo.warbandName} | {warbandInfo.faction}
+                  </p>
+                )}
+              </div>
+              {warbandInfo && (
+                <FactionRunemark
+                  key={runemarkCandidates.join('|')}
+                  candidates={runemarkCandidates}
+                  alt={`${warbandInfo.warbandName} runemark`}
+                />
+              )}
+            </div>
 
             <section className="warband-traits">
               <h3>Battle Traits</h3>
