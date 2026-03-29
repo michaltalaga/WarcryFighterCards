@@ -412,12 +412,12 @@
   align-items: center;
   flex-wrap: nowrap;
   white-space: nowrap;
-  gap: 0.1rem;
+  gap: 0.04rem;
   color: #17465a;
 }
 
 .dice-icon {
-  font-size: 0.64rem;
+  font-size: 0.7rem;
   filter: drop-shadow(0 0 0.02rem #0f2a35);
 }
 
@@ -558,7 +558,7 @@
   }
 
   .dice-icon {
-    font-size: 0.56rem;
+    font-size: 0.62rem;
   }
 
   .runemarks-list {
@@ -610,7 +610,7 @@
   }
 
   .fighter-card .reactions-section {
-    margin-top: 1.2mm;
+    margin-top: auto;
     padding-top: 0;
   }
 
