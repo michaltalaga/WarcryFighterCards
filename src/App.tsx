@@ -337,6 +337,9 @@ function App() {
     if (!pendingRosterImport) {
       return
     }
+    if (loading) {
+      return
+    }
     if (fighters.length === 0) {
       return
     }
@@ -352,7 +355,7 @@ function App() {
     }
 
     setImportStatus(base)
-  }, [fighters, pendingRosterImport])
+  }, [fighters, pendingRosterImport, loading])
 
   function setFighterCount(fighterId: string, nextCount: number) {
     setSelectedFighterCounts((current) => {
@@ -397,6 +400,12 @@ function App() {
     if (rosterWarbandKey && rosterWarbandKey !== selectedWarbandKey) {
       setSelectedWarbandKey(rosterWarbandKey)
       setImportStatus(`Detected ${parsed.warbandName ?? 'warband'} and switched warband before import.`)
+      return
+    }
+
+    if (loading || fighters.length === 0) {
+      setPendingRosterImport(parsed)
+      setImportStatus('Roster queued. Applying as soon as fighter data is loaded.')
       return
     }
 
