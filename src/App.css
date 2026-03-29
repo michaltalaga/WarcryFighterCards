@@ -177,10 +177,10 @@
   border-radius: 8px;
   padding: 0.22rem 0.35rem;
   min-height: 2.15rem;
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
   align-items: center;
-  column-gap: 0.3rem;
+  justify-content: center;
+  gap: 0.3rem;
   background: linear-gradient(180deg, #f8f4e8 0%, #efe8d7 100%);
 }
 
