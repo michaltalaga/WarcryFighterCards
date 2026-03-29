@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiceD6, faStar } from '@fortawesome/free-solid-svg-icons'
-import type { CSSProperties } from 'react'
 import type { ImportedCard } from '../types/cards'
 import { getAbilityCostVisual } from '../utils/cardHelpers'
 
@@ -12,15 +11,7 @@ export function CardBack({ card }: CardBackProps) {
   const fighterName = card.fighter?.name ?? card.importedName
   const describedAbilities = [...card.abilities, ...card.reactions]
   const abilityCount = describedAbilities.length
-
-  const backStyle = {
-    '--card-back-list-gap': abilityCount >= 6 ? '0.2rem' : abilityCount >= 4 ? '0.24rem' : '0.3rem',
-    '--card-back-item-pad': abilityCount >= 6 ? '0.14rem' : abilityCount >= 4 ? '0.18rem' : '0.22rem',
-    '--card-back-name-size': abilityCount >= 6 ? '0.78rem' : abilityCount >= 4 ? '0.84rem' : '0.9rem',
-    '--card-back-cost-size': abilityCount >= 6 ? '0.68rem' : abilityCount >= 4 ? '0.72rem' : '0.76rem',
-    '--card-back-dice-size': abilityCount >= 6 ? '0.74rem' : abilityCount >= 4 ? '0.8rem' : '0.86rem',
-    '--card-back-desc-size': abilityCount >= 6 ? '0.62rem' : abilityCount >= 4 ? '0.68rem' : '0.74rem',
-  } as CSSProperties
+  const densityClass = abilityCount >= 6 ? 'density-compact' : abilityCount >= 4 ? 'density-medium' : 'density-roomy'
 
   function renderAbilityCost(cost: string) {
     const visual = getAbilityCostVisual(cost)
@@ -46,7 +37,7 @@ export function CardBack({ card }: CardBackProps) {
   }
 
   return (
-    <article className="fighter-card fighter-card-back" aria-label={`Back of ${fighterName}`} style={backStyle}>
+    <article className={`fighter-card fighter-card-back ${densityClass}`} aria-label={`Back of ${fighterName}`}>
       <div className="card-back-frame">
         {describedAbilities.length === 0 ? (
           <p className="card-back-note">No matching abilities or reactions.</p>

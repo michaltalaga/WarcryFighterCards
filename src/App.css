@@ -323,6 +323,33 @@
   color: #22353c;
 }
 
+.fighter-card-back.density-compact {
+  --card-back-list-gap: 0.14rem;
+  --card-back-item-pad: 0.1rem;
+  --card-back-name-size: 0.62rem;
+  --card-back-cost-size: 0.52rem;
+  --card-back-dice-size: 0.58rem;
+  --card-back-desc-size: 0.5rem;
+}
+
+.fighter-card-back.density-medium {
+  --card-back-list-gap: 0.18rem;
+  --card-back-item-pad: 0.12rem;
+  --card-back-name-size: 0.68rem;
+  --card-back-cost-size: 0.58rem;
+  --card-back-dice-size: 0.64rem;
+  --card-back-desc-size: 0.56rem;
+}
+
+.fighter-card-back.density-roomy {
+  --card-back-list-gap: 0.22rem;
+  --card-back-item-pad: 0.15rem;
+  --card-back-name-size: 0.74rem;
+  --card-back-cost-size: 0.64rem;
+  --card-back-dice-size: 0.7rem;
+  --card-back-desc-size: 0.62rem;
+}
+
 .fighter-card-header {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -710,6 +737,33 @@
     --card-back-cost-size: 4.8pt;
     --card-back-dice-size: 5.2pt;
     --card-back-desc-size: 4.5pt;
+  }
+
+  .fighter-card-back.density-compact {
+    --card-back-list-gap: 0.32mm !important;
+    --card-back-item-pad: 0.24mm !important;
+    --card-back-name-size: 4.8pt !important;
+    --card-back-cost-size: 4.2pt !important;
+    --card-back-dice-size: 4.5pt !important;
+    --card-back-desc-size: 3.9pt !important;
+  }
+
+  .fighter-card-back.density-medium {
+    --card-back-list-gap: 0.4mm !important;
+    --card-back-item-pad: 0.28mm !important;
+    --card-back-name-size: 5.1pt !important;
+    --card-back-cost-size: 4.4pt !important;
+    --card-back-dice-size: 4.8pt !important;
+    --card-back-desc-size: 4.1pt !important;
+  }
+
+  .fighter-card-back.density-roomy {
+    --card-back-list-gap: 0.48mm !important;
+    --card-back-item-pad: 0.32mm !important;
+    --card-back-name-size: 5.4pt !important;
+    --card-back-cost-size: 4.7pt !important;
+    --card-back-dice-size: 5.1pt !important;
+    --card-back-desc-size: 4.3pt !important;
   }
 
   .fighter-card-header {
