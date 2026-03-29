@@ -72,6 +72,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: var(--space-3);
+  align-items: stretch;
 }
 
 .warband-header-card {
@@ -119,6 +120,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .fighter-card-header {
