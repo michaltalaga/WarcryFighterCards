@@ -278,3 +278,65 @@
 .unmatched {
   color: #7f1d1d;
 }
+
+@media print {
+  @page {
+    size: auto;
+    margin: 10mm;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .app-shell {
+    width: 100%;
+    padding: 0;
+    gap: 0.4rem;
+  }
+
+  .app-header,
+  .roster-import {
+    display: none;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+
+  .warband-header-card,
+  .fighter-card,
+  .stats-grid div,
+  .weapon-row,
+  .fighter-runemark-badge,
+  .points-pill,
+  .passive-badge {
+    background: #fff !important;
+    color: #000 !important;
+    border-color: #000 !important;
+    box-shadow: none !important;
+  }
+
+  .faction-runemark,
+  .fighter-runemark-icon {
+    filter: grayscale(1) contrast(1.25);
+  }
+
+  .dice-group,
+  .dice-icon,
+  .weapon-meta,
+  .fighter-card h3,
+  .warband-header-card p {
+    color: #000 !important;
+  }
+
+  .fighter-card,
+  .warband-header-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}
