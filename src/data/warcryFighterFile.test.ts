@@ -20,7 +20,7 @@ describe('readWarcryFightersFromFile', () => {
     expect(clawlord?.weapons.length).toBeGreaterThan(0)
   })
 
-  it('keeps duplicate fighter variants as separate entries', async () => {
+  it('preserves distinct fighter names from source data', async () => {
     const fighters = await readWarcryFightersFromFile(skavenFightersFile)
 
     const jezzails = fighters.filter((fighter) => fighter.name === 'Warplock Jezzail')
