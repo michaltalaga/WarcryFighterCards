@@ -239,8 +239,8 @@ function App() {
     const nextCounts = makeDefaultCounts(fighters, 0)
     let matched = 0
     for (const selectedFighter of result.fighters) {
-      nextCounts[selectedFighter.fighter._id] = selectedFighter.quantity
-      matched += selectedFighter.quantity
+      nextCounts[selectedFighter._id] = (nextCounts[selectedFighter._id] ?? 0) + 1
+      matched += 1
     }
 
     setSelectedFighterCounts(nextCounts)

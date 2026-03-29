@@ -24,8 +24,8 @@ describe('buildRosterSelection', () => {
     expect(result.warband).toBe('Skaven')
 
     const byName: Record<string, number> = {}
-    for (const selectedFighter of result.fighters) {
-      byName[selectedFighter.fighter.name] = selectedFighter.quantity
+    for (const fighter of result.fighters) {
+      byName[fighter.name] = (byName[fighter.name] ?? 0) + 1
     }
 
     expect(byName['Clawlord on Gnaw-Beast']).toBe(1)

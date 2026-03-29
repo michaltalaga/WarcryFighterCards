@@ -1,15 +1,10 @@
 import type { ImportedRoster } from '../import/warcrierImport'
 import type { WarcryFighter } from '../types/warcry'
 
-export type SelectedRosterFighter = {
-  fighter: WarcryFighter
-  quantity: number
-}
-
 export type RosterSelectionResult = {
   rosterName: string | null
   warband: string | null
-  fighters: SelectedRosterFighter[]
+  fighters: WarcryFighter[]
 }
 
 function normalizeText(value: string): string {
@@ -18,14 +13,6 @@ function normalizeText(value: string): string {
     .replace(/['".,]/g, '')
     .replace(/\s+/g, ' ')
     .trim()
-}
-
-function makeDefaultCounts(fighters: WarcryFighter[], value: number): Record<string, number> {
-  const counts: Record<string, number> = {}
-  for (const fighter of fighters) {
-    counts[fighter._id] = value
-  }
-  return counts
 }
 
 function findBestFighterMatch(
@@ -64,8 +51,8 @@ export function buildRosterSelection(
   fighters: WarcryFighter[],
   importedRoster: ImportedRoster,
 ): RosterSelectionResult {
-  const countsByFighterId = makeDefaultCounts(fighters, 0)
   const normalizedToFighter = new Map<string, WarcryFighter>()
+  const selectedFighters: WarcryFighter[] = []
 
   for (const fighter of fighters) {
     normalizedToFighter.set(normalizeText(fighter.name), fighter)
@@ -77,15 +64,7 @@ export function buildRosterSelection(
       continue
     }
 
-    countsByFighterId[matchedFighter._id] += 1
-  }
-
-  const selectedFighters: SelectedRosterFighter[] = []
-  for (const fighter of fighters) {
-    const quantity = countsByFighterId[fighter._id] ?? 0
-    if (quantity > 0) {
-      selectedFighters.push({ fighter, quantity })
-    }
+    selectedFighters.push(matchedFighter)
   }
 
   return {
