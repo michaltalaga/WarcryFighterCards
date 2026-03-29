@@ -1,20 +1,14 @@
+import fs from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { extractDelimitedContent, parseWarcrierRoster } from './warcrierImport'
 
+const rosterFixture = fs.readFileSync(
+  new URL('./__fixtures__/warcrier-roster.txt', import.meta.url),
+  'utf8',
+)
+
 describe('extractDelimitedContent', () => {
   it('extracts only text between delimiter lines', () => {
-    const input = `----------
-"My Warband"
-Skaven
-800pts | 4 fighters | Valid ✓  
-
-- Clawlord on Gnaw-Beast (230pts, Hero)
-- Stormfiend with Doomflayer gauntlets (270pts)
-- Warplock Jezzail (150pts)
-- Warplock Jezzail (150pts)
-----------
-Generated on Warcrier.net`
-
     const expected = `"My Warband"
 Skaven
 800pts | 4 fighters | Valid ✓  
@@ -24,25 +18,13 @@ Skaven
 - Warplock Jezzail (150pts)
 - Warplock Jezzail (150pts)`
 
-    expect(extractDelimitedContent(input)).toBe(expected)
+    expect(extractDelimitedContent(rosterFixture)).toBe(expected)
   })
 })
 
 describe('parseWarcrierRoster', () => {
   it('parses the provided Warcrier export including duplicate fighters', () => {
-    const input = `----------
-"My Warband"
-Skaven
-800pts | 4 fighters | Valid ✓  
-
-- Clawlord on Gnaw-Beast (230pts, Hero)
-- Stormfiend with Doomflayer gauntlets (270pts)
-- Warplock Jezzail (150pts)
-- Warplock Jezzail (150pts)
-----------
-Generated on Warcrier.net`
-
-    const parsed = parseWarcrierRoster(input)
+    const parsed = parseWarcrierRoster(rosterFixture)
 
     expect(parsed).toEqual({
       rosterName: 'My Warband',
