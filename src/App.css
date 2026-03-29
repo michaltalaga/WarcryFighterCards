@@ -183,8 +183,8 @@
   flex-direction: column;
   align-items: stretch;
   text-align: left;
-  padding: 0.55rem;
-  gap: 0.32rem;
+  padding: 0;
+  gap: 0;
   overflow: hidden;
 }
 
@@ -230,14 +230,14 @@
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 0.22rem;
+  gap: 0.16rem;
   min-height: 0;
   overflow: hidden;
 }
 
 .card-back-ability-item {
   border-top: 1px dotted #8f8a7c;
-  padding-top: 0.18rem;
+  padding-top: 0.14rem;
 }
 
 .card-back-ability-list > :first-child {
@@ -261,9 +261,43 @@
 }
 
 .card-back-ability-cost {
-  font-size: 0.54rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 1.8rem;
+}
+
+.card-back-dice-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.02rem;
+  color: #1a3f4f;
+}
+
+.card-back-dice-icon {
+  font-size: 0.56rem;
+}
+
+.card-back-cost-text {
+  font-size: 0.5rem;
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #284049;
+}
+
+.card-back-passive-badge {
+  width: 0.9rem;
+  height: 0.9rem;
+  border: 1px solid #36515b;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-back-passive-icon {
+  font-size: 0.48rem;
   color: #284049;
 }
 
@@ -273,7 +307,7 @@
   line-height: 1.22;
   color: #22353c;
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -767,11 +801,12 @@
   .weapon-stat-value,
   .fighter-card h3,
   .warband-header-card p,
-  .card-back-overline,
-  .card-back-warband,
   .card-back-note,
   .card-back-ability-name,
-  .card-back-ability-cost,
+  .card-back-cost-text,
+  .card-back-dice-group,
+  .card-back-dice-icon,
+  .card-back-passive-icon,
   .card-back-ability-description {
     color: #000 !important;
   }
@@ -781,24 +816,12 @@
   }
 
   .card-back-frame {
-    padding: 1.15mm;
-    gap: 0.45mm;
-  }
-
-  .card-back-overline {
-    font-size: 5.2pt;
-  }
-
-  .card-back-frame h2 {
-    font-size: 7pt;
-    line-height: 1.05;
-  }
-
-  .card-back-warband {
-    font-size: 5.7pt;
+    padding: 0;
+    gap: 0;
   }
 
   .card-back-ability-list {
+    padding: 0;
     gap: 0.45mm;
   }
 
@@ -810,8 +833,17 @@
     font-size: 5.5pt;
   }
 
-  .card-back-ability-cost {
+  .card-back-cost-text {
     font-size: 4.8pt;
+  }
+
+  .card-back-dice-icon {
+    font-size: 5.2pt;
+  }
+
+  .card-back-passive-badge {
+    width: 2.3mm;
+    height: 2.3mm;
   }
 
   .card-back-ability-description {
