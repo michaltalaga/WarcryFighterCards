@@ -42,8 +42,6 @@ export function FighterCard({ card }: FighterCardProps) {
               </div>
             </dl>
 
-            <WeaponSection fighterId={card.fighter._id} weapons={card.fighter.weapons} />
-
             <section>
               <h3>Runemarks</h3>
               <ul className="runemarks-list">
@@ -58,6 +56,8 @@ export function FighterCard({ card }: FighterCardProps) {
                 )}
               </ul>
             </section>
+
+            <WeaponSection fighterId={card.fighter._id} weapons={card.fighter.weapons} />
 
             <AbilitySection abilities={card.abilities} />
 
