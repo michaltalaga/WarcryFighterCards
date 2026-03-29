@@ -480,6 +480,12 @@
     gap: 0;
   }
 
+  .fighter-card-header {
+    min-height: 0;
+    column-gap: 1mm;
+    margin-bottom: 0.35mm;
+  }
+
   .fighter-card h2 {
     font-size: 8.4pt;
     line-height: 1.08;
@@ -492,6 +498,10 @@
 
   .fighter-card section {
     margin-top: 1.1mm;
+  }
+
+  .runemarks-under-name {
+    margin-top: 0.35mm;
   }
 
   .fighter-card-body > :first-child {
@@ -519,7 +529,12 @@
   }
 
   .weapons-showcase-list {
+    margin-top: 0.35mm;
+    min-height: 16.2mm;
     gap: 0.5mm;
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
   }
 
   .weapon-cell {
@@ -547,6 +562,7 @@
   }
 
   .runemarks-list {
+    margin-top: 0.35mm;
     gap: 0.45mm;
   }
 
@@ -559,13 +575,6 @@
   .fighter-runemark-icon {
     width: 2.7mm;
     height: 2.7mm;
-  }
-
-  .weapons-showcase-list {
-    min-height: 0;
-    max-height: none;
-    overflow: visible;
-    padding-right: 0;
   }
 
   .warband-header-card,
