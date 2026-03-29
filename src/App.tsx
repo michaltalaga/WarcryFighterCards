@@ -236,16 +236,24 @@ function App() {
     }
 
     const result = buildRosterSelection(fighters, pendingRosterImport.roster)
-    setSelectedFighterCounts(result.countsByFighterId)
+    const nextCounts = makeDefaultCounts(fighters, 0)
+    let matched = 0
+    for (const selectedFighter of result.fighters) {
+      nextCounts[selectedFighter.fighter._id] = selectedFighter.quantity
+      matched += selectedFighter.quantity
+    }
+
+    setSelectedFighterCounts(nextCounts)
     setPendingRosterImport(null)
 
-    const base = `Roster imported: matched ${result.matched}/${pendingRosterImport.roster.fighters.length}`
-    if (result.unmatched.length > 0) {
-      setImportStatus(`${base}. Unmatched: ${result.unmatched.join(', ')}`)
+    const total = pendingRosterImport.roster.fighters.length
+    const unmatchedCount = total - matched
+    if (unmatchedCount > 0) {
+      setImportStatus(`Roster imported: matched ${matched}/${total}. Unmatched: ${unmatchedCount}`)
       return
     }
 
-    setImportStatus(base)
+    setImportStatus(`Roster imported: matched ${matched}/${total}`)
   }, [fighters, pendingRosterImport, loading, selectedWarbandKey])
 
   function setFighterCount(fighterId: string, nextCount: number) {

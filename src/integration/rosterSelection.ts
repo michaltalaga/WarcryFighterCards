@@ -1,10 +1,15 @@
 import type { ImportedRoster } from '../import/warcrierImport'
 import type { WarcryFighter } from '../types/warcry'
 
+export type SelectedRosterFighter = {
+  fighter: WarcryFighter
+  quantity: number
+}
+
 export type RosterSelectionResult = {
-  countsByFighterId: Record<string, number>
-  matched: number
-  unmatched: string[]
+  rosterName: string | null
+  warband: string | null
+  fighters: SelectedRosterFighter[]
 }
 
 function normalizeText(value: string): string {
@@ -66,23 +71,26 @@ export function buildRosterSelection(
     normalizedToFighter.set(normalizeText(fighter.name), fighter)
   }
 
-  const unmatched: string[] = []
-  let matched = 0
-
   for (const rosterFighter of importedRoster.fighters) {
     const matchedFighter = findBestFighterMatch(fighters, normalizedToFighter, rosterFighter.name)
     if (!matchedFighter) {
-      unmatched.push(rosterFighter.name)
       continue
     }
 
     countsByFighterId[matchedFighter._id] += 1
-    matched += 1
+  }
+
+  const selectedFighters: SelectedRosterFighter[] = []
+  for (const fighter of fighters) {
+    const quantity = countsByFighterId[fighter._id] ?? 0
+    if (quantity > 0) {
+      selectedFighters.push({ fighter, quantity })
+    }
   }
 
   return {
-    countsByFighterId,
-    matched,
-    unmatched,
+    rosterName: importedRoster.rosterName,
+    warband: importedRoster.warband,
+    fighters: selectedFighters,
   }
 }
