@@ -70,6 +70,28 @@
   margin: 0;
 }
 
+.compare-layout {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-3);
+}
+
+.compare-column {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.compare-title {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #20343b;
+}
+
+.cards-grid-compare {
+  grid-template-columns: 1fr;
+}
+
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -223,6 +245,14 @@
 .fighter-card .reactions-section {
   margin-top: auto;
   padding-top: var(--space-2);
+}
+
+.runemarks-under-name {
+  margin-top: var(--space-1);
+}
+
+.runemarks-bottom {
+  margin-top: var(--space-2);
 }
 
 .fighter-card h3 {
@@ -443,6 +473,11 @@
 
   .cards-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+
+  .compare-layout {
+    grid-template-columns: 1fr;
     gap: 0.45rem;
   }
 
