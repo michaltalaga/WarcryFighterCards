@@ -1,0 +1,15 @@
+{
+    "grand_alliance": "chaos",
+    "warband": "Maggotkin of Nurgle: Daemons",
+    "bladeborn": false,
+    "heroes_all": false,
+    "singleton": false,
+    "subfactions": [
+        {
+            "runemark": "Grandfather's Gardeners",
+            "bladeborn": false,
+            "heroes_all": false,
+            "singleton": true
+        }
+    ]
+}

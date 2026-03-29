@@ -1,0 +1,15 @@
+{
+    "grand_alliance": "order",
+    "warband": "Kharadron Overlords",
+    "bladeborn": false,
+    "heroes_all": false,
+    "subfactions": [
+        {
+            "runemark": "Thundrik's Profiteers",
+            "bladeborn": true,
+            "heroes_all": false,
+            "singleton": false
+        }
+    ],
+    "singleton": false
+}

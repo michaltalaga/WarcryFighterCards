@@ -1,0 +1,137 @@
+[
+    {
+        "_id": "d1c3e90e",
+        "name": "Acidic Slime Trail",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter. This fighter makes a bonus disengage action. Then, allocate a number of damage points to that fighter equal to the value of this ability.",
+        "runemarks": [
+            "ferocious"
+        ]
+    },
+    {
+        "_id": "7b88e541",
+        "name": "Jolly Gutpipes",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Move characteristic of friendly fighters while they make a move action that starts within 7\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "agile"
+        ]
+    },
+    {
+        "_id": "36191fb0",
+        "name": "Disgustingly Resilient",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "double",
+        "description": "Roll a number of dice equal to the value of this ability. For each roll of 3+, remove up to 1 damage point allocated to this fighter.",
+        "runemarks": []
+    },
+    {
+        "_id": "e4fcbd83",
+        "name": "Venomous Sting",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 2+, until the end of this battle round, that fighter cannot make move actions or disengage actions.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "4ba7bd21",
+        "name": "Cloud of Flies",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "triple",
+        "description": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions that target this fighter.",
+        "runemarks": [
+            "warrior"
+        ]
+    },
+    {
+        "_id": "9efb5761",
+        "name": "Grandfather's Blessing",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "triple",
+        "description": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters while they are within 7\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "eb4c8d1f",
+        "name": "Menacing Overseer",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "quad",
+        "description": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "bc938e66",
+        "name": "Disgusting Sneeze",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 7\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 1 damage point to that fighter.",
+        "runemarks": [
+            "hero",
+            "champion"
+        ]
+    },
+    {
+        "_id": "26f3ceec",
+        "name": "Endless Swarm",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "quad",
+        "description": "Remove a number of damage points allocated to this fighter up to double the value of this ability.",
+        "runemarks": [
+            "minion"
+        ]
+    },
+    {
+        "_id": "7c142afa",
+        "name": "Impossible to Wound",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1).",
+        "runemarks": []
+    },
+    {
+        "_id": "a2de23f6",
+        "name": "Infection Vectors",
+        "warband": "Maggotkin of Nurgle: Daemons",
+        "cost": "battletrait",
+        "description": "At the start of each battle round, roll a dice for each enemy fighter within 1\" of one or more friendly fighters. On a roll of 5+, allocate 1 damage point to that fighter. Enemy fighters with this battle trait or the 'Disease-ridden' battle trait cannot be affected.",
+        "runemarks": []
+    },
+    {
+        "_id": "b1cb3ec1",
+        "name": "Growing Infections",
+        "warband": "Grandfather's Gardeners",
+        "cost": "double",
+        "description": "Give this fighter a cycle counter and roll a dice. If the roll is equal to or less than the value of this ability, you gain the ability dice you spent to use this ability, at the same value. For the rest of the battle round, add 1 to the critical damage value of this fighter's melee weapon for each cycle counter they have. Cycle counters are not discarded at the end of the battle round.",
+        "runemarks": []
+    },
+    {
+        "_id": "1f8ac0c8",
+        "name": "Sucking Proboscis",
+        "warband": "Grandfather's Gardeners",
+        "cost": "double",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter to be the target and roll a dice. Allocate a number of damage points to the target equal to the roll. If you allocate 5 or more damage points to the target using this ability, this fighter is taken down.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "ee0bc964",
+        "name": "The Grand Cycle of Decay",
+        "warband": "Grandfather's Gardeners",
+        "cost": "triple",
+        "description": "Each friendly fighter's cycle counters must be given to another friendly fighter on the battlefield with the Grandfather's Gardener's runemark. Each fighter may only be given cycle counters once each time this ability is used.",
+        "runemarks": [
+            "hero"
+        ]
+    }
+]

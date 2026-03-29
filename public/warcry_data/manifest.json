@@ -1,0 +1,501 @@
+{
+  "warbands": [
+    {
+      "key": "chaos/beasts_of_chaos",
+      "grandAlliance": "chaos",
+      "warbandSlug": "beasts_of_chaos",
+      "fightersPath": "/warcry_data/data/chaos/beasts_of_chaos/beasts_of_chaos_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/beasts_of_chaos/beasts_of_chaos_abilities.json"
+    },
+    {
+      "key": "chaos/blades_of_khorne_bloodbound",
+      "grandAlliance": "chaos",
+      "warbandSlug": "blades_of_khorne_bloodbound",
+      "fightersPath": "/warcry_data/data/chaos/blades_of_khorne_bloodbound/blades_of_khorne_bloodbound_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/blades_of_khorne_bloodbound/blades_of_khorne_bloodbound_abilities.json"
+    },
+    {
+      "key": "chaos/blades_of_khorne_daemons",
+      "grandAlliance": "chaos",
+      "warbandSlug": "blades_of_khorne_daemons",
+      "fightersPath": "/warcry_data/data/chaos/blades_of_khorne_daemons/blades_of_khorne_daemons_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/blades_of_khorne_daemons/blades_of_khorne_daemons_abilities.json"
+    },
+    {
+      "key": "chaos/chaos",
+      "grandAlliance": "chaos",
+      "warbandSlug": "chaos",
+      "fightersPath": "/warcry_data/data/chaos/chaos/chaos_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/chaos/chaos_abilities.json"
+    },
+    {
+      "key": "chaos/chaos_legionnaires",
+      "grandAlliance": "chaos",
+      "warbandSlug": "chaos_legionnaires",
+      "fightersPath": "/warcry_data/data/chaos/chaos_legionnaires/chaos_legionnaires_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/chaos_legionnaires/chaos_legionnaires_abilities.json"
+    },
+    {
+      "key": "chaos/claws_of_karanak",
+      "grandAlliance": "chaos",
+      "warbandSlug": "claws_of_karanak",
+      "fightersPath": "/warcry_data/data/chaos/claws_of_karanak/claws_of_karanak_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/claws_of_karanak/claws_of_karanak_abilities.json"
+    },
+    {
+      "key": "chaos/corvus_cabal",
+      "grandAlliance": "chaos",
+      "warbandSlug": "corvus_cabal",
+      "fightersPath": "/warcry_data/data/chaos/corvus_cabal/corvus_cabal_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/corvus_cabal/corvus_cabal_abilities.json"
+    },
+    {
+      "key": "chaos/cypher_lords",
+      "grandAlliance": "chaos",
+      "warbandSlug": "cypher_lords",
+      "fightersPath": "/warcry_data/data/chaos/cypher_lords/cypher_lords_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/cypher_lords/cypher_lords_abilities.json"
+    },
+    {
+      "key": "chaos/darkoath",
+      "grandAlliance": "chaos",
+      "warbandSlug": "darkoath",
+      "fightersPath": "/warcry_data/data/chaos/darkoath/darkoath_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/darkoath/darkoath_abilities.json"
+    },
+    {
+      "key": "chaos/darkoath_savagers",
+      "grandAlliance": "chaos",
+      "warbandSlug": "darkoath_savagers",
+      "fightersPath": "/warcry_data/data/chaos/darkoath_savagers/darkoath_savagers_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/darkoath_savagers/darkoath_savagers_abilities.json"
+    },
+    {
+      "key": "chaos/disciples_of_tzeentch_arcanites",
+      "grandAlliance": "chaos",
+      "warbandSlug": "disciples_of_tzeentch_arcanites",
+      "fightersPath": "/warcry_data/data/chaos/disciples_of_tzeentch_arcanites/disciples_of_tzeentch_arcanites_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/disciples_of_tzeentch_arcanites/disciples_of_tzeentch_arcanites_abilities.json"
+    },
+    {
+      "key": "chaos/disciples_of_tzeentch_daemons",
+      "grandAlliance": "chaos",
+      "warbandSlug": "disciples_of_tzeentch_daemons",
+      "fightersPath": "/warcry_data/data/chaos/disciples_of_tzeentch_daemons/disciples_of_tzeentch_daemons_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/disciples_of_tzeentch_daemons/disciples_of_tzeentch_daemons_abilities.json"
+    },
+    {
+      "key": "chaos/hedonites_of_slaanesh_daemons",
+      "grandAlliance": "chaos",
+      "warbandSlug": "hedonites_of_slaanesh_daemons",
+      "fightersPath": "/warcry_data/data/chaos/hedonites_of_slaanesh_daemons/hedonites_of_slaanesh_daemons_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/hedonites_of_slaanesh_daemons/hedonites_of_slaanesh_daemons_abilities.json"
+    },
+    {
+      "key": "chaos/hedonites_of_slaanesh_sybarites",
+      "grandAlliance": "chaos",
+      "warbandSlug": "hedonites_of_slaanesh_sybarites",
+      "fightersPath": "/warcry_data/data/chaos/hedonites_of_slaanesh_sybarites/hedonites_of_slaanesh_sybarites_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/hedonites_of_slaanesh_sybarites/hedonites_of_slaanesh_sybarites_abilities.json"
+    },
+    {
+      "key": "chaos/helsmiths_of_hashut",
+      "grandAlliance": "chaos",
+      "warbandSlug": "helsmiths_of_hashut",
+      "fightersPath": "/warcry_data/data/chaos/helsmiths_of_hashut/helsmiths_of_hashut_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/helsmiths_of_hashut/helsmiths_of_hashut_abilities.json"
+    },
+    {
+      "key": "chaos/horns_of_hashut",
+      "grandAlliance": "chaos",
+      "warbandSlug": "horns_of_hashut",
+      "fightersPath": "/warcry_data/data/chaos/horns_of_hashut/horns_of_hashut_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/horns_of_hashut/horns_of_hashut_abilities.json"
+    },
+    {
+      "key": "chaos/iron_golems",
+      "grandAlliance": "chaos",
+      "warbandSlug": "iron_golems",
+      "fightersPath": "/warcry_data/data/chaos/iron_golems/iron_golems_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/iron_golems/iron_golems_abilities.json"
+    },
+    {
+      "key": "chaos/jade_obelisk",
+      "grandAlliance": "chaos",
+      "warbandSlug": "jade_obelisk",
+      "fightersPath": "/warcry_data/data/chaos/jade_obelisk/jade_obelisk_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/jade_obelisk/jade_obelisk_abilities.json"
+    },
+    {
+      "key": "chaos/maggotkin_of_nurgle_daemons",
+      "grandAlliance": "chaos",
+      "warbandSlug": "maggotkin_of_nurgle_daemons",
+      "fightersPath": "/warcry_data/data/chaos/maggotkin_of_nurgle_daemons/maggotkin_of_nurgle_daemons_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/maggotkin_of_nurgle_daemons/maggotkin_of_nurgle_daemons_abilities.json"
+    },
+    {
+      "key": "chaos/maggotkin_of_nurgle_rotbringers",
+      "grandAlliance": "chaos",
+      "warbandSlug": "maggotkin_of_nurgle_rotbringers",
+      "fightersPath": "/warcry_data/data/chaos/maggotkin_of_nurgle_rotbringers/maggotkin_of_nurgle_rotbringers_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/maggotkin_of_nurgle_rotbringers/maggotkin_of_nurgle_rotbringers_abilities.json"
+    },
+    {
+      "key": "chaos/rotmire_creed",
+      "grandAlliance": "chaos",
+      "warbandSlug": "rotmire_creed",
+      "fightersPath": "/warcry_data/data/chaos/rotmire_creed/rotmire_creed_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/rotmire_creed/rotmire_creed_abilities.json"
+    },
+    {
+      "key": "chaos/scions_of_the_flame",
+      "grandAlliance": "chaos",
+      "warbandSlug": "scions_of_the_flame",
+      "fightersPath": "/warcry_data/data/chaos/scions_of_the_flame/scions_of_the_flame_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/scions_of_the_flame/scions_of_the_flame_abilities.json"
+    },
+    {
+      "key": "chaos/skaven",
+      "grandAlliance": "chaos",
+      "warbandSlug": "skaven",
+      "fightersPath": "/warcry_data/data/chaos/skaven/skaven_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/skaven/skaven_abilities.json"
+    },
+    {
+      "key": "chaos/slaves_to_darkness",
+      "grandAlliance": "chaos",
+      "warbandSlug": "slaves_to_darkness",
+      "fightersPath": "/warcry_data/data/chaos/slaves_to_darkness/slaves_to_darkness_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/slaves_to_darkness/slaves_to_darkness_abilities.json"
+    },
+    {
+      "key": "chaos/spire_tyrants",
+      "grandAlliance": "chaos",
+      "warbandSlug": "spire_tyrants",
+      "fightersPath": "/warcry_data/data/chaos/spire_tyrants/spire_tyrants_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/spire_tyrants/spire_tyrants_abilities.json"
+    },
+    {
+      "key": "chaos/splintered_fang",
+      "grandAlliance": "chaos",
+      "warbandSlug": "splintered_fang",
+      "fightersPath": "/warcry_data/data/chaos/splintered_fang/splintered_fang_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/splintered_fang/splintered_fang_abilities.json"
+    },
+    {
+      "key": "chaos/tarantulos_brood",
+      "grandAlliance": "chaos",
+      "warbandSlug": "tarantulos_brood",
+      "fightersPath": "/warcry_data/data/chaos/tarantulos_brood/tarantulos_brood_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/tarantulos_brood/tarantulos_brood_abilities.json"
+    },
+    {
+      "key": "chaos/the_unmade",
+      "grandAlliance": "chaos",
+      "warbandSlug": "the_unmade",
+      "fightersPath": "/warcry_data/data/chaos/the_unmade/the_unmade_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/the_unmade/the_unmade_abilities.json"
+    },
+    {
+      "key": "chaos/untamed_beasts",
+      "grandAlliance": "chaos",
+      "warbandSlug": "untamed_beasts",
+      "fightersPath": "/warcry_data/data/chaos/untamed_beasts/untamed_beasts_fighters.json",
+      "abilitiesPath": "/warcry_data/data/chaos/untamed_beasts/untamed_beasts_abilities.json"
+    },
+    {
+      "key": "death/askurgan_trueblades",
+      "grandAlliance": "death",
+      "warbandSlug": "askurgan_trueblades",
+      "fightersPath": "/warcry_data/data/death/askurgan_trueblades/askurgan_trueblades_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/askurgan_trueblades/askurgan_trueblades_abilities.json"
+    },
+    {
+      "key": "death/death",
+      "grandAlliance": "death",
+      "warbandSlug": "death",
+      "fightersPath": "/warcry_data/data/death/death/death_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/death/death_abilities.json"
+    },
+    {
+      "key": "death/flesh-eater_courts",
+      "grandAlliance": "death",
+      "warbandSlug": "flesh-eater_courts",
+      "fightersPath": "/warcry_data/data/death/flesh-eater_courts/flesh-eater_courts_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/flesh-eater_courts/flesh-eater_courts_abilities.json"
+    },
+    {
+      "key": "death/nighthaunt",
+      "grandAlliance": "death",
+      "warbandSlug": "nighthaunt",
+      "fightersPath": "/warcry_data/data/death/nighthaunt/nighthaunt_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/nighthaunt/nighthaunt_abilities.json"
+    },
+    {
+      "key": "death/ossiarch_bonereapers",
+      "grandAlliance": "death",
+      "warbandSlug": "ossiarch_bonereapers",
+      "fightersPath": "/warcry_data/data/death/ossiarch_bonereapers/ossiarch_bonereapers_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/ossiarch_bonereapers/ossiarch_bonereapers_abilities.json"
+    },
+    {
+      "key": "death/pyregheists",
+      "grandAlliance": "death",
+      "warbandSlug": "pyregheists",
+      "fightersPath": "/warcry_data/data/death/pyregheists/pyregheists_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/pyregheists/pyregheists_abilities.json"
+    },
+    {
+      "key": "death/royal_beastflayers",
+      "grandAlliance": "death",
+      "warbandSlug": "royal_beastflayers",
+      "fightersPath": "/warcry_data/data/death/royal_beastflayers/royal_beastflayers_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/royal_beastflayers/royal_beastflayers_abilities.json"
+    },
+    {
+      "key": "death/soulblight_gravelords",
+      "grandAlliance": "death",
+      "warbandSlug": "soulblight_gravelords",
+      "fightersPath": "/warcry_data/data/death/soulblight_gravelords/soulblight_gravelords_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/soulblight_gravelords/soulblight_gravelords_abilities.json"
+    },
+    {
+      "key": "death/teratic_cohort",
+      "grandAlliance": "death",
+      "warbandSlug": "teratic_cohort",
+      "fightersPath": "/warcry_data/data/death/teratic_cohort/teratic_cohort_fighters.json",
+      "abilitiesPath": "/warcry_data/data/death/teratic_cohort/teratic_cohort_abilities.json"
+    },
+    {
+      "key": "destruction/bonesplitterz",
+      "grandAlliance": "destruction",
+      "warbandSlug": "bonesplitterz",
+      "fightersPath": "/warcry_data/data/destruction/bonesplitterz/bonesplitterz_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/bonesplitterz/bonesplitterz_abilities.json"
+    },
+    {
+      "key": "destruction/destruction",
+      "grandAlliance": "destruction",
+      "warbandSlug": "destruction",
+      "fightersPath": "/warcry_data/data/destruction/destruction/destruction_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/destruction/destruction_abilities.json"
+    },
+    {
+      "key": "destruction/gloomspite_gitz",
+      "grandAlliance": "destruction",
+      "warbandSlug": "gloomspite_gitz",
+      "fightersPath": "/warcry_data/data/destruction/gloomspite_gitz/gloomspite_gitz_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/gloomspite_gitz/gloomspite_gitz_abilities.json"
+    },
+    {
+      "key": "destruction/gorger_mawpack",
+      "grandAlliance": "destruction",
+      "warbandSlug": "gorger_mawpack",
+      "fightersPath": "/warcry_data/data/destruction/gorger_mawpack/gorger_mawpack_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/gorger_mawpack/gorger_mawpack_abilities.json"
+    },
+    {
+      "key": "destruction/ironjawz",
+      "grandAlliance": "destruction",
+      "warbandSlug": "ironjawz",
+      "fightersPath": "/warcry_data/data/destruction/ironjawz/ironjawz_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/ironjawz/ironjawz_abilities.json"
+    },
+    {
+      "key": "destruction/kruleboyz",
+      "grandAlliance": "destruction",
+      "warbandSlug": "kruleboyz",
+      "fightersPath": "/warcry_data/data/destruction/kruleboyz/kruleboyz_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/kruleboyz/kruleboyz_abilities.json"
+    },
+    {
+      "key": "destruction/kruleboyz_monsta-killaz",
+      "grandAlliance": "destruction",
+      "warbandSlug": "kruleboyz_monsta-killaz",
+      "fightersPath": "/warcry_data/data/destruction/kruleboyz_monsta-killaz/kruleboyz_monsta-killaz_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/kruleboyz_monsta-killaz/kruleboyz_monsta-killaz_abilities.json"
+    },
+    {
+      "key": "destruction/ogor_mawtribes",
+      "grandAlliance": "destruction",
+      "warbandSlug": "ogor_mawtribes",
+      "fightersPath": "/warcry_data/data/destruction/ogor_mawtribes/ogor_mawtribes_fighters.json",
+      "abilitiesPath": "/warcry_data/data/destruction/ogor_mawtribes/ogor_mawtribes_abilities.json"
+    },
+    {
+      "key": "order/blacktalons",
+      "grandAlliance": "order",
+      "warbandSlug": "blacktalons",
+      "fightersPath": "/warcry_data/data/order/blacktalons/blacktalons_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/blacktalons/blacktalons_abilities.json"
+    },
+    {
+      "key": "order/cities_of_sigmar_castelite_hosts",
+      "grandAlliance": "order",
+      "warbandSlug": "cities_of_sigmar_castelite_hosts",
+      "fightersPath": "/warcry_data/data/order/cities_of_sigmar_castelite_hosts/cities_of_sigmar_castelite_hosts_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/cities_of_sigmar_castelite_hosts/cities_of_sigmar_castelite_hosts_abilities.json"
+    },
+    {
+      "key": "order/cities_of_sigmar_darkling_covens",
+      "grandAlliance": "order",
+      "warbandSlug": "cities_of_sigmar_darkling_covens",
+      "fightersPath": "/warcry_data/data/order/cities_of_sigmar_darkling_covens/cities_of_sigmar_darkling_covens_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/cities_of_sigmar_darkling_covens/cities_of_sigmar_darkling_covens_abilities.json"
+    },
+    {
+      "key": "order/cities_of_sigmar_dispossessed",
+      "grandAlliance": "order",
+      "warbandSlug": "cities_of_sigmar_dispossessed",
+      "fightersPath": "/warcry_data/data/order/cities_of_sigmar_dispossessed/cities_of_sigmar_dispossessed_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/cities_of_sigmar_dispossessed/cities_of_sigmar_dispossessed_abilities.json"
+    },
+    {
+      "key": "order/daughters_of_khaine",
+      "grandAlliance": "order",
+      "warbandSlug": "daughters_of_khaine",
+      "fightersPath": "/warcry_data/data/order/daughters_of_khaine/daughters_of_khaine_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/daughters_of_khaine/daughters_of_khaine_abilities.json"
+    },
+    {
+      "key": "order/fyreslayers",
+      "grandAlliance": "order",
+      "warbandSlug": "fyreslayers",
+      "fightersPath": "/warcry_data/data/order/fyreslayers/fyreslayers_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/fyreslayers/fyreslayers_abilities.json"
+    },
+    {
+      "key": "order/hunters_of_huanchi",
+      "grandAlliance": "order",
+      "warbandSlug": "hunters_of_huanchi",
+      "fightersPath": "/warcry_data/data/order/hunters_of_huanchi/hunters_of_huanchi_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/hunters_of_huanchi/hunters_of_huanchi_abilities.json"
+    },
+    {
+      "key": "order/idoneth_deepkin",
+      "grandAlliance": "order",
+      "warbandSlug": "idoneth_deepkin",
+      "fightersPath": "/warcry_data/data/order/idoneth_deepkin/idoneth_deepkin_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/idoneth_deepkin/idoneth_deepkin_abilities.json"
+    },
+    {
+      "key": "order/khainite_shadowstalkers",
+      "grandAlliance": "order",
+      "warbandSlug": "khainite_shadowstalkers",
+      "fightersPath": "/warcry_data/data/order/khainite_shadowstalkers/khainite_shadowstalkers_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/khainite_shadowstalkers/khainite_shadowstalkers_abilities.json"
+    },
+    {
+      "key": "order/kharadron_overlords",
+      "grandAlliance": "order",
+      "warbandSlug": "kharadron_overlords",
+      "fightersPath": "/warcry_data/data/order/kharadron_overlords/kharadron_overlords_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/kharadron_overlords/kharadron_overlords_abilities.json"
+    },
+    {
+      "key": "order/lumineth_realm-lords",
+      "grandAlliance": "order",
+      "warbandSlug": "lumineth_realm-lords",
+      "fightersPath": "/warcry_data/data/order/lumineth_realm-lords/lumineth_realm-lords_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/lumineth_realm-lords/lumineth_realm-lords_abilities.json"
+    },
+    {
+      "key": "order/order",
+      "grandAlliance": "order",
+      "warbandSlug": "order",
+      "fightersPath": "/warcry_data/data/order/order/order_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/order/order_abilities.json"
+    },
+    {
+      "key": "order/order_of_azyr",
+      "grandAlliance": "order",
+      "warbandSlug": "order_of_azyr",
+      "fightersPath": "/warcry_data/data/order/order_of_azyr/order_of_azyr_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/order_of_azyr/order_of_azyr_abilities.json"
+    },
+    {
+      "key": "order/seraphon",
+      "grandAlliance": "order",
+      "warbandSlug": "seraphon",
+      "fightersPath": "/warcry_data/data/order/seraphon/seraphon_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/seraphon/seraphon_abilities.json"
+    },
+    {
+      "key": "order/stormcast_eternals_questor_soulsworn",
+      "grandAlliance": "order",
+      "warbandSlug": "stormcast_eternals_questor_soulsworn",
+      "fightersPath": "/warcry_data/data/order/stormcast_eternals_questor_soulsworn/stormcast_eternals_questor_soulsworn_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/stormcast_eternals_questor_soulsworn/stormcast_eternals_questor_soulsworn_abilities.json"
+    },
+    {
+      "key": "order/stormcast_eternals_ruination_chamber",
+      "grandAlliance": "order",
+      "warbandSlug": "stormcast_eternals_ruination_chamber",
+      "fightersPath": "/warcry_data/data/order/stormcast_eternals_ruination_chamber/stormcast_eternals_ruination_chamber_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/stormcast_eternals_ruination_chamber/stormcast_eternals_ruination_chamber_abilities.json"
+    },
+    {
+      "key": "order/stormcast_eternals_sacrosanct_chamber",
+      "grandAlliance": "order",
+      "warbandSlug": "stormcast_eternals_sacrosanct_chamber",
+      "fightersPath": "/warcry_data/data/order/stormcast_eternals_sacrosanct_chamber/stormcast_eternals_sacrosanct_chamber_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/stormcast_eternals_sacrosanct_chamber/stormcast_eternals_sacrosanct_chamber_abilities.json"
+    },
+    {
+      "key": "order/stormcast_eternals_thunderstrike_stormcast",
+      "grandAlliance": "order",
+      "warbandSlug": "stormcast_eternals_thunderstrike_stormcast",
+      "fightersPath": "/warcry_data/data/order/stormcast_eternals_thunderstrike_stormcast/stormcast_eternals_thunderstrike_stormcast_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/stormcast_eternals_thunderstrike_stormcast/stormcast_eternals_thunderstrike_stormcast_abilities.json"
+    },
+    {
+      "key": "order/stormcast_eternals_vanguard_auxiliary_chamber",
+      "grandAlliance": "order",
+      "warbandSlug": "stormcast_eternals_vanguard_auxiliary_chamber",
+      "fightersPath": "/warcry_data/data/order/stormcast_eternals_vanguard_auxiliary_chamber/stormcast_eternals_vanguard_auxiliary_chamber_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/stormcast_eternals_vanguard_auxiliary_chamber/stormcast_eternals_vanguard_auxiliary_chamber_abilities.json"
+    },
+    {
+      "key": "order/stormcast_eternals_warrior_chamber",
+      "grandAlliance": "order",
+      "warbandSlug": "stormcast_eternals_warrior_chamber",
+      "fightersPath": "/warcry_data/data/order/stormcast_eternals_warrior_chamber/stormcast_eternals_warrior_chamber_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/stormcast_eternals_warrior_chamber/stormcast_eternals_warrior_chamber_abilities.json"
+    },
+    {
+      "key": "order/sylvaneth",
+      "grandAlliance": "order",
+      "warbandSlug": "sylvaneth",
+      "fightersPath": "/warcry_data/data/order/sylvaneth/sylvaneth_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/sylvaneth/sylvaneth_abilities.json"
+    },
+    {
+      "key": "order/twistweald",
+      "grandAlliance": "order",
+      "warbandSlug": "twistweald",
+      "fightersPath": "/warcry_data/data/order/twistweald/twistweald_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/twistweald/twistweald_abilities.json"
+    },
+    {
+      "key": "order/vulkyn_flameseekers",
+      "grandAlliance": "order",
+      "warbandSlug": "vulkyn_flameseekers",
+      "fightersPath": "/warcry_data/data/order/vulkyn_flameseekers/vulkyn_flameseekers_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/vulkyn_flameseekers/vulkyn_flameseekers_abilities.json"
+    },
+    {
+      "key": "order/wildercorps_hunters",
+      "grandAlliance": "order",
+      "warbandSlug": "wildercorps_hunters",
+      "fightersPath": "/warcry_data/data/order/wildercorps_hunters/wildercorps_hunters_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/wildercorps_hunters/wildercorps_hunters_abilities.json"
+    },
+    {
+      "key": "order/ydrilan_riverblades",
+      "grandAlliance": "order",
+      "warbandSlug": "ydrilan_riverblades",
+      "fightersPath": "/warcry_data/data/order/ydrilan_riverblades/ydrilan_riverblades_fighters.json",
+      "abilitiesPath": "/warcry_data/data/order/ydrilan_riverblades/ydrilan_riverblades_abilities.json"
+    }
+  ]
+}

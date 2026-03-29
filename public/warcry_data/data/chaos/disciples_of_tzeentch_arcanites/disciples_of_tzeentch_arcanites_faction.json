@@ -1,0 +1,15 @@
+{
+    "grand_alliance": "chaos",
+    "warband": "Disciples of Tzeentch: Arcanites",
+    "bladeborn": false,
+    "heroes_all": false,
+    "subfactions": [
+        {
+            "runemark": "Eyes of the Nine",
+            "bladeborn": true,
+            "heroes_all": false,
+            "singleton": false
+        }
+    ],
+    "singleton": false
+}

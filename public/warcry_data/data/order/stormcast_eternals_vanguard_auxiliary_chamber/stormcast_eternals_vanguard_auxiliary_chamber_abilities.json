@@ -1,0 +1,157 @@
+[
+    {
+        "_id": "f0625e61",
+        "name": "Lightning-fast Strikes",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "double",
+        "description": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by this fighter this activation.",
+        "runemarks": [
+            "hero",
+            "frenzied"
+        ]
+    },
+    {
+        "_id": "be5f2527",
+        "name": "Righteous Aura",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "double",
+        "description": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters while they are within 6\" of this fighter.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "c5955d4a",
+        "name": "Tireless Hunters",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "double",
+        "description": "Add 3 to this fighter's Move characteristic for their next move action in this activation.",
+        "runemarks": []
+    },
+    {
+        "_id": "fdd57def",
+        "name": "Darting Attack",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "triple",
+        "description": "This fighter makes a bonus attack action. Then, they can make a bonus disengage action.",
+        "runemarks": [
+            "beast"
+        ]
+    },
+    {
+        "_id": "7adc00f3",
+        "name": "Rapid Fire",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "triple",
+        "description": "Add 2 to the Attacks characteristic of the next missile attack action made by this fighter this activation.",
+        "runemarks": [
+            "bulwark"
+        ]
+    },
+    {
+        "_id": "86a90c64",
+        "name": "Ride the Winds Aetheric",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "double",
+        "description": "This fighter makes a bonus move action up to a number of inches equal to the value of this ability.",
+        "runemarks": [
+            "mount"
+        ]
+    },
+    {
+        "_id": "f57e8928",
+        "name": "Star-fated Arrow",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "triple",
+        "description": "Pick a visible enemy fighter within 20\" of this fighter and roll a dice. On a roll of 3-4, allocate 3 damage points to that fighter. On a roll of 5, allocate 6 damage points to that fighter. On a roll of 6, allocate 10 damage points to that fighter.",
+        "runemarks": [
+            "hero",
+            "trapper"
+        ]
+    },
+    {
+        "_id": "fded2018",
+        "name": "Aimed Strike",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "quad",
+        "description": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter.",
+        "runemarks": [
+            "elite"
+        ]
+    },
+    {
+        "_id": "6908dc7d",
+        "name": "The Light of Sigmar",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "quad",
+        "description": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter.",
+        "runemarks": [
+            "hero",
+            "berserker"
+        ]
+    },
+    {
+        "_id": "5b61673d",
+        "name": "Warning Cry",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 6\" of this fighter. Until the end of the battle round, you can re-roll 1 dice during attack actions made by friendly fighters that target that fighter.",
+        "runemarks": [
+            "scout"
+        ]
+    },
+    {
+        "_id": "90f154cc",
+        "name": "Thunderous Departure",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "reaction",
+        "description": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Allocate D6 damage points to their attacker. Fighters with the Beast runemark or both the Scout and Fly runemarks cannot make this reaction.",
+        "runemarks": []
+    },
+    {
+        "_id": "f29b1feb",
+        "name": "Scions of the Storm",
+        "warband": "Stormcast Eternals Vanguard Auxiliary Chamber",
+        "cost": "battletrait",
+        "description": "After deployment, you can pick a friendly fighter with this battle trait. If that fighter is on the battlefield, remove them from the battlefield. At the start of the second battle round onwards, starting with the attacker, you can place that fighter on the battlefield more than 5\" from each enemy fighter and more than 3\" from each objective and treasure token.",
+        "runemarks": []
+    },
+    {
+        "_id": "6a8cfa78",
+        "name": "Guided by the Astral Compass",
+        "warband": "The Farstriders",
+        "cost": "triple",
+        "description": "Each friendly fighter with the The Farstriders runemark within 6\" of this fighter when this fighter uses this ability can make a bonus move action.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "c53fbea1",
+        "name": "Quiver of Tricks",
+        "warband": "The Emberwatch",
+        "cost": "double",
+        "description": "Pick 1 of the following effects: Pick a visible enemy fighter within 12\" of this fighter. Subtract 1 from that fighter’s Move characteristic for the rest of the battle round. Pick an objective within 12\" of this fighter. The first time this battle round that an enemy fighter ends a move action within 3\" of that objective, allocate D3 damage points to them as a reaction.",
+        "runemarks": [
+            "destroyer"
+        ]
+    },
+    {
+        "_id": "f996f21b",
+        "name": "Your Duty Remains Undone, Farasa!",
+        "warband": "The Emberwatch",
+        "cost": "triple",
+        "description": "Pick a friendly fighter with the Emberwatch and Champion runemarks that has been taken down, then roll a number of dice equal to the value of this ability. On any rolls of 3+:\n\n• Set up that fighter on a platform or the battlefield floor, more than 6\" from all enemy fighters. The fighter set up on the battlefield no longer counts as being taken down. Remove a number of damage points allocated to that fighter equal to the number of rolls of 3+ that were made.",
+        "runemarks": [
+            "hero"
+        ]
+    },
+    {
+        "_id": "c1c6dd4d",
+        "name": "The Raptors of Sigmar",
+        "warband": "The Emberwatch",
+        "cost": "quad",
+        "description": "Pick a visible enemy fighter within 1\" of this fighter to be the target. Roll a D6 for each damage point allocated to that target. For each roll of 3+, allocate 1 damage point to the target. Add 1 to each roll if this fighter has the Hero runemark.",
+        "runemarks": []
+    }
+]

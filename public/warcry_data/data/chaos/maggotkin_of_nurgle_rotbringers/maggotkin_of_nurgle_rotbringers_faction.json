@@ -1,0 +1,15 @@
+{
+    "grand_alliance": "chaos",
+    "warband": "Maggotkin of Nurgle: Rotbringers",
+    "bladeborn": false,
+    "heroes_all": false,
+    "subfactions": [
+        {
+            "runemark": "The Wurmspat",
+            "bladeborn": true,
+            "heroes_all": false,
+            "singleton": false
+        }
+    ],
+    "singleton": false
+}

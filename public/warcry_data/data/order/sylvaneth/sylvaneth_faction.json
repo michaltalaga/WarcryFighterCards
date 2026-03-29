@@ -1,0 +1,27 @@
+{
+    "grand_alliance": "order",
+    "warband": "Sylvaneth",
+    "bladeborn": false,
+    "heroes_all": false,
+    "singleton": false,
+    "subfactions": [
+        {
+            "runemark": "Ylthari's Guardians",
+            "bladeborn": true,
+            "heroes_all": false,
+            "singleton": false
+        },
+        {
+            "runemark": "Skaeth's Wild Hunt",
+            "bladeborn": true,
+            "heroes_all": false,
+            "singleton": false
+        },
+        {
+            "runemark": "Heralds of Kurnoth",
+            "bladeborn": false,
+            "heroes_all": false,
+            "singleton": true
+        }
+    ]
+}

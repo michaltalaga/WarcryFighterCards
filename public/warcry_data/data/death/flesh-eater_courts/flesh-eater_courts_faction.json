@@ -1,0 +1,21 @@
+{
+    "grand_alliance": "death",
+    "warband": "Flesh-eater Courts",
+    "bladeborn": false,
+    "heroes_all": false,
+    "subfactions": [
+        {
+            "runemark": "Skinnerkin",
+            "bladeborn": true,
+            "heroes_all": false,
+            "singleton": false
+        },
+        {
+            "runemark": "The Grymwatch",
+            "bladeborn": true,
+            "heroes_all": false,
+            "singleton": false
+        }
+    ],
+    "singleton": false
+}
