@@ -7,18 +7,20 @@ const rosterFixture = fs.readFileSync(
   'utf8',
 )
 
+const rosterContentFixture = fs.readFileSync(
+  new URL('./__fixtures__/warcrier-roster.content.txt', import.meta.url),
+  'utf8',
+)
+
+function normalizeLineEndings(value: string): string {
+  return value.replace(/\r\n/g, '\n').trimEnd()
+}
+
 describe('extractDelimitedContent', () => {
   it('extracts only text between delimiter lines', () => {
-    const expected = `"My Warband"
-Skaven
-800pts | 4 fighters | Valid ✓  
-
-- Clawlord on Gnaw-Beast (230pts, Hero)
-- Stormfiend with Doomflayer gauntlets (270pts)
-- Warplock Jezzail (150pts)
-- Warplock Jezzail (150pts)`
-
-    expect(extractDelimitedContent(rosterFixture)).toBe(expected)
+    expect(normalizeLineEndings(extractDelimitedContent(rosterFixture))).toBe(
+      normalizeLineEndings(rosterContentFixture),
+    )
   })
 })
 
