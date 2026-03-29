@@ -13,6 +13,22 @@ function withBasePath(resourcePath: string): string {
   return `${base}${resourcePath.replace(/^\/+/, '')}`
 }
 
+const SAMPLE_ROSTER = `----------
+"My Skaven"
+Skaven
+995pts | 8 fighters | Valid ✓  
+
+- Warlock Engineer With Warplock Jezzail (205pts, Hero)
+- Rat Ogor (250pts)
+- Warplock Jezzail (150pts)
+- Stormvermin with Rusty Halberd (95pts)
+- Stormvermin with Rusty Halberd and Clanshield (80pts)
+- Packmaster (75pts)
+- Clanrat with Rusty Blade (70pts)
+- Clanrat with Rusty Blade (70pts)
+----------
+Generated on Warcrier.net`
+
 function App() {
   const [rosterText, setRosterText] = useState('')
   const [rosterName, setRosterName] = useState<string | null>(null)
@@ -21,6 +37,10 @@ function App() {
   const [importedCards, setImportedCards] = useState<ImportedCard[]>([])
   const [importStatus, setImportStatus] = useState('')
   const warbandDataCache = useRef<Record<string, { fighters: WarcryFighter[]; abilities: WarcryAbility[] }>>({})
+
+  function useSample() {
+    setRosterText(SAMPLE_ROSTER)
+  }
 
   async function importRoster() {
     const parsed = parseWarcrierRoster(rosterText)
@@ -144,6 +164,9 @@ function App() {
         />
         <button type="button" onClick={importRoster}>
           Import roster
+        </button>
+        <button type="button" onClick={useSample}>
+          Use Sample
         </button>
         {importStatus && <p className="status">{importStatus}</p>}
       </section>
