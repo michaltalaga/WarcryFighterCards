@@ -33,4 +33,24 @@ describe('buildRosterSelection', () => {
     expect(byName['Warplock Jezzail']).toBe(2)
     expect(byName['Clawleader']).toBeUndefined()
   })
+
+  it('matches fighters when pasted names contain unicode dash variants', async () => {
+    const importedRoster = {
+      rosterName: 'My Warband',
+      warband: 'Skaven',
+      fighters: [
+        { name: 'Clawlord on Gnaw−Beast' },
+        { name: 'Stormfiend with Doomflayer gauntlets' },
+        { name: 'Warplock Jezzail' },
+      ],
+    }
+
+    const fighters = await readWarcryFightersFromFile(skavenFightersFile)
+    const result = buildRosterSelection(fighters, importedRoster)
+
+    const names = result.fighters.map((fighter) => fighter.name)
+    expect(names).toContain('Clawlord on Gnaw-Beast')
+    expect(names).toContain('Stormfiend with Doomflayer gauntlets')
+    expect(names).toContain('Warplock Jezzail')
+  })
 })

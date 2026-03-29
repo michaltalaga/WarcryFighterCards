@@ -9,8 +9,9 @@ export type RosterSelectionResult = {
 
 function normalizeText(value: string): string {
   return value
+    .normalize('NFKD')
     .toLowerCase()
-    .replace(/['".,]/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim()
 }
