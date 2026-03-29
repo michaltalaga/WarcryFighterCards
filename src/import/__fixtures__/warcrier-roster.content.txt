@@ -1,5 +1,3 @@
-```
-----------
 "My Warband"
 Skaven
 800pts | 4 fighters | Valid ✓  
@@ -8,6 +6,3 @@ Skaven
 - Stormfiend with Doomflayer gauntlets (270pts)
 - Warplock Jezzail (150pts)
 - Warplock Jezzail (150pts)
-----------
-Generated on Warcrier.net
-```
