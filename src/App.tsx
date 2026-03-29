@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react'
 import { WarbandHeader } from './components/WarbandHeader'
 import { FighterCard } from './components/FighterCard'
+import { CardBack } from './components/CardBack'
 import { parseWarcrierRoster } from './import/warcrierImport'
 import { isAbilityEligibleForFighter } from './integration/abilityEligibility'
 import type { WarcryAbility, WarcryFighter } from './types/warcry'
@@ -30,6 +31,7 @@ Skaven
 Generated on Warcrier.net`
 
 function App() {
+  const [printSide, setPrintSide] = useState<'front' | 'back'>('front')
   const [rosterText, setRosterText] = useState('')
   const [rosterName, setRosterName] = useState<string | null>(null)
   const [warbandInfo, setWarbandInfo] = useState<WarbandHeaderInfo | null>(null)
@@ -40,6 +42,10 @@ function App() {
 
   function useSample() {
     setRosterText(SAMPLE_ROSTER)
+  }
+
+  function printCurrentSide() {
+    window.print()
   }
 
   async function importRoster() {
@@ -172,18 +178,48 @@ function App() {
         <button type="button" onClick={useSample}>
           Use Sample
         </button>
+        {importedCards.length > 0 && (
+          <div className="print-controls" role="group" aria-label="Print mode C controls">
+            <span className="print-controls-label">Mode C print side:</span>
+            <button
+              type="button"
+              className={`print-mode-toggle ${printSide === 'front' ? 'is-active' : ''}`}
+              onClick={() => setPrintSide('front')}
+              aria-pressed={printSide === 'front'}
+            >
+              Fronts
+            </button>
+            <button
+              type="button"
+              className={`print-mode-toggle ${printSide === 'back' ? 'is-active' : ''}`}
+              onClick={() => setPrintSide('back')}
+              aria-pressed={printSide === 'back'}
+            >
+              Backs
+            </button>
+            <button type="button" className="print-now-button" onClick={printCurrentSide}>
+              Print {printSide === 'front' ? 'fronts' : 'backs'}
+            </button>
+          </div>
+        )}
         {importStatus && <p className="status">{importStatus}</p>}
       </section>
 
-      <section className="cards-grid">
-        <WarbandHeader rosterName={rosterName} warbandInfo={warbandInfo} battleTraits={battleTraits} />
-      </section>
+      {printSide === 'front' && (
+        <section className="cards-grid">
+          <WarbandHeader rosterName={rosterName} warbandInfo={warbandInfo} battleTraits={battleTraits} />
+        </section>
+      )}
 
       {importedCards.length > 0 && (
-        <section className="cards-grid">
-          {importedCards.map((card, index) => (
-            <FighterCard key={`${card.importedName}-${index}`} card={card} runemarkPlacement="under-name" />
-          ))}
+        <section className={`cards-grid ${printSide === 'back' ? 'cards-grid-backs' : ''}`}>
+          {importedCards.map((card, index) =>
+            printSide === 'front' ? (
+              <FighterCard key={`${card.importedName}-${index}`} card={card} runemarkPlacement="under-name" />
+            ) : (
+              <CardBack key={`${card.importedName}-${index}`} card={card} warbandInfo={warbandInfo} />
+            ),
+          )}
         </section>
       )}
     </main>
