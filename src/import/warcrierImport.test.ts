@@ -18,7 +18,8 @@ function normalizeLineEndings(value: string): string {
 
 describe('extractDelimitedContent', () => {
   it('extracts only text between delimiter lines', () => {
-    expect(normalizeLineEndings(extractDelimitedContent(rosterFixture))).toBe(
+    const result = extractDelimitedContent(rosterFixture);
+    expect(normalizeLineEndings(result)).toBe(
       normalizeLineEndings(rosterContentFixture),
     )
   })
