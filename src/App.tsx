@@ -104,7 +104,11 @@ function App() {
         warbandDataCache.current[warbandEntry.key] = { fighters, abilities }
       }
 
-      setBattleTraits(sortAbilitiesByDice(abilities.filter((ability) => ability.cost === 'battletrait')))
+      setBattleTraits(
+        sortAbilitiesByDice(
+          abilities.filter((ability) => ability.cost.trim().toLowerCase() === 'battletrait'),
+        ),
+      )
 
       const cards: ImportedCard[] = fighterNames.map((name) => {
         const fighter = findBestFighterMatch(fighters, name)

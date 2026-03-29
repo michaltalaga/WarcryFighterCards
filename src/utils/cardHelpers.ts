@@ -216,12 +216,12 @@ export function formatWeaponRange(weapon: WarcryWeaponProfile): string {
   const min = Math.max(weapon.min_range, 0)
   const max = Math.max(weapon.max_range, 0)
   if (min <= 1 && max <= 1) {
-    return '1"'
+    return '1'
   }
   if (min <= 0) {
-    return `${max}"`
+    return `${max}`
   }
-  return `${min}-${max}"`
+  return `${min}-${max}`
 }
 
 export function formatWeaponDamage(weapon: WarcryWeaponProfile): string {
