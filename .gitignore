@@ -25,3 +25,4 @@ dist-ssr
 
 # Local clone of upstream data source
 _warcry_data_source/
+_warcry_card_creator_source/

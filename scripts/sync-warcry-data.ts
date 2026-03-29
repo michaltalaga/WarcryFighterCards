@@ -16,6 +16,11 @@ const sourceDataDir = path.join(sourceRepoDir, 'data')
 const targetRootDir = path.join(root, 'public', 'warcry_data')
 const targetDataDir = path.join(targetRootDir, 'data')
 const sourceRepoUrl = process.env.WARCRY_DATA_REPO_URL ?? 'https://github.com/krisling049/warcry_data.git'
+const assetsRepoDir = path.join(root, '_warcry_card_creator_source')
+const assetsTargetRootDir = path.join(root, 'public', 'warcry_assets')
+const assetsRepoUrl =
+  process.env.WARCRY_CARD_CREATOR_REPO_URL ?? 'https://github.com/barrysheppard/warcry-card-creator.git'
+const assetsSubdirs = ['assets', 'runemarks']
 
 async function exists(targetPath: string): Promise<boolean> {
   try {
@@ -49,21 +54,21 @@ async function hasGitRepoMetadata(repoDir: string): Promise<boolean> {
   return exists(path.join(repoDir, '.git'))
 }
 
-async function ensureSourceRepoUpToDate(): Promise<void> {
-  if (!(await exists(sourceRepoDir))) {
-    console.log(`Cloning warcry data repository into ${sourceRepoDir}`)
-    await runCommand('git', ['clone', '--depth', '1', sourceRepoUrl, sourceRepoDir], root)
+async function ensureGitRepoUpToDate(repoDir: string, repoUrl: string, label: string): Promise<void> {
+  if (!(await exists(repoDir))) {
+    console.log(`Cloning ${label} repository into ${repoDir}`)
+    await runCommand('git', ['clone', '--depth', '1', repoUrl, repoDir], root)
     return
   }
 
-  if (!(await hasGitRepoMetadata(sourceRepoDir))) {
+  if (!(await hasGitRepoMetadata(repoDir))) {
     throw new Error(
-      `Expected ${sourceRepoDir} to be a git repository. Remove it and rerun sync-data to re-clone.`,
+      `Expected ${repoDir} to be a git repository. Remove it and rerun sync-data to re-clone.`,
     )
   }
 
-  console.log(`Pulling latest warcry data in ${sourceRepoDir}`)
-  await runCommand('git', ['-C', sourceRepoDir, 'pull', '--ff-only'], root)
+  console.log(`Pulling latest ${label} in ${repoDir}`)
+  await runCommand('git', ['-C', repoDir, 'pull', '--ff-only'], root)
 }
 
 async function copyDirectory(sourceDir: string, destinationDir: string): Promise<void> {
@@ -123,8 +128,29 @@ async function collectWarbandEntries(currentDir: string): Promise<WarbandEntry[]
   return out
 }
 
+async function syncCreatorAssets(): Promise<void> {
+  await fs.rm(assetsTargetRootDir, { recursive: true, force: true })
+  await fs.mkdir(assetsTargetRootDir, { recursive: true })
+
+  let copiedCount = 0
+
+  for (const subdir of assetsSubdirs) {
+    const sourceDir = path.join(assetsRepoDir, subdir)
+    if (!(await exists(sourceDir))) {
+      continue
+    }
+
+    const destinationDir = path.join(assetsTargetRootDir, subdir)
+    await copyDirectory(sourceDir, destinationDir)
+    copiedCount += 1
+  }
+
+  console.log(`Synced ${copiedCount}/${assetsSubdirs.length} asset directories to public/warcry_assets`)
+}
+
 async function main(): Promise<void> {
-  await ensureSourceRepoUpToDate()
+  await ensureGitRepoUpToDate(sourceRepoDir, sourceRepoUrl, 'warcry data')
+  await ensureGitRepoUpToDate(assetsRepoDir, assetsRepoUrl, 'warcry card creator assets')
 
   if (!(await exists(sourceDataDir))) {
     throw new Error(`Source data directory not found: ${sourceDataDir}`)
@@ -141,6 +167,8 @@ async function main(): Promise<void> {
     JSON.stringify({ warbands }, null, 2),
     'utf8',
   )
+
+  await syncCreatorAssets()
 
   console.log(`Synced ${warbands.length} warbands to public/warcry_data`)
 }
