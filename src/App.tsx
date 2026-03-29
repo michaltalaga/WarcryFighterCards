@@ -85,18 +85,18 @@ function findBestFighterMatch(fighters: WarcryFighter[], importedName: string): 
   return looseMatches[0]
 }
 
-function getAbilityCostIcon(cost: string): { icon: string; label: string } | null {
+function getAbilityCostLabel(cost: string): string {
   switch (cost.trim().toLowerCase()) {
     case 'double':
-      return { icon: '⚁', label: 'Double' }
+      return 'Double'
     case 'triple':
-      return { icon: '⚂', label: 'Triple' }
+      return 'Triple'
     case 'quad':
-      return { icon: '⚃', label: 'Quad' }
+      return 'Quad'
     case 'passive':
-      return { icon: '◌', label: 'Passive' }
+      return 'Passive'
     default:
-      return null
+      return ''
   }
 }
 
@@ -312,15 +312,11 @@ function App() {
                         <li>No matching abilities</li>
                       ) : (
                         card.abilities.map((ability) => {
-                          const costIcon = getAbilityCostIcon(ability.cost)
+                          const costLabel = getAbilityCostLabel(ability.cost)
                           return (
-                            <li key={ability._id} className="ability-line">
-                              {costIcon && (
-                                <span className="cost-icon" aria-label={costIcon.label} title={costIcon.label}>
-                                  {costIcon.icon}
-                                </span>
-                              )}
-                              <span>{ability.name}</span>
+                            <li key={ability._id}>
+                              {ability.name}
+                              {costLabel ? ` (${costLabel})` : ''}
                             </li>
                           )
                         })
