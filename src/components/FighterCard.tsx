@@ -34,7 +34,12 @@ export function FighterCard({ card, runemarkPlacement }: FighterCardProps) {
     <article className="fighter-card">
       <div className="fighter-card-header">
         <h2>{fighterName}</h2>
-        {card.fighter && <span className="points-pill">{card.fighter.points} pts</span>}
+        {card.fighter && (
+          <span className="points-pill" aria-label={`${card.fighter.points} points`}>
+            <span className="points-value">{card.fighter.points}</span>
+            <span className="points-unit">pts</span>
+          </span>
+        )}
       </div>
 
       {card.fighter ? (
@@ -42,6 +47,7 @@ export function FighterCard({ card, runemarkPlacement }: FighterCardProps) {
           <div className="fighter-card-body">
             {runemarkPlacement === 'under-name' && renderRunemarksSection('runemarks-under-name')}
 
+            <h3>Stats</h3>
             <dl className="stats-grid">
               <div>
                 <dt>
