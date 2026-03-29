@@ -197,6 +197,34 @@
   color: #24353c;
 }
 
+.runemarks-list {
+  margin: 0.35rem 0 0;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.fighter-runemark-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid #c3baa6;
+  border-radius: 999px;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.74rem;
+  color: #24353c;
+  background: #f8f4ea;
+}
+
+.fighter-runemark-icon {
+  width: 0.95rem;
+  height: 0.95rem;
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
 .weapon-meta {
   font-weight: 700;
   color: #163f4f;

@@ -36,6 +36,10 @@ type FactionRunemarkProps = {
   alt: string
 }
 
+type FighterRunemarkBadgeProps = {
+  runemark: string
+}
+
 function normalizeText(value: string): string {
   return value
     .normalize('NFKD')
@@ -151,6 +155,27 @@ function buildFactionRunemarkCandidates(warbandInfo: WarbandHeaderInfo): string[
   return [...candidates]
 }
 
+function normalizeSlug(value: string): string {
+  return toWords(value).join('-')
+}
+
+const fighterRunemarkAliases: Record<string, string[]> = {
+  hero: ['leader'],
+}
+
+function buildFighterRunemarkCandidates(runemark: string): string[] {
+  const normalized = normalizeSlug(runemark)
+  const aliases = fighterRunemarkAliases[normalized] ?? []
+  const tokens = [normalized, ...aliases]
+  const candidates = new Set<string>()
+
+  for (const token of tokens) {
+    candidates.add(`/warcry_assets/runemarks/black/fighters-${token}.svg`)
+  }
+
+  return [...candidates]
+}
+
 function FactionRunemark({ candidates, alt }: FactionRunemarkProps) {
   const [candidateIndex, setCandidateIndex] = useState(0)
 
@@ -166,6 +191,33 @@ function FactionRunemark({ candidates, alt }: FactionRunemarkProps) {
       alt={alt}
       onError={() => setCandidateIndex((prev) => prev + 1)}
     />
+  )
+}
+
+function formatRunemarkLabel(runemark: string): string {
+  return toWords(runemark)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ')
+}
+
+function FighterRunemarkBadge({ runemark }: FighterRunemarkBadgeProps) {
+  const [candidateIndex, setCandidateIndex] = useState(0)
+  const candidates = useMemo(() => buildFighterRunemarkCandidates(runemark), [runemark])
+  const label = formatRunemarkLabel(runemark)
+  const hasCandidate = candidateIndex < candidates.length
+
+  return (
+    <span className="fighter-runemark-badge" title={label}>
+      {hasCandidate && (
+        <img
+          className="fighter-runemark-icon"
+          src={candidates[candidateIndex]}
+          alt={label}
+          onError={() => setCandidateIndex((prev) => prev + 1)}
+        />
+      )}
+      <span>{label}</span>
+    </span>
   )
 }
 
@@ -427,6 +479,21 @@ function App() {
                       <dd>{card.fighter.wounds}</dd>
                     </div>
                   </dl>
+
+                  <section>
+                    <h3>Runemarks</h3>
+                    <ul className="runemarks-list">
+                      {card.fighter.runemarks.length === 0 ? (
+                        <li>No runemarks</li>
+                      ) : (
+                        card.fighter.runemarks.map((runemark) => (
+                          <li key={`${card.fighter?._id}-${runemark}`}>
+                            <FighterRunemarkBadge runemark={runemark} />
+                          </li>
+                        ))
+                      )}
+                    </ul>
+                  </section>
 
                   <section>
                     <h3>Weapons</h3>
