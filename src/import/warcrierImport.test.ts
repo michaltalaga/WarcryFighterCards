@@ -32,37 +32,20 @@ describe('parseWarcrierRoster', () => {
     expect(parsed).toEqual({
       rosterName: 'My Warband',
       warband: 'Skaven',
-      totalPoints: 800,
-      listedFighterCount: 4,
-      isValid: true,
       fighters: [
         {
           name: 'Clawlord on Gnaw-Beast',
-          points: 230,
-          tags: ['Hero'],
         },
         {
           name: 'Stormfiend with Doomflayer gauntlets',
-          points: 270,
-          tags: [],
         },
         {
           name: 'Warplock Jezzail',
-          points: 150,
-          tags: [],
         },
         {
           name: 'Warplock Jezzail',
-          points: 150,
-          tags: [],
         },
       ],
-      fighterCounts: {
-        'Clawlord on Gnaw-Beast': 1,
-        'Stormfiend with Doomflayer gauntlets': 1,
-        'Warplock Jezzail': 2,
-      },
-      source: null,
     })
   })
 })
