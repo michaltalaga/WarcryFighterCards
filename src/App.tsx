@@ -1,38 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
+import type { WarcryAbility as Ability, WarcryFighter as Fighter } from './types/warcry'
 import './App.css'
-
-type Weapon = {
-  attacks: number
-  dmg_crit: number
-  dmg_hit: number
-  max_range: number
-  min_range: number
-  runemark: string
-  strength: number
-}
-
-type Fighter = {
-  _id: string
-  name: string
-  warband: string
-  subfaction: string
-  grand_alliance: string
-  movement: number
-  toughness: number
-  wounds: number
-  points: number
-  runemarks: string[]
-  weapons: Weapon[]
-}
-
-type Ability = {
-  _id: string
-  name: string
-  warband: string
-  cost: string
-  description: string
-  runemarks: string[]
-}
 
 type WarbandManifest = {
   key: string
