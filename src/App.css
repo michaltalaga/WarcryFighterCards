@@ -475,7 +475,90 @@
     width: 63.5mm;
     min-height: 89mm;
     max-width: 63.5mm;
-    padding: 2.2mm;
+    padding: 1.7mm;
+    border-radius: 2.5mm;
+    gap: 0;
+  }
+
+  .fighter-card h2 {
+    font-size: 8.4pt;
+    line-height: 1.08;
+  }
+
+  .fighter-card h3 {
+    font-size: 6pt;
+    letter-spacing: 0.05em;
+  }
+
+  .fighter-card section {
+    margin-top: 1.1mm;
+  }
+
+  .fighter-card-body > :first-child {
+    margin-top: 1.1mm;
+  }
+
+  .stats-grid {
+    margin-top: 1mm;
+    gap: 0.6mm;
+  }
+
+  .stats-grid div {
+    min-height: 7.4mm;
+    padding: 0.35mm 0.7mm;
+    gap: 0.55mm;
+  }
+
+  .stats-grid dd {
+    font-size: 9pt;
+  }
+
+  .stat-icon {
+    width: 2.35mm;
+    height: 2.35mm;
+  }
+
+  .weapons-showcase-list {
+    gap: 0.5mm;
+  }
+
+  .weapon-cell {
+    min-height: 7.7mm;
+    padding: 0.3mm;
+  }
+
+  .weapon-stat-value {
+    font-size: 7.4pt;
+  }
+
+  .abilities-list {
+    font-size: 7pt;
+    gap: 0.45mm;
+  }
+
+  .ability-line {
+    grid-template-columns: 12.2mm minmax(0, 1fr);
+    gap: 0.8mm;
+    line-height: 1.16;
+  }
+
+  .dice-icon {
+    font-size: 0.56rem;
+  }
+
+  .runemarks-list {
+    gap: 0.45mm;
+  }
+
+  .fighter-runemark-badge {
+    gap: 0.35mm;
+    padding: 0.25mm 0.85mm;
+    font-size: 6.2pt;
+  }
+
+  .fighter-runemark-icon {
+    width: 2.7mm;
+    height: 2.7mm;
   }
 
   .weapons-showcase-list {
@@ -518,15 +601,15 @@
   }
 
   .fighter-card .reactions-section {
-    margin-top: var(--space-2);
+    margin-top: 1.2mm;
     padding-top: 0;
   }
 
   .points-pill {
-    min-width: 12mm;
-    min-height: 8mm;
+    min-width: 10.5mm;
+    min-height: 6.8mm;
     border-radius: 2mm;
-    padding: 0.9mm 1.3mm;
+    padding: 0.7mm 1.1mm;
     display: inline-grid;
     grid-template-columns: 1fr;
     justify-items: center;
@@ -536,13 +619,13 @@
   }
 
   .points-value {
-    font-size: 9pt;
+    font-size: 8pt;
     font-weight: 800;
     line-height: 1;
   }
 
   .points-unit {
-    font-size: 5.5pt;
+    font-size: 5pt;
     letter-spacing: 0.14em;
     line-height: 1;
   }
