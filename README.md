@@ -21,7 +21,7 @@ Runtime static files are served from:
 
 The sync script copies original data files without changing their schema:
 
-- scripts/sync-warcry-data.mjs
+- scripts/sync-warcry-data.ts
 
 ## Commands
 
@@ -48,5 +48,5 @@ The sync script copies original data files without changing their schema:
   - App logic, data loading, ability matching, rendering.
 - src/App.css
   - Screen layout and print stylesheet.
-- scripts/sync-warcry-data.mjs
+- scripts/sync-warcry-data.ts
   - Static data sync and manifest generation.

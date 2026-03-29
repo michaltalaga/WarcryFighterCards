@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "sync-data": "node scripts/sync-warcry-data.mjs",
+    "sync-data": "tsx scripts/sync-warcry-data.ts",
     "dev": "npm run sync-data && vite",
     "build": "npm run sync-data && tsc -b && vite build",
     "lint": "eslint .",
@@ -26,6 +26,7 @@
     "globals": "^17.4.0",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.57.0",
+    "tsx": "^4.20.6",
     "vite": "^8.0.1"
   }
 }

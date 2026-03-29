@@ -1,12 +1,20 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 
+type WarbandEntry = {
+  key: string
+  grandAlliance: string
+  warbandSlug: string
+  fightersPath: string
+  abilitiesPath: string
+}
+
 const root = process.cwd()
 const sourceDataDir = path.join(root, '_warcry_data_source', 'data')
 const targetRootDir = path.join(root, 'public', 'warcry_data')
 const targetDataDir = path.join(targetRootDir, 'data')
 
-async function exists(targetPath) {
+async function exists(targetPath: string): Promise<boolean> {
   try {
     await fs.access(targetPath)
     return true
@@ -15,7 +23,7 @@ async function exists(targetPath) {
   }
 }
 
-async function copyDirectory(sourceDir, destinationDir) {
+async function copyDirectory(sourceDir: string, destinationDir: string): Promise<void> {
   await fs.mkdir(destinationDir, { recursive: true })
   const entries = await fs.readdir(sourceDir, { withFileTypes: true })
 
@@ -32,14 +40,14 @@ async function copyDirectory(sourceDir, destinationDir) {
   }
 }
 
-async function collectWarbandEntries(currentDir) {
+async function collectWarbandEntries(currentDir: string): Promise<WarbandEntry[]> {
   const entries = await fs.readdir(currentDir, { withFileTypes: true })
   const files = entries.filter((entry) => entry.isFile()).map((entry) => entry.name)
 
   const fightersFile = files.find((name) => name.endsWith('_fighters.json'))
   const abilitiesFile = files.find((name) => name.endsWith('_abilities.json'))
 
-  const out = []
+  const out: WarbandEntry[] = []
 
   if (fightersFile && abilitiesFile) {
     const relative = path.relative(sourceDataDir, currentDir)
@@ -72,7 +80,7 @@ async function collectWarbandEntries(currentDir) {
   return out
 }
 
-async function main() {
+async function main(): Promise<void> {
   if (!(await exists(sourceDataDir))) {
     throw new Error(`Source data directory not found: ${sourceDataDir}`)
   }
@@ -89,10 +97,10 @@ async function main() {
     'utf8',
   )
 
-  console.log(`Synced ${warbands.length} warbands to public/warcry_data`) 
+  console.log(`Synced ${warbands.length} warbands to public/warcry_data`)
 }
 
-main().catch((error) => {
+main().catch((error: unknown) => {
   console.error(error)
   process.exit(1)
 })
