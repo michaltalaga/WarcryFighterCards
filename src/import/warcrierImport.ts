@@ -17,13 +17,31 @@ export type ImportedRoster = {
 
 const SUMMARY_LINE_REGEX = /^(\d+)\s*pts\s*\|\s*(\d+)\s*fighters\s*\|\s*valid\s*(✓)?\s*$/i
 
+function extractDelimitedContent(input: string): string {
+  const lines = input.split(/\r?\n/)
+  const delimiterIndexes: number[] = []
+
+  for (let i = 0; i < lines.length; i += 1) {
+    if (lines[i].trim() === '----------') {
+      delimiterIndexes.push(i)
+    }
+  }
+
+  if (delimiterIndexes.length < 2) {
+    return input
+  }
+
+  const start = delimiterIndexes[0] + 1
+  const end = delimiterIndexes[1]
+  return lines.slice(start, end).join('\n')
+}
+
 function cleanLines(input: string): string[] {
-  return input
+  const content = extractDelimitedContent(input)
+  return content
     .split(/\r?\n/)
     .map((line) => line.trim())
     .filter((line) => line.length > 0)
-    .filter((line) => !line.startsWith('```'))
-    .filter((line) => !/^[-]{4,}$/.test(line))
 }
 
 function parseFighterLine(line: string): ImportedFighter | null {

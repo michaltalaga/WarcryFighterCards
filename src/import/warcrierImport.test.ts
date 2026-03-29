@@ -50,7 +50,7 @@ Generated on Warcrier.net`
         'Stormfiend with Doomflayer gauntlets': 1,
         'Warplock Jezzail': 2,
       },
-      source: 'Warcrier.net',
+      source: null,
     })
   })
 })
