@@ -85,21 +85,19 @@ function findBestFighterMatch(fighters: WarcryFighter[], importedName: string): 
   return looseMatches[0]
 }
 
-function normalizeCost(cost: string): string {
-  const value = cost.trim().toLowerCase()
-  if (!value) {
-    return '-'
+function getAbilityCostIcon(cost: string): { icon: string; label: string } | null {
+  switch (cost.trim().toLowerCase()) {
+    case 'double':
+      return { icon: '⚁', label: 'Double' }
+    case 'triple':
+      return { icon: '⚂', label: 'Triple' }
+    case 'quad':
+      return { icon: '⚃', label: 'Quad' }
+    case 'passive':
+      return { icon: '◌', label: 'Passive' }
+    default:
+      return null
   }
-
-  if (value === 'battletrait') {
-    return 'Battle Trait'
-  }
-
-  if (value === 'reaction') {
-    return 'Reaction'
-  }
-
-  return value.charAt(0).toUpperCase() + value.slice(1)
 }
 
 function abilityDiceOrder(cost: string): number {
@@ -274,11 +272,7 @@ function App() {
                 {battleTraits.length === 0 ? (
                   <li>No battle traits</li>
                 ) : (
-                  battleTraits.map((ability) => (
-                    <li key={ability._id}>
-                      {ability.name} ({normalizeCost(ability.cost)})
-                    </li>
-                  ))
+                  battleTraits.map((ability) => <li key={ability._id}>{ability.name}</li>)
                 )}
               </ul>
             </section>
@@ -309,10 +303,6 @@ function App() {
                       <dt>W</dt>
                       <dd>{card.fighter.wounds}</dd>
                     </div>
-                    <div>
-                      <dt>PTS</dt>
-                      <dd>{card.fighter.points}</dd>
-                    </div>
                   </dl>
 
                   <section>
@@ -321,11 +311,19 @@ function App() {
                       {card.abilities.length === 0 ? (
                         <li>No matching abilities</li>
                       ) : (
-                        card.abilities.map((ability) => (
-                          <li key={ability._id}>
-                            {ability.name} ({normalizeCost(ability.cost)})
-                          </li>
-                        ))
+                        card.abilities.map((ability) => {
+                          const costIcon = getAbilityCostIcon(ability.cost)
+                          return (
+                            <li key={ability._id} className="ability-line">
+                              {costIcon && (
+                                <span className="cost-icon" aria-label={costIcon.label} title={costIcon.label}>
+                                  {costIcon.icon}
+                                </span>
+                              )}
+                              <span>{ability.name}</span>
+                            </li>
+                          )
+                        })
                       )}
                     </ul>
                   </section>
@@ -336,11 +334,7 @@ function App() {
                       {card.reactions.length === 0 ? (
                         <li>No matching reactions</li>
                       ) : (
-                        card.reactions.map((ability) => (
-                          <li key={ability._id}>
-                            {ability.name} ({normalizeCost(ability.cost)})
-                          </li>
-                        ))
+                        card.reactions.map((ability) => <li key={ability._id}>{ability.name}</li>)
                       )}
                     </ul>
                   </section>

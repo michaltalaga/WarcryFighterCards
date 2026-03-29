@@ -130,7 +130,7 @@
 .stats-grid {
   margin: 0.6rem 0 0;
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.35rem;
 }
 
@@ -169,6 +169,19 @@
   display: flex;
   flex-direction: column;
   gap: 0.22rem;
+}
+
+.ability-line {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.cost-icon {
+  width: 1.1rem;
+  text-align: center;
+  color: #163f4f;
+  font-weight: 700;
 }
 
 .unmatched {
