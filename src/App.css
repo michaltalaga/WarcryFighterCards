@@ -733,37 +733,37 @@
   .fighter-card-back {
     --card-back-list-gap: 0.45mm;
     --card-back-item-pad: 0.35mm;
-    --card-back-name-size: 5.5pt;
-    --card-back-cost-size: 4.8pt;
-    --card-back-dice-size: 5.2pt;
-    --card-back-desc-size: 4.5pt;
+    --card-back-name-size: 6.1pt;
+    --card-back-cost-size: 5.5pt;
+    --card-back-dice-size: 6pt;
+    --card-back-desc-size: 5.8pt;
   }
 
   .fighter-card-back.density-compact {
     --card-back-list-gap: 0.32mm !important;
     --card-back-item-pad: 0.24mm !important;
-    --card-back-name-size: 4.8pt !important;
-    --card-back-cost-size: 4.2pt !important;
-    --card-back-dice-size: 4.5pt !important;
-    --card-back-desc-size: 3.9pt !important;
+    --card-back-name-size: 5.8pt !important;
+    --card-back-cost-size: 4.8pt !important;
+    --card-back-dice-size: 5.2pt !important;
+    --card-back-desc-size: 5pt !important;
   }
 
   .fighter-card-back.density-medium {
     --card-back-list-gap: 0.4mm !important;
     --card-back-item-pad: 0.28mm !important;
-    --card-back-name-size: 5.1pt !important;
-    --card-back-cost-size: 4.4pt !important;
-    --card-back-dice-size: 4.8pt !important;
-    --card-back-desc-size: 4.1pt !important;
+    --card-back-name-size: 6.1pt !important;
+    --card-back-cost-size: 5.1pt !important;
+    --card-back-dice-size: 5.5pt !important;
+    --card-back-desc-size: 5.3pt !important;
   }
 
   .fighter-card-back.density-roomy {
     --card-back-list-gap: 0.48mm !important;
     --card-back-item-pad: 0.32mm !important;
-    --card-back-name-size: 5.4pt !important;
-    --card-back-cost-size: 4.7pt !important;
-    --card-back-dice-size: 5.1pt !important;
-    --card-back-desc-size: 4.3pt !important;
+    --card-back-name-size: 6.5pt !important;
+    --card-back-cost-size: 5.4pt !important;
+    --card-back-dice-size: 5.9pt !important;
+    --card-back-desc-size: 5.6pt !important;
   }
 
   .fighter-card-header {
