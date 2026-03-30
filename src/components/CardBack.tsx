@@ -9,7 +9,7 @@ type CardBackProps = {
 
 export function CardBack({ card }: CardBackProps) {
   const fighterName = card.fighter?.name ?? card.importedName
-  const describedAbilities = [...card.abilities, ...card.reactions]
+  const describedAbilities = [...card.abilities]
   const abilityCount = describedAbilities.length
   const densityClass = abilityCount >= 6 ? 'density-compact' : abilityCount >= 4 ? 'density-medium' : 'density-roomy'
 
@@ -40,7 +40,7 @@ export function CardBack({ card }: CardBackProps) {
     <article className={`fighter-card fighter-card-back ${densityClass}`} aria-label={`Back of ${fighterName}`}>
       <div className="card-back-frame">
         {describedAbilities.length === 0 ? (
-          <p className="card-back-note">No matching abilities or reactions.</p>
+          <p className="card-back-note">No matching abilities.</p>
         ) : (
           <ul className="card-back-ability-list">
             {describedAbilities.map((ability) => (
