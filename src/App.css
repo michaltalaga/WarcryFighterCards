@@ -682,8 +682,8 @@
   }
 
   @page {
-    size: auto;
-    margin: 8mm;
+    size: A4 portrait;
+    margin: 5mm;
   }
 
   body {
@@ -696,7 +696,7 @@
   .app-shell {
     width: 100%;
     padding: 0;
-    gap: 0.4rem;
+    gap: 0;
   }
 
   .app-header,
@@ -706,9 +706,13 @@
   }
 
   .cards-grid {
-    grid-template-columns: repeat(auto-fill, 63.5mm);
-    gap: 3mm;
-    justify-content: start;
+    grid-template-columns: repeat(3, 63.5mm);
+    grid-auto-rows: 89mm;
+    gap: 1.5mm;
+    justify-content: initial;
+    align-content: start;
+    width: max-content;
+    margin: 0 auto;
   }
 
   .fighter-card {
