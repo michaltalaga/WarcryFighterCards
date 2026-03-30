@@ -217,7 +217,7 @@ function App() {
             printSide === 'front' ? (
               <FighterCard key={`${card.importedName}-${index}`} card={card} runemarkPlacement="under-name" />
             ) : (
-              <CardBack key={`${card.importedName}-${index}`} card={card} warbandInfo={warbandInfo} />
+              <CardBack key={`${card.importedName}-${index}`} card={card} />
             ),
           )}
         </section>
