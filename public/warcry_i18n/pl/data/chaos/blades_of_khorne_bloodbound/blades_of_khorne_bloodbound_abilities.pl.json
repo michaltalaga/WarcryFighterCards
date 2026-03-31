@@ -1,0 +1,321 @@
+[
+  {
+    "_id": "73a644b7",
+    "name": "Krew dla Boga Krwi",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w trakcie tej aktywacji wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Blood for the Blood God",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "c809cf34",
+    "name": "Więzy Krwi",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 8\" od tego wojownika. Tamten wrogi wojownik wykonuje bonusową akcję ruchu bezpośrednio w stronę tego wojownika na odległość w calach równą wartości tej zdolności, tak jakby skakał. W ten sposób może oddalić się od wrogich wojowników znajdujących się w odległości do 1\" na początku tej akcji ruchu.",
+    "runemarks": [
+      "hero",
+      "priest"
+    ],
+    "sourceName": "Bloodbind",
+    "sourceDescription": "Pick a visible enemy fighter within 8\" of this fighter. That enemy fighter makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action."
+  },
+  {
+    "_id": "116fbfdb",
+    "name": "Krwawomroczne Szpony Flesh Hounda",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi D3 punktów obrażeń. Za każdy wynik 6 przydziel temu wojownikowi D6 punktów obrażeń.",
+    "runemarks": [
+      "hero",
+      "champion"
+    ],
+    "sourceName": "Flesh Hound's Blood-dark Claws",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice. For each roll of 4-5, allocate D3 damage points to that fighter. For each roll of 6, allocate D6 damage points to that fighter."
+  },
+  {
+    "_id": "a33d848b",
+    "name": "Krwawopięść",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć kością. Przy wyniku 3+ przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Gorefist",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "83ac22a1",
+    "name": "Smagające Kostne Macki",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Lashing Bone Tentacles",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "088bc8b5",
+    "name": "Rozwścieczony Batem",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "double",
+    "description": "Wybierz widocznego przyjaznego wojownika z runemarkiem Ferocious w odległości do 4\" od tego wojownika. Tamten wojownik wykonuje bonusową akcję ataku.",
+    "runemarks": [
+      "trapper",
+      "hero"
+    ],
+    "sourceName": "Whipped to Fury",
+    "sourceDescription": "Pick a visible friendly fighter with the Ferocious runemark within 4\" of this fighter. That fighter makes a bonus attack action."
+  },
+  {
+    "_id": "1086976f",
+    "name": "Wrzenie Krwi",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 8\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi D3 punktów obrażeń.",
+    "runemarks": [
+      "hero",
+      "priest"
+    ],
+    "sourceName": "Bloodboil",
+    "sourceDescription": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate D3 damage points to that fighter."
+  },
+  {
+    "_id": "1ceb4736",
+    "name": "Demonokute Bronie",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika dodaj wartość tej zdolności do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Daemon-forged Weapons",
+    "sourceDescription": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter."
+  },
+  {
+    "_id": "a6a3c9f1",
+    "name": "Pan Czaszek",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w trakcie tej aktywacji wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku. Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych przyjaznych wojowników, gdy znajdują się oni w odległości do 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Lord of Skulls",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "9a6e199b",
+    "name": "Mordercza Szarża",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "mount"
+    ],
+    "sourceName": "Murderous Charge",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "458d0aa1",
+    "name": "Szturm Napędzany Krwią",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje bonusową akcję ruchu. Następnie może wykonać bonusową akcję ataku. Dodatkowo do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Blood-fuelled Assault",
+    "sourceDescription": "This fighter makes a bonus move action. Then, they can make a bonus attack action. In addition, until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "6ec5fa66",
+    "name": "Furia Khorne'a",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "quad",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez przyjaznych wojowników, gdy znajdują się oni w odległości do 8\" od tego wojownika.",
+    "runemarks": [
+      "hero",
+      "icon-bearer"
+    ],
+    "sourceName": "Rage of Khorne",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters while they are within 8\" of this fighter."
+  },
+  {
+    "_id": "017ae05b",
+    "name": "Danina dla Khorne'a",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Za każdy rzut na trafienie z tej akcji ataku, który chybił, przydziel atakującemu wojownikowi 2 punkty obrażeń. Za każde trafienie krytyczne z tej akcji ataku przydziel temu wojownikowi 1 dodatkowy punkt obrażeń.",
+    "runemarks": [],
+    "sourceName": "Khorne's Due",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. For each critical hit from that attack action, allocate 1 additional damage point to this fighter."
+  },
+  {
+    "_id": "8ddef5ee",
+    "name": "Bez Wytchnienia",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "battletrait",
+    "description": "Gdy przyjazny wojownik z tą cechą bitewną zostanie wyeliminowany, zanim zostanie usunięty z gry, wybierz widocznego wrogiego wojownika w odległości do 1\" od niego i rzuć kością. Przy wyniku 4+ przydziel temu wojownikowi D3 punktów obrażeń.",
+    "runemarks": [],
+    "sourceName": "No Respite",
+    "sourceDescription": "When a friendly fighter with this battle trait is taken down, before they are removed from play, pick a visible enemy fighter within 1\" of them and roll a dice. On a 4+, allocate D3 damage points to that fighter."
+  },
+  {
+    "_id": "a659404f",
+    "name": "Ścinające Uderzenie",
+    "warband": "Garrek's Reavers",
+    "cost": "double",
+    "description": "Dodaj połowę wartości tej zdolności (zaokrąglając w górę) do liczby punktów obrażeń przydzielanych przez każde trafienie krytyczne z następnej akcji ataku wykonanej przez tego wojownika w tej aktywacji, która ma cechę Zasięg równą 3 lub mniej.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Decapitating Strike",
+    "sourceDescription": "Add half the value of this ability (rounding up) to the number of damage points allocated by each critical hit from the next attack action made by this fighter this activation that has a Range characteristic of 3 or less."
+  },
+  {
+    "_id": "bf38750f",
+    "name": "Nieustannie Naprzód",
+    "warband": "Garrek's Reavers",
+    "cost": "double",
+    "description": "Dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Ruch tego wojownika dla następnej akcji ruchu, którą wykona on w tej aktywacji.",
+    "runemarks": [],
+    "sourceName": "Ever Advancing",
+    "sourceDescription": "Add half the value of this ability (rounding up) to the Move characteristic of this fighter for the next move action they make this activation."
+  },
+  {
+    "_id": "17f594a0",
+    "name": "Szaleńczy Atak",
+    "warband": "Garrek's Reavers",
+    "cost": "triple",
+    "description": "Przydziel liczbę punktów obrażeń równą połowie wartości tej zdolności (zaokrąglając w górę) wszystkim widocznym wrogim wojownikom w zasięgu 3\" od tego wojownika.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Frenzied Attack",
+    "sourceDescription": "Allocate a number of damage points equal to half the value of this ability (rounding up) to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "08af612c",
+    "name": "Khorne'owi Wszystko Jedno",
+    "warband": "Garrek's Reavers",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje bonusową akcję ataku. Dodatkowo policz liczbę wojowników, którzy zostali wyeliminowani w tej rundzie bitwy, i dodaj tę wartość do cechy Ataki tej bonusowej akcji ataku.",
+    "runemarks": [],
+    "sourceName": "Khorne Cares Not",
+    "sourceDescription": "This fighter makes a bonus attack action. In addition, count the number of fighters that have been taken down during this battle round and add the total to the Attacks characteristic of that bonus attack action."
+  },
+  {
+    "_id": "71bb3212",
+    "name": "Cios z Góry",
+    "warband": "Gorechosen of Dromm",
+    "cost": "double",
+    "description": "Możesz użyć tej zdolności tylko wtedy, gdy ten wojownik skoczył, a następnie podczas tej aktywacji przemieścił się pionowo w dół o 2\" lub więcej. Wybierz wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wrogiemu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Overhead Smash",
+    "sourceDescription": "You can only use this ability if this fighter has jumped and then moved 2\" or more vertically downwards during this activation. Pick an enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that enemy fighter."
+  },
+  {
+    "_id": "f785a02a",
+    "name": "Łańcuchy Krwi",
+    "warband": "Gorechosen of Dromm",
+    "cost": "triple",
+    "description": "Dodaj połowę wartości tej zdolności do cechy Zasięg akcji ataku wręcz tego wojownika do końca tej aktywacji.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Chains of Blood",
+    "sourceDescription": "Add half the value of this ability to the Range characteristic of this fighter's melee attack actions until the end of this activation."
+  },
+  {
+    "_id": "7491920a",
+    "name": "Zrań Królestwo",
+    "warband": "Gorechosen of Dromm",
+    "cost": "quad",
+    "description": "Wybierz dwa widoczne narożniki pola bitwy albo wybierz dwa widoczne znaczniki celów i poprowadź między nimi linię o szerokości 1 mm. Rzuć kością za każdy model stykający się z tą linią. Przy wyniku 3+ przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "priest"
+    ],
+    "sourceName": "Wound the Realm",
+    "sourceDescription": "Pick two visible battlefield corners or pick two visible objective tokens and draw a 1mm line between each. Roll a dice for each model touching that line. On a 3+, allocate a number of damage points equal to the value of this ability to that fighter."
+  },
+  {
+    "_id": "11e3cee9",
+    "name": "Demoniczna Paszcza",
+    "warband": "Magore's Fiends",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Daemonic Maw",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability.  For each 4-5, allocate 1 damage point to that fighter.  For each 6, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "f7fedb39",
+    "name": "Zapach Krwi",
+    "warband": "Magore's Fiends",
+    "cost": "triple",
+    "description": "Każdy przyjazny wojownik z runemarkiem Magore's Fiends, który znajduje się w odległości do 6\" od tego wojownika, gdy ten wojownik używa tej zdolności, może wykonać bonusową akcję ruchu.",
+    "runemarks": [
+      "beast"
+    ],
+    "sourceName": "Bloodscent",
+    "sourceDescription": "Each friendly fighter with the Magore's Fiends runemark within 6\" of this fighter when this fighter uses this ability can make a bonus move action."
+  },
+  {
+    "_id": "a91550f4",
+    "name": "Pogromca Królów",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "triple",
+    "description": "Wybierz jako cel wrogiego wojownika, któremu w tej aktywacji przydzielono jakiekolwiek punkty obrażeń przez dowolne akcje ataku wręcz tego wojownika, i rzuć liczbą kości równą wartości tej zdolności. Przy każdym niemodyfikowanym wyniku 6 przydziel temu wrogiemu wojownikowi liczbę punktów obrażeń równą jego cesze Rany. Tych punktów obrażeń nie można zignorować.",
+    "runemarks": [
+      "hero",
+      "warrior"
+    ],
+    "sourceName": "Killer of Kings",
+    "sourceDescription": "Pick an enemy fighter that was allocated any damage points this activation by any of this fighter’s melee attack actions to be the target and roll a number of dice equal to the value of this ability. On any unmodified rolls of 6, allocate a number of damage points to that enemy fighter equal to their Wounds characteristic. Those damage points cannot be ignored."
+  },
+  {
+    "_id": "f6e733c3",
+    "name": "Profanujące Krwawe Runy",
+    "warband": "Blades of Khorne: Bloodbound",
+    "cost": "triple",
+    "description": "Wybierz element terenu w odległości do 1\" od tego wojownika. Przez resztę rundy bitwy, jeśli akcja ataku wręcz wykonana przez przyjaznego wojownika w odległości do 3\" od tego elementu terenu, który ma runemark Blades of Khorne: Bloodbound, uzyska jakiekolwiek trafienia krytyczne, po rozpatrzeniu tej akcji ataku przydziel celowi tej akcji ataku D3 punktów obrażeń.",
+    "runemarks": [
+      "hero",
+      "mystic"
+    ],
+    "sourceName": "Desecrating Blood Runes",
+    "sourceDescription": "Pick a terrain feature within 1\" of this fighter. For the rest of the battle round, if a melee attack action made by a friendly fighter within 3\" of that terrain feature and that has the Blades of Khorne: Bloodbound runemark scores any critical hits, allocate D3 damage points to the target of that attack action after that attack action is resolved."
+  },
+  {
+    "_id": "e40d6c52",
+    "name": "Erupcja Nienawiści",
+    "warband": "Kamandora's Blades",
+    "cost": "double",
+    "description": "Przez resztę rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez przyjaznych wojowników z runemarkiem Kamandora's Blades za każdego wrogiego wojownika, który się wykrwawia.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Eruption of Hate",
+    "sourceDescription": "For the rest of the battle round, add 1 to the Attacks characteristic of melee attack actions used by friendly fighters with the Kamandora's Blades runemark for each enemy fighter that is bleeding out."
+  },
+  {
+    "_id": "ba5487b3",
+    "name": "Niech Krwawią Powoli",
+    "warband": "Kamandora's Blades",
+    "cost": "double",
+    "description": "Wybierz każdego wrogiego wojownika, któremu w tej aktywacji przydzielono jakiekolwiek punkty obrażeń przez akcje ataku tego wojownika. Tamten wojownik się wykrwawia. Na początku każdej rundy bitwy, po rzucie na inicjatywę, przydziel każdemu wrogiemu wojownikowi, który się wykrwawia, D3 punktów obrażeń.",
+    "runemarks": [],
+    "sourceName": "Bleed 'Em Slow",
+    "sourceDescription": "Pick each enemy fighter that was allocated any damage points by this fighter's attack actions this activation. That fighter is bleeding out. At the start of each battle round, after the initiative roll, allocate D3 damage points to each enemy fighter that is bleeding out."
+  }
+]
