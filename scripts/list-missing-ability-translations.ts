@@ -20,6 +20,14 @@ const root = process.cwd()
 const sourceRootDir = path.join(root, 'public', 'warcry_data')
 const translationRootDir = path.join(root, 'public', 'warcry_i18n', 'pl')
 
+process.stdout.on('error', (error) => {
+  if (error.code === 'EPIPE') {
+    process.exit(0)
+  }
+
+  throw error
+})
+
 function asStringOrEmpty(value: unknown): string {
   return typeof value === 'string' ? value : ''
 }
