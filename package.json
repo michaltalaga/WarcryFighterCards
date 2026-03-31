@@ -6,6 +6,7 @@
   "scripts": {
     "sync-data": "tsx scripts/sync-warcry-data.ts",
     "translations:missing": "tsx scripts/list-missing-ability-translations.ts",
+    "translations:missing-file": "tsx scripts/show-missing-ability-translations-for-file.ts",
     "dev": "npm run sync-data && vite",
     "build": "npm run sync-data && tsc -b && vite build",
     "test": "vitest run",
