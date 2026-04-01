@@ -9,8 +9,10 @@
   --ability-cost-justify: flex-end;
   --ability-dice-x-offset: 3px;
   --fighter-card-web-height: 27.5rem;
-  --card-heading-top-gap: 0.4rem;
-  --card-heading-content-gap: 0.18rem;
+  --fighter-card-web-top-padding: 0.5rem;
+  --fighter-card-web-body-start-gap: 0.35rem;
+  --card-heading-top-gap: 0.28rem;
+  --card-heading-content-gap: 0.14rem;
   --card-back-list-gap: 0.16rem;
   --card-back-item-pad: 0.14rem;
   --card-back-name-size: 0.63rem;
@@ -325,7 +327,7 @@
   border: 1px solid #2f3f45;
   border-radius: 12px;
   background: linear-gradient(180deg, #fefcf6 0%, #f2ebd8 100%);
-  padding: var(--space-3);
+  padding: var(--fighter-card-web-top-padding) var(--space-3) var(--space-3);
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -513,7 +515,7 @@
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: start;
   column-gap: 0.5rem;
-  min-height: 2.7rem;
+  min-height: 2.45rem;
 }
 
 .fighter-card h2 {
@@ -616,7 +618,11 @@
 }
 
 .fighter-card-body > :first-child {
-  margin-top: var(--space-2);
+  margin-top: var(--fighter-card-web-body-start-gap);
+}
+
+.fighter-card-body > .runemarks-under-name:first-child {
+  margin-top: 0.08rem;
 }
 
 .fighter-card .reactions-section {
@@ -893,7 +899,8 @@
 
   .app-header,
   .roster-import,
-  .warband-header-card {
+  .warband-header-card,
+  .app-credits {
     display: none;
   }
 
