@@ -83,6 +83,56 @@
   color: #fff;
 }
 
+.app-header-actions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.app-github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid #1d495a;
+  border-radius: 999px;
+  background: #f7f3e8;
+  color: #163f4f;
+  padding: 0.38rem 0.75rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition:
+    background 140ms ease,
+    color 140ms ease,
+    border-color 140ms ease;
+}
+
+.app-github-link:hover {
+  background: #163f4f;
+  border-color: #163f4f;
+  color: #fff;
+}
+
+.app-credits {
+  border-top: 1px solid #d2c8b2;
+  padding-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.5rem;
+  font-size: 0.78rem;
+  color: #5a5040;
+}
+
+.app-credits a {
+  color: #163f4f;
+  text-decoration: underline;
+}
+
+.app-credits a:hover {
+  color: #0f2a35;
+}
+
 .language-picker {
   display: flex;
   flex: 0 0 auto;
