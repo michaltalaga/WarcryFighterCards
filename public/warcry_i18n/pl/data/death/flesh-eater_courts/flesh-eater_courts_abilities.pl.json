@@ -1,0 +1,231 @@
+[
+  {
+    "_id": "0d073880",
+    "name": "Zbijające z tropu pertraktacje",
+    "warband": "Flesh-eater Courts",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stał się celem akcji ataku wręcz, ale zanim wykonane zostaną rzuty na trafienie. Odejmij 1 od cechy Ataki tej akcji ataku, do minimum 1.",
+    "runemarks": [],
+    "sourceName": "Baffling Parlay",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the Attacks characteristic of that attack action, to a minimum of 1."
+  },
+  {
+    "_id": "bec6b159",
+    "name": "Królewska straż przyboczna",
+    "warband": "Flesh-eater Courts",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy sojuszniczy wojownik z runemarkiem Hero w odległości 3\" od niego stanie się celem akcji ataku, po zsumowaniu obrażeń, ale zanim zostaną one przydzielone, jeśli wystarczą, by tamten wojownik został wyeliminowany. Zamiast tego przydziel te punkty obrażeń temu wojownikowi, po jednym na raz. Jeśli ten wojownik zostanie wyeliminowany, przydziel wszelkie pozostałe punkty obrażeń temu sojuszniczemu Hero.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Royal Bodyguard",
+    "sourceDescription": "A fighter can make this reaction when a friendly fighter with the Hero runemark within 3\" of them is targeted by an attack action, after the damage is totalled but before it is allocated, if it is enough for that fighter to be taken down. Allocate those damage points, one at a time, to this fighter instead. If this fighter is taken down, allocate any remaining damage points to that friendly Hero."
+  },
+  {
+    "_id": "79d9faa1",
+    "name": "Gramolące się hordy",
+    "warband": "Flesh-eater Courts",
+    "cost": "double",
+    "description": "Wybierz widocznego sojuszniczego wojownika w odległości 6\" od tego wojownika, który ma runemark Flesh-eater Courts i runemark Minion oraz jeszcze nie aktywował się w tej rundzie bitwy. Możesz aktywować tamtego wojownika natychmiast po zakończeniu aktywacji tego wojownika.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Scrabbling Hordes",
+    "sourceDescription": "Pick a visible friendly fighter within 6\" of this fighter that has the Flesh-eater Courts runemark and the Minion runemark that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends."
+  },
+  {
+    "_id": "2e4501f8",
+    "name": "Głodne szpony",
+    "warband": "Flesh-eater Courts",
+    "cost": "double",
+    "description": "Do końca rundy bitwy, za każdym razem gdy wrogi wojownik w odległości 6\" od tego wojownika wykonuje akcję wycofania, ale zanim się oddali, przydziel temu wojownikowi D6 punktów obrażeń.",
+    "runemarks": [],
+    "sourceName": "Hungry Talons",
+    "sourceDescription": "Until the end of the battle round, each time an enemy fighter within 6\" of this fighter makes a disengage action but before that fighter moves away, allocate D6 damage points to that fighter."
+  },
+  {
+    "_id": "01e51087",
+    "name": "Wiatry Shyish",
+    "warband": "Flesh-eater Courts",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy nie znajduje się w odległości 3\" od żadnych wrogich wojowników. Wybierz widocznego sojuszniczego wojownika o cesze Rany równej 12 lub mniejszej w odległości 3\" od tego wojownika. Usuń tamtego wojownika oraz tego wojownika z pola bitwy i natychmiast wystaw ich na polu bitwy w odległości większej niż 5\" od wszystkich wrogich wojowników i w całości w odległości 3\" od siebie nawzajem.",
+    "runemarks": [
+      "hero",
+      "trapper"
+    ],
+    "sourceName": "Winds of Shyish",
+    "sourceDescription": "A fighter can only use this ability if they are not within 3\" of any enemy fighters. Pick a visible friendly fighter that has a Wounds characteristic of 12 or less within 3\" of this fighter. Remove that fighter and this fighter from the battlefield and immediately set them up on the battlefield more than 5\" from all enemy fighters and wholly within 3\" of each other."
+  },
+  {
+    "_id": "e986e07a",
+    "name": "Szlachetna skrzydlata bestia",
+    "warband": "Flesh-eater Courts",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika nie licz pionowej odległości podczas mierzenia zasięgu akcji ataku wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "hero",
+      "terrifying"
+    ],
+    "sourceName": "Noble Winged Beast",
+    "sourceDescription": "Until the end of this fighter's activation, do not count the vertical distance when measuring the range for attack actions made by this fighter."
+  },
+  {
+    "_id": "6e8e86a1",
+    "name": "Mowa językami",
+    "warband": "Flesh-eater Courts",
+    "cost": "double",
+    "description": "Wybierz wrogiego wojownika w odległości 3\" od tego wojownika i rzuć kością. Przy wyniku 3+ tamten wojownik wykonuje o 1 akcję mniej w swojej następnej aktywacji (do minimum 1).",
+    "runemarks": [
+      "hero",
+      "priest"
+    ],
+    "sourceName": "Speak in Tongues",
+    "sourceDescription": "Pick an enemy fighter within 3\" of this fighter and roll a dice. On a 3+, that fighter makes 1 less action in their next activation (to a minimum of 1)."
+  },
+  {
+    "_id": "a471d576",
+    "name": "Krzyk śmierci",
+    "warband": "Flesh-eater Courts",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy wrodzy wojownicy w odległości 6\" od tego wojownika nie mogą wykonywać reakcji.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Death Scream",
+    "sourceDescription": "Until the end of the battle round, enemy fighters within 6\" of this fighter cannot make reactions."
+  },
+  {
+    "_id": "98b3a5d8",
+    "name": "Skok drapieżcy",
+    "warband": "Flesh-eater Courts",
+    "cost": "triple",
+    "description": "Ten wojownik może wykonać dodatkową akcję wycofania. Następnie ten wojownik może wykonać dodatkową akcję ruchu.",
+    "runemarks": [
+      "mount"
+    ],
+    "sourceName": "Predator's Pounce",
+    "sourceDescription": "This fighter can make a bonus disengage action. Then this fighter can make a bonus move action."
+  },
+  {
+    "_id": "183defcb",
+    "name": "Królewska prośba",
+    "warband": "Flesh-eater Courts",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika. Gracz kontrolujący tego wrogiego wojownika musi przyjąć albo odrzucić zainfekowaną kość. Jeśli ją przyjmie, to do końca bitwy po aktywacji tamtego wojownika rzuć kością. Przy wyniku 5+ tamten wojownik zostaje wyeliminowany. Jeśli ją odrzuci, do końca bitwy tamten wojownik nie może używać zdolności.",
+    "runemarks": [
+      "hero",
+      "icon-bearer"
+    ],
+    "sourceName": "King's Entreaty",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter. That enemy fighter's player must accept or reject an infected bone. If they accept it, until the end of the battle, after that fighter's activation, roll a dice. On a 5+, that fighter is taken down. If they reject it, until the end of the battle, that fighter cannot use abilities."
+  },
+  {
+    "_id": "489f11f2",
+    "name": "Uczta zwycięstwa",
+    "warband": "Flesh-eater Courts",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Usuń liczbę punktów obrażeń przydzielonych każdemu sojuszniczemu wojownikowi w odległości 6\" od tego wojownika do połowy wartości tej zdolności (zaokrąglając w górę). Jeśli ten wojownik ma runemark Frenzied, dodaj 4 do wartości tej zdolności, do maksymalnie 7.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Victory Feast",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points allocated to each friendly fighter within 6\" of this fighter, up to half the value of this ability (rounding up). If this fighter has the Frenzied runemark, add 4 to the value of this ability, to a maximum of 7."
+  },
+  {
+    "_id": "ff7e8503",
+    "name": "Królewskie łowy",
+    "warband": "Flesh-eater Courts",
+    "cost": "quad",
+    "description": "Dodaj 1 do cech Ataki i Obrażenia broni wręcz tego wojownika za każdego widocznego sojuszniczego wojownika w odległości 3\" od niego, aż do końca jego aktywacji.",
+    "runemarks": [],
+    "sourceName": "The Royal Hunt",
+    "sourceDescription": "Add 1 to the Attacks and Damage characteristics of this fighter's melee weapons for each visible friendly fighter within 3\" of them until the end of their activation."
+  },
+  {
+    "_id": "4d8af2ce",
+    "name": "Dekret rycerskości",
+    "warband": "Flesh-eater Courts",
+    "cost": "quad",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych sojuszniczych wojowników, gdy znajdują się w odległości 9\" od tego wojownika. Jeśli ten wojownik ma runemark Berserker, zwiększ zasięg tej zdolności o liczbę cali równą wartości tej zdolności.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Decree of Chivalry",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter. If this fighter has the Berserker runemark, increase the range of this ability by a number of inches equal to the value of this ability."
+  },
+  {
+    "_id": "c041c79a",
+    "name": "Szyk kopijniczy",
+    "warband": "Flesh-eater Courts",
+    "cost": "battletrait",
+    "description": "Dodaj 1 do cechy Ruch sojuszniczych wojowników z tą cechą bitewną, którzy na początku swojej aktywacji znajdowali się w odległości 1\" od dwóch lub więcej innych sojuszniczych wojowników z tą cechą bitewną. Dodaj 1 do cechy Siła akcji ataku wręcz wykonywanych przez sojuszniczych wojowników z tą cechą bitewną, gdy znajdują się w odległości 1\" od dwóch lub więcej innych sojuszniczych wojowników z tą cechą bitewną.",
+    "runemarks": [],
+    "sourceName": "Form a Lance",
+    "sourceDescription": "Add 1 to the Move characteristics of friendly fighters with this battle trait that were within 1\" of two or more other friendly fighters with this battle trait at the start of their activation. Add 1 to the Strength characteristic of melee attack actions made by friendly fighters with this battle trait while they are within 1\" of two or more other friendly fighters with this battle trait."
+  },
+  {
+    "_id": "c4d22bf7",
+    "name": "Z powrotem do kuchni!",
+    "warband": "Skinnerkin",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak przydzielono mu punkty obrażeń przez akcję ataku wręcz. Ten wojownik wykonuje dodatkową akcję wycofania.",
+    "runemarks": [],
+    "sourceName": "Back to the Kitchens!",
+    "sourceDescription": "A fighter can make this reaction after they have been allocated damage points by a melee attack action. This fighter makes a bonus disengage action."
+  },
+  {
+    "_id": "746efa59",
+    "name": "Wynoście się z mojej spiżarni!",
+    "warband": "Skinnerkin",
+    "cost": "double",
+    "description": "Wybierz widocznego sojuszniczego wojownika z runemarkiem Skinnerkin, który znajduje się w odległości 6\" od tego wojownika i nie aktywował się jeszcze w tej rundzie bitwy. Ten wojownik i tamten wojownik mogą każdy wykonać dodatkową akcję ruchu na odległość do wartości tej zdolności. Możesz aktywować tamtego wojownika natychmiast po zakończeniu aktywacji tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Get Out of My Larder!",
+    "sourceDescription": "Pick a visible friendly fighter with the Skinnerkin runemark that is within 6\" of this fighter and has not activated this battle round. This fighter and that fighter can each make a bonus move action up to the value of this ability. You can activate that fighter immediately after this fighter's activation ends."
+  },
+  {
+    "_id": "78d24670",
+    "name": "Uczta na półmisku",
+    "warband": "Skinnerkin",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Umieść znacznik uczty w środku miejsca zajmowanego przez tamtego wojownika, zanim usuniesz go z pola bitwy. Na końcu rundy bitwy, po ustaleniu kontroli nad celami, możesz usunąć do 3 punktów obrażeń przydzielonych każdemu sojuszniczemu wojownikowi w odległości 6\" od środka dowolnego znacznika uczty.",
+    "runemarks": [],
+    "sourceName": "Plated Banquet",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Place a banquet token at the centre of the space occupied by that fighter before removing that fighter from the battlefield. At the end of the battle round, after determining control of objectives, you can remove up to 3 damage points allocated to each friendly fighter within 6\" of the centre of any banquet tokens."
+  },
+  {
+    "_id": "32d0d02e",
+    "name": "Precyzyjne filetowanie",
+    "warband": "Skinnerkin",
+    "cost": "quad",
+    "description": "Następna akcja ataku wręcz wykonana przez tego wojownika zadaje trafienia krytyczne przy wyniku 3+ niezależnie od cechy Wytrzymałość celu.",
+    "runemarks": [],
+    "sourceName": "Precise Filleting",
+    "sourceDescription": "The next melee attack action made by this fighter scores critical hits on a 3+ regardless of the Toughness characteristic of the target."
+  },
+  {
+    "_id": "60f9e076",
+    "name": "Królewski dekret",
+    "warband": "The Grymwatch",
+    "cost": "double",
+    "description": "Wybierz widocznego sojuszniczego wojownika z runemarkiem The Grymwatch oraz runemarkiem Minion w odległości 3\" od tego wojownika. Tamten wojownik może wykonać dodatkową akcję ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Royal Decree",
+    "sourceDescription": "Pick a visible friendly fighter with both The Grymwatch runemark and the Minion runemark within 3\" of this fighter. That fighter can make a bonus attack action."
+  },
+  {
+    "_id": "f16affc1",
+    "name": "Wydarcie oka",
+    "warband": "Flesh-eater Courts",
+    "cost": "triple",
+    "description": "Wybierz jako cel widocznego wrogiego wojownika, któremu podczas tej aktywacji jakakolwiek akcja ataku strzeleckiego tego wojownika przydzieliła jakiekolwiek punkty obrażeń. Daj temu celowi znacznik Grype. Ten cel nie może zadawać trafień krytycznych, dopóki ma ten znacznik (rzuty na trafienie, które byłyby trafieniami krytycznymi, zadają zamiast tego zwykłe trafienia). Jeśli jakiekolwiek punkty obrażeń przydzielone wojownikowi ze znacznikiem Grype miałyby zostać usunięte, usuń zamiast tego ten znacznik Grype. Na polu bitwy nie może znajdować się więcej niż jeden wrogi wojownik z sojuszniczym znacznikiem Grype.",
+    "runemarks": [
+      "hero",
+      "trapper"
+    ],
+    "sourceName": "Eye Shred",
+    "sourceDescription": "Pick a visible enemy fighter that was allocated any damage points this activation by any of this fighter's missile attack actions to be the target. Give that target a Grype token. That target cannot score critical hits while they have that token (hit rolls that would be critical hits score hits instead). If any damage points allocated to a fighter with a Grype token would be removed, remove that Grype token instead. There cannot be more than one enemy fighter with a friendly Grype token on the battlefield."
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "_id": "879f9846",
+    "name": "Kąpiel we Krwi",
+    "warband": "Daughters of Khaine",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w zasięgu 3\" od widocznego wrogiego wojownika z co najmniej 1 przydzielonym punktem obrażeń. Do końca aktywacji tego wojownika dodaj 1 do cech Ataki i Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Bathe In Blood",
+    "sourceDescription": "A fighter can only use this ability if they are within 3\" of a visible enemy fighter with 1 or more damage points allocated to them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "1d8101c7",
+    "name": "Zabójcze Pchnięcie",
+    "warband": "Daughters of Khaine",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć kością. Przy wyniku 3+ przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "trapper",
+      "hero"
+    ],
+    "sourceName": "Killing Stroke",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice. On a roll of 3+, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "1ea8e8d5",
+    "name": "Zamieniona w Kryształ",
+    "warband": "Daughters of Khaine",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Turned to Crystal",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "971edd8f",
+    "name": "Wiedźmi Wywar",
+    "warband": "Daughters of Khaine",
+    "cost": "double",
+    "description": "Wybierz widocznego przyjaznego wojownika w zasięgu 3\" od tego wojownika. Do końca rundy bitwy dodaj wartość tej zdolności do cechy Siła następnej akcji ataku wręcz wykonanej przez tamtego wojownika.",
+    "runemarks": [
+      "priest",
+      "hero"
+    ],
+    "sourceName": "Witchbrew",
+    "sourceDescription": "Pick a visible friendly fighter within 3\" of this fighter. Until the end of the battle round, add the value of this ability to the Strength characteristic of the next melee attack action made by that fighter."
+  },
+  {
+    "_id": "27ef2336",
+    "name": "Krwiozgroźne Spojrzenie",
+    "warband": "Daughters of Khaine",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości w calach od tego wojownika równej wartości tej zdolności i rzuć 2 kośćmi. Jeśli któraś z kości pokaże 3+, do końca rundy bitwy tamten wojownik nie może wykonywać akcji ruchu ani akcji wycofania. Dodatkowo za każdy wynik 6 przydziel tamtemu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "mystic",
+      "hero"
+    ],
+    "sourceName": "Bloodwrack Stare",
+    "sourceDescription": "Pick a visible enemy fighter within a number of inches of this fighter equal to the value of this ability and roll 2 dice. If either dice rolls a 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions. In addition, for each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "dd4d59b4",
+    "name": "Płomień Zguby",
+    "warband": "Daughters of Khaine",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 9\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi 2 punkty obrażeń.",
+    "runemarks": [
+      "mount"
+    ],
+    "sourceName": "Doomfire Bolt",
+    "sourceDescription": "Pick a visible enemy fighter within 9\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 2 damage points to that fighter."
+  },
+  {
+    "_id": "f40299bf",
+    "name": "Poszukiwacze Serc",
+    "warband": "Daughters of Khaine",
+    "cost": "triple",
+    "description": "Po następnej akcji ataku strzeleckiego wykonanej przez tego wojownika w tej aktywacji, jeśli uzyskała jedno lub więcej trafień, przydziel celowi tej akcji ataku liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Heartseekers",
+    "sourceDescription": "After the next missile attack action made by this fighter in this activation, if it scored one or more hits, allocate a number of damage points to the target of that attack action equal to the value of this ability."
+  },
+  {
+    "_id": "b87b3267",
+    "name": "Ofiara dla Khaine'a",
+    "warband": "Daughters of Khaine",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku w tej aktywacji. Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych przyjaznych wojowników, gdy znajdują się oni w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Sacrifice to Khaine",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "26f66ad2",
+    "name": "Siła Rzezi",
+    "warband": "Daughters of Khaine",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Slaughter's Strength",
+    "sourceDescription": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "ce7caf2f",
+    "name": "Śmierć na Wietrze",
+    "warband": "Daughters of Khaine",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje bonusową akcję ruchu. Następnie może wykonać bonusową akcję ataku. Dodaj 1 do cechy Siła tej akcji ataku, jeśli wojownik zakończył akcję ruchu w odległości 6\" lub więcej od swojej pozycji początkowej.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Death on the Wind",
+    "sourceDescription": "This fighter makes a bonus move action. Then, they can make a bonus attack action. Add 1 to the Strength characteristic of that attack action if the fighter finished the move action 6\" or more from their starting position."
+  },
+  {
+    "_id": "55556335",
+    "name": "Orgia Rzezi",
+    "warband": "Daughters of Khaine",
+    "cost": "quad",
+    "description": "Do końca rundy bitwy dodaj połowę wartości tej zdolności (zaokrąglając w górę) do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z akcji ataku wręcz wykonywanych przez przyjaznych wojowników, gdy znajdują się oni w zasięgu 8\" od tego wojownika.",
+    "runemarks": [
+      "destroyer",
+      "hero"
+    ],
+    "sourceName": "Orgy of Slaughter",
+    "sourceDescription": "Until the end of the battle round, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by friendly fighters while they are within 8\" of this fighter."
+  },
+  {
+    "_id": "4e213d1d",
+    "name": "Gladiatorski Popis",
+    "warband": "Daughters of Khaine",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Jeśli żaden z rzutów na trafienie z tej akcji ataku nie dał trafienia krytycznego, przydziel atakującemu wojownikowi 4 punkty obrażeń.",
+    "runemarks": [],
+    "sourceName": "Gladiatorial Display",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If none of the hit rolls from that attack action result in a critical hit, allocate 4 damage points to the attacking fighter."
+  },
+  {
+    "_id": "634e3c1f",
+    "name": "Radosne Upuszczanie Krwi",
+    "warband": "Daughters of Khaine",
+    "cost": "battletrait",
+    "description": "Gdy przyjazny wojownik z tą cechą bitewną wykonuje akcję ataku wręcz, po wykonaniu rzutów na trafienie, jeśli uzyskałeś trafienie krytyczne oraz jakiekolwiek trafienia lub dodatkowe trafienia krytyczne, możesz wybrać posiadane przez siebie [double], [triple] albo [quad]. Dodaj 2 do wartości tych kości zdolności, do maksimum 6.",
+    "runemarks": [],
+    "sourceName": "Jubilant Bloodletting",
+    "sourceDescription": "When a friendly fighter with this battle trait makes a melee attack action, after the hit rolls have been made, if you scored a critical hit and any hits or additional critical hits, you can pick a [double], [triple] or [quad] you have. Add 2 to the value of those ability dice, to a maximum of 6."
+  },
+  {
+    "_id": "2c353eb1",
+    "name": "Niedościgniona Wojowniczka",
+    "warband": "Gryselle's Arenai",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika wrodzy wojownicy nie mogą przydzielać obrażeń temu wojownikowi przez reakcje.",
+    "runemarks": [],
+    "sourceName": "Peerless Combatant",
+    "sourceDescription": "Until the end of this fighter's activation, damage cannot be allocated to this fighter by enemy fighters' reactions."
+  },
+  {
+    "_id": "b3047b15",
+    "name": "Atak Kombinacyjny",
+    "warband": "Gryselle's Arenai",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogiemu wojownikowi zostały przydzielone obrażenia przez wykonaną przez niego akcję ataku wręcz w tej aktywacji. Ten wojownik wykonuje bonusową akcję ataku wręcz wymierzoną w tamtego wrogiego wojownika.",
+    "runemarks": [],
+    "sourceName": "Combination Attack",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been allocated damage by a melee attack action made by them this activation.  This fighter makes a bonus melee attack action that targets that enemy fighter."
+  },
+  {
+    "_id": "be42bda3",
+    "name": "Poprowadź Burzę Ostrzy",
+    "warband": "Gryselle's Arenai",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Wytrzymałość przyjaznych wojowników z runemarkiem Gryselle's Arenai, gdy znajdują się oni w zasięgu 6\" od tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Marshal the Bladestorm",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Gryselle's Arenai runemark while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "b3eb52dd",
+    "name": "Akrobatyczny Popis",
+    "warband": "Gryselle's Arenai",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy stanie się celem akcji ataku, ale przed wykonaniem rzutów na trafienie. Odejmij 1 od punktów obrażeń przydzielanych temu wojownikowi przez każde trafienie z tej akcji ataku (do minimum 1).",
+    "runemarks": [],
+    "sourceName": "Acrobatic Display",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by an attack action but before the hit rolls are made. Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1)."
+  },
+  {
+    "_id": "98ece5ab",
+    "name": "Córki Pierwszej Świątyni",
+    "warband": "Morgwaeth's Blade-Coven",
+    "cost": "double",
+    "description": "Wybierz innego widocznego przyjaznego wojownika z runemarkiem Morgwaeth's blade-Coven w zasięgu 3\" od tego wojownika. Tamten wojownik może wykonać bonusową akcję ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Daughters of the First Temple",
+    "sourceDescription": "Pick another visible friendly fighter with the Morgwaeth's blade-Coven runemark within 3\" of this fighter. That fighter can make a bonus attack action."
+  },
+  {
+    "_id": "ab45a9bd",
+    "name": "Przemknij Między Cieniami",
+    "warband": "The Shadeborn",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy wrogi wojownik zakończy akcję ruchu w odległości do 3\" od niego. Zanotuj odległość między tym wojownikiem a wrogim wojownikiem, który wykonał akcję ruchu. Usuń tego wojownika z pola bitwy, a następnie ustaw go na platformie albo na podłodze pola bitwy nie dalej od wrogiego wojownika, który wykonał akcję ruchu.",
+    "runemarks": [],
+    "sourceName": "Slip Between Shadows",
+    "sourceDescription": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. Note the distance between this fighter and the enemy fighter that made the move action. Remove this fighter from the battlefield, then set this fighter up on a platform or the battlefield floor, no further from the enemy fighter that made the move action."
+  },
+  {
+    "_id": "3b009c24",
+    "name": "Lotki Tropicielki Cieni",
+    "warband": "The Shadeborn",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 2 punkty obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności (minimum 2).",
+    "runemarks": [],
+    "sourceName": "Shadestalker Darts",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 2 damage points to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability (minimum 2)."
+  },
+  {
+    "_id": "2c3fa72f",
+    "name": "Klątwa Sieci Mroku",
+    "warband": "The Shadeborn",
+    "cost": "triple",
+    "description": "Wybierz wrogiego wojownika w zasięgu 6\" od tego wojownika. Odejmij połowę wartości tej zdolności (zaokrąglając w górę) od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez tamtego wojownika do końca rundy bitwy.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Gloomweb Hex",
+    "sourceDescription": "Pick an enemy fighter within 6\" of this fighter. Subtract half of the value of this ability (rounding up) from the Attacks characteristic (to a minimum of 1) attack actions made by that fighter until the end of the battle round."
+  },
+  {
+    "_id": "e3a5da77",
+    "name": "Zasadzka z Cienia",
+    "warband": "The Shadeborn",
+    "cost": "quad",
+    "description": "Usuń tego wojownika z pola bitwy, a następnie natychmiast ustaw go w dowolnym miejscu na polu bitwy.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Shadow Ambush",
+    "sourceDescription": "Remove this fighter from the battlefield and then immediately set them up anywhere on the battlefield."
+  },
+  {
+    "_id": "dc781771",
+    "name": "Ofiary Przewidywania",
+    "warband": "Knives of the Crone",
+    "cost": "double",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Jeśli w tej rundzie bitwy jakiekolwiek punkty obrażeń zostały przydzielone wrogim wojownikom przez akcje ataku tego wojownika, dodaj 1 do każdego rzutu. Za każdy wynik 4+ zyskujesz 1 punkt proroctwa, do maksimum 6.",
+    "runemarks": [],
+    "sourceName": "Offerings of Foresight",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. If any damage points have been allocated to enemy fighters this battle round by this fighter's attack actions, add 1 to each roll. For each roll of 4+, you gain 1 prophecy point, to a maximum of 6."
+  },
+  {
+    "_id": "1d07acc9",
+    "name": "Rytuał Proroctwa",
+    "warband": "Knives of the Crone",
+    "cost": "triple",
+    "description": "Wybierz 1 z następujących efektów do zastosowania do tego wojownika, a następnie zresetuj swoje punkty proroctwa do 0:\n\n• Dodaj swoje punkty proroctwa do cechy Ruch tego wojownika przez resztę aktywacji.\n\n• Dodaj swoje punkty proroctwa do cechy Wytrzymałość tego wojownika przez resztę rundy bitwy.\n\n• Natychmiast rozdziel swoje punkty proroctwa możliwie jak najbardziej równo pomiędzy cechę Ataki, cechę Siła oraz obie wartości cechy Obrażenia jego broni do walki wręcz. Dodaj 1 do każdej z nich za każdy przydzielony do niej punkt proroctwa przez resztę aktywacji.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Ritual of Prophecy",
+    "sourceDescription": "Pick 1 of the following effects to apply to this fighter, then reset your prophecy points to 0:\n\n• Add your prophecy points to their Move characteristic for the rest of the activation.\n\n• Add your prophecy points to their Toughness characteristic for the rest of the battle round.\n\n• Immediately allocate your prophecy points as evenly as possible between the Attacks characteristic, Strength characteristic and both values of the Damage characteristic of their melee weapon. Add 1 to each for each prophecy point allocated to it for the rest of the activation."
+  },
+  {
+    "_id": "48984676",
+    "name": "Skrzydła Ciemności",
+    "warband": "Knives of the Crone",
+    "cost": "double",
+    "description": "Usuń tego wojownika z pola bitwy, a następnie ustaw go ponownie na platformie albo na podłodze pola bitwy oraz dalej niż 9\" od wszystkich wrogich wojowników. Jeśli wartość tej zdolności wynosi 3 lub więcej, ten wojownik może wykonać bonusową akcję ruchu o 3\" po ustawieniu.",
+    "runemarks": [
+      "fly"
+    ],
+    "sourceName": "Wings of Darkness",
+    "sourceDescription": "Remove this fighter from the battlefield, then set them up again on a platform or the battlefield floor and more than 9\" from all enemy fighters. If the value of this ability is 3 or more, this fighter can make a bonus move action of 3\" after they are set up."
+  }
+]

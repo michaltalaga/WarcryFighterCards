@@ -1,0 +1,549 @@
+[
+  {
+    "_id": "43a52834",
+    "name": "Berserk",
+    "warband": "chaos",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy przydzielono mu 20 lub więcej punktów obrażeń. Dodaj 3 do cechy Ataki następnej akcji ataku wręcz wykonanej przez tego wojownika w tej aktywacji.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Berserk",
+    "sourceDescription": "A fighter can only use this ability if 20 or more damage points have been allocated to them. Add 3 to the Attacks characteristic of the next melee attack action made by this fighter in this activation."
+  },
+  {
+    "_id": "2d6a9f87",
+    "name": "Ciskanie Gruzem",
+    "warband": "chaos",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w odległości do 1\" od przeszkody. Wybierz widocznego wrogiego wojownika w zasięgu 8\" od tego wojownika i rzuć kością. Przy wyniku 2-4 przydziel temu wojownikowi 1 punkt obrażeń. Przy wyniku 5+ przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Hurl Masonry",
+    "sourceDescription": "A fighter can only use this ability if they are within 1\" of an obstacle. Pick a visible enemy fighter within 8\" of this fighter and roll a dice. On a roll of 2-4, allocate 1 damage point to that fighter. On a roll of 5+, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "8a3c74a0",
+    "name": "Macki Paszczy",
+    "warband": "chaos",
+    "monster": "Mutalith Vortex Beast",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 6\" od tego wojownika. Tamten wrogi wojownik wykonuje bonusową akcję ruchu bezpośrednio w stronę tego wojownika na odległość w calach równą wartości tej zdolności, tak jakby skakał. W ten sposób może oddalić się od wrogich wojowników znajdujących się w odległości do 1\" na początku tej akcji ruchu.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Maw Tentacles",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter. That enemy fighter makes a bonus move action directly towards this fighter, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action."
+  },
+  {
+    "_id": "cf5c1090",
+    "name": "Potężne Szczęki",
+    "warband": "chaos",
+    "monster": "Slaughterbrute",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 3+ przydziel temu wojownikowi 1 punkt obrażeń.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Mighty Jaws",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate 1 damage point to that fighter."
+  },
+  {
+    "_id": "639d31e7",
+    "name": "Harcownik Chaosu",
+    "warband": "chaos",
+    "cost": "double",
+    "description": "Dodaj 3 do cechy Ruch tego wojownika dla jego następnej akcji ruchu w tej aktywacji.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Outrunner of Chaos",
+    "sourceDescription": "Add 3 to this fighter's Move characteristic for their next move action in this activation."
+  },
+  {
+    "_id": "94cb55a7",
+    "name": "Regenerująca Monstrualność",
+    "warband": "chaos",
+    "monster": "Hell Pit Abomination",
+    "cost": "double",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ usuń temu wojownikowi do 3 przydzielonych punktów obrażeń.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Regenerating Monstrosity",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. For each roll of 4+, remove up to 3 damage points allocated to this fighter."
+  },
+  {
+    "_id": "a2ab02f6",
+    "name": "Wyrwij Kamień",
+    "warband": "chaos",
+    "monster": "Cygor",
+    "cost": "double",
+    "description": "Ten wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w odległości do 1\" od przeszkody. Jeśli ten wojownik ma puste ręce (zobacz poniżej), przestaje mieć puste ręce.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Rip and Tear Masonry",
+    "sourceDescription": "This fighter can only use this ability if they are within 1\" of an obstacle. If this fighter is empty-handed (see below), they are no longer empty-handed."
+  },
+  {
+    "_id": "e2a3a52d",
+    "name": "Rycząca Szarża",
+    "warband": "chaos",
+    "monster": "Ghorgon",
+    "cost": "double",
+    "description": "Dodaj 3 do cechy Ruch tego wojownika dla jego następnej akcji ruchu w tej aktywacji.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Roaring Charge",
+    "sourceDescription": "Add 3 to this fighter's Move characteristic for their next move action in this activation."
+  },
+  {
+    "_id": "5966dc17",
+    "name": "Smagnięcie Ogonem",
+    "warband": "chaos",
+    "monster": "Chimera",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 3\" od tego wojownika i rzuć kością. Przy wyniku 4+ przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Tail Whip",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 4+, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "ec0cec2a",
+    "name": "Telepatyczna Groźba",
+    "warband": "chaos",
+    "cost": "double",
+    "description": "Wybierz wrogiego wojownika w odległości w calach od tego wojownika równej wartości tej zdolności i rzuć kością. Przy wyniku 3+, do końca rundy bitwy, tamten wojownik nie może wykonywać akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Telepathic Threatening",
+    "sourceDescription": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "7bbc8ec9",
+    "name": "Arkaniczna Furia",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika dodaj wartość tej zdolności do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Arcane Fury",
+    "sourceDescription": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter."
+  },
+  {
+    "_id": "4ea5d6ac",
+    "name": "Lawina Mięsa",
+    "warband": "chaos",
+    "monster": "Hell Pit Abomination",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Avalanche of Flesh",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "14938b02",
+    "name": "Kulenie się",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy każde trafienie krytyczne z akcji ataku wymierzonych w tego wojownika licz jako zwykłe trafienie.",
+    "runemarks": [
+      "sentience"
+    ],
+    "sourceName": "Cower",
+    "sourceDescription": "Until the end of the battle round, count each critical hit from attack actions that target this fighter as a hit instead."
+  },
+  {
+    "_id": "432cbdbc",
+    "name": "Szalone Stado",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, za każdego innego przyjaznego wojownika w zasięgu 3\" od tego wojownika, który ma te same runemarki co ten wojownik, dodaj 1 do cech Ataki i Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Crazed Flock",
+    "sourceDescription": "Until the end of this fighter's activation, for each other friendly fighter within 3\" of this fighter that has the same runemarks as this fighter, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "c6ede27d",
+    "name": "Zdominuj Umysł",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 6\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 2-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Dominate Mind",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "e849e327",
+    "name": "Rzut Głazem",
+    "warband": "chaos",
+    "monster": "Cygor",
+    "cost": "triple",
+    "description": "Ten wojownik może użyć tej zdolności tylko wtedy, gdy nie ma pustych rąk (zobacz poniżej). Na początku bitwy ten wojownik nie ma pustych rąk. Wybierz widocznego wrogiego wojownika w zasięgu 15\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi 5 punktów obrażeń. Po użyciu tej zdolności uznaje się, że ten wojownik ma puste ręce.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Hurl Boulder",
+    "sourceDescription": "This fighter can only use this ability if they are not empty-handed (see below). At the start of the battle, this fighter is not empty-handed. Pick a visible enemy fighter within 15\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 5 damage points to that fighter. After using this ability, this fighter is said to be empty-handed."
+  },
+  {
+    "_id": "e19e1937",
+    "name": "Lwi Ryk",
+    "warband": "chaos",
+    "monster": "Chimera",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy odejmij 1 od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez wrogich wojowników, gdy znajdują się oni w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Leonine Roar",
+    "sourceDescription": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "f498740f",
+    "name": "Mutancka Regeneracja",
+    "warband": "chaos",
+    "monster": "Mutalith Vortex Beast",
+    "cost": "triple",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ usuń temu wojownikowi do 3 przydzielonych punktów obrażeń.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Mutant Regeneration",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. For each roll of 4+, remove up to 3 damage points allocated to this fighter."
+  },
+  {
+    "_id": "9a527ccb",
+    "name": "Taranująca Szarża",
+    "warband": "chaos",
+    "monster": "Slaughterbrute",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Rampaging Charge",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "04e790c9",
+    "name": "Śliniąca się Paszcza",
+    "warband": "chaos",
+    "monster": "Ghorgon",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Slavering Maw",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "b26ac39f",
+    "name": "Niekontrolowany Pęd",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Uncontrollable Stampede",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "df25190d",
+    "name": "Głos Pana",
+    "warband": "chaos",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak wrogi wojownik zakończy akcję ruchu w zasięgu 3\" od przyjaznego wojownika z runemarkiem Hero. Ten wojownik wykonuje bonusową akcję ruchu. Po tej akcji ruchu tamten wojownik musi znajdować się w odległości do 1\" od wrogiego wojownika, który wykonał akcję ruchu. Następnie ten wojownik wykonuje bonusową akcję ataku.",
+    "runemarks": [
+      "thrall"
+    ],
+    "sourceName": "The Master's Voice",
+    "sourceDescription": "A fighter can make this reaction after an enemy fighter finishes a move action within 3\" of a friendly fighter with the Hero runemark. This fighter makes a bonus move action. After that move action that fighter must be within 1\" of the enemy fighter that made the move action. Then, this fighter makes a bonus attack action."
+  },
+  {
+    "_id": "e9455430",
+    "name": "Wijące się Macki",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Dodaj wartość tej zdolności do cechy Ataki następnej akcji ataku wręcz wykonanej przez tego wojownika w tej aktywacji.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Writhing Tentacles",
+    "sourceDescription": "Add the value of this ability to the Attacks characteristic of the next melee attack action made by this fighter in this activation."
+  },
+  {
+    "_id": "b7b106a5",
+    "name": "Aura Mutacji",
+    "warband": "chaos",
+    "monster": "Mutalith Vortex Beast",
+    "cost": "quad",
+    "description": "Przydziel 3 punkty obrażeń wszystkim widocznym wrogim wojownikom w odległości do 3\" od tego wojownika. Dodatkowo rzuć kością za każdego widocznego wrogiego wojownika w odległości do 3\" od tego wojownika. Przy wyniku 6 tamten wojownik nie może aktywować się w tej rundzie bitwy.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Aura of Mutation",
+    "sourceDescription": "Allocate 3 damage points to all visible enemy fighters within 3\" of this fighter. In addition, roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 6, that fighter cannot activate this battle round."
+  },
+  {
+    "_id": "c3d76f91",
+    "name": "Bestia Uwolniona",
+    "warband": "chaos",
+    "monster": "Slaughterbrute",
+    "cost": "triple",
+    "description": "Ten wojownik wykonuje bonusową akcję ataku albo bonusową akcję ruchu.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Beast Unbound",
+    "sourceDescription": "This fighter makes a bonus attack action or a bonus move action."
+  },
+  {
+    "_id": "739e521e",
+    "name": "Krwawy Marszałek",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Wybierz widocznego przyjaznego wojownika w zasięgu 4\" od tego wojownika. Przydziel tamtemu wojownikowi 1 punkt obrażeń. Jeśli tamten wojownik nie zostanie wyeliminowany, może wykonać bonusową akcję ataku wręcz.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Blood Marshal",
+    "sourceDescription": "Pick a visible friendly fighter within 4\" of this fighter. Allocate 1 damage point to that fighter. If that fighter is not taken down, they can make a bonus melee attack action."
+  },
+  {
+    "_id": "68c2f956",
+    "name": "Krwawe Trofeum",
+    "warband": "chaos",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w trakcie tej aktywacji wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku. Dodaj jedną dziką kość do swoich zachowanych dzikich kości.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Bloody Trophy",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Add one wild dice to your saved wild dice."
+  },
+  {
+    "_id": "f86e1ac0",
+    "name": "Urok",
+    "warband": "chaos",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości w calach od tego wojownika równej wartości tej zdolności. Tamten wojownik nie może aktywować się ani wykonywać reakcji w tej rundzie bitwy.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Charm",
+    "sourceDescription": "Pick a visible enemy fighter within a number of inches of this fighter equal to the value of this ability. That fighter cannot activate or make reactions in this battle round."
+  },
+  {
+    "_id": "cd07297b",
+    "name": "Ognisty Oddech Smoczej Głowy",
+    "warband": "chaos",
+    "monster": "Chimera",
+    "cost": "quad",
+    "description": "Przydziel wszystkim widocznym wrogim wojownikom w odległości do 4\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Draconic Head's Fiery Breath",
+    "sourceDescription": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 4\" of this fighter."
+  },
+  {
+    "_id": "2d016ef5",
+    "name": "Żarłoczna Żądza Krwi",
+    "warband": "chaos",
+    "monster": "Ghorgon",
+    "cost": "quad",
+    "description": "Ten wojownik może wykonać bonusową akcję ruchu na odległość w calach równą wartości tej zdolności. Następnie ten wojownik może wykonać bonusową akcję ataku.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Ravenous Bloodgreed",
+    "sourceDescription": "This fighter can make a bonus move action up to a number of inches equal to the value of this ability. Then, this fighter can make a bonus attack action."
+  },
+  {
+    "_id": "8922ef18",
+    "name": "Pożeracz Dusz",
+    "warband": "chaos",
+    "monster": "Cygor",
+    "cost": "quad",
+    "description": "Rzuć kością za każdego wrogiego wojownika w zasięgu 6\" od tego wojownika. Przy wyniku 4+ przydziel wojownikowi, za którego wykonywany jest rzut, 3 punkty obrażeń i usuń 3 punkty obrażeń przydzielone temu wojownikowi.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Soul-eater",
+    "sourceDescription": "Roll a dice for each enemy fighter within 6\" of this fighter. On a roll of 4+, allocate 3 damage points to the fighter being rolled for and remove 3 damage points allocated to this fighter."
+  },
+  {
+    "_id": "53858b0f",
+    "name": "Zbyt Potworne, by Umrzeć",
+    "warband": "chaos",
+    "monster": "Hell Pit Abomination",
+    "cost": "quad",
+    "description": "Do końca rundy bitwy, po każdej akcji ataku wręcz wymierzonej w tego wojownika, rzuć 3 kośćmi. Za każdy wynik 5+ przydziel 3 punkty obrażeń wojownikowi, który wykonał tę akcję ataku.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Too Horrible to Die",
+    "sourceDescription": "Until the end of the battle round, after each melee attack action that targets this fighter, roll 3 dice. For each roll of 5+, allocate 3 damage points to the fighter that made the attack action."
+  },
+  {
+    "_id": "29de0ba8",
+    "name": "Taranująca Szarża",
+    "warband": "chaos",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Rampaging Charge",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "fb6f504b",
+    "name": "Nabij, Przyciągnij i Zatłucz",
+    "warband": "chaos",
+    "cost": "quad",
+    "description": "Ten wojownik może wykonać bonusową akcję ataku swoją włócznią. Dodatkowo, jeśli ta bonusowa akcja ataku uzyska jakiekolwiek trafienia krytyczne, docelowy wojownik przemieszcza się o 3\" bezpośrednio w stronę tego wojownika, tak jakby skakał, nawet jeśli znajduje się w odległości do 1\" od jakichkolwiek wrogich wojowników. Jeśli docelowy wojownik zakończy ten ruch w odległości do 1\" od tego wojownika, ten wojownik może wykonać bonusową akcję ataku swoją pałką.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Skewer, Drag and Bludgeon",
+    "sourceDescription": "This fighter can make a bonus attack action with its spear.  In addition, if that bonus attack action scores any critical hits, the target fighter moves 3\"  directly towards this fighter as if they were jumping, even if they are within 1\" of any enemy fighters.  If the target fighter finishes that move within 1\" of this fighter, this fighter can make a bonus attack action with its club."
+  },
+  {
+    "_id": "bb806355",
+    "name": "Okrutne Uderzenie",
+    "warband": "chaos",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy widoczny wrogi wojownik w odległości do 1\" od niego wykonuje akcję wycofania, ale zanim tamten wojownik się oddali. Rzuć kością. Przy wyniku 2+ przydziel tamtemu wrogiemu wojownikowi D6 punktów obrażeń.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Cruel Strike",
+    "sourceDescription": "A fighter can make this reaction when a visible enemy fighter within 1\" of them makes a disengage action but before that fighter moves away. Roll a dice. On a 2+, allocate D6 damage points to that enemy fighter."
+  },
+  {
+    "_id": "bf43048a",
+    "name": "Sieć Marszałka",
+    "warband": "chaos",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 3\" od tego wojownika i rzuć kością. Przy wyniku 3+ tamten wojownik nie może wykonywać w tej rundzie akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Marshal's Net",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice.  On a 3+, that fighter cannot make move actions or disengage actions this round."
+  },
+  {
+    "_id": "a2752287",
+    "name": "Depcząca Szarża",
+    "warband": "chaos",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Trampling Charge",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter.  Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "710715ea",
+    "name": "Bezmyślna Zagłada",
+    "warband": "chaos",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak wrogi wojownik zakończy akcję ruchu na otwartej platformie oraz w odległości do 3\" w poziomie i 5\" w pionie od tego wojownika. Gracz kontrolujący każdego wojownika znajdującego się w odległości do 1/2\" od krawędzi tej platformy musi wykonać test spadania, a przy wyniku 1 lub 2 tamten wojownik spada.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Unthinking Destruction",
+    "sourceDescription": "A fighter can make this reaction after an enemy fighter finishes a move action on an open platform and within 3\" horizontally and 5\" vertically of this fighter. The controlling player for each fighter within 1/2\" of the edge of that platform must take a falling test, and on a roll of 1 or 2 that fighter falls."
+  },
+  {
+    "_id": "90a08960",
+    "name": "Pijacki Chwiej",
+    "warband": "chaos",
+    "monster": "Chaos Gargant",
+    "cost": "double",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Do końca aktywacji tego wojownika, za każdy wynik 1 odejmij 1 od cechy Ruch tego wojownika (do minimum 1), a następnie za każdy wynik 2+ dodaj 1 do cechy Ruch tego wojownika.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Drunken Stagger",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. Until the end of this fighter's activation, for each roll of 1, subtract 1 from this fighter's Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter's Move characteristic."
+  },
+  {
+    "_id": "7bbcb219",
+    "name": "Potężny Kopniak",
+    "warband": "chaos",
+    "monster": "Chaos Gargant",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Mighty Kick",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "8613c6ea",
+    "name": "Zaciekłe Uderzenie Łbem",
+    "warband": "chaos",
+    "monster": "Chaos Gargant",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 3+ przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Vicious 'Eadbutt",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "2908288b",
+    "name": "Próba Umiejętności",
+    "warband": "chaos",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Jeśli każdy rzut na trafienie z tej akcji ataku zakończy się chybieniem, przydziel atakującemu wojownikowi 10 punktów obrażeń.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Test of Skill",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. If each hit roll from that attack action results in a miss, allocate 10 damage points to the attacking fighter."
+  },
+  {
+    "_id": "261f0ed9",
+    "name": "Złośliwy Odwet",
+    "warband": "chaos",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku, ale przed wykonaniem rzutów na trafienie. Za każdy rzut na trafienie z tej akcji ataku, który chybił, zmniejsz wartość jednej z [doubles], [triples] lub [quads] gracza kontrolującego atakującego do 1.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Spiteful Reprisal",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. For each hit roll from that attack action that misses, reduce the value of one of the attacker's controlling player's [doubles], [triples] or [quads] to 1."
+  },
+  {
+    "_id": "534a3cce",
+    "name": "Dążenie do Chwały",
+    "warband": "chaos",
+    "cost": "battletrait",
+    "description": "Raz na rundę bitwy dodaj 1 do punktów obrażeń przydzielanych przez pierwsze trafienie krytyczne z akcji ataku wręcz wykonanej przez dowolnego przyjaznego wojownika z tą cechą bitewną, którego koszt punktowy wynosi 125 lub mniej.",
+    "runemarks": [],
+    "sourceName": "Aspire to Glory",
+    "sourceDescription": "Once per battle round, add 1 to the damage points allocated by the first critical hit from a melee attack action made by any friendly fighter with this battle trait that has a points cost of 125 or less."
+  }
+]

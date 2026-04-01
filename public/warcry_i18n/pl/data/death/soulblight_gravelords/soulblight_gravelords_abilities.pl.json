@@ -1,0 +1,344 @@
+[
+  {
+    "_id": "d02db365",
+    "name": "Bezsenna Straż",
+    "warband": "Sons of Velmorn",
+    "cost": "double",
+    "description": "Do końca rundy bitwy przyjaźni wojownicy mający jednocześnie runemark Sons of Velmorn oraz runemark Hero nie mogą być wybierani za cel, gdy znajdują się w odległości do 1\" od tego wojownika.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Sleepless Sentinel",
+    "sourceDescription": "Until the end of the battle round, friendly fighters with both the Sons of Velmorn runemark and the Hero runemark cannot be targeted while  they are within 1\" of this fighter."
+  },
+  {
+    "_id": "9aa5e9d2",
+    "name": "Śmiercionośny Rozkaz",
+    "warband": "Sons of Velmorn",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Siła akcji ataku wręcz wykonywanych przez widocznych przyjaznych wojowników mających jednocześnie runemark Sons of Velmorn oraz runemark Minion, gdy znajdują się oni w zasięgu 8\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Deadly Command",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by visible friendly fighters with both the Sons of Velmorn runemark and the Minion runemark while they are within 8\" of this fighter."
+  },
+  {
+    "_id": "47185e2d",
+    "name": "Rywalizacja Rodzeństwa",
+    "warband": "Sons of Velmorn",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy inny przyjazny wojownik mający jednocześnie runemark Sons of Velmorn oraz runemark Minion wykonał akcję ataku w tej rundzie bitwy. Do końca aktywacji tego wojownika dodaj 2 do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Sibling Rivalry",
+    "sourceDescription": "A fighter can only use this ability if another friendly fighter with both the Sons of Velmorn runemark and the Minion runemark has made an attack action in this battle round.  until the end of this fighter's activation, add 2 to the Attacks characteristic of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "bce2a409",
+    "name": "Ścinające Uderzenie",
+    "warband": "Soulblight Gravelords",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "hero",
+      "berserker"
+    ],
+    "sourceName": "Beheading Strike",
+    "sourceDescription": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter."
+  },
+  {
+    "_id": "fe9612fe",
+    "name": "Krwiożerczy Szał Żerowania",
+    "warband": "Soulblight Gravelords",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez wykonaną przez tego wojownika akcję ataku w tej aktywacji. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Blood-maddened Feeding Frenzy",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by this fighter this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "cf6468c5",
+    "name": "Nekrotyczny Syfon",
+    "warband": "Soulblight Gravelords",
+    "cost": "double",
+    "description": "Wybierz widocznego przyjaznego wojownika z runemarkiem frakcji Soulblight Gravelords oraz runemarkiem Minion w zasięgu 6\" od tego wojownika. Przydziel tamtemu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności. Następnie usuń temu wojownikowi liczbę przydzielonych punktów obrażeń do podwojonej wartości tej zdolności.",
+    "runemarks": [
+      "hero",
+      "mystic"
+    ],
+    "sourceName": "Necrotic Siphon",
+    "sourceDescription": "Pick a visible friendly fighter with the Soulblight Gravelords faction runemark and the Minion runemark within 6\" of this fighter. Allocate a number of damage points equal to the value of this ability to that fighter. Then, remove a number of damage points allocated to this fighter up to double the value of this ability."
+  },
+  {
+    "_id": "584ded6d",
+    "name": "Chwiejna Horda",
+    "warband": "Soulblight Gravelords",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w zasięgu 6\" od widocznego przyjaznego wojownika z runemarkiem frakcji Soulblight Gravelords oraz runemarkiem Hero. Ten wojownik może wykonać bonusową akcję ruchu na odległość w calach równą wartości tej zdolności.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Shambling Horde",
+    "sourceDescription": "A fighter can only use this ability if they are within 6\" of a visible friendly fighter with the Soulblight Gravelords faction runemark and the Hero runemark. This fighter can make a bonus move action up to a number of inches equal to the value of this ability."
+  },
+  {
+    "_id": "8c605055",
+    "name": "Wezwij Karmazynową Ucztę",
+    "warband": "Soulblight Gravelords",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych przyjaznych wojowników, gdy znajdują się oni w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "hero",
+      "terrifying"
+    ],
+    "sourceName": "Call the Crimson Feast",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "82ad08d8",
+    "name": "Wampiryczna Zwinność",
+    "warband": "Soulblight Gravelords",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika nie licz pionowego dystansu pokonanego podczas wspinaczki przez tego wojownika.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Vampiric Agility",
+    "sourceDescription": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing."
+  },
+  {
+    "_id": "0e537da5",
+    "name": "Śmiercionośna Szarża",
+    "warband": "Soulblight Gravelords",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "mount"
+    ],
+    "sourceName": "Deathly Charge",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "5ed32297",
+    "name": "Przyzwij Nieumarłych Sługusów",
+    "warband": "Soulblight Gravelords",
+    "cost": "triple",
+    "description": "Wybierz przyjaznego wojownika z runemarkiem frakcji Soulblight Gravelords oraz runemarkiem Minion, który został wyeliminowany. Ustaw tamtego wojownika na platformie albo na podłodze pola bitwy, w całości w odległości do 3\" od tego wojownika. Jeśli tamten wojownik ma runemark Elite, usuń temu wojownikowi liczbę przydzielonych punktów obrażeń równą wartości tej zdolności. W przeciwnym razie tamten wojownik nie ma przydzielonych żadnych punktów obrażeń. Tamten wojownik nie jest już liczony jako wyeliminowany i nie ma przydzielonych żadnych punktów obrażeń.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Summon Undead Minions",
+    "sourceDescription": "Pick a friendly fighter with the Soulblight Gravelords faction runemark and the Minion runemark that has been taken down. Set that fighter up on a platform or the battlefield floor, wholly within 3\" of this fighter. If that fighter has the Elite runemark, remove a number of damage points allocated to that fighter equal to the value of this ability. Otherwise, that fighter has no damage points allocated to it. That fighter no longer counts as being taken down and has no damage points allocated to it."
+  },
+  {
+    "_id": "a3a590fc",
+    "name": "Pragnienie Krwi",
+    "warband": "Soulblight Gravelords",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez wykonaną przez tego wojownika akcję ataku w tej aktywacji. Usuń temu wojownikowi liczbę przydzielonych punktów obrażeń do podwojonej wartości tej zdolności.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Thirst for Blood",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by this fighter this activation. Remove a number of damage points allocated to this fighter up to double the value of this ability."
+  },
+  {
+    "_id": "da80f37c",
+    "name": "Wybrany Czempion",
+    "warband": "Soulblight Gravelords",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w zasięgu 6\" od widocznego przyjaznego wojownika z runemarkiem frakcji Soulblight Gravelords oraz runemarkiem Hero. Ten wojownik może wykonać bonusową akcję ataku. Dodatkowo dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cech Ataki i Siła tej akcji ataku.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Chosen Champion",
+    "sourceDescription": "A fighter can only use this ability if they are within 6\" of a visible friendly fighter with the Soulblight Gravelords faction runemark and the Hero runemark. This fighter can make a bonus attack action. In addition, add half the value of this ability (rounding up) to the Attacks and Strength characteristics of that attack action."
+  },
+  {
+    "_id": "27d4c9c2",
+    "name": "Danse Macabre Vanhela",
+    "warband": "Soulblight Gravelords",
+    "cost": "quad",
+    "description": "Wybierz liczbę widocznych przyjaznych wojowników z runemarkiem frakcji Soulblight Gravelords oraz runemarkiem Minion do wartości tej zdolności, znajdujących się w zasięgu 6\" od tego wojownika. Każdy z tych wojowników może wykonać bonusową akcję ruchu albo bonusową akcję ataku (niektórzy mogą wykonać bonusowe akcje ruchu, a inni bonusowe akcje ataku).",
+    "runemarks": [
+      "hero",
+      "mystic"
+    ],
+    "sourceName": "Vanhel's Danse Macabre",
+    "sourceDescription": "Pick a number of visible friendly fighters with the Soulblight Gravelords faction runemark and the Minion runemark up to the value of this ability within 6\" of this fighter. Those fighters can each make a bonus move action or a bonus attack action (some can make bonus move actions and others bonus attack actions)."
+  },
+  {
+    "_id": "86a7f856",
+    "name": "Nieczułe Ciało",
+    "warband": "Soulblight Gravelords",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Odejmij 1 od punktów obrażeń przydzielanych temu wojownikowi przez każde trafienie z tej akcji ataku (do minimum 1).",
+    "runemarks": [],
+    "sourceName": "Unfeeling Flesh",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made.  Subtract 1 from the damage points allocated to this fighter by each hit from that attack action (to a minimum of 1)."
+  },
+  {
+    "_id": "c5973665",
+    "name": "Krwawa Chwała",
+    "warband": "Soulblight Gravelords",
+    "cost": "battletrait",
+    "description": "Za każdym razem, gdy przyjazny wojownik z tą cechą bitewną używa zdolności \"Thirst for Blood\", jeśli wartość tej zdolności wynosi 1 albo 2, zwiększ wartość tej zdolności do 3.",
+    "runemarks": [],
+    "sourceName": "Sanguine Glory",
+    "sourceDescription": "Each time a friendly fighter with this battle trait uses the \"Thirst for Blood\" ability, if that value of that ability is 1 or 2, increase the value of that ability to 3."
+  },
+  {
+    "_id": "235d62bf",
+    "name": "Nikczemna Przynęta",
+    "warband": "The Crimson Court",
+    "cost": "double",
+    "description": "Do końca rundy bitwy dodaj 1 do punktów obrażeń przydzielanych przez każde trafienie krytyczne z akcji ataku wykonywanych przez przyjaznych wojowników, które mają za cel wrogiego wojownika w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Fiendish Lure",
+    "sourceDescription": "Until the end of the battle round, add 1 to the damage points allocated by each critical hit from attack actions made by friendly fighters that target an enemy fighter within 6\" of this fighter."
+  },
+  {
+    "_id": "243cf0a5",
+    "name": "Dreszcz Polowania",
+    "warband": "The Crimson Court",
+    "cost": "double",
+    "description": "Jeśli następna akcja ataku wykonana przez tego wojownika w tej aktywacji ma za cel wrogiego wojownika z jakimikolwiek przydzielonymi punktami obrażeń, dodaj 2 do cech Ataki i Siła tej akcji ataku.",
+    "runemarks": [],
+    "sourceName": "The Thrill of the Hunt",
+    "sourceDescription": "If the next attack action made by this fighter this activation targets an enemy fighter with any damage points allocated to them, add 2 to the Attacks and Strength characteristics of that attack action."
+  },
+  {
+    "_id": "43139422",
+    "name": "Trzaskające Łuki",
+    "warband": "The Exiled Dead",
+    "cost": "double",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 5+ wybierz widocznego wrogiego wojownika w odległości do 3\" od tego wojownika. Przydziel tamtemu wojownikowi po 1 punkcie obrażeń za każdego przyjaznego wojownika z runemarkami tej zdolności w odległości do 3\" od tamtego wojownika.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Crackling Arcs",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. For each roll of 5+, pick a visible enemy fighter within 3\" of this fighter.  Allocate 1 damage point to that fighter for each friendly fighter with this ability's runemarks within 3\" of that fighter."
+  },
+  {
+    "_id": "7442c30c",
+    "name": "Makabryczne Lalkarstwo",
+    "warband": "The Exiled Dead",
+    "cost": "double",
+    "description": "Wybierz przyjaznego wojownika, który ma jednocześnie runemarki Exiled Dead i Bulwark oraz jeszcze nie aktywował się w tej rundzie bitwy. Możesz aktywować tamtego wojownika natychmiast po zakończeniu aktywacji tego wojownika.",
+    "runemarks": [
+      "sentience"
+    ],
+    "sourceName": "Dread Puppetry",
+    "sourceDescription": "Pick a friendly fighter with both the Exiled Dead and Bulwark runemarks and has not activated yet this battle round.  you can activate that fighter immediately after this fighter's activation ends."
+  },
+  {
+    "_id": "21e1790c",
+    "name": "Dynamiczny Wzmacniacz",
+    "warband": "The Exiled Dead",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku o cesze Zasięg równej 3 lub mniej, wykonywanych przez widocznych przyjaznych wojowników mających jednocześnie runemarki Exiled Dead oraz Frienzied, gdy znajdują się oni w zasięgu 9\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Dynamic Enhancer",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attack characteristic of attack actions with a Range characteristic of 3 or less made by visible friendly fighters with both the Exiled Dead and Frienzied runemarks while they are within 9\" of this fighter."
+  },
+  {
+    "_id": "f1a69fd6",
+    "name": "Przerażająca Szarża",
+    "warband": "The Sepulchral Guard",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w zasięgu 6\" od niego znajduje się widoczny wrogi wojownik. Ten wojownik wykonuje bonusową akcję ruchu i musi zakończyć ją bliżej najbliższego widocznego wrogiego wojownika, niż znajdował się na początku tej akcji ruchu.",
+    "runemarks": [],
+    "sourceName": "Frightening Charge",
+    "sourceDescription": "A fighter can use this ability only if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action."
+  },
+  {
+    "_id": "c56b33cb",
+    "name": "Utracona Miłość",
+    "warband": "Zondara's Gravebreakers",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję tylko wtedy, gdy ma runemark Hero albo runemark Agile, oprócz runemarku Zondara's Gravebreakers, po tym jak inny wojownik z dwoma z tych runemarków zostanie wyeliminowany. Gdy ta reakcja zostanie wykonana, dodaj 1 do cechy Ruch tego wojownika oraz 2 do cechy Ataki broni tego wojownika do końca bitwy.",
+    "runemarks": [],
+    "sourceName": "Lost Love",
+    "sourceDescription": "A fighter can only make this reaction if they have the Hero runemark or the Agile runemark, in addition to the Zondara's Gravebreakers runemark, after another fighter with two of those runemarks is taken down. When this reaction is made, add 1 to the fighter's Move characteristic and 2 to the Attacks characteristic of this fighter's weapons until the end of the battle."
+  },
+  {
+    "_id": "fdb16861",
+    "name": "Łamanie Grobów",
+    "warband": "Zondara's Gravebreakers",
+    "cost": "double",
+    "description": "Każdy przyjazny wojownik z runemarkiem Minion oraz runemarkiem Zondara's Gravebreakers, który znajduje się w odległości do 3\" od celu, może wykonać bonusową akcję ataku. Każdy inny przyjazny wojownik z runemarkiem Zondara's Gravebreakers oraz runemarkiem Minion może wykonać bonusową akcję ruchu.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Gravebreaking",
+    "sourceDescription": "Each friendly fighter with the Minion runemark and the Zondara's Gravebreakers runemark that is within 3\" of an objective can make a bonus attack action. Each other friendly fighter with the Zondara's Gravebreakers runemark and the Minion runemark can make a bonus move action."
+  },
+  {
+    "_id": "cccc7200",
+    "name": "Oddany Cios",
+    "warband": "Zondara's Gravebreakers",
+    "cost": "triple",
+    "description": "Dodaj 2 do cech Ataki i Siła akcji ataku wręcz wykonywanych przez tego wojownika w tej aktywacji, gdy tamta akcja ataku ma za cel wrogiego wojownika w odległości do 3\" od przyjaznego wojownika z runemarkiem Zondara's Gravebreakers oraz runemarkiem Hero.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Devoted Strike",
+    "sourceDescription": "Add 2 to the Attacks and Strength characteristics of melee attack actions made by this fighter in this activation while that attack action targets an enemy fighter within 3\" of a friendly fighter with the Zondara's Gravebreakers runemark and the Hero runemark."
+  },
+  {
+    "_id": "552e00ac",
+    "name": "Ślepe Oddanie",
+    "warband": "Zondara's Gravebreakers",
+    "cost": "quad",
+    "description": "Ten wojownik oraz przyjazny wojownik z runemarkiem Zondara's Gravebreakers oraz runemarkiem Agile mogą wykonać po jednej bonusowej akcji ruchu albo bonusowej akcji ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Blind Devotion",
+    "sourceDescription": "This fighter and a friendly fighter with the Zondara's Gravebreakers runemark and the Agile runemark can each make either a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "a050c36f",
+    "name": "Arkaniczna Biegłość",
+    "warband": "Hollow Blades",
+    "cost": "triple",
+    "description": "Wybierz innego widocznego przyjaznego wojownika mającego runemarki Hollow Blades oraz Hero w zasięgu 6\" od tego wojownika. Tamten wojownik może raz podczas swojej następnej aktywacji w tej rundzie bitwy użyć zdolności 'Rush', 'Onslaught' albo 'Respite' bez potrzeby posiadania ani zużywania jakichkolwiek kości zdolności. Ta zdolność nie liczy się do liczby zdolności, których tamten wojownik może użyć w tej aktywacji.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Arcane Expertise",
+    "sourceDescription": "Pick another visible friendly fighter with the Hollow Blades and Hero runemarks within 6\" of this fighter. That other fighter can use the 'Rush', 'Onslaught' or 'Respite' abilities once during their next activation this battle round without needing or using any ability dice. That ability does not count towards the number of abilities that fighter can use in that activation."
+  },
+  {
+    "_id": "d40af71f",
+    "name": "Pełen Gracji Zabójca",
+    "warband": "Hollow Blades",
+    "cost": "triple",
+    "description": "Wybierz wrogiego wojownika w odległości do 3\" od tego wojownika. Ustaw tego wojownika w odległości do 1\" od tamtego wrogiego wojownika. Po ostatniej akcji tego wojownika w tej aktywacji możesz wybrać punkt w odległości do 3\" od tego wojownika. Ustaw tego wojownika tak blisko tego punktu, jak to możliwe, oraz dalej niż 1\" od wszystkich wrogich wojowników.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Graceful Killer",
+    "sourceDescription": "Pick an enemy fighter within 3\" of this fighter. Place this fighter within 1\" of that enemy fighter. After this fighter's final action this activation, you can pick a point within 3\" of this fighter. Place this fighter as near as possible to that point and more than 1\" from all enemy fighters."
+  },
+  {
+    "_id": "28b9f2d0",
+    "name": "Przewodnictwo Ducha",
+    "warband": "Hollow Blades",
+    "cost": "quad",
+    "description": "Wybierz 1 z następujących efektów:\n\n• Dodaj 1 do cech Ataki i Obrażenia broni do walki wręcz tego wojownika do końca jego aktywacji.\n\n• Dodaj 3 do cechy Ruch tego wojownika do końca jego aktywacji, a ten wojownik ma runemark Fly do końca jego aktywacji.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Spirit Guidance",
+    "sourceDescription": "Pick 1 of the following effects:\n\n• Add 1 to the Attacks and Damage characteristics of this fighter's melee weapons until the end of their activation.\n\n• Add 3 to this fighter's Move characteristic until the end of their activation and this fighter has the Fly unemark until the end of their activation."
+  }
+]

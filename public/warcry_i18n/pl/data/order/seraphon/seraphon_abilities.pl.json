@@ -1,0 +1,264 @@
+[
+  {
+    "_id": "7e0c051b",
+    "name": "Dowódca o Zimnej Krwi",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku w tej aktywacji. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Cold-blooded Commander",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "fc86e672",
+    "name": "Sfora Łowiecka",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Wybierz widocznego przyjaznego wojownika z runemarkiem Beast w odległości do 2\" od tego wojownika. Tamten wojownik wykonuje bonusową akcję ataku.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Hunting Pack",
+    "sourceDescription": "Pick a visible friendly fighter with the Beast runemark within 2\" of this fighter. That fighter makes a bonus attack action."
+  },
+  {
+    "_id": "2f33cac4",
+    "name": "Prowadź z Wysoka",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Dodaj 3 do cechy Ruch tego wojownika dla jego następnej akcji ruchu w tej aktywacji.",
+    "runemarks": [
+      "hero",
+      "agile"
+    ],
+    "sourceName": "Lead from On High",
+    "sourceDescription": "Add 3 to this fighter's Move characteristic for their next move action in this activation."
+  },
+  {
+    "_id": "9dc1bf09",
+    "name": "Zwinny Odwrót",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w odległości do 1\" od wrogiego wojownika. Ten wojownik wykonuje bonusową akcję wycofania.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Nimble Retreat",
+    "sourceDescription": "A fighter can only use this ability if they are within 1\" of an enemy fighter. This fighter makes a bonus disengage action."
+  },
+  {
+    "_id": "eece11bc",
+    "name": "Fala Węży",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 8\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "hero",
+      "priest"
+    ],
+    "sourceName": "Tide of Serpents",
+    "sourceDescription": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "b4a104fc",
+    "name": "Żarłoczny Apetyt",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi 1 punkt obrażeń.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Voracious Appetite",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that fighter."
+  },
+  {
+    "_id": "53e140fc",
+    "name": "Władcy Przestrzeni i Czasu",
+    "warband": "Seraphon",
+    "cost": "triple",
+    "description": "Wybierz innego przyjaznego wojownika z runemarkiem frakcji Seraphon, który znajduje się w zasięgu 12\" od tego wojownika. Usuń tamtego wojownika z pola bitwy, a następnie ustaw go na platformie albo na podłodze pola bitwy, w całości w odległości w calach od tego wojownika równej wartości tej zdolności.",
+    "runemarks": [
+      "mystic",
+      "hero"
+    ],
+    "sourceName": "Lords of Space and Time",
+    "sourceDescription": "Pick another friendly fighter with the Seraphon faction runemark that is within 12\" of this fighter. Remove that fighter from the battlefield, then set that fighter up on a platform or the battlefield floor, wholly within a number of inches of this fighter equal to the value of this ability."
+  },
+  {
+    "_id": "0bcb02c6",
+    "name": "Meteoryczny Ostrzał",
+    "warband": "Seraphon",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Meteoric Barrage",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "7a97b023",
+    "name": "Rozdzierające Ugryzienie",
+    "warband": "Seraphon",
+    "cost": "triple",
+    "description": "Dodaj wartość tej zdolności do punktów obrażeń przydzielanych przez każde trafienie i trafienie krytyczne z następnej akcji ataku wręcz wykonanej przez tego wojownika w tej aktywacji.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Tearing Bite",
+    "sourceDescription": "Add the value of this ability to the damage points allocated by each hit and critical hit from the next melee attack action made by this fighter in this activation."
+  },
+  {
+    "_id": "9fb8d738",
+    "name": "Ożywcze Energie",
+    "warband": "Seraphon",
+    "cost": "quad",
+    "description": "Usuń każdemu przyjaznemu wojownikowi w zasięgu 6\" od tego wojownika liczbę przydzielonych punktów obrażeń do wartości tej zdolności.",
+    "runemarks": [
+      "hero",
+      "icon-bearer"
+    ],
+    "sourceName": "Revivifying Energies",
+    "sourceDescription": "Remove a number of damage points up to the value of this ability allocated to each friendly fighter within 6\" of this fighter."
+  },
+  {
+    "_id": "339d66b0",
+    "name": "Gniew Pradawnych",
+    "warband": "Seraphon",
+    "cost": "quad",
+    "description": "Do końca rundy bitwy dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cech Ataki i Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Wrath of the Old Ones",
+    "sourceDescription": "Until the end of the battle round, add half the value of this ability (rounding up) to the Attacks and Strength characteristics of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "72ea88ae",
+    "name": "Zrodzony z Gwiazd",
+    "warband": "Seraphon",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Potraktuj do dwóch trafień krytycznych z tej akcji ataku jako zwykłe trafienia.",
+    "runemarks": [],
+    "sourceName": "Starborn",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead."
+  },
+  {
+    "_id": "2ba76301",
+    "name": "Drapieżny Skok",
+    "warband": "Seraphon",
+    "cost": "triple",
+    "description": "Ten wojownik wykonuje bonusową akcję ruchu do 3\" i może latać jako część tej akcji ruchu. Po zakończeniu tego ruchu przez tego wojownika możesz wybrać widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Jeśli to zrobisz, przydziel tamtemu wojownikowi liczbę punktów obrażeń równą połowie wartości tej zdolności (zaokrąglając w górę).",
+    "runemarks": [
+      "warrior",
+      "mount"
+    ],
+    "sourceName": "Predatory Leap",
+    "sourceDescription": "This fighter makes a bonus move action up to 3\" and can fly as part of that move action. After this fighter finishes that move, you can pick a visible enemy fighter within 1\" of this fighter. If you do so, allocate a number of damage points equal to half the value of this ability (rounding up) to that fighter."
+  },
+  {
+    "_id": "5851f8af",
+    "name": "Brutalne Ciosy",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w odległości do 1\" od 2 lub więcej wrogich wojowników. Dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Ataki następnej akcji ataku wręcz wykonanej przez tego wojownika.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Brutal Blows",
+    "sourceDescription": "A fighter can only use this ability if they are within 1\" of 2 or more enemy fighters. Add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by this fighter."
+  },
+  {
+    "_id": "a2bd176b",
+    "name": "Pomiot Soteka",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Dodaj 2 do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika w tej aktywacji, gdy co najmniej 1 zagrożony przyjazny wojownik znajduje się w zasięgu 6\" od niego. Przyjazny wojownik jest zagrożony, jeśli ma runemark Minion i: znajduje się w odległości do 1\" od co najmniej 1 wrogiego wojownika i/lub ma przydzielony co najmniej 1 punkt obrażeń.",
+    "runemarks": [
+      "sentience"
+    ],
+    "sourceName": "Spawn of Sotek",
+    "sourceDescription": "Add 2 to the Attacks characteristic of melee attack actions made by this fighter this activation while 1 or more endangered friendly fighters are within 6\" of them. A friendly fighter is endangered if it has the Minion runemark and is: within 1\" of 1 or more enemy fighters and/or has 1 or more damage points allocated to them."
+  },
+  {
+    "_id": "b11571a1",
+    "name": "Taktyka Raptadonów",
+    "warband": "Seraphon",
+    "cost": "double",
+    "description": "Jeśli ten wojownik ma broń z runemarkiem Ranged Weapon na swoim profilu wojownika, ten wojownik wykonuje bonusową akcję ruchu na odległość w calach równą wartości tej zdolności. W przeciwnym razie dodaj 2 do cechy Ataki akcji ataku wręcz tego wojownika do końca jego aktywacji.",
+    "runemarks": [
+      "minion",
+      "mount"
+    ],
+    "sourceName": "Raptadon Tactics",
+    "sourceDescription": "If this fighter has a weapon with the Ranged Weapon runemark on their fighter profile, this fighter makes a bonus move action of a number of inches equal to the value of this ability. Otherwise, add 2 to the Attacks characteristic of this fighter's melee attack actions until the end of their activation."
+  },
+  {
+    "_id": "d4de5fe6",
+    "name": "Seraphon",
+    "warband": "Seraphon",
+    "cost": "battletrait",
+    "description": "Po wybraniu swojego warbandu wybierz albo Coalesced, albo Starborne i zyskaj odpowiadającą temu cechę bitewną wymienioną poniżej: Coalesced: Przyjaźni wojownicy z tą cechą bitewną mogą dodać 1 do wartości dowolnego [triple] wydanego na użycie zdolności \"Rozdzierające Ugryzienie\", do maksimum 6. Starborne: Wojownicy z tą cechą bitewną mogą wykonać reakcję \"Zrodzony z Gwiazd\", gdy staną się celem akcji ataku wręcz i strzeleckiego.",
+    "runemarks": [],
+    "sourceName": "Seraphon",
+    "sourceDescription": "After you pick your warband, pick either Coalesced or Starborne and gain the corresponding battle trait listed below:Coalesced:Friendly fighters with this battle trait can add a 1 to the value of any [triple] spent to use the Tearing bite ability, to a maximum of 6. Starborne:Fighters with this battle trait can make the ‘Starborn’ reaction when they are targeted by melee and missile attack actions."
+  },
+  {
+    "_id": "fa891e0e",
+    "name": "Kameleonowa Zasadzka",
+    "warband": "The Starblood Stalkers",
+    "cost": "double",
+    "description": "Ten wojownik może użyć tej zdolności tylko wtedy, gdy w zasięgu 12\" od tego wojownika nie ma żadnych widocznych wrogich wojowników. Ten wojownik wykonuje bonusową akcję ruchu.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Chameleon Ambush",
+    "sourceDescription": "This fighter can use this ability only if there are no visible enemy fighters within 12\" of this fighter. This fighter makes a bonus move action."
+  },
+  {
+    "_id": "da1dd1e6",
+    "name": "Nasyć Energią Azyru",
+    "warband": "The Starblood Stalkers",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cech Ruch i Wytrzymałość przyjaznych wojowników, gdy znajdują się oni w zasięgu 9\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Imbue with Azyrite Energy",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Move and Toughness characteristics of friendly fighters while they are within 9\" of this fighter."
+  },
+  {
+    "_id": "d117d47a",
+    "name": "Jadowite Żmijki Soteka",
+    "warband": "Jaws of Itzl",
+    "cost": "double",
+    "description": "Jeśli żaden wrogi wojownik nie ma żetonu Sotek's Venomites, wybierz widocznego wrogiego wojownika w zasięgu 6\" od tego wojownika i daj mu żeton Sotek's Venomites na resztę bitwy. Dopóki tamten wrogi wojownik ma ten żeton, jeśli akcja ataku wręcz wymierzona w tamtego wrogiego wojownika uzyska jakiekolwiek trafienia krytyczne, przydziel tamtemu wrogiemu wojownikowi D3 punktów obrażeń. Jeśli wojownik z żetonem Sotek's Venomites zostanie usunięty z pola bitwy, usuń z pola bitwy także ten żeton Sotek's Venomites.",
+    "runemarks": [],
+    "sourceName": "Sotek's Venomites",
+    "sourceDescription": "If no enemy fighter has a Sotek's Venomites token, pick a visible enemy fighter within 6\" of this fighter and give them a Sotek's Venomites token for the rest of the battle. While that enemy fighter has that token, if a melee attack action that targets that enemy fighter scores any critical hits, allocate D3 damage points to that enemy fighter. If a fighter with a Sotek's Venomites token is removed from the battlefield, remove that Sotek's Venomites from the battlefield."
+  },
+  {
+    "_id": "918989e6",
+    "name": "Oddany Strażnik",
+    "warband": "Jaws of Itzl",
+    "cost": "double",
+    "description": "Do końca rundy bitwy przyjaźni wojownicy z runemarkiem Hero oraz runemarkiem Jaws of Itzl nie mogą być wybierani za cel, gdy znajdują się w odległości do 1\" od tego wojownika.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Dedicated Guardian",
+    "sourceDescription": "Until the end of the battle round, friendly fighters with the Hero runemark and the Jaws of Itzl runemark cannot be targeted while they are within 1\" of this fighter."
+  },
+  {
+    "_id": "11cf198c",
+    "name": "Przyspieszenie Krwi Słońca",
+    "warband": "Jaws of Itzl",
+    "cost": "quad",
+    "description": "Do początku następnej aktywacji tego wojownika dodaj 3 do cechy Ruch widocznych przyjaznych wojowników z runemarkiem Seraphon, którzy nie mają runemarków Mount ani Fly i którzy rozpoczynają swoją aktywację w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Sunblooded Quickening",
+    "sourceDescription": "Until the start of this fighter's next activation, add 3 to the Move characteristic of visible friendly fighters with the Seraphon runemark that do not have the Mount or Fly runemarks and that start their activation within 6\" of this fighter."
+  }
+]

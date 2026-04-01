@@ -1,0 +1,253 @@
+[
+  {
+    "_id": "6d695b7a",
+    "name": "Atramentowy strumień",
+    "warband": "Cyreni's Razors",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stał się celem akcji ataku wręcz, ale zanim wykonane zostaną rzuty na trafienie. Za każdy nieudany rzut na trafienie z tej akcji ataku, po rozpatrzeniu tej akcji ataku możesz przemieścić tego wojownika o maksymalnie 2\". Dodatkowo, jeśli wszystkie rzuty na trafienie były nieudane, ten wrogi wojownik nie może wykonywać akcji ataku do końca rundy bitwy.",
+    "runemarks": [
+      "beast"
+    ],
+    "sourceName": "Ink Jet",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, after that attack action is resolved, you can move this fighter up to 2\". In addition, if all of the hit rolls missed, that enemy fighter cannot make attack actions until the end of the battle round."
+  },
+  {
+    "_id": "7479b3ed",
+    "name": "Rzut ostrzem Lanmari",
+    "warband": "Cyreni's Razors",
+    "cost": "double",
+    "description": "Dodaj wartość tej zdolności do cechy Zasięg następnej akcji ataku wręcz wykonanej przez tego wojownika podczas tej aktywacji. Po tej akcji ataku ten wojownik nie może wykonywać akcji ataku wręcz przez resztę tej aktywacji.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Hurl Lanmari Blade",
+    "sourceDescription": "Add the value of this ability to the Range characteristic of the next melee attack action made by this fighter this activation. After that attack action, this fighter cannot make melee attack actions for the rest of this activation."
+  },
+  {
+    "_id": "06b33bb6",
+    "name": "Przypływ młota",
+    "warband": "Cyreni's Razors",
+    "cost": "triple",
+    "description": "Wybierz róg pola bitwy i poprowadź prostą linię o szerokości 1 mm między środkiem podstawki tego wojownika a tym rogiem. Wrodzy wojownicy, których podstawka dotyka tej linii, nie mogą skakać, latać ani wspinać się do końca tej rundy bitwy. Dodatkowo za każdego takiego wrogiego wojownika rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 3+ przydziel temu wojownikowi 1 punkt obrażeń.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Hammertide",
+    "sourceDescription": "Pick a corner of the battlefield and draw a straight line 1mm wide between the centre of this fighter's base and that corner. Enemy fighters whose base touches that line cannot jump, fly or climb until the end of this battle round. In addition, roll a number of dice equal to the value of this ability for each such enemy fighter. Allocate 1 damage point to that fighter for each roll of 3+."
+  },
+  {
+    "_id": "c5c07e49",
+    "name": "Miażdżący uścisk",
+    "warband": "Cyreni's Razors",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko zanim wykona akcję ataku wręcz. Rzuć 8 kośćmi. Za każdy wynik 3+ dodaj 1 do cechy Siła tego wojownika dla tej akcji ataku i przydziel 2 punkty obrażeń celowi tej akcji ataku. Jeśli cel zostanie wyeliminowany, ta akcja ataku nie wywołuje żadnego efektu.",
+    "runemarks": [
+      "beast"
+    ],
+    "sourceName": "Crushing Wrap",
+    "sourceDescription": "A fighter can only use this ability before it would make a melee attack action. Roll 8 dice. For each roll of 3+, add 1 to this fighter's Strength characteristic for that attack action and allocate 2 damage points to the target of that attack action. If the target is taken out of action, the melee attack action has no effect."
+  },
+  {
+    "_id": "efc50c98",
+    "name": "Sieć dusz",
+    "warband": "Elathain's Soulraid",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika i rzuć kością. Przy wyniku 3+ ten wojownik nie może wykonywać akcji ruchu ani akcji wycofania do końca rundy bitwy.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Soulnet",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice.  On a 3+, that fighter cannot make move actions or disengage actions until the end of the battle round."
+  },
+  {
+    "_id": "f5bce2eb",
+    "name": "Harpun prądu wstecznego",
+    "warband": "Elathain's Soulraid",
+    "cost": "triple",
+    "description": "Ten wojownik wykonuje dodatkową akcję ataku. Po tej akcji ataku wojownik będący celem tej akcji ataku wykonuje dodatkową akcję ruchu bezpośrednio w stronę tego wojownika, jak gdyby skakał, na odległość liczby cali równej wartości tej zdolności.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Riptide Harpoon",
+    "sourceDescription": "This fighter makes a bonus attack action.  After that attack action, the fighter targeted by that attack action makes a bonus move action directly towards this figther, as if they were jumping, a number of inches equal to the value of this ability."
+  },
+  {
+    "_id": "7c49099a",
+    "name": "Pętla kata",
+    "warband": "Idoneth Deepkin",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika i rzuć kością. Przy wyniku 3+ ten wojownik nie może wykonywać akcji ruchu ani akcji wycofania do końca rundy bitwy.",
+    "runemarks": [
+      "hero",
+      "frenzied"
+    ],
+    "sourceName": "Hangman's Knot",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "10f4fc28",
+    "name": "Odpływ",
+    "warband": "Idoneth Deepkin",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy jest to pierwsza runda bitwy. Ten wojownik może wykonać dodatkową akcję ruchu na odległość do liczby cali równej wartości tej zdolności.",
+    "runemarks": [],
+    "sourceName": "Low Tide",
+    "sourceDescription": "A fighter can use this ability only if it is the first battle round. This fighter can make a bonus move action up to a number of inches equal to the value of this ability."
+  },
+  {
+    "_id": "fe0cb3c3",
+    "name": "Prąd wsteczny",
+    "warband": "Idoneth Deepkin",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 12\" od tego wojownika. Do końca rundy bitwy odejmij 1 od cechy Ataki akcji ataku wykonywanych przez tego wojownika (do minimum 1).",
+    "runemarks": [
+      "hero",
+      "mystic"
+    ],
+    "sourceName": "Riptide",
+    "sourceDescription": "Pick a visible enemy fighter within 12\" of this fighter. Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by that fighter."
+  },
+  {
+    "_id": "e9d22c1c",
+    "name": "Burzowy ogień",
+    "warband": "Idoneth Deepkin",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do cechy Ataki akcji ataku strzeleckiego wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Storm Fire",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to the Attacks characteristic of missile attack actions made by this fighter."
+  },
+  {
+    "_id": "f498473c",
+    "name": "Grad ciosów",
+    "warband": "Idoneth Deepkin",
+    "cost": "double",
+    "description": "Dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Ataki następnej akcji ataku wręcz wykonanej przez tego wojownika podczas tej aktywacji.",
+    "runemarks": [
+      "hero",
+      "champion"
+    ],
+    "sourceName": "Storm of Blows",
+    "sourceDescription": "Add half the value of this ability (rounding up) to the Attacks characteristic of the next melee attack action made by this fighter in this activation."
+  },
+  {
+    "_id": "094f07e8",
+    "name": "Zamaszyste uderzenie",
+    "warband": "Idoneth Deepkin",
+    "cost": "double",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 2\" od tego wojownika. Przy wyniku 5 przydziel temu wojownikowi 1 punkt obrażeń. Przy wyniku 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Sweeping Blow",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 2\" of this fighter. On a roll of 5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "60bba3cb",
+    "name": "Biowoltaiczna bariera",
+    "warband": "Idoneth Deepkin",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy każde trafienie krytyczne z akcji ataku, których celem jest ten wojownik, licz zamiast tego jako trafienie.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Biovoltaic Barrier",
+    "sourceDescription": "Until the end of the battle round, count each critical hit from attack actions that target this fighter as a hit instead."
+  },
+  {
+    "_id": "be1c62dd",
+    "name": "Wysoki przypływ",
+    "warband": "Idoneth Deepkin",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy jest to trzecia runda bitwy. Dodaj 1 do cech Ataki i Siła akcji ataku wręcz wykonywanych przez sojuszniczych wojowników, gdy znajdują się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "High Tide",
+    "sourceDescription": "A fighter can only use this ability if it is the third battle round. Add 1 to the Attacks and Strength characteristics of melee attack actions made by friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "997d8ddd",
+    "name": "Ławica wróżących ryb",
+    "warband": "Idoneth Deepkin",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 10\" od tego wojownika i rzuć 6 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi 2 punkty obrażeń.",
+    "runemarks": [
+      "hero",
+      "priest"
+    ],
+    "sourceName": "Scryfish Shoal",
+    "sourceDescription": "Pick a visible enemy fighter within 10\" of this fighter and roll 6 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate 2 damage points to that fighter."
+  },
+  {
+    "_id": "4d837d86",
+    "name": "Droga głębin",
+    "warband": "Idoneth Deepkin",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Siła akcji ataku wręcz wykonywanych przez tego wojownika oraz przez widocznych sojuszniczych wojowników z runemarkiem frakcji Idoneth Deepkin i z runemarkiem Agile albo Minion, gdy znajdują się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "hero",
+      "sentience"
+    ],
+    "sourceName": "Way of the Depths",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by this fighter and by visible friendly fighters with the Idoneth Deepkin faction runemark and either the Agile or Minion runemarks while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "190ec318",
+    "name": "Biowoltaiczny wybuch",
+    "warband": "Idoneth Deepkin",
+    "cost": "quad",
+    "description": "Przydziel wszystkim widocznym wrogim wojownikom w odległości 3\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Biovoltaic Blast",
+    "sourceDescription": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "f76c0a5e",
+    "name": "Zniknięcie z pamięci",
+    "warband": "Idoneth Deepkin",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy wrogi wojownik zakończy akcję ruchu w odległości 3\" od niego. Jeśli istnieje inny sojuszniczy wojownik widoczny dla tego wrogiego wojownika i znajdujący się w zasięgu co najmniej jednej z broni wręcz tego wrogiego wojownika, przez resztę rundy bitwy ten wrogi wojownik nie może wybrać tego wojownika jako celu.",
+    "runemarks": [],
+    "sourceName": "Fade from Memory",
+    "sourceDescription": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. If there is another friendly fighter visible to that enemy fighter and within range of at least one of that enemy fighter's melee weapons, for the rest of the battle round that enemy fighter cannot target this fighter."
+  },
+  {
+    "_id": "f9e19991",
+    "name": "Moc pływów",
+    "warband": "Idoneth Deepkin",
+    "cost": "battletrait",
+    "description": "W rundach bitwy 1 i 2 dodaj 1 do cechy Ruch sojuszniczych wojowników z tą cechą bitewną. W rundach bitwy 3 i 4 dodaj 1 do cechy Siła akcji ataku wręcz wykonywanych przez sojuszniczych wojowników z tą cechą bitewną.",
+    "runemarks": [],
+    "sourceName": "Power of the Tides",
+    "sourceDescription": "In battle rounds 1 and 2, add 1 to the Move characteristic of friendly fighters with this battle trait. In battle rounds 3 and 4, add 1 to the Strength characteristic of melee attack actions made by friendly fighters with the battle trait."
+  },
+  {
+    "_id": "58cf8158",
+    "name": "Wzbierające morze",
+    "warband": "Idoneth Deepkin",
+    "cost": "triple",
+    "description": "Przez resztę rundy bitwy za każdym razem, gdy sojuszniczy wojownik z runemarkiem Idoneth Deepkin znajdujący się w odległości 6\" od tego wojownika wykonuje akcję ruchu, możesz dodać 2 do jego cechy Ruch dla tej akcji.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "The Surging Sea",
+    "sourceDescription": "For the rest of the battle round, each time a friendly fighter with the Idoneth Deepkin runemark within 6\" of this fighter makes a move action, you can add 2 to their Move characteristic for that action."
+  },
+  {
+    "_id": "14323d4a",
+    "name": "Furia wiru",
+    "warband": "Idoneth Deepkin",
+    "cost": "triple",
+    "description": "Przez resztę rundy bitwy widoczni wrodzy wojownicy w odległości 3\" od tego wojownika nie mogą wykonywać akcji wycofania, gdy znajdują się w odległości 3\" od tego wojownika. Dodatkowo odejmij 1 od punktów obrażeń przydzielanych sojuszniczym wojownikom przez każde trafienie z akcji ataku wykonywanych przez tych wrogich wojowników (do minimum 1).",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Whirlpool's Fury",
+    "sourceDescription": "For the rest of the battle round, visible enemy fighters within 3\" of this fighter cannot make disengage actions while they are within 3\" of this fighter. In addition, subtract 1 from the damage points allocated to friendly fighters by each hit from attack actions made by those enemy fighters (to a minimum of 1)."
+  }
+]

@@ -1,0 +1,231 @@
+[
+  {
+    "_id": "0af73084",
+    "name": "Obskoczyć go",
+    "warband": "Da Kunnin' Krew",
+    "cost": "double",
+    "description": "Wybierz widocznego sojuszniczego wojownika w odległości 6\" od tego wojownika, który ma runemarki Da Kunnin' Krew i Minion oraz jeszcze nie aktywował się w tej rundzie bitwy. Możesz aktywować tamtego wojownika natychmiast po zakończeniu aktywacji tego wojownika.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Gang Up",
+    "sourceDescription": "Pick a visible friendly fighter within 6\" of this fighter that has both the Da Kunnin' Krew and the Minion runemarks and has not activated yet this battle round.  You can activate that fighter immediately after this fighter's activation ends."
+  },
+  {
+    "_id": "f56775f9",
+    "name": "Mistrz mroku",
+    "warband": "Da Kunnin' Krew",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w odległości 1\" od przeszkody. Do końca rundy bitwy, dopóki ten wojownik znajduje się w odległości 1\" od przeszkody, nie może zostać wybrany jako cel akcji ataku wykonywanych przez wrogich wojowników znajdujących się dalej niż 8\".",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Master of Murk",
+    "sourceDescription": "A fighter can only use this ability if they are within 1\" of an obstacle.  Until the end of the battle round, as long as this fighter is within 1\" of an obstacle, they cannot be picked as the target of attack actions made by enemy fighters that are more than 8\" away."
+  },
+  {
+    "_id": "759bc2a8",
+    "name": "Podstępne sidła",
+    "warband": "Da Kunnin' Krew",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 2\" od tego wojownika i rzuć kością. Przy wyniku 2+ do końca rundy bitwy ten wrogi wojownik nie może wykonywać akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Sneaky Snares",
+    "sourceDescription": "Pick a visible enemy fighter within 2\" of this fighter and roll a dice.  On a roll of 2+, until the end of the battle round, that enemy fighter cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "574b4620",
+    "name": "Niech se krwawi",
+    "warband": "Daggok's Stab-ladz",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogiemu wojownikowi przydzielono punkty obrażeń przez akcję ataku wykonaną przez niego podczas tej aktywacji. Na końcu rundy bitwy rzuć kością za każdy punkt obrażeń przydzielony temu wrogiemu wojownikowi. Za każdy wynik 4+ przydziel temu wojownikowi 1 punkt obrażeń.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Leave Ya Bleedin'",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter was allocated damage points by an attack action made by them this activation. Roll a dice for each wound allocated to that enemy fighter at the end of the battle round. For each 4+, allocate 1 damage point to that fighter."
+  },
+  {
+    "_id": "eaba1b07",
+    "name": "Wyhaczę ci flaki",
+    "warband": "Daggok's Stab-ladz",
+    "cost": "double",
+    "description": "Do końca rundy bitwy, po tym jak wrogi wojownik wykona akcję wycofania rozpoczętą w odległości 3\" od tego wojownika, przydziel temu wojownikowi D6 punktów obrażeń.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Hookin' Your Guts",
+    "sourceDescription": "Until the end of the battle round, after an enemy fighter makes a disengage action that began within 3\" of this fighter, allocate D6 damage points to that fighter."
+  },
+  {
+    "_id": "cc8aa230",
+    "name": "Ryk Kragnosa",
+    "warband": "Daggok's Stab-ladz",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych sojuszniczych wojowników, gdy znajdują się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Roar of Kragnos",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "6b7e69c6",
+    "name": "Kradem ci myśli",
+    "warband": "Daggok's Stab-ladz",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Zyskaj liczbę dzikich kości równą wartości tej zdolności, a następnie ten wojownik wykonuje dodatkową akcję ruchu.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Stealin' Your Finks",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Gain a number of wild dice equal to the value of this ability, then this fighter makes a bonus move action."
+  },
+  {
+    "_id": "c867eb77",
+    "name": "Wymierzony strzał",
+    "warband": "Kruleboyz",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy nie wykonał akcji ruchu podczas tej aktywacji. Jeśli następną akcją tego wojownika będzie akcja ataku strzeleckiego, trafienia krytyczne dla tej akcji ataku są zadawane przy wyniku 4+.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Aimed Shot",
+    "sourceDescription": "A fighter can only use this ability if they have not made a move action this activation. If this fighter's next action is a missile attack action, critical hits are scored on a 4+ for that attack action."
+  },
+  {
+    "_id": "2525ab3f",
+    "name": "Ugryzienie kruszące kości",
+    "warband": "Kruleboyz",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika i rzuć liczbą kości równą połowie wartości tej zdolności (zaokrąglając w górę). Za każdy wynik 3+ przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "hero",
+      "mount"
+    ],
+    "sourceName": "Bone-crushing Bite",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to half the value of this ability (rounding up). For each roll of 3+, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "26a4ea2f",
+    "name": "Broń pokryta jadem",
+    "warband": "Kruleboyz",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie i trafienie krytyczne z akcji ataku wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Venom-encrusted Weapon",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter."
+  },
+  {
+    "_id": "1af77c38",
+    "name": "Ty ich powstrzymaj",
+    "warband": "Kruleboyz",
+    "cost": "double",
+    "description": "Wybierz sojuszniczego wojownika z runemarkiem frakcji Kruleboyz i runemarkiem Bulwark w odległości 3\" od tego wojownika. Tamten wojownik może wykonać dodatkową akcję ruchu albo dodatkową akcję ataku.",
+    "runemarks": [
+      "berserker",
+      "hero"
+    ],
+    "sourceName": "You Hold 'Em Off",
+    "sourceDescription": "Pick a friendly fighter with both the Kruleboyz faction runemark and the Bulwark runemark within 3\" of this fighter. That fighter can make a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "f7eaecfa",
+    "name": "Oddech bagiennego smoka",
+    "warband": "Kruleboyz",
+    "cost": "triple",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 3\" od tego wojownika. Przy wyniku 3-4 przydziel wojownikowi, za którego wykonywany jest rzut, 1 punkt obrażeń. Przy wyniku 5+ przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "icon-bearer",
+      "hero"
+    ],
+    "sourceName": "Breath of the Mire-drake",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3-4, allocate 1 damage point to the fighter being rolled for. On a roll of 5+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "f2ad33bb",
+    "name": "Uwarzony eliksir",
+    "warband": "Kruleboyz",
+    "cost": "triple",
+    "description": "Wybierz sojuszniczego wojownika w odległości 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ usuń do 3 punktów obrażeń przydzielonych temu wojownikowi.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Brewed Elixir",
+    "sourceDescription": "Pick a friendly fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, remove up to 3 damage points allocated to that fighter."
+  },
+  {
+    "_id": "c7f0da76",
+    "name": "Dźgaj ich porządnie",
+    "warband": "Kruleboyz",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku, które mają runemark Dagger, wykonywanych przez sojuszniczych wojowników z runemarkiem Minion, gdy znajdują się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Stab 'Em Good",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of attack actions that have the Dagger runemark made by friendly fighters with the Minion runemark while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "8c31db62",
+    "name": "Przywołaj bagienną mgłę",
+    "warband": "Kruleboyz",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy odejmij 1 od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez wrogich wojowników, gdy znajdują się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "mystic",
+      "hero"
+    ],
+    "sourceName": "Summon Boggy Mist",
+    "sourceDescription": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "f8fa5631",
+    "name": "Podstępny atak",
+    "warband": "Kruleboyz",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w odległości 6\" od niego znajduje się więcej sojuszniczych wojowników z runemarkiem Warrior niż wrogich wojowników. Ci sojuszniczy wojownicy mogą każdy wykonać dodatkową akcję ruchu albo dodatkową akcję ataku wręcz (niektórzy mogą wykonać dodatkową akcję ruchu, a inni dodatkową akcję ataku wręcz).",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Kunnin' Attack",
+    "sourceDescription": "A fighter can use this ability only if there are more friendly fighters with the Warrior runemark within 6\" of this fighter than there are enemy fighters within 6\" of this fighter. Those friendly fighters can each make a bonus move action or a bonus melee attack action (some can make a bonus move action and others can make a bonus melee attack action)."
+  },
+  {
+    "_id": "64b1818c",
+    "name": "Podstępna pułapka",
+    "warband": "Kruleboyz",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak wrogi wojownik zakończy widoczną dla niego akcję ruchu w odległości 3\" od niego. Wybierz innego sojuszniczego wojownika w odległości 3\" od tego wojownika. Tamten wojownik wykonuje dodatkową akcję ataku, której celem musi być wrogi wojownik, który wykonał akcję ruchu.",
+    "runemarks": [],
+    "sourceName": "Kunnin' Trap",
+    "sourceDescription": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter within 3\" of this fighter. That fighter makes a bonus attack action that must target the enemy fighter that made the move action."
+  },
+  {
+    "_id": "b47a0436",
+    "name": "Dźgnij ich dobrze i szybko",
+    "warband": "Kruleboyz",
+    "cost": "battletrait",
+    "description": "Raz na rundę bitwy wybierz sojuszniczego wojownika z tą cechą bitewną. W tej rundzie bitwy, po aktywacji tamtego wojownika, możesz wybrać wrogiego wojownika, któremu akcja ataku wręcz wykonana przez wybranego wojownika przydzieliła 1 lub więcej punktów obrażeń. Przydziel temu wrogiemu wojownikowi D3 punktów obrażeń.",
+    "runemarks": [],
+    "sourceName": "Stick 'Em Good and Quick",
+    "sourceDescription": "Once per battle round, pick a friendly fighter with this battle trait. For that battle round, after that fighter's activation, you can pick an enemy fighter that was allocated 1 or more damage points by a melee attack action made by the fighter you picked. Allocated D3 damage points to that enemy fighter."
+  },
+  {
+    "_id": "5f40dd2d",
+    "name": "Głowy nisko i w nogi, chłopaki...",
+    "warband": "Kruleboyz",
+    "cost": "double",
+    "description": "Dodaj 1 do cech Ruch i Wytrzymałość sojuszniczych wojowników z runemarkami Kruleboyz i Minion, gdy znajdują się w odległości 6\" od tego wojownika, przez resztę rundy bitwy.",
+    "runemarks": [
+      "hero",
+      "scout"
+    ],
+    "sourceName": "Keep Your Heads Down and Scarper, Ladz...",
+    "sourceDescription": "Add 1 to the Move and the Toughness characteristics of friendly fighters with both the Kruleboyz and the Minion runemarks while they are within 6\" of this fighter for the rest of the battle round."
+  }
+]

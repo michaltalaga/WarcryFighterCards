@@ -1,0 +1,429 @@
+[
+  {
+    "_id": "a2f5c060",
+    "name": "Banda Nożowników",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w odległości do 1\" od niego znajduje się widoczny przyjazny wojownik. Do końca aktywacji tego wojownika dodaj 1 do cech Ataki i Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Backstabbing Mob",
+    "sourceDescription": "A fighter can only use this ability if there is a visible friendly fighter within 1\" of them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "501349fc",
+    "name": "Kolczasta Sieć",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 3\" od tego wojownika i rzuć kością. Przy wyniku 3+, do końca rundy bitwy, tamten wojownik nie może wykonywać akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Barbed Net",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "da790fc4",
+    "name": "Lunobimbrowa Mikstura",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wybierz widocznego przyjaznego wojownika w zasięgu 3\" od tego wojownika. Do końca rundy bitwy dodaj 3 do cechy Ataki następnej akcji ataku wręcz wykonanej przez tamtego wojownika.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Loonshine Potion",
+    "sourceDescription": "Pick a visible friendly fighter within 3\" of this fighter. Until the end of the battle round, add 3 to the Attacks characteristic of the next melee attack action made by that fighter."
+  },
+  {
+    "_id": "bd41d7ed",
+    "name": "Mesmeryzuj",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wybierz wrogiego wojownika w odległości w calach od tego wojownika równej wartości tej zdolności i rzuć kością. Przy wyniku 3+, do końca rundy bitwy, tamten wojownik nie może wykonywać akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Mesmerise",
+    "sourceDescription": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "6eaa49d2",
+    "name": "Trujący Wywar",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wybierz widocznego przyjaznego wojownika w zasięgu 3\" od tego wojownika. Do końca rundy bitwy dodaj wartość tej zdolności do cechy Siła następnej akcji ataku wręcz wykonanej przez tamtego wojownika.",
+    "runemarks": [
+      "sentience"
+    ],
+    "sourceName": "Poison Brew",
+    "sourceDescription": "Pick a visible friendly fighter within 3\" of this fighter. Until the end of the battle round, add the value of this ability to the Strength characteristic of the next melee attack action made by that fighter."
+  },
+  {
+    "_id": "8329b962",
+    "name": "Szybkość Boga Pająka",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ruch przyjaznych wojowników z runemarkiem Destroyer, którzy rozpoczynają swoją aktywację w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "hero",
+      "priest"
+    ],
+    "sourceName": "Speed of the Spider God",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Move characteristic of friendly fighters with the Destroyer runemark that start their activation within 6\" of this fighter."
+  },
+  {
+    "_id": "0ec7a143",
+    "name": "Taniec Straszydła",
+    "warband": "Gloomspite Gitz",
+    "cost": "triple",
+    "description": "Wybierz widocznego przyjaznego wojownika w zasięgu 6\" od tego wojownika. Do końca rundy bitwy dodaj 3 do cechy Ruch tamtego wojownika.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Bogeyman Dance",
+    "sourceDescription": "Pick a visible friendly fighter within 6\" of this fighter. Until the end of the battle round, add 3 to the Move characteristic of that fighter."
+  },
+  {
+    "_id": "7ba53615",
+    "name": "Szalona Rozwałka",
+    "warband": "Gloomspite Gitz",
+    "cost": "triple",
+    "description": "Rzuć kością. Ten wojownik może wykonać bonusową akcję ruchu na odległość do podwojonej wartości wyniku. Jeśli ten wojownik zakończy tę akcję ruchu w odległości do 1\" od co najmniej jednego widocznego wrogiego wojownika, wybierz jednego z tych wrogich wojowników. Przydziel tamtemu wrogiemu wojownikowi liczbę punktów obrażeń równą wartości wyniku.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Madcap Destruction",
+    "sourceDescription": "Roll a dice. This fighter can make a bonus move action up to double the value of the result. If this fighter finishes that move action within 1\" of one or more visible enemy fighters, pick one of those enemy fighters. Allocate a number of damage points to that enemy fighter equal to the value of the result."
+  },
+  {
+    "_id": "e6090ac7",
+    "name": "Zarodnikowa Chmura",
+    "warband": "Gloomspite Gitz",
+    "cost": "triple",
+    "description": "Wybierz wrogiego wojownika w odległości w calach od tego wojownika równej wartości tej zdolności. Do końca rundy bitwy odejmij połowę wartości tej zdolności (zaokrąglając w górę) od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez tamtego wojownika.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Fungoid Cloud",
+    "sourceDescription": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract half the value of this ability (rounding up) from the Attacks characteristic (to a minimum of 1) of attack actions made by that fighter."
+  },
+  {
+    "_id": "e9f0c865",
+    "name": "Leź Tamta Strona!",
+    "warband": "Gloomspite Gitz",
+    "cost": "triple",
+    "description": "Wybierz przyjaznego wojownika z runemarkiem Beast w zasięgu 4\" od tego wojownika. Tamten wojownik wykonuje bonusową akcję ruchu.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Go Dat Way!",
+    "sourceDescription": "Pick a friendly fighter with the Beast runemark within 4\" of this fighter. That fighter makes a bonus move action."
+  },
+  {
+    "_id": "83341ebc",
+    "name": "Magiczne Zarodnikowe Paszcze",
+    "warband": "Gloomspite Gitz",
+    "cost": "triple",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości do 3\" od tego wojownika. Przy wyniku 3-4 przydziel wojownikowi, za którego wykonywany jest rzut, 1 punkt obrażeń. Przy wyniku 5+ przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "hero",
+      "mystic"
+    ],
+    "sourceName": "Magic Spore Maws",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3-4, allocate 1 damage point to the fighter being rolled for. On a roll of 5+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "757c3331",
+    "name": "Ugryzienie Pająka",
+    "warband": "Gloomspite Gitz",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Spider Bite",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 3 damage points to that fighter."
+  },
+  {
+    "_id": "315054de",
+    "name": "Dźgnij Ich Porządnie",
+    "warband": "Gloomspite Gitz",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych przyjaznych wojowników, gdy znajdują się oni w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Stab 'Em Good",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "103c0992",
+    "name": "Jam Tu Szef; Teraz Dźgnij Ich Porządnie!",
+    "warband": "Gloomspite Gitz",
+    "cost": "quad",
+    "description": "Do końca rundy bitwy dodaj wartość tej zdolności do cechy Ataki akcji ataku wręcz wykonywanych przez przyjaznych wojowników z runemarkiem frakcji Gloomspite Gitz, gdy znajdują się oni w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "champion",
+      "hero"
+    ],
+    "sourceName": "I'm Da Boss; Now Stab 'Em Good!",
+    "sourceDescription": "Until the end of the battle round, add the value of this ability to the Attacks characteristic of melee attack actions made by friendly fighters with the Gloomspite Gitz faction runemark while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "59b00d5a",
+    "name": "Podstępny Cios",
+    "warband": "Gloomspite Gitz",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje bonusową akcję ruchu. Następnie może wykonać bonusową akcję ataku wręcz. Dodatkowo dodaj wartość tej zdolności do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z tej akcji ataku.",
+    "runemarks": [],
+    "sourceName": "Sneaky Stab",
+    "sourceDescription": "This fighter makes a bonus move action. Then, they can make a bonus melee attack action. In addition, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from that attack action."
+  },
+  {
+    "_id": "c15373cf",
+    "name": "Dawaj na Nich!",
+    "warband": "Gloomspite Gitz",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak wrogi wojownik zakończy widoczną dla tego wojownika akcję ruchu w zasięgu 3\" od tego wojownika. Wybierz innego przyjaznego wojownika z runemarkiem Gloomspite Gitz. Tamten wojownik wykonuje bonusową akcję ruchu. Po tej akcji ruchu tamten wojownik musi znajdować się w odległości do 1\" od wrogiego wojownika, który wykonał akcję ruchu.",
+    "runemarks": [],
+    "sourceName": "Pile On",
+    "sourceDescription": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter with the Gloomspite Gitz runemark. That fighter makes a bonus move action. After that move action, that fighter must be within 1\" of the enemy fighter that made the move action."
+  },
+  {
+    "_id": "16486f1f",
+    "name": "Chmura Zarodników",
+    "warband": "Gloomspite Gitz",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak przyjazny wojownik w zasięgu 3\" od tego wojownika stanie się celem akcji ataku strzeleckiego, ale przed wykonaniem rzutów na trafienie. Do końca rundy przyjazni wojownicy są uznawani za znajdujących się w osłonie, gdy są w odległości do 3\" od tego wojownika.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Spore Cloud",
+    "sourceDescription": "A fighter can make this reaction after a friendly fighter within 3\" of this fighter is targeted by a missile attack action but before the hit rolls are made. Until the end of the round, friendly fighters are considered to be in cover while they are within 3\" of this fighter."
+  },
+  {
+    "_id": "ae5c000d",
+    "name": "Złośliwy Zgon",
+    "warband": "Gloomspite Gitz",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy stanie się celem akcji ataku wręcz, po zsumowaniu obrażeń, ale zanim zostaną one przydzielone temu wojownikowi, jeśli wystarczą, by ten wojownik został wyeliminowany. Rzuć kością. Przy wyniku 4+ przydziel jego napastnikowi 3 punkty obrażeń.",
+    "runemarks": [
+      "ally"
+    ],
+    "sourceName": "Spiteful Demise",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Roll a dice. On a roll of 4+, allocate 3 damage points to their attacker."
+  },
+  {
+    "_id": "4b5b9619",
+    "name": "Tutaj, Ty Głąbie!",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika z runemarkiem Monster, który znajduje się w zasięgu 6\" od tego wojownika. Do końca rundy bitwy tamten wrogi wojownik nie może kończyć akcji ruchu dalej od tego wojownika.",
+    "runemarks": [
+      "sentience"
+    ],
+    "sourceName": "Over Here, Ya Lug!",
+    "sourceDescription": "Pick a visible enemy fighter with the Monster runemark that is within 6\" of this fighter. Until the end of the battle round, that enemy fighter cannot end move actions further from this fighter."
+  },
+  {
+    "_id": "7f30905f",
+    "name": "Nie Złapiecie Nas!",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w tej aktywacji wykonał jedną lub więcej akcji ataku strzeleckiego. Ten wojownik wykonuje bonusową akcję ruchu na odległość w calach równą wartości tej zdolności.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Can't Catch Us!",
+    "sourceDescription": "A fighter can only use this ability if they have made one or more missile attack actions this activation. This fighter makes a bonus move action of a number of inches equal to the value of this ability."
+  },
+  {
+    "_id": "9af44d1d",
+    "name": "Sakwa Mykofila",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki przyjaznych wojowników z runemarkiem frakcji Gloomspite Gitz oraz albo runemarkiem Fly, albo runemarkiem Beast, gdy znajdują się oni w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Mycophile's Pouch",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of friendly fighters with the Gloomspite Gitz faction runemark and either the Fly runemark or the Beast runemark while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "0a491014",
+    "name": "Zły Księżyc Wschodzi",
+    "warband": "Gloomspite Gitz",
+    "cost": "battletrait",
+    "description": "Po fazie inicjatywy każdy gracz, którego warband ma tę cechę bitewną, może rzucić kością, zaczynając od atakującego. Przy wyniku 2+ wybierz 1 z [doubles], [triples] lub [quads] własnych albo przeciwnika. Zmień wartość tych kości zdolności na wynik rzutu kością.",
+    "runemarks": [],
+    "sourceName": "Da Bad Moon Rises",
+    "sourceDescription": "After the initiative phase, each player whose warband has this battle trait can roll a dice, starting with the attacker. On a 2+, pick 1 of your opponent's or your own [doubles], [triples] or [quads]. Change the value of those ability dice to the result of the dice roll."
+  },
+  {
+    "_id": "a523f4de",
+    "name": "Rycerz na Wyprawie",
+    "warband": "Grinkrak's Looncourt",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika, po tym jak wrogi wojownik zostanie wyeliminowany przez wykonaną przez tego wojownika akcję ataku wręcz, ten wojownik może wykonać bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Questin' Knight",
+    "sourceDescription": "Until the end of this fighter's activation, after the enemy fighter is taken down by a melee attack action made this fighter, this fighter can make a bonus move action nor a bonus attack action."
+  },
+  {
+    "_id": "80846cd7",
+    "name": "Entuzjastyczne Pasowanie",
+    "warband": "Grinkrak's Looncourt",
+    "cost": "double",
+    "description": "Wybierz widocznego przyjaznego wojownika z runemarkiem Grinkrak's Looncourt w zasięgu 3\" od tego wojownika, który jeszcze nie aktywował się w tej rundzie bitwy. Tamten wojownik otrzymuje obrażenia od uderzenia. Możesz aktywować tamtego wojownika natychmiast po zakończeniu aktywacji tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Enthusiastic Dubbin'",
+    "sourceDescription": "Pick a visible friendly fighter with the Grinkrak's Looncourt runemark within 3\" of this fighter that has not activated yet this battle round.  That fighter suffers impact damage.  You can activate that fighter immediately after this fighter's activation ends."
+  },
+  {
+    "_id": "5550a018",
+    "name": "Daj Znak do Szarży!",
+    "warband": "Grinkrak's Looncourt",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Ruch przyjaznych wojowników, gdy wykonują akcję ruchu rozpoczynającą się w zasięgu 6\" od tego wojownika.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Sound da Charge!",
+    "sourceDescription": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter."
+  },
+  {
+    "_id": "23a2faeb",
+    "name": "Twardy Orzech",
+    "warband": "Grinkrak's Looncourt",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Potraktuj do dwóch trafień krytycznych z tej akcji ataku jako zwykłe trafienia.",
+    "runemarks": [],
+    "sourceName": "Tuff Nut",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead."
+  },
+  {
+    "_id": "120bc628",
+    "name": "Rzuć Jabbertoadem",
+    "warband": "Mollog's Mob",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Hurl Jabbertoad",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice.  For each 4-5, allocate 1 damage point to that fighter.  For each 6, allocate a number of damage points equal to the value of this ability to that fighter."
+  },
+  {
+    "_id": "16395fb8",
+    "name": "Przyzwij Stalagsquiga",
+    "warband": "Mollog's Mob",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko raz na bitwę. Wybierz punkt na platformie albo na podłodze pola bitwy w zasięgu 3\" od tego wojownika, który znajduje się dalej niż 1\" od wszystkich wrogich wojowników, i ustaw znacznik Stalagsquiga. Przydziel 2D6 punktów obrażeń pierwszemu wrogiemu wojownikowi, który przemieści się w odległość do 1\" od znacznika, a następnie usuń znacznik.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Summon Stalagsquig",
+    "sourceDescription": "A fighter can only use this ability once per battle.  Pick a point on a platform or the battlefield floor within 3\" of this fighter that is more than 1\" from all enemy fighters and set up the Stalagsquig marker.  Allocate 2D6 damage points to the first enemy fighter to move within 1\" of the marker, then remove the marker."
+  },
+  {
+    "_id": "16aaac30",
+    "name": "Przyzwij Spiteshrooma",
+    "warband": "Mollog's Mob",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko raz na bitwę. Wybierz punkt na platformie albo na podłodze pola bitwy w zasięgu 3\" od tego wojownika, który znajduje się dalej niż 1\" od wszystkich wrogich wojowników, i ustaw znacznik Spiteshrooma. Odejmij 1 od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez wrogich wojowników, gdy znajdują się oni w zasięgu 6\" od znacznika Spiteshrooma. Wojownicy nie mogą zakończyć ruchu na znaczniku Spiteshrooma.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Summon Spiteshroom",
+    "sourceDescription": "A fighter can only use this ability once per battle.  Pick a point on a platform or the battlefield floor within 3\" of this fighter that is more than 1\" from all enemy fighters and set up the Spiteshroom marker.  Subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by the enemy fighters while they are within 6\" of the Spiteshroom marker.  Fighters cannot end a move on the Spiteshroom marker."
+  },
+  {
+    "_id": "5ed43c1c",
+    "name": "Szczęki Snarlfanga",
+    "warband": "Rippa's Snarlfangs",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [],
+    "sourceName": "Snarlfang's Jaws",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll 2 dice.  For each 4-5, allocate 1 damage point to that fighter.  For each 6, allocate a number of damage points equal to the value of this ability to that fighter."
+  },
+  {
+    "_id": "18a0ccfa",
+    "name": "Zajadły Skok",
+    "warband": "Rippa's Snarlfangs",
+    "cost": "quad",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości do 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości do 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [],
+    "sourceName": "Ferocious Pounce",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter.  Allocate a number of damage points equal to the value of this ability to that fighter."
+  },
+  {
+    "_id": "75b35f0c",
+    "name": "Oblicze Złego Księżyca",
+    "warband": "Zarbag's Gitz",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w zasięgu 9\" od tego wojownika, który znajduje się w odległości do 1\" od przyjaznego wojownika. Tamten wrogi wojownik musi wykonać bonusową akcję wycofania. Jeśli nie może tego zrobić, zamiast tego przydziel tamtemu wrogiemu wojownikowi D6 punktów obrażeń.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Face of Da Bad Moon",
+    "sourceDescription": "Pick a visible enemy fighter within 9\" of this fighter that is within 1\" of a friendly fighter. That enemy fighter must make a bonus disengage action. If they cannot do so, allocate D6 damage points to that enemy fighter instead."
+  },
+  {
+    "_id": "46e10186",
+    "name": "Wirująca Śmierć",
+    "warband": "Zarbag's Gitz",
+    "cost": "quad",
+    "description": "Przydziel wszystkim widocznym wrogim wojownikom w odległości do 3\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Whirling Death",
+    "sourceDescription": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "1a79b9d6",
+    "name": "Śliniące się Szczęki",
+    "warband": "Gloomspite Gitz",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku w tej aktywacji. Ten wojownik może wykonać bonusową akcję ruchu. Jeśli ta akcja ruchu zakończy się w odległości do 1\" od wrogiego wojownika, dodaj 1 do cechy Wytrzymałość tego wojownika do końca rundy bitwy.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Slavering Jaws",
+    "sourceDescription": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. This fighter can make a bonus move action. If that move action ends within 1\" of an enemy fighter, add 1 to this fighter’s Toughness characteristic for the rest of the battle round."
+  },
+  {
+    "_id": "3d8ade60",
+    "name": "Dźgnij Tego Gita",
+    "warband": "Borgit's Beastgrabbaz",
+    "cost": "double",
+    "description": "Jeśli nie ma żadnego wrogiego trofeum, wybierz widocznego wrogiego wojownika, który staje się trofeum, dopóki nie zostanie wyeliminowany. Dodatkowo dodaj 2 do cechy Ataki akcji ataku wręcz wykonywanych przez przyjaznych wojowników z runemarkiem Borgit's Beastgrabbaz, które mają za cel trofeum.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Shank Dat Git",
+    "sourceDescription": " If there are no enemy trofees, pick a visible enemy fighter to be the trofee until they are taken down. In addition, add 2 to the Attacks characteristic of melee attack actions made by friendly fighters with the Borgit’s Beastgrabbaz runemark that target the trofee."
+  },
+  {
+    "_id": "d89a7a8a",
+    "name": "Przynęta",
+    "warband": "Borgit's Beastgrabbaz",
+    "cost": "triple",
+    "description": "Wybierz przyjaznego wojownika z runemarkiem Borgit's Beastgrabbaz, który znajduje się w całości w zasięgu 6\" od przyjaznego wojownika z runemarkami Borgit's Beastgrabbaz oraz Hero i jest dla niego widoczny, aby stał się przynętą do końca rundy bitwy. Wrodzy wojownicy widoczni dla przynęty i znajdujący się w odległości w calach od przynęty równej najwyższej cesze Zasięg którejkolwiek z posiadanych przez nich broni do walki wręcz muszą wybierać przynętę jako cel wszystkich wykonywanych przez siebie akcji ataku wręcz.",
+    "runemarks": [],
+    "sourceName": "Da Bait",
+    "sourceDescription": "Pick a friendly fighter with the Borgit’s Beastgrabbaz runemark wholly within 6\" of and visible to a friendly fighter with the Borgit’s Beastgrabbaz and Hero runemarks to be da bait for the rest of the battle round. Enemy fighters visible to and within a number of inches of da bait equal to the highest Range characteristic of any melee weapons they have must target da bait with all melee attack actions they make."
+  },
+  {
+    "_id": "9499f2b5",
+    "name": "Gitowe Taktikz",
+    "warband": "Borgit's Beastgrabbaz",
+    "cost": "quad",
+    "description": "Wybierz wrogiego wojownika widocznego dla tego wojownika. Przydziel tamtemu wrogiemu wojownikowi liczbę punktów obrażeń równą podwojonej liczbie przyjaznych wojowników z runemarkiem Borgit's Beastgrabbaz w odległości do 3\" od niego. Jeśli celem jest trofeum, zamiast tego przydziel tamtemu wrogiemu wojownikowi liczbę punktów obrażeń równą poczwórnej liczbie przyjaznych wojowników z runemarkiem Borgit's Beastgrabbaz w odległości do 3\" od niego.",
+    "runemarks": [],
+    "sourceName": "Gittish Taktikz",
+    "sourceDescription": "Pick an enemy fighter that is visible to this fighter. Allocate a number of damage points to that enemy fighter equal to twice the number of friendly fighters with the Borgit’s Beastgrabbaz runemark within 3\" of them. If the target is the trofee, allocate a number of damage points to that enemy fighter equal to four times the number of friendly fighters with the Borgit’s Beastgrabbaz runemark within 3\" of them instead."
+  }
+]

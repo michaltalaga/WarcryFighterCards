@@ -1,0 +1,246 @@
+[
+  {
+    "_id": "37ab8133",
+    "name": "Aura grozy",
+    "warband": "Nighthaunt",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w liczbie cali od tego wojownika równej wartości tej zdolności. Do końca rundy bitwy odejmij 1 od cechy Siła akcji ataku wykonywanych przez tego wojownika (do minimum 1). Wojownik może być celem tej zdolności tylko raz na rundę bitwy.",
+    "runemarks": [],
+    "sourceName": "Aura of Dread",
+    "sourceDescription": "Pick a visible enemy fighter within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract 1 from the Strength characteristic (to a minimum of 1) of attack actions made by that fighter. A fighter can only be targeted once per battle round by this ability."
+  },
+  {
+    "_id": "68d0f4f0",
+    "name": "Mrożąca krew w żyłach horda",
+    "warband": "Nighthaunt",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w odległości 3\" od niego znajduje się widoczny sojuszniczy wojownik z runemarkiem Minion. Do końca aktywacji tego wojownika dodaj 1 do cech Ataki i Siła akcji ataku wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Chilling Horde",
+    "sourceDescription": "A fighter can use this ability only if there is a visible friendly fighter with the Minion runemark within 3\" of them. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of attack actions made by this fighter."
+  },
+  {
+    "_id": "e11eb84f",
+    "name": "Naznaczona dusza ofiara",
+    "warband": "Nighthaunt",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika, któremu przydzielono 1 lub więcej punktów obrażeń. Do końca rundy bitwy dodaj 1 do cechy Siła akcji ataku wręcz wykonywanych przez sojuszniczych wojowników, których celem jest ten wojownik. Wojownik może być celem tej zdolności tylko raz na rundę bitwy.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Soul-marked Prey",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter with 1 or more damage points allocated to them. Until the end of the battle round, add 1 to the Strength characteristic of melee attack actions made by friendly fighters that target that fighter. A fighter can only be targeted once per battleround by this ability."
+  },
+  {
+    "_id": "9917bf4d",
+    "name": "Skradzione godziny",
+    "warband": "Nighthaunt",
+    "cost": "double",
+    "description": "Na końcu aktywacji tego wojownika ulecz temu wojownikowi liczbę przydzielonych punktów obrażeń do maksymalnie liczby punktów obrażeń przydzielonych wrogim wojownikom podczas tej aktywacji.",
+    "runemarks": [
+      "hero",
+      "champion"
+    ],
+    "sourceName": "Stolen Hours",
+    "sourceDescription": "At the end of this fighter's activation, heal a number of damage points allocated to this fighter up to the number of damage points allocated to enemy fighters this activation."
+  },
+  {
+    "_id": "01a3579a",
+    "name": "Przerażający dotyk",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika każdy trafiony cios z akcji ataku wręcz wykonywanych przez niego licz jako trafienie krytyczne. Dodatkowo, jeśli ten wojownik ma runemark Destroyer, dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika podczas tej aktywacji.",
+    "runemarks": [],
+    "sourceName": "Frightful Touch",
+    "sourceDescription": "Until the end of this fighter's activation, count each hit from melee attack actions made by them as a critical hit instead. In addition, if this fighter has the Destroyer runemark, add 1 to the Attacks characteristic of melee attack actions made by this fighter this activation."
+  },
+  {
+    "_id": "e5e07960",
+    "name": "Przeraźliwy wrzask",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Wybierz wrogiego wojownika w liczbie cali od tego wojownika równej wartości tej zdolności i rzuć kością. Przy wyniku 3+ do końca rundy bitwy ten wojownik nie może wykonywać akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Harrowing Shriek",
+    "sourceDescription": "Pick an enemy fighter within a number of inches of this fighter equal to the value of this ability and roll a dice. On a roll of 3+, until the end of the battle round, that fighter cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "edc2956e",
+    "name": "Widmowa dezintegracja",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy nie znajduje się w odległości 3\" od żadnych wrogich wojowników. Usuń tego wojownika z pola bitwy, a następnie wystaw go na platformie lub podłodze pola bitwy, w odległości większej niż 5\" od wszystkich wrogich wojowników.",
+    "runemarks": [
+      "hero",
+      "berserker"
+    ],
+    "sourceName": "Phantasmal Discorporation",
+    "sourceDescription": "A fighter can only use this ability if they are not within 3\" of any enemy fighters. Remove this fighter from the battlefield, then set this fighter up on a platform or the battlefield floor, more than 5\" from all enemy fighters."
+  },
+  {
+    "_id": "a75aa984",
+    "name": "Skazany na wieczną mękę",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika. Rzuć kością za tego wojownika. Jeśli wynik jest równy lub mniejszy od numeru bieżącej rundy bitwy, przydziel temu wojownikowi 6 punktów obrażeń.",
+    "runemarks": [
+      "sentience",
+      "hero"
+    ],
+    "sourceName": "Sentenced to Eternal Torment",
+    "sourceDescription": "Pick a visible enemy fighter. Roll a dice for that fighter.  If the roll is equal to or less than the number of the current battle round, allocate 6 damage points to that fighter."
+  },
+  {
+    "_id": "cd1184f1",
+    "name": "Widmowe przywołanie",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Wybierz sojuszniczego wojownika, który został wyeliminowany. Wystaw tego wojownika na platformie lub podłodze pola bitwy w całości w odległości 3\" od tego wojownika. Wojownik wystawiony na polu bitwy przestaje liczyć się jako wyeliminowany. Usuń liczbę punktów obrażeń przydzielonych temu wojownikowi równą wartości tej zdolności.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Spectral Summon",
+    "sourceDescription": "Pick a friendly fighter that has been taken down. Set that fighter up on a platform or the battlefield floor wholly within 3\" of this fighter. The fighter set up on the battlefield no longer counts as being taken down. Remove a number of damage points allocated to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "17952096",
+    "name": "Nieświęte światło",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Usuń do D3 punktów obrażeń przydzielonych każdemu sojuszniczemu wojownikowi w odległości 6\" od tego wojownika (rzucaj za każdego z nich).",
+    "runemarks": [
+      "hero",
+      "mystic"
+    ],
+    "sourceName": "Unholy Light",
+    "sourceDescription": "Remove up to D3 damage points allocated to each friendly fighter within 6\" of this fighter (roll for each)."
+  },
+  {
+    "_id": "612582bc",
+    "name": "Pojmana energia duszy",
+    "warband": "Nighthaunt",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Usuń od wszystkich widocznych sojuszniczych wojowników w odległości 6\" od tego wojownika liczbę punktów obrażeń do wartości tej zdolności.",
+    "runemarks": [
+      "hero",
+      "trapper"
+    ],
+    "sourceName": "Captured Soul-energy",
+    "sourceDescription": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation. Remove a number of damage points from all visible friendly fighters within 6\" of this fighter up to the value of this ability."
+  },
+  {
+    "_id": "87e56fd8",
+    "name": "Koszeni jak zboże",
+    "warband": "Nighthaunt",
+    "cost": "quad",
+    "description": "Przydziel wszystkim widocznym wrogim wojownikom w odległości 3\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Reaped Like Corn",
+    "sourceDescription": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "a4f5881c",
+    "name": "Przenikanie przez ścianę",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika może on poruszać się ponad ścianami lochu i przez zamknięte drzwi lochu, ale każdą akcję ruchu musi zakończyć z podstawką w całości na podłodze pola bitwy.",
+    "runemarks": [],
+    "sourceName": "Float Through Wall",
+    "sourceDescription": "Until the end of this fighter's activation, they can move over dungeon walls and through sealed dungeon doors but must end any move action with their base wholly on the battlefield floor."
+  },
+  {
+    "_id": "5e218340",
+    "name": "Migocząca postać",
+    "warband": "Nighthaunt",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy wrogi wojownik zakończy akcję ruchu w odległości 3\" od niego. Zanotuj odległość między tym wojownikiem a wrogim wojownikiem, który wykonał akcję ruchu. Usuń tego wojownika z pola bitwy, a następnie wystaw go na platformie lub podłodze pola bitwy nie dalej od wrogiego wojownika, który wykonał akcję ruchu.",
+    "runemarks": [],
+    "sourceName": "Flickering Form",
+    "sourceDescription": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them.  Note the distance between this fighter and the enemy fighter that made the move action.  Remove this fighter from the battlefield and then set this fighter up on a platform or the battlefield floor no further from the enemy fighter that made the move action."
+  },
+  {
+    "_id": "c20df7c5",
+    "name": "Fala grozy",
+    "warband": "Nighthaunt",
+    "cost": "battletrait",
+    "description": "Dodaj 1 do cechy Siła akcji ataku wręcz wykonywanych przez sojuszniczych wojowników z tą cechą bitewną, jeśli wykonali akcję ruchu podczas tej aktywacji.",
+    "runemarks": [],
+    "sourceName": "Wave of Terror",
+    "sourceDescription": "Add 1 to the Strength characteristic of melee attack actions made by friendly fighters with this battle trait if they made a move action this activation."
+  },
+  {
+    "_id": "120b6102",
+    "name": "Szybki wyrok",
+    "warband": "The Headsmen's Curse",
+    "cost": "double",
+    "description": "Ten wojownik wykonuje dodatkową akcję ruchu na odległość do liczby cali równej wartości tej zdolności i musi zakończyć ją bliżej najbliższego widocznego wrogiego wojownika niż znajdował się na początku tej akcji ruchu.",
+    "runemarks": [],
+    "sourceName": "Swift Judgement",
+    "sourceDescription": "This fighter makes a bonus move action of up to a number of inches equal to the value of this ability and must finish closer to the closest visible enemy fighter than they were at the start of that move action."
+  },
+  {
+    "_id": "2223f1bb",
+    "name": "Naostrzyć",
+    "warband": "The Headsmen's Curse",
+    "cost": "double",
+    "description": "Wybierz sojuszniczego wojownika z runemarkiem Hero i runemarkiem The Headsmen's Curse w odległości 3\" od tego wojownika. Dodaj 2 do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z następnej akcji ataku wręcz wykonanej przez tego wojownika.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Sharpen",
+    "sourceDescription": "Pick a friendly fighter with the Hero runemark and The Headsmen's Curse runemark within 3\" of this fighter. Add 2 to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by that fighter."
+  },
+  {
+    "_id": "7b5f8cee",
+    "name": "Trzymaj ich w miejscu",
+    "warband": "The Headsmen's Curse",
+    "cost": "triple",
+    "description": "Wybierz wrogiego wojownika w odległości 1\" od tego wojownika. Ten wojownik nie może wykonywać akcji wycofania do końca rundy bitwy. Dodatkowo odejmij wartość tej zdolności od cechy Ruch tego wojownika do końca rundy bitwy (do minimum 0).",
+    "runemarks": [],
+    "sourceName": "Hold Them Still",
+    "sourceDescription": "Pick an enemy fighter within 1\" of this fighter. That fighter cannot make disengage actions until the end of the battle round. In addition, subtract the value of this ability from that fighter's Move characteristic until the end of the battle round (to a minimum of 0)."
+  },
+  {
+    "_id": "525a92c8",
+    "name": "Dwór skazuje cię... na śmierć!",
+    "warband": "The Headsmen's Curse",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje dodatkową akcję ruchu. Dodaj x do cechy Ataki następnej akcji ataku wręcz wykonanej przez tego wojownika podczas tej aktywacji i dodaj x do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z tej akcji ataku, gdzie x jest liczbą sojuszniczych wojowników z runemarkiem The Headsmen's Curse w odległości 3\" od celu.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "The Court Sentences You... To Death!",
+    "sourceDescription": "This fighter makes a bonus move action. Add x to the Attacks  characteristic of the next melee attack action made by this fighter in this activation and add x to the damage points allocated to enemy fighters by each critical hit from that attack action, where x is the number of friendly fighters with The Headsmen's Curse runemark within 3\" of the target."
+  },
+  {
+    "_id": "fa042d57",
+    "name": "Wyjący wir",
+    "warband": "Thorns of the Briar Queen",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 9\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każde 4+ przydziel temu wojownikowi 3 punkty obrażeń. Dodatkowo za każde 4+ odejmij 1 od cechy Ruch tego wojownika (do minimum 1) do końca rundy bitwy.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Howling Vortex",
+    "sourceDescription": "Pick a visible enemy fighter within 9\" of this fighter and roll a number of dice equal to the value of this ability.  For each 4+, allocate 3 damage points to that fighter.  In addition, for each 4+, subtract 1 from the Move characteristic (to a minimum of 1) of that fighter until the end of the battle round."
+  },
+  {
+    "_id": "5e2a958a",
+    "name": "Widmowa alchemia",
+    "warband": "Nighthaunt",
+    "cost": "triple",
+    "description": "Wybierz jako cel widocznego wrogiego wojownika, któremu podczas tej aktywacji akcje ataku strzeleckiego tego wojownika przydzieliły jakiekolwiek punkty obrażeń. Dodaj 1 do punktów obrażeń przydzielanych przez każde trafienie z akcji ataku wręcz wykonywanych przez sojuszniczych wojowników z runemarkiem Nighthaunt, których celem jest ten wrogi wojownik, do końca tej rundy bitwy.",
+    "runemarks": [
+      "hero",
+      "scout"
+    ],
+    "sourceName": "Spectral Alchemy",
+    "sourceDescription": "Pick a visible enemy fighter that was allocated any damage points by this fighter’s missile attack actions this activation to be the target. Add 1 to the damage points allocated by each hit from melee attack actions made by friendly fighters with the Nighthaunt runemark that target that enemy fighter for the rest of the battle round."
+  }
+]

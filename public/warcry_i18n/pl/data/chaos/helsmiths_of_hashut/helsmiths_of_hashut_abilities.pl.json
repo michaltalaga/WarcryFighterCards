@@ -1,0 +1,228 @@
+[
+  {
+    "_id": "7b09275f",
+    "name": "Cecha bitewna",
+    "warband": "Helsmiths of Hashut",
+    "cost": "battletrait",
+    "description": "Na początku każdej rundy bitwy zyskaj liczbę demonicznych punktów mocy (DPP) równą liczbie sojuszniczych znaczników spustoszenia na polu bitwy (zobacz zdolność \"Leave the Land in Ruin\"). Na początku aktywacji sojuszniczego wojownika, jeśli ten wojownik ma runemarki Helsmiths of Hashut i Warrior, możesz wydać na niego do 3 DPP. Jeśli to zrobisz, zastosuj odpowiadające efekty poniżej do pierwszej akcji ataku wykonanej przez tego wojownika podczas tej aktywacji. Efekty kumulują się (na przykład, jeśli wydasz 3 DPP na tego wojownika, wszystkie 3 efekty będą go dotyczyć). 1 DPP - Jeśli jest to akcja ataku wręcz, dodaj 1 do punktów obrażeń przydzielanych przez każde trafienie krytyczne z tej akcji ataku. Jeśli jest to akcja ataku strzeleckiego, dodaj 1 do punktów obrażeń przydzielanych przez pojedyncze trafienie krytyczne z tej akcji ataku. 2 DPP - Dodaj 1 do cechy Siła tej akcji ataku. 3 DPP - Dodaj 1 do cechy Ataki tej akcji ataku.",
+    "runemarks": [],
+    "sourceName": "Battle Trait",
+    "sourceDescription": "At the start of each battle round, gain a number of daemonic power points (DPP) equal to the number of friendly desolation tokens on the battlefield (see the 'Leave the Land in Ruin' ability). At the start of a friendly fighter's activation, if that fighter has the Helsmiths of Hashut and Warrior runemarks and you spend up to 3 DPP on that fighter. If you do so, apply the corresponding effects below to that fighter's first attack action made that activation. The effects are cumulative (for example, if you spent 3 DPP on that fighter, all 3 effects would apply to them). 1 DPP - If it is a melee attack action, add 1 to the damage points allocated by each critical hit from that attack action. If it is a missile attack action, add 1 to the damage points allocated by a single critical hit from that attack action. 2 DPP - Add 1 to the Strength characteristic of that attack action. 3 DPP - Add 1 to the Attacks characteristic of that attack action."
+  },
+  {
+    "_id": "6924f3f4",
+    "name": "Jednorazowi sługusi",
+    "warband": "Helsmiths of Hashut",
+    "cost": "reaction",
+    "description": "Sojuszniczy wojownik z runemarkami Helsmiths of Hashut i Warrior może wykonać tę reakcję po tym, jak stał się celem akcji ataku, ale zanim wykonane zostaną rzuty na trafienie. Wybierz sojuszniczego Hobgrot Vandala, który jest widoczny dla atakującego i znajduje się w odległości 3\" od wojownika wykonującego tę reakcję. Usuń tego Hobgrot Vandala z pola bitwy i wystaw go ponownie w odległości 1\" od wojownika wykonującego tę reakcję oraz możliwie najbliżej atakującego. Ten Hobgrot Vandal staje się teraz celem tej akcji ataku.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Disposable Lackeys",
+    "sourceDescription": "A friendly fighter with the Helsmiths of Hashut and Warrior runemarks can make this reaction after they are targeted by an attack action but before the hit rolls are made. Pick a friendly Hobgrot Vandal that is visible to the attacker and within 3\" of the fighter making this reaction. Remove that Hobgrot Vandal from the battlefield and set them up again within 1\" of the fighter making this reaction and as near as possible to the attacker. That Hobgrot Vandal is now the target of that attack action."
+  },
+  {
+    "_id": "0dd03c5b",
+    "name": "Czarnoduszny zdobywca",
+    "warband": "Helsmiths of Hashut",
+    "cost": "double",
+    "description": "Wybierz do 3 widocznych sojuszniczych wojowników z runemarkiem Helsmiths of Hashut. Każdy z tych wojowników może natychmiast wykonać dodatkową akcję ruchu do 3\".",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Black-hearted Conqueror",
+    "sourceDescription": "Pick up to 3 visible friendly fighters with the Helsmiths of Hashut runemark. Those fighters can each immediately make a bonus move action of up to 3\"."
+  },
+  {
+    "_id": "3e37b5d1",
+    "name": "Demonokowalstwo",
+    "warband": "Helsmiths of Hashut",
+    "cost": "double",
+    "description": "Wybierz widocznego wojownika (sojuszniczego lub wrogiego) w odległości 8\" od tego wojownika. Jeśli wybrano wrogiego wojownika, odejmij 2 od jego cechy Wytrzymałość przez resztę rundy bitwy. Jeśli wybrano sojuszniczego wojownika, który nie ma runemarku Terrifying, dodaj 2 do jego cechy Wytrzymałość przez resztę rundy bitwy. Jeśli wybrano sojuszniczego wojownika, który ma runemark Terrifying, usuń 3 przydzielone mu punkty obrażeń.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Daemonsmithing",
+    "sourceDescription": "Pick a visible fighter (friendly or enemy) within 8\" of this fighter. If you picked an enemy fighter, subtract 2 from their Toughness characteristic for the rest of the battle round. If you picked a friendly fighter that does not have the Terrifying runemark, add 2 to their Toughness characteristic for the rest of the battle round. If you picked a friendly fighter that has the Terrifying runemark, remove 3 damage points allocated to them."
+  },
+  {
+    "_id": "a6df4115",
+    "name": "Pozostaw ziemię w ruinie",
+    "warband": "Helsmiths of Hashut",
+    "cost": "double",
+    "description": "Wybierz każdą przeszkodę w odległości 3\" od tego wojownika, która dotyka podłogi pola bitwy i nie ma znacznika spustoszenia. Daj każdej z tych przeszkód znacznik spustoszenia.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Leave the Land in Ruin",
+    "sourceDescription": "Pick each obstacle within 3\" of this fighter that is touching the battlefield floor and that does not have a desolation token. Give each of those obstacles a desolation token."
+  },
+  {
+    "_id": "d5f8beef",
+    "name": "Zwęglone szczątki",
+    "warband": "Helsmiths of Hashut",
+    "cost": "double",
+    "description": "Wybierz wrogiego wojownika, któremu podczas tej aktywacji akcje ataku strzeleckiego tego wojownika przydzieliły jakiekolwiek punkty obrażeń. Ten wrogi wojownik nie może używać zdolności przez resztę rundy bitwy.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Scorched Remains",
+    "sourceDescription": "Pick an enemy fighter that was allocated any damage points by this fighter's missile attack actions this activation. That enemy fighter cannot use abilities for the rest of the battle round."
+  },
+  {
+    "_id": "e5ab61fc",
+    "name": "Zdyscyplinowany marsz",
+    "warband": "Helsmiths of Hashut",
+    "cost": "double",
+    "description": "Przez resztę aktywacji tego wojownika dodaj 2 do jego cechy Ruch, a także może on wykonywać akcje ruchu nawet wtedy, gdy znajduje się w odległości 1\" od wrogiego wojownika.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Disciplined March",
+    "sourceDescription": "For the rest of this fighter's activation, add 2 to their Move characteristic and they can make move actions even if they are within 1\" of an enemy fighter."
+  },
+  {
+    "_id": "45a4deed",
+    "name": "Święty gong",
+    "warband": "Helsmiths of Hashut",
+    "cost": "double",
+    "description": "Usuń z pola bitwy wszystkie sojusznicze znaczniki nosiciela gongu, a następnie daj temu wojownikowi znacznik nosiciela gongu. Przez resztę rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez sojuszniczych wojowników z runemarkami Helsmiths of Hashut i Warrior, gdy znajdują się w odległości 12\" od sojuszniczego wojownika ze znacznikiem nosiciela gongu.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Sacred Gong",
+    "sourceDescription": "Remove all friendly gong carrier tokens from the battlefield, then give this fighter a gong carrier token. For the rest of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters with the Helsmiths of Hashut and Warrior runemarks while they are within 12\" of a friendly fighter with a gong carrier token."
+  },
+  {
+    "_id": "5f793230",
+    "name": "Żar demonicznego pieca",
+    "warband": "Helsmiths of Hashut",
+    "cost": "double",
+    "description": "Przez resztę rundy bitwy odejmij 1 od cechy Ataki akcji ataku wręcz wykonywanych przez widocznych wrogich wojowników, gdy znajdują się w odległości 3\" od tego wojownika.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Daemonic Furnace Heat",
+    "sourceDescription": "For the rest of the battle round, subtract 1 from the Attacks characteristic of melee attack actions made by visible enemy fighters while they are within 3\" of this fighter."
+  },
+  {
+    "_id": "b8f60935",
+    "name": "Błogosławieństwo pieca",
+    "warband": "Helsmiths of Hashut",
+    "cost": "triple",
+    "description": "Wybierz widocznego sojuszniczego wojownika. Przez resztę rundy bitwy dodaj 1 do cech Ataki i Siła akcji ataku wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "priest"
+    ],
+    "sourceName": "Furnace Blessing",
+    "sourceDescription": "Pick a visible friendly fighter. For the rest of the battle round, add 1 to the Attacks and Strength characteristics of attack actions made by that fighter."
+  },
+  {
+    "_id": "d5186454",
+    "name": "Nienawistna salwa",
+    "warband": "Helsmiths of Hashut",
+    "cost": "triple",
+    "description": "Możesz potraktować 1 trafienie z następnej akcji ataku strzeleckiego wykonanej przez tego wojownika jako trafienie krytyczne.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Hateful Hail",
+    "sourceDescription": "You can count 1 hit from the next missile attack action made by this fighter as a critical hit instead."
+  },
+  {
+    "_id": "3242d9b7",
+    "name": "Zmiażdż niegodnych",
+    "warband": "Helsmiths of Hashut",
+    "cost": "triple",
+    "description": "Ten wojownik może użyć tej zdolności tylko podczas swojej aktywacji, po wykonaniu akcji ruchu zakończonej w odległości 1\" od dowolnego wrogiego wojownika. Ten wojownik może wykonać dodatkową akcję ruchu do 8\". Ta akcja ruchu może przechodzić przez modele wrogów i musi zakończyć się w odległości 1\" od wrogiego wojownika. Dodatkowo dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika podczas tej aktywacji.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Crush the Unworthy",
+    "sourceDescription": "This fighter can only use this ability during their activation after they make a move action that ends within 1\" of any enemy fighters. This fighter can make a bonus move action of up to 8\". This move action can pass through enemy models and must end within 1\" of an enemy fighter. In addition, add 1 to the Attacks characteristic of melee attack actions made by this fighter this activation."
+  },
+  {
+    "_id": "76b41b0d",
+    "name": "Żarliwy kontratak",
+    "warband": "Helsmiths of Hashut",
+    "cost": "triple",
+    "description": "Przez resztę aktywacji tego wojownika, jeśli wykonał on akcję ruchu podczas tej aktywacji, dodaj 1 do rzutu na trafienie krytyczne (do maksimum 6) z akcji ataku wręcz wykonywanych przez tego wojownika, jeśli cel znajduje się w odległości 1\" od innego sojuszniczego wojownika z runemarkami Helsmiths of Hashut i Warrior.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Zealous Counter-attack",
+    "sourceDescription": "For the rest of this fighter's activation, if they made a move action this activation, add 1 to the critical hit roll (to a maximum of 6) from melee attack actions made by this fighter if the target is within 1\" of another friendly fighter with the Helsmiths of Hashut and Warrior runemarks."
+  },
+  {
+    "_id": "e33bb417",
+    "name": "Demoniczne wzmocnienie",
+    "warband": "Helsmiths of Hashut",
+    "cost": "quad",
+    "description": "Tego wojownika traktuje się przez resztę aktywacji tak, jakby wydano na niego 3 demoniczne punkty mocy.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Daemonic Empowerment",
+    "sourceDescription": "This fighter is treated as having had 3 daemonic power points spent on them for the rest of the activation."
+  },
+  {
+    "_id": "3822503a",
+    "name": "Najokrutniejszy z despotów",
+    "warband": "Blood of the Bull",
+    "cost": "quad",
+    "description": "Wybierz do 3 innych widocznych sojuszniczych wojowników w odległości 6\" od tego wojownika, którzy mają runemark Helsmiths of Hashut. Podczas swojej następnej aktywacji każdy z tych wojowników może użyć zdolności `[double]` bez potrzeby posiadania lub zużywania kości zdolności. Jeśli ci wojownicy mają runemark Blood of the Bull, te zdolności mają wartość 6.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Cruellest of Despots",
+    "sourceDescription": "Pick up to 3 other visible friendly fighters within 6\" of this fighter that have the Helsmiths of Hashut runemark. In their next activation, each of those fighters can use a [double] ability without needing or using any ability dice. If those fighters have the Blood of the Bull runemark, those abilities have a value of 6."
+  },
+  {
+    "_id": "0de4bdf3",
+    "name": "Tyraniczne deklaracje",
+    "warband": "Blood of the Bull",
+    "cost": "double",
+    "description": "Przez resztę rundy bitwy, gdy sojuszniczy wojownicy z runemarkiem Blood of the Bull znajdują się w odległości 3\" od sojuszniczego wojownika z runemarkami Hero i Blood of the Bull, liczą się jako 1 dodatkowy sojuszniczy wojownik przy ustalaniu kontroli nad celami. Dodatkowo, jeśli wartość tej zdolności wynosi 6, dodaj 1 do cechy Wytrzymałość tych wojowników przez resztę rundy bitwy.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Tyrannic Declarations",
+    "sourceDescription": "For the rest of the battle round, while they are within 3\" of a friendly fighter with the Hero and Blood of the Bull runemarks, friendly fighters with the Blood of the Bull runemark count as 1 additional friendly fighter when determining control of objectives. In addition, if the value of this ability is 6, add 1 to the Toughness characteristic of those fighters for the rest of the battle round."
+  },
+  {
+    "_id": "710ae74b",
+    "name": "Demoniczny wigor",
+    "warband": "Blood of the Bull",
+    "cost": "double",
+    "description": "Dodaj 1 do punktów obrażeń przydzielanych przez każde trafienie krytyczne z następnej akcji ataku wręcz wykonanej przez tego wojownika podczas tej aktywacji. Jeśli wartość tej zdolności wynosi 6, dodaj 1 do cechy Siła tej akcji ataku oraz 1 do cechy Ataki tej akcji ataku.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Daemonic Vigour",
+    "sourceDescription": "Add 1 to the damage points allocated by each critical hit from the next melee attack action made by this fighter this activation. If the value of this ability is 6, add 1 to the Strength characteristic of that attack action and add 1 to the Attacks characteristic of that attack action."
+  },
+  {
+    "_id": "017c56ec",
+    "name": "Demoniczny płomień",
+    "warband": "Blood of the Bull",
+    "cost": "double",
+    "description": "Wybierz wrogiego wojownika, któremu ten wojownik przydzielił jakiekolwiek punkty obrażeń podczas tej aktywacji. Tamten wojownik nie może używać reakcji przez resztę rundy bitwy. Dodatkowo, jeśli wartość tej zdolności wynosi 6, tamten wojownik nie może używać zdolności przez resztę rundy bitwy.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Daemonic Blaze",
+    "sourceDescription": "Pick an enemy fighter that had any damage points allocated to them by this fighter this activation. That fighter cannot use reactions for the rest of the battle round. In addition, if the value of this ability is 6, that fighter cannot use abilities for the rest of the battle round."
+  },
+  {
+    "_id": "a55ebfe2",
+    "name": "Wytrwały i tchórzliwy",
+    "warband": "Blood of the Bull",
+    "cost": "double",
+    "description": "Następnym razem w tej rundzie bitwy, gdy ten wojownik zostanie wyeliminowany, wszystkie pozostałe punkty obrażeń, które zostałyby mu przydzielone, są ignorowane, a następnie usuń 1 punkt obrażeń przydzielony temu wojownikowi. Jeśli wartość tej zdolności wynosi 6, usuń zamiast tego D3 punktów obrażeń przydzielonych temu wojownikowi.",
+    "runemarks": [
+      "minion"
+    ],
+    "sourceName": "Tenacious and Cowardly",
+    "sourceDescription": "The next time this battle round that this fighter is taken down, all remaining damage points that would be allocated to them are ignored, then remove 1 damage point allocated to this fighter. If the value of this ability is 6, remove D3 damage points allocated to this fighter instead."
+  }
+]
