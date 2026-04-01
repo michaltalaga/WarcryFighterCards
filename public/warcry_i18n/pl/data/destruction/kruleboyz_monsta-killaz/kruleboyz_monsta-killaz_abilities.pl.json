@@ -1,0 +1,96 @@
+[
+  {
+    "_id": "2a3d1d3e",
+    "name": "Podła pułapka",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "reaction",
+    "description": "Po tym, jak wrogi wojownik w odległości 6\" od tego wojownika zakończy akcję ruchu, rzuć kością. Przy wyniku 5+ wybierz 1: tamten wrogi wojownik nie może wykonywać akcji ruchu przez resztę rundy bitwy albo przydziel tamtemu wrogiemu wojownikowi 4 punkty obrażeń. W przeciwnym razie przydziel tamtemu wrogiemu wojownikowi 2 punkty obrażeń.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Krule Trap",
+    "sourceDescription": "After an enemy fighter within 6\" of this fighter ends a move action, roll a dice. On a roll of a 5+, pick one: that enemy fighter cannot make move actions for the rest of the battle round, or allocate 4 damage points to that enemy fighter. Otherwise, allocate 2 damage points to that enemy fighter."
+  },
+  {
+    "_id": "6a76938e",
+    "name": "Podła drwina",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "double",
+    "description": "Wybierz wrogiego wojownika, który znajduje się w odległości od tego wojownika równej wartości tej zdolności. Do końca rundy bitwy odejmij 2 od punktów obrażeń przydzielanych przez każde trafienie i trafienie krytyczne (do minimum 1) z akcji ataku wykonywanych przez wybranego wojownika, chyba że celem tych akcji ataku jest ten wojownik.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Krule Taunt",
+    "sourceDescription": "Pick an enemy fighter that is within a number of inches of this fighter equal to the value of this ability. Until the end of the battle round, subtract 2 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions made by the chosen fighter, unless those attack actions target this fighter."
+  },
+  {
+    "_id": "f54e7999",
+    "name": "Wyrwij to",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "double",
+    "description": "Po następnej akcji ataku wykonanej przez tego wojownika podczas tej aktywacji, która ma runemark Spear albo Ranged Weapon, jeśli uzyskała 1 lub więcej trafień, przydziel celowi tej akcji ataku liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Rip It Out",
+    "sourceDescription": "After the next attack action that has the Spear or Ranged Weapon runemark made by this fighter in this activation, if it scored 1 or more hits, allocate a number of damage points to the target of that attack action equal to the value of this ability."
+  },
+  {
+    "_id": "a65e52e8",
+    "name": "Podłe dźganie",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do punktów obrażeń przydzielanych przez każde trafienie i trafienie krytyczne z akcji ataku wręcz wykonywanych przez tego wojownika, których celem jest wrogi wojownik, któremu przydzielono 5 lub więcej punktów obrażeń.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Krule Stabbin'",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to the damage points allocated by each hit and critical hit from melee attack actions made by this fighter that target an enemy fighter that has 5 or more damage points allocated to them."
+  },
+  {
+    "_id": "fa51972c",
+    "name": "Dudnij i rycz",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy wrodzy wojownicy w odległości 6\" od tego wojownika nie mogą wykonywać reakcji.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Drum and Holler",
+    "sourceDescription": "Until the end of the battle round, enemy fighters within 6\" of this fighter cannot make reactions."
+  },
+  {
+    "_id": "77f385b7",
+    "name": "Potnij ich",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 2\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności (do minimum 2). Utwórz jedną grupę 2 lub więcej kości o następujących po sobie wynikach liczbowych (np. 2, 3, 4), bez duplikatów. Następnie przydziel wybranemu wojownikowi 3 punkty obrażeń za każdą kość w tej grupie.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Saw 'Em Up",
+    "sourceDescription": "Pick a visible enemy fighter within 2\" of this fighter and roll a number of dice equal to the value of this ability (to a minimum of 2). Make a single group of 2 or more dice in consecutive numerical order (e.g. 2, 3, 4), excluding duplicates. Then allocate 3 damage points to the chosen fighter for each dice in that group."
+  },
+  {
+    "_id": "91c3121c",
+    "name": "Paskudne łojenie",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "quad",
+    "description": "Wybierz wrogiego wojownika w odległości 1\" od tego wojownika. Każdy sojuszniczy wojownik z runemarkiem Kruleboyz Monsta-killaz w odległości 3\" od tamtego wrogiego wojownika może wykonać jedną dodatkową akcję ataku, której celem musi być tamten wrogi wojownik.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Nasty Muggin'",
+    "sourceDescription": "Pick an enemy fighter within 1\" of this fighter. Each friendly fighter with the Kruleboyz Monsta-killaz runemark within 3\" of that enemy fighter can make one bonus attack action that must target that enemy fighter."
+  },
+  {
+    "_id": "bf2395e5",
+    "name": "Okropna pułapka",
+    "warband": "Kruleboyz Monsta-killaz",
+    "cost": "battletrait",
+    "description": "Gdy sojuszniczy wojownik z tą cechą bitewną używa reakcji 'Podła pułapka', jeśli wrogi wojownik ma runemark Monster, dodaj 2 do rzutu.",
+    "runemarks": [],
+    "sourceName": "'Orrible Trap",
+    "sourceDescription": "When a friendly fighter with this battle trait uses the Krule Trap reaction, if the enemy fighter has the Monster runemark, add 2 to the roll."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "3a2c183b",
+    "name": "Gromowe kroki",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "double",
+    "description": "Wybierz innego sojuszniczego wojownika w odległości 6\" od tego wojownika. Tamten wojownik wykonuje dodatkową akcję ruchu.",
+    "runemarks": [],
+    "sourceName": "Thundering Strides",
+    "sourceDescription": "Pick another friendly fighter within 6\" of this fighter.  That fighter makes a bonus move action."
+  },
+  {
+    "_id": "c9ece71e",
+    "name": "Z siłą pioruna",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko po tym, jak zakończy akcję ruchu w odległości 1\" od 2 lub więcej wrogich wojowników. Ten wojownik wykonuje dodatkową akcję ataku.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "With the Force of a Thunderbolt",
+    "sourceDescription": "A fighter can only use this ability after they finish a move action within 1\" of 2 or more enemy fighters.  This fighter makes a bonus attack action."
+  },
+  {
+    "_id": "3e3777bd",
+    "name": "Palące światło",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "triple",
+    "description": "Przydziel 3 punkty obrażeń wszystkim widocznym wrogim wojownikom w odległości 3\" od tego wojownika.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Searing Light",
+    "sourceDescription": "Allocate 3 damage points to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "ba51b7f7",
+    "name": "Stańcie do walki, tchórze!",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy wrodzy wojownicy, którzy rozpoczynają swoją aktywację w odległości 3\" od tego wojownika, nie mogą wykonywać akcji wycofania ani kończyć akcji ruchu dalej od tego wojownika.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Face Me, Cowards!",
+    "sourceDescription": "Until the end of the battle round, enemy fighters that begin their activation within 3\" of this fighter cannot make disengage actions or end move actions further from this fighter."
+  },
+  {
+    "_id": "54b02d01",
+    "name": "Translokacja",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "quad",
+    "description": "Wybierz sojuszniczego wojownika z runemarkiem Stormcast Eternals w odległości 3\" od tego wojownika. Usuń tamtego wojownika z pola bitwy, a następnie natychmiast ustaw go w dowolnym miejscu na polu bitwy dalej niż 4\" od wszystkich wrogich wojowników.",
+    "runemarks": [
+      "priest"
+    ],
+    "sourceName": "Translocation",
+    "sourceDescription": "Choose a friendly fighter with a Stormcast Eternals runemark within 3\" of this fighter. Remove that fighter from the battlefield and then immediately set them up anywhere on the battlefield more than 4\" from all enemy fighters."
+  },
+  {
+    "_id": "5b24ebcb",
+    "name": "Nawet mnie nie spowolnicie",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Ten wojownik wykonuje dodatkową akcję ruchu albo dodatkową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "You Won't Even Slow Me Down",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "838252a4",
+    "name": "Błyskawiczny odwet",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy stanie się celem akcji ataku wręcz, po zsumowaniu obrażeń, ale przed przydzieleniem ich temu wojownikowi, jeśli wystarczą one do wyeliminowania tego wojownika. Wybierz innego sojuszniczego wojownika. Tamten wojownik wykonuje dodatkową akcję ruchu albo dodatkową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Swift Retribution",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down.  Pick another friendly fighter.  That fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "57e67ede",
+    "name": "Bohaterowie bez granic",
+    "warband": "Stormcast Eternals Questor Soulsworn",
+    "cost": "battletrait",
+    "description": "Wojownicy z tą cechą bitewną mogą używać wielu zdolności podczas każdej aktywacji. Tacy wojownicy mogą użyć tej samej zdolności więcej niż raz i mogą używać wielu zdolności wtedy, gdy normalnie mogliby użyć tylko jednej. Gdy zdolności przyznają dodatkowe akcje, takie zdolności są używane pojedynczo i w pełni rozpatrywane, zanim będzie można użyć kolejnej zdolności.",
+    "runemarks": [],
+    "sourceName": "Heroes Without Limits",
+    "sourceDescription": "Fighters with this battle trait can use multiple abilities each activation. Such fighters can use the same ability more than once, and can use multiple abilities when they would normally only be able to use one. Where abilities grant bonus actions, such abilities are used one at a time and are fully resolved before another ability can be used."
+  }
+]

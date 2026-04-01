@@ -1,0 +1,88 @@
+[
+  {
+    "_id": "25a93cd6",
+    "name": "Zabójczy wir",
+    "warband": "Ydrilan Riverblades",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Za każdy rzut na trafienie o wyniku 1 z tej akcji ataku przydziel atakującemu wojownikowi 3 punkty obrażeń albo, jeśli ten wojownik ma runemark Agile, przydziel zamiast tego 3 punkty obrażeń każdemu wrogiemu wojownikowi w odległości 1\".",
+    "runemarks": [],
+    "sourceName": "Lethal Gyre",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 1 from that attack action, allocate 3 damage points to the attacking fighter, or if this fighter has the Agile runemark, allocate 3 damage points to each enemy fighter within 1\" instead."
+  },
+  {
+    "_id": "0e14ad5e",
+    "name": "Rzeczne ostrza",
+    "warband": "Ydrilan Riverblades",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do cechy Ruch tego wojownika, a po każdej akcji wykonanej przez tego wojownika, innej niż akcja czekania, rzuć kością. Przy wyniku 2+ przydziel 2 punkty obrażeń 1 widocznemu wrogiemu wojownikowi w odległości 8\".",
+    "runemarks": [],
+    "sourceName": "Riverblades",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to this fighter's Move characteristic, and after each action this fighter takes, other than wait actions, roll a dice. On a roll of 2+, deal 2 damage to 1 visible enemy fighter within 8\"."
+  },
+  {
+    "_id": "ef131c72",
+    "name": "Skok wzbierającego nurtu",
+    "warband": "Ydrilan Riverblades",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika może on latać podczas wykonywania akcji ruchu; jednak gdy lata, nie może przemieszczać się pionowo w górę o więcej niż 3\".",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Rapids Rising Leap",
+    "sourceDescription": "Until the end of this fighter's activation, they can fly when making move actions; however, when flying, they cannot move vertically upwards of more than 3\"."
+  },
+  {
+    "_id": "a553063f",
+    "name": "Uderzenie białej grzywy",
+    "warband": "Ydrilan Riverblades",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do cechy Siła akcji ataku wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Whitecrest Strike",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to the Strength characteristic of attack actions made by this fighter."
+  },
+  {
+    "_id": "5254442e",
+    "name": "Postawa stojącej fali",
+    "warband": "Ydrilan Riverblades",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy nie wykonał akcji ruchu ani akcji wycofania podczas tej aktywacji, a jeśli wojownik użyje tej zdolności, nie może wykonywać akcji ruchu ani akcji wycofania podczas tej aktywacji. Do końca aktywacji tego wojownika dodaj 1 do cech Ataki i Siła akcji ataku wręcz wykonywanych przez tego wojownika, a do końca rundy bitwy dodaj 1 do cechy Wytrzymałość tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Standing Wave Stance",
+    "sourceDescription": "A fighter can only use this ability if this fighter has not made a move or disengage action this activation, and if a fighter uses this ability they cannot make a move or disengage action this activation. Until the end of this fighter's activation, add 1 to the Attacks and Strength characteristics of melee attack actions made by this fighter, and until the end of the battle round, add 1 to the Toughness characteristic of this fighter."
+  },
+  {
+    "_id": "5be919af",
+    "name": "Uwolnij rzekę",
+    "warband": "Ydrilan Riverblades",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Ruch sojuszniczych wojowników, gdy wykonują akcję ruchu rozpoczynającą się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Release the River",
+    "sourceDescription": "Until the end of the battle round, add half the value of this ability (rounding up) to the Move characteristic of friendly fighters while they make a move action that starts within 6\" of this fighter."
+  },
+  {
+    "_id": "988d3836",
+    "name": "Kipiący gniew",
+    "warband": "Ydrilan Riverblades",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje liczbę dodatkowych akcji, która może stanowić dowolną kombinację akcji ruchu, ataku i wycofania, równą liczbie wojowników z grupy bitewnej tego wojownika, którzy zostali wyeliminowani.",
+    "runemarks": [],
+    "sourceName": "Boiling Wrath",
+    "sourceDescription": "This fighter makes a number of bonus actions, which may be any combination of move, attack, and disengage actions, equal to the number of fighters from that fighter's battle group that have been taken down."
+  },
+  {
+    "_id": "25eb711b",
+    "name": "Rzeka toruje sobie drogę",
+    "warband": "Ydrilan Riverblades",
+    "cost": "battletrait",
+    "description": "Dodaj 1 do cechy Ruch sojuszniczych wojowników z tą cechą bitewną, którzy do końca tej aktywacji rozpoczynają akcję ruchu w odległości 1\" od elementu terenu i na podłodze pola bitwy.",
+    "runemarks": [],
+    "sourceName": "The River Winds Its Way",
+    "sourceDescription": "Add 1 to the Move characteristic of friendly fighters with this battle trait that start a move action within 1\" of a terrain feature and on the battlefield floor until the end of that activation."
+  }
+]

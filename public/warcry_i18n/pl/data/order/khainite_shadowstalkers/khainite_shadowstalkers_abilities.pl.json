@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "27a6269a",
+    "name": "Przeklęte lotki",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 9\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4+ przydziel temu wojownikowi 2 punkty obrażeń. Dodatkowo, jeśli którakolwiek kość pokaże 6, do końca rundy bitwy zmniejsz o połowę cechę Ruch tamtego wojownika (zaokrąglając w górę).",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Cursed Darts",
+    "sourceDescription": "Pick a visible enemy fighter within 9\" of this fighter and roll 2 dice. For each roll of 4+, allocate 2 damage points to that fighter. In addition, if either dice rolls a 6, until the end of the battle round, halve the Move characteristic of that fighter (rounding up)."
+  },
+  {
+    "_id": "c3899b32",
+    "name": "Narzędzie Khaine'a",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Ten wojownik wykonuje dodatkową akcję ruchu albo dodatkową akcję ataku.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Instrument of Khaine",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "8574d874",
+    "name": "Skok cienia",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika ten wojownik może latać podczas wykonywania akcji ruchu.",
+    "runemarks": [],
+    "sourceName": "Shadow Leap",
+    "sourceDescription": "Until the end of this fighter's activation, this fighter can fly when making move actions."
+  },
+  {
+    "_id": "863437da",
+    "name": "Taniec śmierci",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika ten wojownik może kończyć akcje wycofania w odległości 1\" od wrogich wojowników.",
+    "runemarks": [],
+    "sourceName": "Dance of Death",
+    "sourceDescription": "Until the end of this fighter's activation, this fighter can finish disengage actions within 1\" of enemy fighters."
+  },
+  {
+    "_id": "a73ee76a",
+    "name": "Okiełznaj cień",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy odejmij 1 od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez wrogich wojowników, gdy ich celem jest wojownik w odległości 3\" od tego wojownika.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Harness Shadow",
+    "sourceDescription": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they target a fighter within 3\" of this fighter."
+  },
+  {
+    "_id": "7bb5e8da",
+    "name": "Pętająca ciemność",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "quad",
+    "description": "Albo przydziel wszystkim widocznym wrogim wojownikom w odległości 3\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności, albo przydziel temu wojownikowi 3 punkty obrażeń oraz wszystkim widocznym wrogim wojownikom w odległości 6\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Ensnaring Darkness",
+    "sourceDescription": "Either allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter, or allocate 3 damage points to this fighter and a number of damage points equal to the value of this ability to all visible enemy fighters within 6\" of this fighter."
+  },
+  {
+    "_id": "0639c5be",
+    "name": "Przemknij Między Cieniami",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy wrogi wojownik zakończy akcję ruchu w odległości do 3\" od niego. Zanotuj odległość między tym wojownikiem a wrogim wojownikiem, który wykonał akcję ruchu. Usuń tego wojownika z pola bitwy, a następnie ustaw go na platformie albo na podłodze pola bitwy nie dalej od wrogiego wojownika, który wykonał akcję ruchu.",
+    "runemarks": [],
+    "sourceName": "Slip Between Shadows",
+    "sourceDescription": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them. Note the distance between this fighter and the enemy fighter that made the move action. Remove this fighter from the battlefield and then set this fighter up on a platform or the battlefield floor no further from the enemy fighter that made the move action."
+  },
+  {
+    "_id": "1242e8e7",
+    "name": "Kłębiące się cienie",
+    "warband": "Khainite Shadowstalkers",
+    "cost": "battletrait",
+    "description": "Na końcu każdej rundy bitwy każdy gracz, którego drużyna bojowa ma tę cechę bitewną, może wybrać dwóch sojuszniczych wojowników, którzy znajdują się w odległości 9\" od siebie nawzajem, dalej niż 3\" od każdego wrogiego wojownika i nie niosą skarbu. Ustaw każdego z tych sojuszniczych wojowników w miejscu, w którym znajdował się drugi wojownik w chwili wyboru.",
+    "runemarks": [],
+    "sourceName": "Swarming Shadows",
+    "sourceDescription": "At the end of each battle round, each player whose warband has this battle trait can pick two friendly fighters that are within 9\" of each other, more than 3\" from each enemy fighter and are not carrying treasure. Place each friendly fighter in the position the other fighter was in when they were picked."
+  }
+]

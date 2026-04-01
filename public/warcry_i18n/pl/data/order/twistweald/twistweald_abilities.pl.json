@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "4bs13vtk",
+    "name": "Grzybniowe spustoszenie",
+    "warband": "Twistweald",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Za każdy rzut na trafienie 5+ z tej akcji ataku przydziel atakującemu wojownikowi 2 punkty obrażeń.",
+    "runemarks": [],
+    "sourceName": "Mycelial Ravaging",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by a melee attack action but before the hit rolls are made. For each hit roll of 5+ from that attack action, allocate 2 damage points to the attacking fighter."
+  },
+  {
+    "_id": "bbrllj1a",
+    "name": "Szpony przebijające ciało",
+    "warband": "Twistweald",
+    "cost": "double",
+    "description": "Podczas następnej akcji ataku wręcz wykonanej przez tego wojownika trafienia krytyczne dla tej akcji ataku są uzyskiwane przy wyniku 5+.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Flesh-piercing Talons",
+    "sourceDescription": "During the next melee attack action made by this fighter, critical hits are scored on a 5+ for that attack action."
+  },
+  {
+    "_id": "yj8f61pb",
+    "name": "Żarłoczny rój",
+    "warband": "Twistweald",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 12\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 3+ przydziel tamtemu wrogiemu wojownikowi 1 punkt obrażeń.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Voracious Swarm",
+    "sourceDescription": "Pick a visible enemy fighter within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate 1 damage point to that enemy fighter."
+  },
+  {
+    "_id": "kc377aly",
+    "name": "Erupcja cierni",
+    "warband": "Twistweald",
+    "cost": "double",
+    "description": "Przydziel każdemu wrogiemu wojownikowi w odległości 1\" od tego wojownika liczbę punktów obrażeń równą połowie wartości tej zdolności.",
+    "runemarks": [],
+    "sourceName": "Eruption of Thorns",
+    "sourceDescription": "Allocate a number of damage points equal to half the value of this ability to each enemy fighter within 1\" of this fighter."
+  },
+  {
+    "_id": "1juhnrny",
+    "name": "Cierniowy chwyt",
+    "warband": "Twistweald",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika, a następnie rzuć kością. Przy wyniku 2+ przydziel wojownikowi, za którego wykonywany jest rzut, 2 punkty obrażeń. Kontynuuj rzuty w ten sposób i przydzielanie punktów obrażeń tamtemu wojownikowi, dopóki wynik rzutu nie będzie równy poprzedniemu wynikowi albo niższy od niego.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Thorned Grasp",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter, then roll a dice. On a roll of 2+, allocate 2 damage points to the fighter being rolled for. Keep rolling in this way and allocating damage points to that fighter until a roll is equal to or lower than the previous roll."
+  },
+  {
+    "_id": "ftsgeyxb",
+    "name": "Pochłoń infekcję",
+    "warband": "Twistweald",
+    "cost": "triple",
+    "description": "Wybierz sojuszniczego wojownika w odległości 12\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel tamtemu sojuszniczemu wojownikowi 1 punkt obrażeń. Za każdy punkt obrażeń przydzielony tamtemu wojownikowi przez tę zdolność dodaj 1 do cechy Ataki następnej akcji ataku wręcz wykonanej przez tamtego wojownika do końca rundy bitwy.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Devour Infection",
+    "sourceDescription": "Pick a friendly fighter within 12\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 1 damage point to that friendly fighter. For each damage point allocated to that fighter by this ability, add 1 to the Attacks characteristic of the next melee attack action made by that fighter until the end of the battle round."
+  },
+  {
+    "_id": "9alh24h5",
+    "name": "Wypaczona pieśń",
+    "warband": "Twistweald",
+    "cost": "quad",
+    "description": "Usuń liczbę punktów obrażeń przydzielonych temu wojownikowi równą wartości tej zdolności. Następnie ten wojownik może wykonać dodatkową akcję ruchu albo dodatkową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Twisted Song",
+    "sourceDescription": "Remove a number of damage points allocated to this fighter equal to the value of this ability. This fighter can then make a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "506dca98",
+    "name": "Spustoszony przez skażenie",
+    "warband": "Twistweald",
+    "cost": "battletrait",
+    "description": "Na końcu każdej rundy bitwy możesz wybrać sojuszniczego wojownika z tą cechą bitewną, który znajduje się w odległości 1\" od co najmniej jednego wrogiego wojownika, i rzucić kością. Przy wyniku 2+ przydziel tamtemu sojuszniczemu wojownikowi 1 punkt obrażeń. Jeśli tamten sojuszniczy wojownik nie zostanie wyeliminowany, wybierz jednego z tych wrogich wojowników. Przydziel tamtemu wrogiemu wojownikowi D3 punkty obrażeń.",
+    "runemarks": [],
+    "sourceName": "Ravaged by Corruption",
+    "sourceDescription": "At the end of each battle round, you can choose a friendly fighter with this battle trait that is within 1\" of one or more enemy fighters and roll a dice. On a 2+, allocate 1 damage point to that friendly fighter If that friendly fighter is not take down, pick one of those enemy fighters. Allocated D3 damage points to that enemy fighter."
+  }
+]

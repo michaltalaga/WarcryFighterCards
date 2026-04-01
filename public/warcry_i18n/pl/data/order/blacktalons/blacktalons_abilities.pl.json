@@ -1,0 +1,60 @@
+[
+  {
+    "_id": "af6705e7",
+    "name": "Tarcza Azyru",
+    "warband": "Blacktalons",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku, ale przed wykonaniem rzutów na trafienie. Policz maksymalnie dwa trafienia krytyczne z tej akcji ataku jako zwykłe trafienia. Jeśli ten wojownik ma runemark Hero i znajduje się w odległości 6\" od innego sojuszniczego wojownika z runemarkiem Blacktalons oraz runemarkiem Champion lub Destroyer, policz zamiast tego maksymalnie trzy trafienia krytyczne z tej akcji ataku jako zwykłe trafienia.",
+    "runemarks": [],
+    "sourceName": "Shield of Azyr",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead. If this fighter has the Hero runemark and is within 6\" of another friendly fighter with the Blacktalons runemark and the Champion or Destroyer runemark, count up to three critical hits from that attack action as hits instead."
+  },
+  {
+    "_id": "f4925187",
+    "name": "Burza sprawiedliwości",
+    "warband": "Blacktalons",
+    "cost": "double",
+    "description": "Wybierz widocznego sojuszniczego wojownika z runemarkiem Blacktalons w odległości od tego wojownika równej wartości tej zdolności. Tamten wojownik wykonuje dodatkową akcję ruchu albo dodatkową akcję ataku.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Storm of Justice",
+    "sourceDescription": "Pick a visible friendly fighter with the Blacktalons runemark within a number of inches of this fighter equal to the value of this ability. That fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "cc2a11b5",
+    "name": "Strzał w głowę",
+    "warband": "Blacktalons",
+    "cost": "triple",
+    "description": "Dodaj wartość tej zdolności do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie i trafienie krytyczne z następnej akcji ataku strzeleckiego wykonanej przez tego wojownika podczas tej aktywacji.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Headshot",
+    "sourceDescription": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next missile attack action made by this fighter in this activation."
+  },
+  {
+    "_id": "ba962bd6",
+    "name": "Morska mgła",
+    "warband": "Blacktalons",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy odejmij 1 od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez wrogich wojowników, gdy znajdują się oni w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Nebulous Sea-fog",
+    "sourceDescription": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "a6ff68ea",
+    "name": "Jeździec wichru",
+    "warband": "Blacktalons",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Usuń tego wojownika z pola bitwy, a następnie wystaw go na platformie albo na podłodze pola bitwy, dalej niż 6\" od wszystkich wrogich wojowników. Możesz odjąć wartość tej zdolności od tych 6\", do minimum 0.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Windrider",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Remove this fighter from the battlefield, then set this fighter up on a platform or the battlefield floor, more than 6\" from all enemy fighters. You can subtract the value of this ability from that 6\", to a minimum of 0."
+  }
+]

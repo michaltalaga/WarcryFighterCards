@@ -1,0 +1,95 @@
+[
+  {
+    "_id": "ce5ea450",
+    "name": "Sprytny krok w tył",
+    "warband": "Wildercorps Hunters",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak przydzielono mu łączną liczbę punktów obrażeń z akcji ataku wręcz. Ten wojownik wykonuje dodatkową akcję wycofania.",
+    "runemarks": [],
+    "sourceName": "Smart Step Backwards",
+    "sourceDescription": "A fighter can make this reaction after they have been allocated the total damage points by a melee attack action. This fighter makes a bonus disengage action."
+  },
+  {
+    "_id": "a4350dad",
+    "name": "Śmiertelny chwyt",
+    "warband": "Wildercorps Hunters",
+    "cost": "double",
+    "description": "Po następnej akcji ataku wręcz tego wojownika podczas tej aktywacji, jeśli co najmniej 1 rzut na trafienie z tej akcji ataku okaże się trafieniem, cel traci 1 ze swoich akcji w tej rundzie bitwy. Jeśli cel już się aktywował albo nie ma już żadnych akcji do utraty, przydziel zamiast tego celowi 3 punkty obrażeń.",
+    "runemarks": [
+      "beast"
+    ],
+    "sourceName": "Death Grip",
+    "sourceDescription": "After this fighter's next melee attack action in this activation, if at least 1 hit roll from that attack action results in a hit, the target forfeits 1 of their actions in this battle round. If the target has already activated or if they have no more actions to forfeit, allocate 3 damage points to the target instead."
+  },
+  {
+    "_id": "481d3beb",
+    "name": "Sfora łowiecka",
+    "warband": "Wildercorps Hunters",
+    "cost": "double",
+    "description": "Wybierz sojuszniczego wojownika z runemarkiem frakcji Wildercorps Hunters w odległości 2\" od tego wojownika. Tamten wojownik wykonuje dodatkową akcję ataku, której celem musi być wrogi wojownik w odległości 2\" od tego wojownika.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Hunting Pack",
+    "sourceDescription": "Pick a friendly fighter with the Wildercorps Hunters faction runemark within 2\" of this fighter. That fighter makes a bonus attack action that must target an enemy fighter within 2\" of this fighter."
+  },
+  {
+    "_id": "29090cad",
+    "name": "Oko łowcy",
+    "warband": "Wildercorps Hunters",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie i trafienie krytyczne z akcji ataku wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Hunter's Eye",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from attack actions made by this fighter."
+  },
+  {
+    "_id": "071c01f6",
+    "name": "Zabij!",
+    "warband": "Wildercorps Hunters",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika. Przydziel tamtemu wrogiemu wojownikowi liczbę punktów obrażeń równą trzykrotności liczby sojuszniczych wojowników z runemarkiem frakcji Wildercorps Hunters i runemarkiem Beast w odległości 3\" od niego.",
+    "runemarks": [
+      "hero",
+      "sentience"
+    ],
+    "sourceName": "Kill!",
+    "sourceDescription": "Pick a visible enemy fighter. Allocate a number of damage points to that enemy fighter equal to three times the number of friendly fighters with both the Wildercorps Hunters faction runemark and the Beast runemark within 3\" of them."
+  },
+  {
+    "_id": "75157160",
+    "name": "Moc tropiciela",
+    "warband": "Wildercorps Hunters",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika akcje ataku wykonywane przez tego wojownika zadają trafienie krytyczne przy wyniku 5+.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Trailblazer's Might",
+    "sourceDescription": "Until the end of this fighter's activation, attack actions made by this fighter score a critical hit on a roll of 5+."
+  },
+  {
+    "_id": "23ad24c1",
+    "name": "Przegrupować się!",
+    "warband": "Wildercorps Hunters",
+    "cost": "quad",
+    "description": "Każdy widoczny sojuszniczy wojownik z runemarkiem frakcji Wildercorps Hunters w odległości 6\" od tego wojownika może wykonać dodatkową akcję ruchu albo dodatkową akcję wycofania (niektórzy mogą wykonać dodatkową akcję ruchu, a inni dodatkową akcję wycofania).",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Regroup!",
+    "sourceDescription": "Each visible friendly fighter with the Wildercorps Hunters faction runemark within 6\" of this fighter can make a bonus move action or a bonus disengage action (some can make a bonus move action and others can make a bonus disengage action)."
+  },
+  {
+    "_id": "1b4d3043",
+    "name": "Salwa z bliska",
+    "warband": "Wildercorps Hunters",
+    "cost": "battletrait",
+    "description": "Raz na rundę bitwy, zanim sojuszniczy wojownik z tą cechą bitewną wykona akcję ataku strzeleckiego, możesz kazać mu oddać salwę z bliska. Gdy to zrobi, możesz traktować minimalny zasięg tej broni jako 1\".",
+    "runemarks": [],
+    "sourceName": "Point Blank Volley",
+    "sourceDescription": "Once per battle round, before a friendly fighter this with battle trait makes a missile attack action, you can have them make a point blank volley. When they do so, you can treat the minimum range of that weapon as 1\"."
+  }
+]
