@@ -3,13 +3,16 @@
 Generate printable Warcry fighter cards from a Warcrier roster.
 Paste your roster text, import it, then print fronts or backs directly from the app.
 
+Working version: https://wfc.cydn.dev/
+
 ## How to use
 
 1. Build your warband in Warcrier: https://www.warcrier.net/docs/warbands
 2. Copy the roster text.
-3. Paste it into the text box.
-4. Click Import Roster.
-5. Choose fronts or backs and print.
+3. Go to Warcy Fighter Cards: https://wfc.cydn.dev/
+4. Paste it into the text box.
+5. Click Import Roster.
+6. Choose fronts or backs and print.
 
 ## Credits
 
