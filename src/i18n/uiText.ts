@@ -2,11 +2,34 @@ export const APP_LOCALES = ['en', 'pl'] as const
 
 export type AppLocale = (typeof APP_LOCALES)[number]
 
+export type LocaleOption = {
+  code: AppLocale
+  shortCode: string
+  nativeName: string
+  englishName: string
+}
+
+export const LOCALE_OPTIONS: LocaleOption[] = [
+  {
+    code: 'en',
+    shortCode: 'EN',
+    nativeName: 'English',
+    englishName: 'English',
+  },
+  {
+    code: 'pl',
+    shortCode: 'PL',
+    nativeName: 'Polski',
+    englishName: 'Polish',
+  },
+]
+
 export type UiText = {
   appTitle: string
   appDescription: string
   languageLabel: string
   languagePickerAriaLabel: string
+  languageHelpText: string
   englishLabel: string
   polishLabel: string
   rosterTitle: string
@@ -64,6 +87,7 @@ const uiText: Record<AppLocale, UiText> = {
     appDescription: 'Paste roster text. One card is generated for each imported fighter entry.',
     languageLabel: 'Language',
     languagePickerAriaLabel: 'Language picker',
+    languageHelpText: 'Changes the interface and ability text.',
     englishLabel: 'English',
     polishLabel: 'Polski',
     rosterTitle: 'Roster Text',
@@ -119,6 +143,7 @@ const uiText: Record<AppLocale, UiText> = {
     appDescription: 'Wklej tekst rozpiski. Dla każdego zaimportowanego wpisu wojownika zostanie utworzona jedna karta.',
     languageLabel: 'Język',
     languagePickerAriaLabel: 'Wybór języka',
+    languageHelpText: 'Zmienia interfejs i tekst zdolności.',
     englishLabel: 'English',
     polishLabel: 'Polski',
     rosterTitle: 'Tekst rozpiski',

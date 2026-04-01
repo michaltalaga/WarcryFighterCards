@@ -2,10 +2,11 @@ import { useEffect, useEffectEvent, useRef, useState } from 'react'
 import { WarbandHeader } from './components/WarbandHeader'
 import { FighterCard } from './components/FighterCard'
 import { CardBack } from './components/CardBack'
+import { LanguagePicker } from './components/LanguagePicker'
 import { parseWarcrierRoster } from './import/warcrierImport'
 import { isAbilityEligibleForFighter } from './integration/abilityEligibility'
 import { mergeAbilityTranslations, toAbilityTranslationPath, type WarcryAbilityTranslation } from './i18n/abilityLocalization'
-import { APP_LOCALES, getUiText, type AppLocale } from './i18n/uiText'
+import { getUiText, type AppLocale } from './i18n/uiText'
 import type { WarcryAbility, WarcryFighter } from './types/warcry'
 import type { ImportedCard, Manifest, WarbandHeaderInfo } from './types/cards'
 import { findBestFighterMatch, findWarbandEntry, sortAbilitiesByDice } from './utils/cardHelpers'
@@ -253,20 +254,7 @@ function App() {
             <p>{ui.appDescription}</p>
           </div>
 
-          <div className="locale-controls" role="group" aria-label={ui.languagePickerAriaLabel}>
-            <span className="locale-label">{ui.languageLabel}:</span>
-            {APP_LOCALES.map((option) => (
-              <button
-                key={option}
-                type="button"
-                className={`locale-toggle ${locale === option ? 'is-active' : ''}`}
-                onClick={() => setLocale(option)}
-                aria-pressed={locale === option}
-              >
-                {option === 'en' ? ui.englishLabel : ui.polishLabel}
-              </button>
-            ))}
-          </div>
+          <LanguagePicker locale={locale} onSelect={setLocale} ui={ui} />
         </div>
       </header>
 
