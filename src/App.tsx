@@ -347,7 +347,7 @@ function App() {
         </section>
       )}
       <footer className="app-credits">
-        <span><a href="https://cyberdynesystems.cc/" target="_blank" rel="noreferrer">Cyberdyne Systems</a></span>
+        <span>Author: <a href="https://cyberdynesystems.cc/" target="_blank" rel="noreferrer">Cyberdyne Systems</a></span>
         <span>Fighter &amp; ability data: <a href={DATA_SOURCE_URL} target="_blank" rel="noreferrer">krisling049/warcry_data</a></span>
         <span>Card assets &amp; runemarks: <a href={CARD_ASSETS_URL} target="_blank" rel="noreferrer">Stevrak/warcry_legions</a></span>
       </footer>
