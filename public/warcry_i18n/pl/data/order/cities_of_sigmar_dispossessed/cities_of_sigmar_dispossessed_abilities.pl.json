@@ -1,0 +1,127 @@
+[
+  {
+    "_id": "4aaba4d0",
+    "name": "Pamiętliwi",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy staje się celem akcji ataku wręcz, po zsumowaniu obrażeń, ale zanim zostaną one przydzielone temu wojownikowi, jeśli wystarczą, by ten wojownik został wyeliminowany. Wybierz innego sojuszniczego wojownika. Tamten wojownik wykonuje dodatkową akcję ruchu albo dodatkową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Grudgebearers",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Pick another friendly fighter. That fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "4e9bf91b",
+    "name": "Ponury ostatni opór",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "double",
+    "description": "Do końca rundy bitwy odejmij 1 od punktów obrażeń przydzielanych przez każde trafienie i trafienie krytyczne (do minimum 1) z akcji ataku, których celem są sojuszniczy wojownicy z runemarkiem frakcji Cities of Sigmar: Dispossessed, gdy znajdują się w odległości 3\" od tego wojownika i nie wykonali żadnych akcji ruchu w tej rundzie bitwy.",
+    "runemarks": [],
+    "sourceName": "Grim Last Stand",
+    "sourceDescription": "Until the end of the battle round, subtract 1 from the damage points allocated by each hit and critical hit (to a minimum of 1) from attack actions that target friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 3\" of this fighter and have not made any move actions this battle round."
+  },
+  {
+    "_id": "fe6e96a6",
+    "name": "Po moim trupie",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "double",
+    "description": "Do końca rundy bitwy ten wojownik liczy się jako 2 dodatkowych wojowników przy ustalaniu, który gracz kontroluje cel.",
+    "runemarks": [],
+    "sourceName": "Over My Dead Body",
+    "sourceDescription": "Until the end of the battle round, this fighter counts as 2 additional fighters when determining which player controls an objective."
+  },
+  {
+    "_id": "650dced5",
+    "name": "Za moich czasów...",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "double",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Siła innych sojuszniczych wojowników z runemarkiem frakcji Cities of Sigmar: Dispossessed, gdy znajdują się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Back In My Day...",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Strength characteristic of other friendly fighters with the Cities of Sigmar: Dispossessed faction runemark while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "aa014211",
+    "name": "Straż królewska",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "double",
+    "description": "Dodaj 1 do cechy Ruch tego wojownika do końca jego aktywacji. Dodatkowo, jeśli jakikolwiek sojuszniczy wojownik z runemarkiem frakcji Cities of Sigmar: Dispossessed oraz runemarkiem Hero znajduje się w odległości 1\" od jakiegokolwiek wrogiego wojownika, dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika do końca jego aktywacji.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Kingsguard",
+    "sourceDescription": "Add 1 to the Move characteristic of this fighter until the end of their activation. In addition, if any friendly fighters with both the Cities of Sigmar: Dispossessed faction runemark and the Hero runemark are within 1\" of any enemy fighters, add 1 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation."
+  },
+  {
+    "_id": "c955b2cf",
+    "name": "Stańcie razem",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "double",
+    "description": "Wybierz innego widocznego sojuszniczego wojownika z runemarkiem frakcji Cities of Sigmar: Dispossessed oraz runemarkiem Bulwark w odległości 6\" od tego wojownika. Tamten wojownik może wykonać dwie dodatkowe akcje ruchu. Po tych akcjach ruchu tamten wojownik musi znajdować się w odległości 1\" od tego wojownika i nie może wykonywać więcej akcji ruchu do końca tej rundy bitwy.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Stand Together",
+    "sourceDescription": "Pick another visible friendly fighter with both the Cities of Sigmar: Dispossessed faction runemark and the Bulwark runemark within 6\" of this fighter. That fighter can make two bonus move actions. After those move actions, that fighter must be within 1\" of this fighter and cannot make any more move actions until the end of this battle round."
+  },
+  {
+    "_id": "8f77042d",
+    "name": "Ogień kuźni",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "double",
+    "description": "Wybierz sojuszniczego wojownika w odległości 9\" od tego wojownika. Do końca rundy bitwy dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "hero",
+      "priest"
+    ],
+    "sourceName": "Forgefire",
+    "sourceDescription": "Pick a friendly fighter within 9\" of this fighter. Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by that fighter."
+  },
+  {
+    "_id": "d9a24311",
+    "name": "Ogień wymiatający",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Siła akcji ataku strzeleckiego wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Raking Fire",
+    "sourceDescription": "Until the end of the battle round, add half the value of this ability (rounding up) to the Strength characteristic of missile attack actions made by this fighter."
+  },
+  {
+    "_id": "190c721a",
+    "name": "Strumień topiący ciało",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika. Do końca aktywacji tego wojownika odejmij 3 od cechy Wytrzymałość tego wojownika (do minimum 1).",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Flesh-melting Torrent",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter. Until the end of this fighter's activation, subtract 3 from the Toughness characteristic of that fighter (to a minimum of 1)."
+  },
+  {
+    "_id": "c9708363",
+    "name": "Nieustraszony przywódca",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "quad",
+    "description": "Każdy sojuszniczy wojownik z runemarkiem frakcji Cities of Sigmar: Dispossessed w odległości 6\" od tego wojownika może wykonać dodatkową akcję ruchu.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Fearless Leader",
+    "sourceDescription": "Each friendly fighter with the Cities of Sigmar: Dispossessed faction runemark within 6\" of this fighter can make a bonus move action."
+  },
+  {
+    "_id": "01fee5b7",
+    "name": "Dawnbringer Zealots",
+    "warband": "Cities of Sigmar: Dispossessed",
+    "cost": "battletrait",
+    "description": "Na końcu każdej rundy bitwy wybierz sojuszniczego wojownika z tą cechą bitewną, który znajduje się na polu bitwy. Możesz usunąć do D3 punktów obrażeń przydzielonych temu wojownikowi. Usuń 1 dodatkowy punkt obrażeń, jeśli ten wojownik znajduje się w odległości 3\" od celu, niesie skarb i/lub znajduje się w odległości 1\" od przeszkody.",
+    "runemarks": [],
+    "sourceName": "Dawnbringer Zealots",
+    "sourceDescription": "At the end of each battle round, pick a friendly fighter with this battle trait that is on the battlefield. You can remove up to D3 damage points allocated to that fighter. Remove 1 additional damage point if that fighter is within 3\" of an objective, carrying treasure and/or within 1\" of an obstacle."
+  }
+]

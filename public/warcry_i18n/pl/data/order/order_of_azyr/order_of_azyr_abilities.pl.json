@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "68f565a2",
+    "name": "Wybuchowe bełty",
+    "warband": "Hexbane's Hunters",
+    "cost": "double",
+    "description": "Po następnej akcji ataku strzeleckiego wykonanej przez tego wojownika podczas tej aktywacji, jeśli zadała jedno lub więcej trafień, przydziel każdemu innemu wojownikowi w odległości 3\" od celu liczbę punktów obrażeń równą połowie wartości tej zdolności (zaokrąglając w górę).",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Explosive Bolts",
+    "sourceDescription": "After the next missile attack action made by this fighter in this activation, if it scored one or more hits, allocate a number of damage points to each other fighter within 3\" of the target equal to half the value of this ability (rounding up)."
+  },
+  {
+    "_id": "f223520e",
+    "name": "Ponura determinacja",
+    "warband": "Order of Azyr",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stał się celem akcji ataku, ale zanim wykonane zostaną rzuty na trafienie. Usuń D3 punktów obrażeń przydzielonych temu wojownikowi.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Grim Resolve",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by an attack action but before the hit rolls are made. Remove D3 damage points allocated to this fighter."
+  },
+  {
+    "_id": "acdc7595",
+    "name": "Piętno prawości",
+    "warband": "Order of Azyr",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika dodaj wartość tej zdolności do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Brand of Righteousness",
+    "sourceDescription": "Until the end of this fighter's activation, add the value of this ability to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter."
+  },
+  {
+    "_id": "928b8ab0",
+    "name": "Uświęcona zemsta",
+    "warband": "Order of Azyr",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy akcja ataku wrogiego wojownika wyeliminowała sojuszniczego wojownika w poprzedniej aktywacji. Każdy sojuszniczy wojownik z runemarkami Warrior i Order of Azyr może wykonać dodatkową akcję ataku, której celem musi być tamten wrogi wojownik.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Hallowed Vengeance",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter's attack action took down a friendly fighter in the previous activation. Each friendly fighter with both the Warrior and the Order of Azyr runemarks can make a bonus attack action that must target that fighter."
+  },
+  {
+    "_id": "955712d2",
+    "name": "Właściwe narzędzie do roboty",
+    "warband": "Order of Azyr",
+    "cost": "triple",
+    "description": "Wybierz wrogiego wojownika w odległości 3\" od tego wojownika. Akcje ataku wręcz wykonywane przez tego wojownika podczas tej aktywacji, których celem jest tamten wrogi wojownik, zadają trafienie krytyczne przy wyniku 5+.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Right Tool for the Job",
+    "sourceDescription": "Pick an enemy fighter within 3\" of this fighter. Melee attack actions made by this fighter this activation that target that enemy fighter score a critical hit on a 5+."
+  },
+  {
+    "_id": "56c1f56c",
+    "name": "Daj im z obu luf",
+    "warband": "Order of Azyr",
+    "cost": "triple",
+    "description": "Ten wojownik wykonuje dodatkową akcję ataku strzeleckiego. Cecha Zasięg tej akcji ataku jest równa podwójnej wartości tej zdolności.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Give 'Em Both Barrels",
+    "sourceDescription": "This fighter makes a bonus missile attack action. The Range characteristic for that attack action is double the value of this ability."
+  },
+  {
+    "_id": "fd209b57",
+    "name": "Rozbiją się o moją tarczę",
+    "warband": "Order of Azyr",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy odejmij wartość tej zdolności od punktów obrażeń przydzielanych temu wojownikowi przez każde trafienie i trafienie krytyczne z akcji ataku, których celem jest ten wojownik (do minimum 1).",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "They Will Break Upon My Shield",
+    "sourceDescription": "Until the end of the battle round, subtract the value of this ability from the damage points allocated to this fighter by each hit and critical hit from attack actions that target this fighter (to a minimum of 1)."
+  },
+  {
+    "_id": "00dbeb85",
+    "name": "Sekrety z cienia",
+    "warband": "Order of Azyr",
+    "cost": "triple",
+    "description": "Wybierz `[double]`, `[triple]` albo `[quad]` spośród kości zdolności przeciwnika. Rzuć kością i dodaj do wyniku wartość tej zdolności. Przy wyniku 7+ tamto `[double]`, `[triple]` albo `[quad]` zostaje odrzucone.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Secrets from the Shadows",
+    "sourceDescription": "Pick a [double], [triple] or [quad] from your opponent's ability dice. Roll a dice and add the value of this ability to the roll. On a 7+, that [double], [triple] or [quad] is discarded."
+  },
+  {
+    "_id": "40b73e05",
+    "name": "Zaplącz ich",
+    "warband": "Order of Azyr",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika. Do końca rundy bitwy odejmij 2 od cechy Ataki (do minimum 1) akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Tangle Them Up",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter. Until the end of the battle round, subtract 2 from the Attacks characteristic (to a minimum of 1) of melee attack actions made by that fighter."
+  },
+  {
+    "_id": "2af77b18",
+    "name": "Wygnanie",
+    "warband": "Order of Azyr",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie i trafienie krytyczne z akcji ataku strzeleckiego wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Banishment",
+    "sourceDescription": "Until the end of this fighter’s activation, add 1 to the damage points allocated to enemy fighters by each hit and critical hit from missile attack actions made by this fighter."
+  },
+  {
+    "_id": "1d7121f4",
+    "name": "Osąd",
+    "warband": "Order of Azyr",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika akcje ataku strzeleckiego wykonywane przez tego wojownika zadają trafienie krytyczne przy wyniku 5+.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Judgement",
+    "sourceDescription": "Until the end of this fighter’s activation, missile attack actions made by this fighter score a critical hit on a roll of 5+."
+  }
+]

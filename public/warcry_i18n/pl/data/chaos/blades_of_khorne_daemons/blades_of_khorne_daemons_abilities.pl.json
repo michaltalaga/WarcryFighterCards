@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "c36ec45c",
+    "name": "Krew dla Boga Krwi",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w trakcie tej aktywacji wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Blood for the Blood God",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "e9961769",
+    "name": "Ścinające uderzenie",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Decapitating Strike",
+    "sourceDescription": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from melee attack actions made by this fighter."
+  },
+  {
+    "_id": "d0d11a2d",
+    "name": "Spragniony mięsa",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w odległości 6\" od niego znajduje się widoczny wrogi wojownik. Ten wojownik wykonuje dodatkową akcję ruchu i musi zakończyć ją bliżej najbliższego widocznego wrogiego wojownika niż znajdował się na początku tej akcji ruchu.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Hungry for Flesh",
+    "sourceDescription": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action."
+  },
+  {
+    "_id": "1ad0696e",
+    "name": "Ognisko furii",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w trakcie tej aktywacji wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku. Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych sojuszniczych wojowników, gdy znajdują się w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Locus of Fury",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "243e5340",
+    "name": "Mordercza szarża",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Murderous Charge",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "89363620",
+    "name": "Płonący ryk",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 8\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 2+ przydziel temu wojownikowi 2 punkty obrażeń.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Burning Roar",
+    "sourceDescription": "Pick a visible enemy fighter within 8\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 2+, allocate 2 damage points to that fighter."
+  },
+  {
+    "_id": "ad67abad",
+    "name": "Danina dla Khorne'a",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Za każdy rzut na trafienie z tej akcji ataku, który chybił, przydziel atakującemu wojownikowi 2 punkty obrażeń. Za każde trafienie krytyczne z tej akcji ataku przydziel temu wojownikowi 1 dodatkowy punkt obrażeń.",
+    "runemarks": [],
+    "sourceName": "Khorne's Due",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that misses, allocate 2 damage points to the attacking fighter. For each critical hit from that attack action, allocate 1 additional damage point to this fighter."
+  },
+  {
+    "_id": "7ea9a3b3",
+    "name": "Krew wzywa krew",
+    "warband": "Blades of Khorne: Daemons",
+    "cost": "battletrait",
+    "description": "Jeśli na polu bitwy znajduje się co najmniej jeden sojuszniczy wojownik z tą cechą bitewną, na końcu każdej rundy bitwy możesz wybrać wrogiego wojownika, któremu przydzielono co najmniej 1 punkt obrażeń. Rzuć 2D6. Przy wyniku 8+ przydziel temu wojownikowi 3 punkty obrażeń.",
+    "runemarks": [],
+    "sourceName": "Blood Calls to Blood",
+    "sourceDescription": "If there are one or more friendly fighters with this battle trait on the battlefield, at the end of each battle round, you can pick an enemy fighter with one or more damage points allocated to them. Roll 2D6. On a roll of 8+, allocate 3 damage points to that fighter."
+  }
+]

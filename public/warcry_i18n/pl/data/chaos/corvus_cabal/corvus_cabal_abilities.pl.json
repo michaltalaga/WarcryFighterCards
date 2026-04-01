@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "db4552ec",
+    "name": "Nękający kruk",
+    "warband": "Corvus Cabal",
+    "cost": "double",
+    "description": "Wybierz wrogiego wojownika w odległości 20\" od tego wojownika. Do końca rundy bitwy tamten wojownik nie może wykonywać akcji wycofania.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Harrying Raven",
+    "sourceDescription": "Pick an enemy fighter within 20\" of this fighter. Until the end of the battle round, that fighter cannot make disengage actions."
+  },
+  {
+    "_id": "26c85cff",
+    "name": "Krucza lotka",
+    "warband": "Corvus Cabal",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 8\" od tego wojownika i rzuć kością. Przy wyniku 2-4 przydziel temu wojownikowi 1 punkt obrażeń. Przy wyniku 5+ przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [],
+    "sourceName": "Raven Dart",
+    "sourceDescription": "Pick a visible enemy fighter within 8\" of this fighter and roll a dice. On a roll of 2-4, allocate 1 damage point to that fighter. On a roll of 5+, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "0f860443",
+    "name": "Szybka wspinaczka",
+    "warband": "Corvus Cabal",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika nie licz pionowej odległości pokonanej przez tego wojownika podczas wspinaczki.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Swift Climb",
+    "sourceDescription": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing."
+  },
+  {
+    "_id": "d9fa1342",
+    "name": "Makabryczne trofeum",
+    "warband": "Corvus Cabal",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych sojuszniczych wojowników, gdy znajdują się w odległości 9\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Grisly Trophy",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 9\" of this fighter."
+  },
+  {
+    "_id": "bfe8d30f",
+    "name": "Pikujący atak",
+    "warband": "Corvus Cabal",
+    "cost": "triple",
+    "description": "Ten wojownik wykonuje dodatkową akcję ruchu. Dodatkowo, jeśli wojownik zakończy tę akcję ruchu 2\" lub więcej niżej w pionie niż jego pozycja początkowa, może wykonać dodatkową akcję ataku.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Swooping Attack",
+    "sourceDescription": "This fighter makes a bonus move action. In addition, if the fighter finishes that move action 2\" or more vertically lower than their starting position, they can make a bonus attack action."
+  },
+  {
+    "_id": "c5a997f2",
+    "name": "Śmierć z góry",
+    "warband": "Corvus Cabal",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje dodatkową akcję ruchu. Następnie może wykonać dodatkową akcję ataku. Dodaj 1 do cechy Siła tej akcji ataku, jeśli wojownik zakończył akcję ruchu 2\" lub więcej niżej w pionie niż jego pozycja początkowa.",
+    "runemarks": [],
+    "sourceName": "Death from Above",
+    "sourceDescription": "This fighter makes a bonus move action. Then, they can make a bonus attack action. Add 1 to the Strength characteristic of that attack action if the fighter finished the move action 2\" or more vertically lower than their starting position."
+  },
+  {
+    "_id": "a4f11133",
+    "name": "Bieg po ścianie",
+    "warband": "Corvus Cabal",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy znajduje się w odległości 1\" od ściany lochu. Do końca następnej akcji ruchu tego wojownika podczas tej aktywacji ten wojownik może poruszać się ponad innymi wojownikami tak, jakby potrafił latać. Jednak podczas tej akcji ruchu ten wojownik musi pozostawać w odległości 1\" od ściany lochu.",
+    "runemarks": [],
+    "sourceName": "Wall Run",
+    "sourceDescription": "A fighter can use this ability only if they are within 1\" of a dungeon wall.  Until the end of this fighter's next move action this activation, this fighter can move over other fighters as if they could fly.  However, during that move action, this fighter must stay within 1\" of a dungeon wall."
+  },
+  {
+    "_id": "54d55383",
+    "name": "Uderzenie w biegu",
+    "warband": "Corvus Cabal",
+    "cost": "quad",
+    "description": "Ten wojownik używa zdolności \"Bieg po ścianie\", następnie wykonuje dodatkową akcję ruchu, po czym może wykonać dodatkową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Running Strike",
+    "sourceDescription": "This fighter uses the \"Wall Run\" ability, then makes a bonus move action, and can then make a bonus attack action."
+  },
+  {
+    "_id": "76419c03",
+    "name": "Uderzenie raptora",
+    "warband": "Corvus Cabal",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak wrogi wojownik zakończy widoczną dla niego akcję ruchu, w odległości 5\" w poziomie i niżej w pionie niż ten wojownik. Ten wojownik wykonuje dodatkową akcję ruchu i musi zakończyć ją bliżej tamtego wrogiego wojownika niż znajdował się na początku tej akcji ruchu. Jeśli ten wojownik zakończy ten ruch w odległości 1\" od tamtego wrogiego wojownika, ten wojownik nie otrzymuje obrażeń od uderzenia, a tamten wrogi wojownik otrzymuje obrażenia od uderzenia.",
+    "runemarks": [],
+    "sourceName": "Raptor Strike",
+    "sourceDescription": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter, within 5\" horizontally and vertically lower than this fighter. This fighter makes a bonus move action and must finish closer to that enemy fighter than they were at the start of that move action. If this fighter ends that move within 1\" of that enemy fighter, this fighter does not suffer impact damage and that enemy fighter suffers impact damage."
+  },
+  {
+    "_id": "f90c6d85",
+    "name": "Pikujący zabójcy",
+    "warband": "Corvus Cabal",
+    "cost": "battletrait",
+    "description": "Dodaj 2 do cechy Siła akcji ataku wręcz wykonywanych przez sojuszniczych wojowników z tą cechą bitewną, jeśli podczas tej aktywacji zakończyli akcję ruchu 2\" lub więcej niżej w pionie niż ich pozycja początkowa.",
+    "runemarks": [],
+    "sourceName": "Plunging Killers",
+    "sourceDescription": "Add 2 to the Strength characteristic of melee attack actions made by friendly fighters with this battle trait if they finished a move action 2\" or more vertically lower than their starting position this activation."
+  }
+]

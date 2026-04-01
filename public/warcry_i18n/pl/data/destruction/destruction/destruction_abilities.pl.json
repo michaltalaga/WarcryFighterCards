@@ -1,0 +1,165 @@
+[
+  {
+    "_id": "c15ac47e",
+    "name": "Pijacki zataczający się krok",
+    "warband": "destruction",
+    "monster": "Aleguzzler Gargant",
+    "cost": "double",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Do końca aktywacji tego wojownika, za każdy wynik 1 odejmij 1 od cechy Ruch tego wojownika (do minimum 1), a następnie za każdy wynik 2+ dodaj 1 do cechy Ruch tego wojownika.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Drunken Stagger",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. Until the end of this fighter's activation, for each roll of 1, subtract 1 from this fighter's Move characteristic (to a minimum of 1), then for each roll of 2+, add 1 to this fighter's Move characteristic."
+  },
+  {
+    "_id": "dd928981",
+    "name": "Potężny kopniak",
+    "warband": "destruction",
+    "monster": "Aleguzzler Gargant",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Mighty Kick",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "4dd76429",
+    "name": "Zajadłe uderzenie z bani",
+    "warband": "destruction",
+    "monster": "Aleguzzler Gargant",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 3+ przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Vicious 'Eadbutt",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 3+, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "c8b9eb22",
+    "name": "Trujący rzyg",
+    "warband": "destruction",
+    "cost": "double",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 5+ wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika. Przydziel temu wojownikowi D3 punktów obrażeń.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Noxious Vomit",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. For each roll of 5+, pick a visible enemy fighter within 6\" of this fighter. Allocate D3 damage points to that fighter."
+  },
+  {
+    "_id": "6e5b14b2",
+    "name": "Poplecznicy squigbestii",
+    "warband": "destruction",
+    "monster": "Dankhold Troggoth",
+    "cost": "double",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 3\" od tego wojownika. Przy wyniku 2+ przydziel wojownikowi, za którego wykonywany jest rzut, 1 punkt obrażeń.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Squiggly-beast Followers",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 2+, allocate 1 damage point to the fighter being rolled for."
+  },
+  {
+    "_id": "6a083be7",
+    "name": "Regeneracja troggotha",
+    "warband": "destruction",
+    "cost": "double",
+    "description": "Usuń z tego wojownika liczbę punktów obrażeń do wartości tej zdolności.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Troggoth Regrowth",
+    "sourceDescription": "Remove a number of damage points from this fighter up to the value of this ability."
+  },
+  {
+    "_id": "17e5bdf0",
+    "name": "Regeneracja troggotha",
+    "warband": "destruction",
+    "monster": "Dankhold Troggoth",
+    "cost": "double",
+    "description": "Usuń z tego wojownika liczbę punktów obrażeń do wartości tej zdolności.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Troggoth Regrowth",
+    "sourceDescription": "Remove a number of damage points from this fighter up to the value of this ability."
+  },
+  {
+    "_id": "fcd24c77",
+    "name": "Wspinacz ścian",
+    "warband": "destruction",
+    "monster": "Skitterstrand Arachnarok",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika nie licz pionowej odległości pokonanej przez tego wojownika podczas wspinaczki.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Wall Crawler",
+    "sourceDescription": "Until the end of this fighter's activation, do not count the vertical distance moved when this fighter is climbing."
+  },
+  {
+    "_id": "835cd781",
+    "name": "Miażdżący chwyt",
+    "warband": "destruction",
+    "monster": "Dankhold Troggoth",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi 2 punkty obrażeń.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Crushing Grip",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4+, allocate 2 damage points to that fighter."
+  },
+  {
+    "_id": "e55373fd",
+    "name": "Paraliżujący jad",
+    "warband": "destruction",
+    "monster": "Skitterstrand Arachnarok",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, po każdej akcji ataku wykonanej przez tego wojownika, rzuć kością. Przy wyniku 2+ do końca rundy bitwy cel tej akcji ataku nie może wykonywać akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Paralysing Venom",
+    "sourceDescription": "Until the end of this fighter's activation, after each attack action made by this fighter, roll a dice. On a roll of 2+, until the end of the battle round, the target of that attack action cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "d43e0dc0",
+    "name": "Wleczona ofiara",
+    "warband": "destruction",
+    "monster": "Skitterstrand Arachnarok",
+    "cost": "quad",
+    "description": "Wybierz wrogiego wojownika w odległości 1\" od tego wojownika. Usuń tego wojownika z pola bitwy i wystaw go w odległości 1\" od tego wojownika. Następnie ten wojownik wykonuje dodatkową akcję ataku przeciw temu wojownikowi.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Dragged Victim",
+    "sourceDescription": "Pick an enemy fighter within 1\" of this fighter. Remove that fighter from the battlefield and set them up within 1\" of this fighter. Then, this fighter makes a bonus attack action against that fighter."
+  },
+  {
+    "_id": "7beccbda",
+    "name": "Upiorny smród",
+    "warband": "destruction",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stał się celem akcji ataku wręcz, ale zanim wykonane zostaną rzuty na trafienie. Odejmij 1 od cechy Ataki tej akcji ataku, do minimum 1.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Horrific Stench",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Subtract 1 from the Attacks characteristic of that attack action, to a minimum of 1."
+  },
+  {
+    "_id": "4c2fa638",
+    "name": "Nieustępliwi Niszczyciele",
+    "warband": "destruction",
+    "cost": "battletrait",
+    "description": "Gdy sojuszniczy wojownik z tą cechą bitewną wykonuje akcję ataku wręcz, cel nie może otrzymać +1 do cechy Wytrzymałość za przebywanie w osłonie.",
+    "runemarks": [],
+    "sourceName": "Relentless Destroyers",
+    "sourceDescription": "When a friendly fighter with this battle trait makes a melee attack action, the target cannot add 1 to their Toughness for being in cover."
+  }
+]

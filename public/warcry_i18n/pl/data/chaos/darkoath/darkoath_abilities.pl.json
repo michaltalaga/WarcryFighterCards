@@ -1,0 +1,142 @@
+[
+  {
+    "_id": "9b9f771f",
+    "name": "Chwalebna śmierć",
+    "warband": "Darkoath",
+    "cost": "reaction",
+    "description": "Wojownicy z runemarkiem Beast nie mogą wykonać tej reakcji. Wojownik może wykonać tę reakcję, gdy staje się celem akcji ataku wręcz, po zsumowaniu obrażeń, ale zanim zostaną one przydzielone temu wojownikowi, jeśli wystarczą, by ten wojownik został wyeliminowany. Zyskaj `[double]` o wartości 1. Jeśli ten wojownik ma runemark Hero, zamiast tego zyskaj `[triple]` o wartości 1. Jeśli ten wojownik jest faworytem, zamiast tego zyskaj `[quad]` o wartości 1.",
+    "runemarks": [],
+    "sourceName": "Glorious Death",
+    "sourceDescription": "Fighters with the Beast runemark cannot make this reaction. A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Gain a [double] with a value of 1. If this fighter has the Hero runemark, gain a [triple] with a value of 1 instead. If this fighter is favoured, gain a [quad] with a value of 1 instead."
+  },
+  {
+    "_id": "d62e495e",
+    "name": "Przysięga mordu",
+    "warband": "Darkoath",
+    "cost": "double",
+    "description": "Wojownicy z runemarkiem Beast nie mogą użyć tej zdolności. Po użyciu tej zdolności ten wojownik jest zaprzysiężony do końca bitwy. Gdy wrogi wojownik zostanie wyeliminowany podczas aktywacji zaprzysiężonego wojownika, tamten wojownik przestaje być zaprzysiężony i staje się faworytem do końca bitwy. Gdy sojuszniczy wojownik staje się faworytem, zyskaj `[double]` o wartości 1.",
+    "runemarks": [],
+    "sourceName": "Oath of Murder",
+    "sourceDescription": "Fighters with the Beast runemark cannot use this ability. After using this ability, this fighter is oathed for the rest of the battle. After an enemy fighter is taken down during an oathed fighter's activation, that fighter is no longer oathed and is favoured for the rest of the battle. After a friendly fighter becomes favoured, gain a [double] with a value of 1."
+  },
+  {
+    "_id": "219e5b66",
+    "name": "Szybki napastnik",
+    "warband": "Darkoath",
+    "cost": "double",
+    "description": "Tej zdolności można użyć tylko po aktywacji, podczas której ten wojownik wykonał akcję ruchu, a ten ruch zakończył się w odległości 1\" od wrogiego wojownika. Ten wojownik wykonuje dodatkową akcję ataku strzeleckiego, której celem musi być wrogi wojownik w odległości 1\" od niego. Jeśli ten wojownik jest faworytem, dodaj wartość tej zdolności do punktów obrażeń przydzielanych przez każde trafienie i trafienie krytyczne z tej akcji ataku strzeleckiego.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Swift Attacker",
+    "sourceDescription": "This ability can only be used after an activation in which this fighter used a move action and that move ended within 1\" of an enemy fighter. This fighter makes a bonus missile attack action that must target an enemy fighter within 1\" of them. If this fighter is favoured, add the value of this ability to the damage points allocated by each hit and critical hit from that missile attack action."
+  },
+  {
+    "_id": "afac6960",
+    "name": "Wytrwałość łupieżcy",
+    "warband": "Darkoath",
+    "cost": "double",
+    "description": "Usuń z tego wojownika liczbę punktów obrażeń do połowy wartości tej zdolności. Jeśli ten wojownik jest faworytem, usuń z niego dodatkowe 3 punkty obrażeń.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Raider's Tenacity",
+    "sourceDescription": "Remove a number of damage points from this fighter up to half the value of this ability. If this fighter is favoured, remove an additional 3 damage points from this fighter."
+  },
+  {
+    "_id": "0841db78",
+    "name": "Wódz wojny",
+    "warband": "Darkoath",
+    "cost": "triple",
+    "description": "Wybierz widocznego sojuszniczego wojownika z runemarkiem Darkoath w odległości 6\" od tego wojownika, który jeszcze nie aktywował się w tej rundzie bitwy. Możesz aktywować tego wojownika natychmiast po zakończeniu aktywacji tego wojownika. Jeśli ten wojownik jest faworytem, wybierz do 2 innych sojuszniczych wojowników z runemarkiem Darkoath. Do końca rundy bitwy każdy wybrany wojownik, w tym pierwszy, może użyć zdolności 'Inspirująca obecność' bez potrzeby posiadania ani zużywania jakichkolwiek kości zdolności.",
+    "runemarks": [
+      "ferocious"
+    ],
+    "sourceName": "Warleader",
+    "sourceDescription": "Pick a visible friendly fighter with the Darkoath runemark within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. If this fighter is favoured, pick up to 2 other friendly fighters with the Darkoath runemark. Until the end of the battle round, each fighter you picked, including the first, can use the 'Inspiring Presence' ability without needing or using any ability dice."
+  },
+  {
+    "_id": "63def363",
+    "name": "Zwołaj plemiona",
+    "warband": "Darkoath",
+    "cost": "triple",
+    "description": "Każdy sojuszniczy wojownik z runemarkiem Darkoath i runemarkiem Warrior w odległości 6\" od tego wojownika wykonuje dodatkową akcję ruchu. Jeśli ten wojownik jest faworytem, do końca rundy bitwy każdy z tych wojowników liczy się również jako 1 dodatkowy wojownik przy ustalaniu, który gracz kontroluje cel.",
+    "runemarks": [
+      "bulwark"
+    ],
+    "sourceName": "Rally the Tribes",
+    "sourceDescription": "Each friendly fighter with the Darkoath runemark and the Warrior runemark within 6\" of this fighter makes a bonus move action. If this fighter is favoured, until the end of the battle round, each of those fighters also counts as 1 additional fighter when determining which player controls an objective."
+  },
+  {
+    "_id": "872f0cc8",
+    "name": "Oko Mrocznego Patrona",
+    "warband": "Darkoath",
+    "cost": "quad",
+    "description": "Możesz wybrać widocznego sojuszniczego wojownika z runemarkiem Darkoath w odległości 6\" od tego wojownika, który jeszcze nie aktywował się w tej rundzie bitwy. Możesz aktywować tego wojownika natychmiast po zakończeniu aktywacji tego wojownika. Następnie możesz wybrać widocznego wrogiego wojownika w odległości 6\" od tego wojownika i rzucić 6 kośćmi. Za każde 4+ przydziel temu wojownikowi liczbę punktów obrażeń równą połowie wartości tej zdolności (zaokrąglając w górę). Dodatkowo dodaj 2 do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika do końca jego aktywacji.",
+    "runemarks": [
+      "beast"
+    ],
+    "sourceName": "Eye of the Dark Patron",
+    "sourceDescription": "You can pick a visible friendly fighter with the Darkoath runemark within 6\" of this fighter that has not activated yet this battle round. You can activate that fighter immediately after this fighter's activation ends. Then you can pick a visible enemy fighter within 6\" of this fighter and roll 6 dice. For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). In addition, add 2 to the Attacks characteristic of melee attack actions made by this fighter until the end of their activation."
+  },
+  {
+    "_id": "a30a637f",
+    "name": "Wyrąb sobie drogę do chwały",
+    "warband": "Darkoath",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika. Jeśli ten wojownik jest faworytem, zamiast tego dodaj wartość tej zdolności do cechy Ataki akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Carve a Path to Glory",
+    "sourceDescription": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of melee attack actions made by this fighter. If this fighter is favoured, add the value of this ability to the Attacks characteristic of melee attack actions made by this fighter instead."
+  },
+  {
+    "_id": "d1c0f8c0",
+    "name": "Niesamowity strzał",
+    "warband": "Darkoath",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Ataki akcji ataku strzeleckiego wykonywanych przez tego wojownika. Gdy ten wojownik jest faworytem i/lub wybiera jako cel wrogiego wojownika w odległości 1\" od sojuszniczego Gunnar Branda, zamiast tego dodaj wartość tej zdolności do cechy Ataki akcji ataku strzeleckiego wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "agile"
+    ],
+    "sourceName": "Uncanny Shot",
+    "sourceDescription": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Attacks characteristic of missile attack actions made by this fighter. While this fighter is favoured and/or targeting an enemy fighter within 1\" of a friendly Gunnar Brand, add the value of this ability to the Attacks characteristic of missile attack actions made by this fighter instead."
+  },
+  {
+    "_id": "1b457528",
+    "name": "Furia Królowej Wojny",
+    "warband": "Darkoath",
+    "cost": "triple",
+    "description": "Ten wojownik wykonuje liczbę dodatkowych akcji ataku wręcz równą liczbie wrogich wojowników w odległości 1\" od niego. Jeśli ten wojownik jest faworytem, zamiast tego wykonuje liczbę dodatkowych akcji ataku wręcz równą liczbie wrogich wojowników w odległości 3\" od niego, a cecha Zasięg tych dodatkowych akcji ataku wzrasta do 3. W obu przypadkach każda dodatkowa akcja ataku musi mieć za cel innego wrogiego wojownika, nawet jeśli ten wrogi wojownik znajduje się dalej niż 1\" od tego wojownika, o ile każdy wrogi wojownik w odległości 1\" od tego wojownika został wybrany jako cel w pierwszej kolejności.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Warqueen's Fury",
+    "sourceDescription": "This fighter makes a number of bonus melee attack actions equal to the number of enemy fighters within 1\" of them. If this fighter is favoured, they make a number of bonus melee attack actions equal to the number of enemy fighters within 3\" of them instead and the Range characteristic of those bonus attack actions is increased to 3. In both cases, each bonus attack action must target a different enemy fighter, even if that enemy fighter is more than 1\" from this fighter but so long as each enemy fighter within 1\" of this fighter has been targeted first."
+  },
+  {
+    "_id": "52332400",
+    "name": "Wyniszczająca śmierć",
+    "warband": "Darkoath",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 9\" od tego wojownika i rzuć 6 kośćmi. Za każde 4+ przydziel temu wojownikowi liczbę punktów obrażeń równą połowie wartości tej zdolności (zaokrąglając w górę). Jeśli ten wojownik jest faworytem, rzuć 9 kośćmi zamiast 6.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Withering Death",
+    "sourceDescription": "Pick a visible enemy fighter within 9\" of this fighter and roll 6 dice. For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). If this fighter is favoured, roll 9 dice instead of 6."
+  },
+  {
+    "_id": "ed5d80fc",
+    "name": "Niszczycielskie ciosy",
+    "warband": "Darkoath",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika akcje ataku wręcz wykonywane przez tego wojownika zadają trafienie przy wyniku 3+. Jeśli ten wojownik jest faworytem, dodatkowo do końca aktywacji tego wojownika akcje ataku wręcz wykonywane przez tego wojownika zadają trafienie krytyczne przy wyniku 5+.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Demolishing Strikes",
+    "sourceDescription": "Until the end of this fighter's activation, melee attack actions made by this fighter score a hit on a 3+. If this fighter is favoured, in addition, until the end of this fighter's activation, melee attack actions made by this fighter score a critical hit on a 5+."
+  }
+]

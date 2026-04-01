@@ -1,0 +1,126 @@
+[
+  {
+    "_id": "4ebb51eb",
+    "name": "Śliniąca się szarża",
+    "warband": "death",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w odległości 6\" od niego znajduje się widoczny wrogi wojownik. Ten wojownik wykonuje dodatkową akcję ruchu i musi zakończyć ją bliżej najbliższego widocznego wrogiego wojownika niż znajdował się na początku tej akcji ruchu.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Slavering Charge",
+    "sourceDescription": "A fighter can only use this ability if there is a visible enemy fighter within 6\" of them. This fighter makes a bonus move action and must finish closer to the closest visible enemy fighter than they were at the start of that move action."
+  },
+  {
+    "_id": "deaa5772",
+    "name": "Pikujący lot",
+    "monster": "Zombie Dragon",
+    "warband": "death",
+    "cost": "double",
+    "description": "Dodaj 3 do cechy Ruch tego wojownika dla jego następnej akcji ruchu podczas tej aktywacji.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Swooping Dive",
+    "sourceDescription": "Add 3 this fighter's Move characteristic for their next move action in this activation."
+  },
+  {
+    "_id": "b63d9f37",
+    "name": "Pikujący lot",
+    "monster": "Terrorgheist",
+    "warband": "death",
+    "cost": "double",
+    "description": "Dodaj 3 do cechy Ruch tego wojownika dla jego następnej akcji ruchu podczas tej aktywacji.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Swooping Dive",
+    "sourceDescription": "Add 3 this fighter's Move characteristic for their next move action in this activation."
+  },
+  {
+    "_id": "a7e23cab",
+    "name": "Krzyk śmierci",
+    "warband": "death",
+    "monster": "Terrorgheist",
+    "cost": "triple",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 8\" od tego wojownika. Przy wyniku 5 przydziel wojownikowi, za którego wykonywany jest rzut, 1 punkt obrażeń. Przy wyniku 6 przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Death Scream",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 8\" of this fighter. On a roll of 5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "ad5ea812",
+    "name": "Woń posoki",
+    "warband": "death",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w odległości 1\" od niego znajduje się widoczny wrogi wojownik, któremu przydzielono 5 lub więcej punktów obrażeń. Ten wojownik wykonuje dodatkową akcję ataku.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Scent of Gore",
+    "sourceDescription": "A fighter can use this ability only if there is a visible enemy fighter within 1\" of them that has 5 or more damage points allocated to them. This fighter makes a bonus attack action."
+  },
+  {
+    "_id": "aa4861f7",
+    "name": "Mieczowate szpony",
+    "warband": "death",
+    "monster": "Zombie Dragon",
+    "cost": "triple",
+    "description": "Dodaj 3 do cechy Ataki następnej akcji ataku wręcz wykonanej przez tego wojownika podczas tej aktywacji.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Sword-like Claws",
+    "sourceDescription": "Add 3 to the Attacks characteristic of the next melee attack action made by this fighter this activation."
+  },
+  {
+    "_id": "5a4eb2ae",
+    "name": "Rój nietoperzy",
+    "warband": "death",
+    "monster": "Terrorgheist",
+    "cost": "quad",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy przydzielono mu 10 lub więcej punktów obrażeń. Przydziel wszystkim widocznym wrogim wojownikom w odległości 3\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Infested with Bats",
+    "sourceDescription": "A fighter can only use this ability if 10 or more damage points have been allocated to them. Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "6f7786d8",
+    "name": "Morowy oddech",
+    "warband": "death",
+    "monster": "Zombie Dragon",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 8\" od tego wojownika i rzuć kością za tego wojownika oraz każdego innego wojownika w odległości 3\" od tamtego wojownika i widocznego dla tamtego wojownika. Przy wyniku 2-5 przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności. Przy wyniku 6 przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą podwójnej wartości tej zdolności.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Pestilent Breath",
+    "sourceDescription": "Pick a visible enemy fighter within 8\" of this fighter and roll a dice for that fighter and each other fighter within 3\" of that fighter and visible to that fighter.  On a roll of 2-5, allocate a number of damage points to the fighter being rolled for equal to the value of this ability.  On a 6, allocate a number of damage points to the fighter being rolled for equal to double the value of this ability."
+  },
+  {
+    "_id": "29483e90",
+    "name": "Nekromantyczne więzi",
+    "warband": "death",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak wróg zakończy akcję ruchu w odległości 3\" od sojuszniczego wojownika z runemarkiem Hero. Ten wojownik wykonuje dodatkową akcję ruchu. Po tej akcji ruchu ten wojownik musi znajdować się w odległości 1\" od wrogiego wojownika, który wykonał akcję ruchu. Następnie ten wojownik wykonuje dodatkową akcję ataku.",
+    "runemarks": [
+      "thrall"
+    ],
+    "sourceName": "Necromantic Bonds",
+    "sourceDescription": "A fighter can make this reaction after an enemy finishes a move action within 3\" of a friendly fighter with the Hero runemark.  This fighter makes a bonus move action.  After that move action this fighter must be within 1\" of the enemy fighter that made the move action.  Then this fighter makes a bonus attack action."
+  },
+  {
+    "_id": "6321786c",
+    "name": "Nieumarli słudzy",
+    "warband": "death",
+    "cost": "battletrait",
+    "description": "Raz na rundę bitwy pierwsze trafienie krytyczne z akcji ataku strzeleckiego, której celem jest sojuszniczy wojownik z tą cechą bitewną i runemarkiem Minion, licz zamiast tego jako zwykłe trafienie.",
+    "runemarks": [],
+    "sourceName": "Deathless Minions",
+    "sourceDescription": "Once per battle round, count the first critical hit from a missile attack action that targets a friendly fighter with this battle trait that has the Minion runemark as a hit instead."
+  }
+]

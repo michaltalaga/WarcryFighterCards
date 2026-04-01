@@ -1,0 +1,126 @@
+[
+  {
+    "_id": "9f01600b",
+    "name": "Smagnięcie biczem",
+    "warband": "order",
+    "monster": "War Hydra",
+    "cost": "double",
+    "description": "Dodaj 3 do cechy Ruch tego wojownika dla jego następnej akcji ruchu podczas tej aktywacji.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Quick with the Lash",
+    "sourceDescription": "Add 3 to this fighter's Move characteristic for their next move action in this activation."
+  },
+  {
+    "_id": "69a56b0c",
+    "name": "Ognisty oddech",
+    "warband": "order",
+    "monster": "War Hydra",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika i rzuć kością za tego wojownika oraz każdego innego wojownika w odległości 3\" od tamtego wojownika i widocznego dla tamtego wojownika. Przy wyniku 4+ przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Fiery Breath",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll a dice for that fighter and each other fighter within 3\" of that fighter and visible to that fighter. On a roll of 4+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "98a476a3",
+    "name": "Odetnij jedną głowę, a jej miejsce zajmie inna",
+    "warband": "order",
+    "monster": "War Hydra",
+    "cost": "quad",
+    "description": "Usuń liczbę punktów obrażeń przydzielonych temu wojownikowi do maksymalnie podwójnej wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Sever One Head, Another Takes Its Place",
+    "sourceDescription": "Remove a number of damage points allocated to this fighter up to double the value of this ability."
+  },
+  {
+    "_id": "7a9f79ce",
+    "name": "Smagnięcie biczem",
+    "warband": "order",
+    "monster": "Kharibdyss",
+    "cost": "double",
+    "description": "Dodaj 3 do cechy Ruch tego wojownika dla jego następnej akcji ruchu podczas tej aktywacji.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Quick with the Lash",
+    "sourceDescription": "Add 3 to this fighter's Move characteristic for their next move action in this activation."
+  },
+  {
+    "_id": "87348921",
+    "name": "Otchłanny skowyt",
+    "warband": "order",
+    "monster": "Kharibdyss",
+    "cost": "triple",
+    "description": "Rzuć kością za każdego wrogiego wojownika w odległości od tego wojownika równej wartości tej zdolności. Przy wyniku 3+ do końca rundy bitwy wojownik, za którego wykonywany jest rzut, nie może wykonywać akcji ruchu ani akcji wycofania.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Abyssal Howl",
+    "sourceDescription": "Roll a dice for each enemy fighter within a number of inches of this fighter equal to the value of this ability. On a roll of 3+, until the end of the battle round, the fighter being rolled for cannot make move actions or disengage actions."
+  },
+  {
+    "_id": "86b60a14",
+    "name": "Kolczasty ogon",
+    "warband": "order",
+    "monster": "Kharibdyss",
+    "cost": "quad",
+    "description": "Przydziel wszystkim widocznym wrogim wojownikom w odległości 3\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Spiked Tail",
+    "sourceDescription": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "115a9054",
+    "name": "Wiedzieć, gdzie uderzyć",
+    "warband": "order",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika akcje ataku strzeleckiego wykonywane przez tego wojownika zadają trafienie krytyczne przy wyniku 3+.",
+    "runemarks": [
+      "grombrindal"
+    ],
+    "sourceName": "Knowing Just Where to Strike",
+    "sourceDescription": "Until the end of this fighter's activation, missile attack actions made by this fighter score a critical hit on a roll of 3+."
+  },
+  {
+    "_id": "966269c7",
+    "name": "Mądrość Grombrindala",
+    "warband": "order",
+    "cost": "triple",
+    "description": "Wybierz innego sojuszniczego wojownika w odległości 3\" od tego wojownika, aby przekazać mu nieco mądrej rady. Dodaj 1 do cechy Ruch tamtego wojownika oraz do cechy Ataki akcji ataku wręcz wykonywanych przez tamtego wojownika do końca rundy. Dodatkowo tamten wojownik liczy się jako 2 dodatkowych wojowników na potrzeby kontrolowania celów do końca rundy.",
+    "runemarks": [
+      "grombrindal"
+    ],
+    "sourceName": "Grombindal's Wisdom",
+    "sourceDescription": "Pick another friendly fighter within 3\" of this fighter to dispense some sagely wisdom to. Add 1 to that fighter's Move characteristic and the Attacks characteristic of melee attack actions made by that fighter until the end of the round. In addition, that fighter counts as 2 additional fighters for the purpose of controlling objectives until the end of the round."
+  },
+  {
+    "_id": "4b48ae9b",
+    "name": "Tego już nie raz widziałem",
+    "warband": "order",
+    "cost": "quad",
+    "description": "Do końca rundy wrodzy wojownicy w odległości 6\" od tego wojownika nie mogą używać reakcji. Dodatkowo do końca rundy zdolności używane przez wrogich wojowników nie wywierają żadnego efektu na wrogich ani sojuszniczych wojowników w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "grombrindal"
+    ],
+    "sourceName": "Nothing I Haven't Seen Before",
+    "sourceDescription": "Until the end of the round, enemy fighters within 6\" of this fighter cannot use reactions. In addition, until the end of the round, abilities used by enemy fighters have no effect on enemy or friendly fighters within 6\" of this fighter."
+  },
+  {
+    "_id": "473ca1b2",
+    "name": "Odważni obrońcy",
+    "warband": "order",
+    "cost": "battletrait",
+    "description": "Gdy sojuszniczy wojownik z tą cechą bitewną wykonuje reakcję 'Kryj się', trafienia krytyczne stają się zwykłymi trafieniami przy wyniku 3+, zamiast przy 4+.",
+    "runemarks": [],
+    "sourceName": "Courageous Defenders",
+    "sourceDescription": "When a friendly fighter with this battle trait makes the 'Take Cover' reaction, critical hits become hits on a roll of 3+ instead of 4+."
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "22050b34",
+    "name": "Spopielenie złowrogim ogniem",
+    "warband": "Pyregheists",
+    "cost": "passive",
+    "description": "Gdy zdolność nakazuje ci spopielić wojownika, usuń tego wojownika z pola bitwy i umieść znacznik Pyre na środku przestrzeni zajmowanej przez tego wojownika. Na końcu rundy bitwy, po ustaleniu kontroli nad celami, przydziel 3 punkty obrażeń każdemu wrogiemu wojownikowi w odległości 1\" od środka co najmniej jednego znacznika Pyre.",
+    "runemarks": [],
+    "sourceName": "Balefire Cremation",
+    "sourceDescription": "When an ability tells you to cremate a fighter, remove that fighter from the battlefield and place a Pyre token at the centre of the space occupied by that fighter. At the end of the battle round, after determining control of objectives, allocate 3 damage to each enemy fighter within 1\" of the centre of one or more Pyre tokens."
+  },
+  {
+    "_id": "78f7d995",
+    "name": "Rozdmuchaj płomienie",
+    "warband": "Pyregheists",
+    "cost": "double",
+    "description": "Dodaj 1 do punktów obrażeń przydzielanych przez każde trafienie i każde trafienie krytyczne z następnej akcji ataku wręcz wykonanej przez tego wojownika podczas tej aktywacji.",
+    "runemarks": [],
+    "sourceName": "Fan the Flames",
+    "sourceDescription": "Add 1 to the damage points allocated by each hit and each critical hit from the next melee attack action made by this fighter this activation."
+  },
+  {
+    "_id": "20a38f4f",
+    "name": "Klątwa grabieżcy stosów",
+    "warband": "Pyregheists",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do cechy Siła akcji ataku wykonywanych przez tego wojownika. Do końca aktywacji tego wojownika, gdy jego akcja ataku wyeliminuje wrogiego wojownika, spopiel tamtego wrogiego wojownika.",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Pyrerobber's Curse",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to the Strength characteristic of attack actions made by this fighter. Until the end of this fighter's activation, when their attack action takes down an enemy fighter, cremate that enemy fighter."
+  },
+  {
+    "_id": "779e2be9",
+    "name": "Niemrugający strażnik",
+    "warband": "Pyregheists",
+    "cost": "double",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Wytrzymałość sojuszniczych wojowników z runemarkami Elite lub Hero, gdy znajdują się w odległości 3\" od tego wojownika.",
+    "runemarks": [
+      "elite"
+    ],
+    "sourceName": "Unblinking Guardian",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Toughness characteristic of friendly fighters with the Elite or Hero runemarks while they are within 3\" of this fighter."
+  },
+  {
+    "_id": "85b75c37",
+    "name": "Rozpal stos",
+    "warband": "Pyregheists",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy jego akcja ataku wyeliminuje wrogiego wojownika. Spopiel tamtego wrogiego wojownika.",
+    "runemarks": [],
+    "sourceName": "Light the Pyre",
+    "sourceDescription": "A fighter can only use this ability when their attack action takes down an enemy fighter. Cremate that enemy fighter."
+  },
+  {
+    "_id": "6bb4417d",
+    "name": "Płomień duszy",
+    "warband": "Pyregheists",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w tej rundzie bitwy wyeliminowano wrogiego wojownika. Wybierz liczbę widocznych sojuszniczych wojowników z runemarkiem Pyregheists równą połowie wartości tej zdolności (zaokrąglając w górę). Każdy wybrany wojownik może wykonać dodatkową akcję ruchu albo dodatkową akcję ataku (niektórzy mogą wykonać dodatkową akcję ruchu, a inni dodatkową akcję ataku).",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Soulblaze",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down this battle round. Pick a number of visible friendly fighters with the Pyregheists runemark equal to half the value of this ability (rounding up). Each fighter you picked can make a bonus move action or a bonus attack action (some can make a bonus move action and others can make a bonus attack action)."
+  },
+  {
+    "_id": "ad5d0eb1",
+    "name": "Bolesna pokuta",
+    "warband": "Pyregheists",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika. Tamten wrogi wojownik wykonuje dodatkową akcję ruchu bezpośrednio w stronę najbliższego innego wojownika ze swojej drużyny bojowej, tak jakby skakał, na liczbę cali równą wartości tej zdolności. Gdy to robi, może oddalić się od wrogich wojowników znajdujących się w odległości 1\" na początku tej akcji ruchu. Po tej akcji ruchu przydziel 3 punkty obrażeń tamtemu wojownikowi oraz każdemu innemu wrogiemu wojownikowi w odległości 2\" od tamtego wojownika. Spopiel każdego wojownika wyeliminowanego przez tę zdolność.",
+    "runemarks": [],
+    "sourceName": "Agonising Penance",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter. That enemy fighter makes a bonus move action directly towards the closest other fighter from their warband, as if they were jumping, a number of inches equal to the value of this ability. When doing so, they can move away from enemy fighters within 1\" at the start of that move action. After that move action, allocate 3 damage points to that fighter and to each other enemy fighter within 2\" of that fighter. Cremate each fighter taken down by this ability."
+  },
+  {
+    "_id": "b227b66a",
+    "name": "Stosy zwycięstwa",
+    "warband": "Pyregheists",
+    "cost": "battletrait",
+    "description": "Na końcu każdej rundy bitwy każdy gracz, którego drużyna bojowa ma tę cechę bitewną, może rzucić kością za każdy sojuszniczy znacznik Pyre na polu bitwy. Za każdy wynik 3+ dodaj jedną dziką kość do zachowanych dzikich kości tego gracza.",
+    "runemarks": [],
+    "sourceName": "Pyres of Victory",
+    "sourceDescription": "At the end of each battle round, each player whose warband has this battle trait can roll a dice for each friendly Pyre token on the battlefield. For each roll of 3+, add one wild dice to that player's saved wild dice."
+  },
+  {
+    "_id": "1b3a2eee",
+    "name": "Samospalenie",
+    "warband": "Pyregheists",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy stanie się celem akcji ataku wręcz, po zsumowaniu obrażeń, ale przed przydzieleniem ich temu wojownikowi, jeśli wystarczą one do wyeliminowania tego wojownika. Spopiel tego wojownika. Następnie ten wojownik zostaje wyeliminowany. W bitwie kampanii nie wykonuj rzutu na obrażenia dla tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Immolation",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by a melee attack action, after the damage is totalled but before it is allocated to this fighter, if it is enough for this fighter to be taken down. Cremate this fighter. Then, this fighter is taken down. In a campaign battle, do not make an injury roll for this fighter."
+  }
+]

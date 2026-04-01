@@ -1,0 +1,104 @@
+[
+  {
+    "_id": "7fb58601",
+    "name": "Pradawna aura",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy wrogi wojownik w odległości 6\" od niego użyje zdolności. Rzuć kością. Dodaj 2 do wyniku, jeśli ten wojownik ma znacznik Memorian, a następnie usuń ten znacznik. Jeśli wynik jest równy wartości tamtej zdolności lub ją przewyższa, tamta zdolność nie wywiera żadnego efektu.",
+    "runemarks": [],
+    "sourceName": "Ancient Aura",
+    "sourceDescription": "A fighter can make this reaction when an enemy fighter within 6\" of them uses an ability. Roll a dice. Add 2 to the roll if this fighter has a Memorian token, then remove that token. If the roll equals or exceeds the value of that ability, that ability has no effect."
+  },
+  {
+    "_id": "dd34ee2e",
+    "name": "Dusza smagana błyskawicą",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "double",
+    "description": "Ten wojownik zyskuje liczbę kości ruiny równą wartości tej zdolności na resztę rundy bitwy. Za każdym razem, gdy temu wojownikowi ma zostać przydzielony punkt obrażeń, możesz rzucić 1 z jego kości ruiny. Przy wyniku 3+ ten punkt obrażeń nie zostaje przydzielony temu wojownikowi.",
+    "runemarks": [],
+    "sourceName": "Lightning-scoured Soul",
+    "sourceDescription": "This fighter gains a number of ruination dice equal to the value of this ability for the rest of the battle round. Each time this fighter is allocated a damage point, you can roll 1 of their ruination dice. On a 3+, that damage point is not allocated to this fighter."
+  },
+  {
+    "_id": "51c47928",
+    "name": "Przez mroczne niebiosa",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "double",
+    "description": "Usuń tego wojownika z pola bitwy, a następnie wystaw go na platformie albo na podłodze pola bitwy, dalej niż 5\" od wszystkich wrogich wojowników.",
+    "runemarks": [
+      "champion"
+    ],
+    "sourceName": "Through Darkened Skies",
+    "sourceDescription": "Remove this fighter from the battlefield, then set them up on a platform or the battlefield floor, more than 5\" from all enemy fighters."
+  },
+  {
+    "_id": "a6d486d3",
+    "name": "Wspomnienia dawnych chwał",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "double",
+    "description": "Możesz dać temu wojownikowi 1 znacznik Memorian, do maksymalnie 1. Do końca jego aktywacji dodaj 1 do cechy Ruch tego wojownika oraz dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Memories of Past Glories",
+    "sourceDescription": "You can give this fighter 1 Memorian token, to a maximum of 1. Until the end of their activation, add 1 to the Move characteristic of this fighter and add half the value of this ability (rounding up) to the Strength characteristics of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "aadaee1b",
+    "name": "Wyczuj nieświętą magię",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "triple",
+    "description": "Przez resztę rundy bitwy wartość zdolności używanych przez wrogich wojowników w odległości od tego wojownika równej wartości tej zdolności wynosi 1. Jeśli w odległości 6\" od tego wojownika znajduje się sojuszniczy Gryph-crow, zasięg tej zdolności obejmuje całe pole bitwy.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Sense Unholy Sorcery",
+    "sourceDescription": "For the rest of the battle round, the value of abilities used by enemy fighters within a number of inches of this fighter equal to the value of this ability is 1. If there is a friendly Gryph-crow within 6\" of this fighter, the range of this ability is battlefield-wide."
+  },
+  {
+    "_id": "6f2ab7ef",
+    "name": "Zasłuż na zaszczytną śmierć",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "triple",
+    "description": "Możesz dać temu wojownikowi 1 znacznik Memorian, do maksymalnie 1. Wybierz jednego lub więcej sojuszniczych wojowników z runemarkiem Ruination Chamber, którzy mają przydzielonych po 5 lub więcej punktów obrażeń i są widoczni dla tego wojownika. Każdy z tych sojuszniczych wojowników może wykonać dodatkową akcję ataku.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Earn an Honourable Death",
+    "sourceDescription": "You can give this fighter 1 Memorian token, to a maximum of 1. Pick one or more friendly fighters with the Ruination Chamber runemark that each have 5 or more damage points allocated to them and are visible to this fighter. Those friendly fighters can each make a bonus attack action."
+  },
+  {
+    "_id": "376fe5fd",
+    "name": "Płonąca latarnia",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "triple",
+    "description": "Przez resztę rundy bitwy trafienia krytyczne z ataków wykonywanych przez wrogich wojowników widocznych dla tego wojownika i znajdujących się od niego w odległości równej wartości tej zdolności stają się zwykłymi trafieniami.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Blazing Lantern",
+    "sourceDescription": "For the rest of the battle round, critical hits for attacks made by enemy fighters visible to this fighter and within a number of inches of this fighter equal to the value of this ability become hits instead."
+  },
+  {
+    "_id": "26e558db",
+    "name": "Wymierz osąd",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "quad",
+    "description": "Wybierz widocznego sojuszniczego wojownika z runemarkiem Ruination Chamber, który aktywował się w tej rundzie bitwy i znajduje się w odległości 6\" od tego wojownika. Nie możesz wybrać wojownika z runemarkiem Hero. Tamten wojownik może zostać aktywowany jeszcze raz później w tej fazie walki.",
+    "runemarks": [
+      "mount"
+    ],
+    "sourceName": "Deliver Judgement",
+    "sourceDescription": "Pick a visible friendly fighter with the Ruination Chamber runemark that has activated this battle round and that is within 6\" of this fighter. You cannot pick a fighter with the Hero runemark. That fighter can be activated once more later in this combat phase."
+  },
+  {
+    "_id": "a3d8f2e7",
+    "name": "Potomkowie Burzy",
+    "warband": "Stormcast Eternals Ruination Chamber",
+    "cost": "battletrait",
+    "description": "Po rozstawieniu możesz wybrać sojuszniczego wojownika z tą cechą bitewną. Jeśli ten wojownik znajduje się na polu bitwy, usuń go z pola bitwy. Od początku drugiej rundy bitwy wzwyż, zaczynając od atakującego, możesz ustawić tego wojownika na polu bitwy dalej niż 5\" od każdego wrogiego wojownika oraz dalej niż 3\" od każdego celu i znacznika skarbu.",
+    "runemarks": [],
+    "sourceName": "Scions of the Storm",
+    "sourceDescription": "After deployment, you can pick a friendly fighter with this battle trait. If that fighter is on the battlefield, remove them from the battlefield. At the start of the second battle round onwards, starting with the attacker, you can place that fighter on the battlefield more than 5\" from each enemy fighter and more than 3\" from each objective and treasure token."
+  }
+]
