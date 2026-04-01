@@ -193,25 +193,46 @@
   font-weight: 700;
 }
 
+.roster-input-shell {
+  position: relative;
+}
+
 .roster-import textarea {
   width: 100%;
   resize: vertical;
   min-height: 10rem;
   border: 1px solid #bfb39b;
   border-radius: 8px;
-  padding: 0.6rem;
+  padding: 0.6rem 0.6rem 3.15rem;
   font-family: Consolas, 'Courier New', monospace;
   font-size: 0.95rem;
 }
 
-.roster-import button {
+.roster-input-actions {
+  position: absolute;
+  right: 0.55rem;
+  bottom: 0.55rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  pointer-events: none;
+}
+
+.roster-action-button {
   width: fit-content;
   border: 1px solid #0f2a35;
   background: #163f4f;
   color: #fff;
   border-radius: 8px;
-  padding: 0.5rem 0.8rem;
+  padding: 0.42rem 0.72rem;
   cursor: pointer;
+  pointer-events: auto;
+}
+
+.roster-action-button-secondary {
+  background: #f2ebd8;
+  color: #0f2a35;
 }
 
 .status {
@@ -820,9 +841,27 @@
     align-items: stretch;
   }
 
-  .language-picker {
+  .app-header-actions {
     width: 100%;
     justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .language-picker {
+    flex: 1 1 14rem;
+    width: auto;
+    justify-content: space-between;
+  }
+
+  .roster-input-actions {
+    left: 0.55rem;
+    right: 0.55rem;
+    justify-content: space-between;
+  }
+
+  .roster-action-button {
+    flex: 1 1 auto;
+    min-height: 2rem;
   }
 }
 

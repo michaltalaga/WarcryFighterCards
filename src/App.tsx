@@ -286,18 +286,22 @@ function App() {
 
       <section className="roster-import">
         <p className="roster-title">{ui.rosterTitle}</p>
-        <textarea
-          rows={10}
-          value={rosterText}
-          onChange={(event) => setRosterText(event.target.value)}
-          placeholder={ui.rosterPlaceholder}
-        />
-        <button type="button" onClick={() => void importRoster(rosterText)}>
-          {ui.importRosterButton}
-        </button>
-        <button type="button" onClick={useSample}>
-          {ui.useSampleButton}
-        </button>
+        <div className="roster-input-shell">
+          <textarea
+            rows={10}
+            value={rosterText}
+            onChange={(event) => setRosterText(event.target.value)}
+            placeholder={ui.rosterPlaceholder}
+          />
+          <div className="roster-input-actions">
+            <button type="button" className="roster-action-button" onClick={() => void importRoster(rosterText)}>
+              {ui.importRosterButton}
+            </button>
+            <button type="button" className="roster-action-button roster-action-button-secondary" onClick={useSample}>
+              {ui.useSampleButton}
+            </button>
+          </div>
+        </div>
         {importedCards.length > 0 && (
           <div className="print-controls" role="group" aria-label={ui.printControlsAriaLabel}>
             <span className="print-controls-label">{ui.printSideLabel}</span>
