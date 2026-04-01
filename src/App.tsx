@@ -308,7 +308,7 @@ function App() {
         {importStatus && <p className="status">{importStatus}</p>}
       </section>
 
-      {printSide === 'front' && (
+      {(rosterName || warbandInfo) && (
         <section className="cards-grid">
           <WarbandHeader rosterName={rosterName} warbandInfo={warbandInfo} battleTraits={battleTraits} locale={locale} ui={ui} />
         </section>
