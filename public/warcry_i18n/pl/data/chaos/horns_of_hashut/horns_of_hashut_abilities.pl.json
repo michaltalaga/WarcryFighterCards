@@ -1,0 +1,94 @@
+[
+  {
+    "_id": "1f5b44d7",
+    "name": "Obrócić w perzynę",
+    "warband": "Horns of Hashut",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Lay to Waste",
+    "sourceDescription": "A fighter can use this ability only if an enemy fighter has been taken down by an attack action made by them this activation.  This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "dcb7451d",
+    "name": "Bezlitosne okrucieństwo",
+    "warband": "Horns of Hashut",
+    "cost": "double",
+    "description": "Następna akcja ataku wykonana przez tego wojownika podczas tej aktywacji zadaje trafienie krytyczne przy wyniku 5+, jeśli docelowy wojownik ma już przydzielonych 5 lub więcej punktów obrażeń, zanim ta akcja ataku zostanie wykonana.",
+    "runemarks": [],
+    "sourceName": "Merciless Cruelty",
+    "sourceDescription": "The next attack action made by this fighter this activation scores a critical hit on a 5+ if the target fighter already has 5 or more damage points allocated to them before the attack action is made."
+  },
+  {
+    "_id": "718c4bfb",
+    "name": "Żelazna stampeda",
+    "warband": "Horns of Hashut",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika i rzuć kością. Przy wyniku 4-5 przydziel tamtemu wojownikowi 1 punkt obrażeń. Przy wyniku 6 przydziel tamtemu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Stampede of Iron",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter and roll a dice.  On a 4-5, allocate 1 damage point to that fighter.  On a 6, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "f386768b",
+    "name": "Bomba popiołu",
+    "warband": "Horns of Hashut",
+    "cost": "triple",
+    "description": "Wybierz widoczny punkt w odległości 6\" od tego wojownika, który znajduje się na podłodze pola bitwy albo na platformie, i umieść tam znacznik. Ten znacznik jest znacznikiem bomby popiołu. Gdy wrogi wojownik znajduje się w odległości 3\" od któregokolwiek znacznika bomby popiołu, odejmij 1 od jego cechy Wytrzymałość oraz odejmij 1 od cechy Ataki akcji ataku wykonywanych przez niego (obie do minimum 1). Na końcu rundy bitwy usuń ten znacznik.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Ash Bomb",
+    "sourceDescription": "Pick a visible point within 6\" of this fighter that is on the battlefield floor or a platform and place a token there.  That token is an ash bomb token.  While an enemy fighter is within 3\" of any ash bomb tokens, subtract 1 from their Toughness characteristic and subtract 1 from the Attacks characteristic of attack actions made by them (both to a minimum of 1).  At the end of the battle round, remove the token."
+  },
+  {
+    "_id": "f9977ab4",
+    "name": "Pochłaniające płomienie mrocznej sztuki",
+    "warband": "Horns of Hashut",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4+ przydziel temu wojownikowi 3 punkty obrażeń. Następnie zrób to samo dla każdego innego widocznego wrogiego wojownika w odległości 2\" od tamtego wrogiego wojownika, ale zamiast tego rzuć liczbą kości równą połowie wartości tej zdolności (zaokrąglając w górę).",
+    "runemarks": [
+      "frenzied"
+    ],
+    "sourceName": "Engulfing Flames of Dark Artifice",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll a number of dice equal to the value of this ability.  For each 4+, allocate 3 damage points to that fighter.  Then, do the same for each other visible enemy fighter within 2\" of that enemy fighter but instead roll a number of dice equal to half the value of this ability (rounding up)."
+  },
+  {
+    "_id": "e2f0ddbc",
+    "name": "Uwolnij rozjuszonego Taurusa",
+    "warband": "Horns of Hashut",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje dodatkową akcję ataku wręcz. Dodatkowo dodaj 1 do punktów obrażeń przydzielanych przez każde trafienie krytyczne uzyskane z tej dodatkowej akcji ataku.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Unleash the Raging Taurus",
+    "sourceDescription": "This fighter makes a bonus melee attack action.  In addition, add 1 to the damage points allocated by each critical hit scored from that bonus attack aciton."
+  },
+  {
+    "_id": "bf2f6194",
+    "name": "Oddech żaru i dymu",
+    "warband": "Horns of Hashut",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy wrogi wojownik zakończy akcję ruchu w odległości 3\" od niego. Rzuć kością. Jeśli wynik jest równy cesze Wytrzymałość tamtego wrogiego wojownika albo od niej wyższy, przydziel tamtemu wrogiemu wojownikowi 3 punkty obrażeń i odejmij 1 od cechy Siła akcji ataku wręcz wykonywanych przez tamtego wrogiego wojownika do końca rundy bitwy.",
+    "runemarks": [
+      "warrior"
+    ],
+    "sourceName": "Breath of Cinder and Smoke",
+    "sourceDescription": "A fighter can make this reaction when an enemy fighter finishes a move action within 3\" of them.  Roll a dice.  If the roll is equal to or greater than that enemy fighter's toughness characteristic, allocate 3 damage points to that enemy fighter and subtract 1 from the Strength characteristic of melee attack actions made by that enemy fighter until the end of the battle round."
+  },
+  {
+    "_id": "e6860f13",
+    "name": "Kraina ognia i popiołu",
+    "warband": "Horns of Hashut",
+    "cost": "battletrait",
+    "description": "Jeśli na polu bitwy znajduje się co najmniej jeden sojuszniczy wojownik z tą cechą bitewną, za każdym razem gdy wrogi wojownik otrzymuje obrażenia od uderzenia, odejmij 2 od wyniku rzutu, do minimum 1.",
+    "runemarks": [],
+    "sourceName": "A Realm of Fire and Ash",
+    "sourceDescription": "If one or more friendly fighters with this battle trait are on the battlefield, each time an enemy fighter suffers impact damage, subtract 2 from the dice roll, to a minimum of 1."
+  }
+]

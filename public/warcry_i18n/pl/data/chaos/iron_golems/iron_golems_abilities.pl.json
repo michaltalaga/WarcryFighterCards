@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "f73c77a3",
+    "name": "Miażdżące uderzenie",
+    "warband": "Iron Golems",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj wartość tej zdolności do cechy Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Spine-crushing Blow",
+    "sourceDescription": "Until the end of this fighter's activation, add the value of this ability to the Strength characteristic of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "379739f5",
+    "name": "Przewodź siłą",
+    "warband": "Iron Golems",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Lead with Strength",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "4f9ac0c4",
+    "name": "Rzuć bolasami",
+    "warband": "Iron Golems",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [],
+    "sourceName": "Throw Bolas",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "d40f57a3",
+    "name": "Żywy taran",
+    "warband": "Iron Golems",
+    "cost": "triple",
+    "description": "Do końca aktywacji tego wojownika, następnym razem gdy ten wojownik zakończy akcję ruchu w odległości 1\" od wrogiego wojownika, wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika. Przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Living Battering Ram",
+    "sourceDescription": "Until the end of this fighter's activation, the next time this fighter finishes a move action within 1\" of an enemy fighter, pick a visible enemy fighter within 1\" of this fighter. Allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "a690cb84",
+    "name": "Trwaj niewzruszenie",
+    "warband": "Iron Golems",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Wytrzymałość widocznych sojuszniczych wojowników, gdy znajdują się oni w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "icon-bearer"
+    ],
+    "sourceName": "Stand Defiant",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Toughness characteristic of visible friendly fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "d41d5159",
+    "name": "Wir śmierci",
+    "warband": "Iron Golems",
+    "cost": "quad",
+    "description": "Przydziel wszystkim widocznym wrogim wojownikom w odległości 3\" od tego wojownika liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Whirlwind of Death",
+    "sourceDescription": "Allocate a number of damage points equal to the value of this ability to all visible enemy fighters within 3\" of this fighter."
+  },
+  {
+    "_id": "1bbc1dfd",
+    "name": "Szczęk żelaza",
+    "warband": "Iron Golems",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Policz maksymalnie dwa trafienia krytyczne z tej akcji ataku jako zwykłe trafienia.",
+    "runemarks": [],
+    "sourceName": "Clashing Iron",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. Count up to two critical hits from that attack action as hits instead."
+  },
+  {
+    "_id": "cc1d2c0a",
+    "name": "Tworzymy wojnę",
+    "warband": "Iron Golems",
+    "cost": "battletrait",
+    "description": "Po fazie inicjatywy, zaczynając od atakującego, każdy gracz, którego drużyna bojowa ma tę cechę bitewną, może wybrać posiadane przez siebie `[double]`, `[triple]` albo `[quad]`. Zmień wartość tych kości zdolności na 6.",
+    "runemarks": [],
+    "sourceName": "We Make War",
+    "sourceDescription": "After the initiative phase, starting with the attacker, each player whose warband has this battle trait can pick a [double], [triple], or [quad] they have. Change the value of those ability dice to 6."
+  }
+]

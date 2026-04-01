@@ -1,0 +1,88 @@
+[
+  {
+    "_id": "3ffa85e3",
+    "name": "Akrobatyczny skok",
+    "warband": "Cypher Lords",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj 1 do jego cechy Ruch, a także może on latać podczas wykonywania akcji ruchu; jednak gdy lata, nie może przemieszczać się pionowo w górę o więcej niż 3\".",
+    "runemarks": [],
+    "sourceName": "Acrobatic Leap",
+    "sourceDescription": "Until the end of this fighter's activation, add 1 to their Move characteristic, and they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\"."
+  },
+  {
+    "_id": "dccce837",
+    "name": "Niskie zamiatające uderzenie",
+    "warband": "Cypher Lords",
+    "cost": "double",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 2\" od tego wojownika. Przy wyniku 4-5 przydziel wojownikowi, za którego wykonywany jest rzut, 1 punkt obrażeń. Przy wyniku 6 przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Low Sweeping Blow",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 2\" of this fighter. On a roll of 4-5, allocate 1 damage point to the fighter being rolled for. On a roll of 6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "038f12f3",
+    "name": "Gwiazdki do rzucania i czakrany",
+    "warband": "Cypher Lords",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [],
+    "sourceName": "Throwing Stars and Chakrams",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "a865d13b",
+    "name": "Przywołanie z cienia",
+    "warband": "Cypher Lords",
+    "cost": "triple",
+    "description": "Wybierz sojuszniczego wojownika z runemarkiem Minion. Usuń tamtego wojownika z pola bitwy, a następnie ustaw go na platformie albo na podłodze pola bitwy w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Shadowy Recall",
+    "sourceDescription": "Pick a friendly fighter with the Minion runemark. Remove that fighter from the battlefield, then set that fighter up on a platform or the battlefield floor within 6\" of this fighter."
+  },
+  {
+    "_id": "d2a7ed23",
+    "name": "Roztrzaskana kula mroku",
+    "warband": "Cypher Lords",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy odejmij 1 od cechy Ataki (do minimum 1) akcji ataku wykonywanych przez wrogich wojowników, gdy znajdują się oni w odległości 6\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Shattered Gloom Globe",
+    "sourceDescription": "Until the end of the battle round, subtract 1 from the Attacks characteristic (to a minimum of 1) of attack actions made by enemy fighters while they are within 6\" of this fighter."
+  },
+  {
+    "_id": "b1ded338",
+    "name": "Wirujące uderzenie z saltem",
+    "warband": "Cypher Lords",
+    "cost": "quad",
+    "description": "Do końca aktywacji tego wojownika może on latać podczas wykonywania akcji ruchu; jednak gdy lata, nie może przemieszczać się pionowo w górę o więcej niż 3\". Dodatkowo ten wojownik wykonuje dodatkową akcję ruchu. Następnie może wykonać dodatkową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Spinning Somersault Strike",
+    "sourceDescription": "Until the end of this fighter's activation, they can fly when making move actions; however, when flying, they cannot move vertically upwards more than 3\". In addition, this fighter makes a bonus move action. Then, they can make a bonus attack action."
+  },
+  {
+    "_id": "a4ef9ab9",
+    "name": "Niespodziewany szturm",
+    "warband": "Cypher Lords",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak wrogi wojownik zakończy akcję ruchu, będąc widocznym dla tego wojownika i w odległości 3\" od niego. Wybierz innego sojuszniczego wojownika z runemarkiem frakcji Cypher Lords oraz runemarkiem Mystic. Tamten wojownik wykonuje dodatkową akcję ruchu. Po tej akcji ruchu tamten wojownik musi znajdować się w odległości 1\" od wrogiego wojownika, który wykonał akcję ruchu.",
+    "runemarks": [],
+    "sourceName": "Unexpected Assault",
+    "sourceDescription": "A fighter can make this reaction after an enemy fighter finishes a move action visible to this fighter and within 3\" of this fighter. Pick another friendly fighter with the Cypher Lords faction runemark and the Mystic runemark. That fighter makes a bonus move action. After that move action that fighter must be within 1\" of the enemy fighter that made the move action."
+  },
+  {
+    "_id": "8a373d09",
+    "name": "Niezrównani akrobaci",
+    "warband": "Cypher Lords",
+    "cost": "battletrait",
+    "description": "Po tym, jak sojuszniczy wojownik z tą cechą bitewną użyje zdolności, rzuć kością. Przy wyniku 5+ dodaj jedną dziką kość do swoich zachowanych dzikich kości.",
+    "runemarks": [],
+    "sourceName": "Matchless Acrobats",
+    "sourceDescription": "After a friendly fighter with this battle trait uses an ability, roll a dice. On a 5+, add one wild dice to your saved wild dice."
+  }
+]

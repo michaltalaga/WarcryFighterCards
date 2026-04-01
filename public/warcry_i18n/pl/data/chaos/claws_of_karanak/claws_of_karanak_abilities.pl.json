@@ -1,0 +1,88 @@
+[
+  {
+    "_id": "3b26491a",
+    "name": "Łowcy z watahy",
+    "warband": "Claws of Karanak",
+    "cost": "double",
+    "description": "Wybierz widocznego sojuszniczego wojownika w odległości 6\" od tego wojownika, który ma zarówno runemark Claws of Karanak, jak i runemark Agile, oraz który nie aktywował się jeszcze w tej rundzie bitwy. Możesz aktywować tamtego wojownika natychmiast po zakończeniu aktywacji tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Pack Hunters",
+    "sourceDescription": "Pick a visible friendly fighter within 6\" of this fighter that has both the Claws of Karanak runemark and the Agile runemark and has not activated yet this battle round.  You can activate that fighter immediately after this fighter's activation ends."
+  },
+  {
+    "_id": "0f23907a",
+    "name": "Krew dla Boga Krwi",
+    "warband": "Claws of Karanak",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy w trakcie tej aktywacji wrogi wojownik został wyeliminowany przez wykonaną przez niego akcję ataku. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Blood for the Blood God",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "335848c5",
+    "name": "Bestialskie rozszarpanie",
+    "warband": "Claws of Karanak",
+    "cost": "quad",
+    "description": "Wybierz wrogiego wojownika w odległości 1\" od tego wojownika, który ma cechę Rany równą 20 lub mniejszą. Usuń tamtego wojownika z pola bitwy i ustaw go ponownie w odległości 1\" od tego wojownika. Następnie ten wojownik wykonuje dodatkową akcję ataku przeciwko tamtemu wojownikowi.",
+    "runemarks": [],
+    "sourceName": "Savage Mauling",
+    "sourceDescription": "Pick an enemy fighter within 1\" of this fighter that has a Wounds characteristic of 20 or less.  Remove that fighter from the battlefield and set them up within 1\" of this fighter.  Then, this fighter makes a bonus attack action against that fighter."
+  },
+  {
+    "_id": "8c956a79",
+    "name": "Przerażające trofea",
+    "warband": "Claws of Karanak",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Do końca rundy bitwy widoczni wrodzy wojownicy w odległości 6\" od tego wojownika nie mogą używać zdolności.",
+    "runemarks": [
+      "terrifying"
+    ],
+    "sourceName": "Horrifying Trophies",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  Until the end of the battle round, visible enemy fighters within 6\" of this fighter cannot use abilities."
+  },
+  {
+    "_id": "cab5e578",
+    "name": "Zapach słabości",
+    "warband": "Claws of Karanak",
+    "cost": "triple",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych sojuszniczych wojowników, gdy znajdują się oni w odległości 8\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Scent of Weakness",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 8\" of this fighter."
+  },
+  {
+    "_id": "bd012690",
+    "name": "Ognisty oddech",
+    "warband": "Claws of Karanak",
+    "cost": "double",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 1\" od tego wojownika. Przy wyniku 4+ przydziel wojownikowi, za którego wykonywany jest rzut, 3 punkty obrażeń.",
+    "runemarks": [
+      "beast"
+    ],
+    "sourceName": "Flaming Breath",
+    "sourceDescription": "Roll a dice for each visible enemy figther within 1\" of this fighter.  On a roll of 4+, allocate 3 damage points to the fighter being rolled for."
+  },
+  {
+    "_id": "6964dbf2",
+    "name": "Skowyt za krwią tchórza",
+    "warband": "Claws of Karanak",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak widoczny wrogi wojownik w odległości 1\" od niego wykona akcję wycofania. Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez sojuszniczych wojowników, których celem jest tamten wrogi wojownik.",
+    "runemarks": [],
+    "sourceName": "Bay for Coward's Blood",
+    "sourceDescription": "A fighter can make this reaction after a visible enemy fighter within 1\" of them makes a disengage action.  Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by friendly fighters that target that enemy fighter."
+  },
+  {
+    "_id": "01dc1cd0",
+    "name": "Żaden szpon nie pozostanie bez krwi",
+    "warband": "Claws of Karanak",
+    "cost": "battletrait",
+    "description": "Za każdym razem, gdy wrogi wojownik wykonuje akcję wycofania, rzuć kością. Przy wyniku 2+ przydziel 1 punkt obrażeń tamtemu wrogiemu wojownikowi za każdego sojuszniczego wojownika z tą cechą bitewną w odległości 1\" od tamtego wrogiego wojownika.",
+    "runemarks": [],
+    "sourceName": "No Claw Unbloodied",
+    "sourceDescription": "Each time an enemy fighters makes a disengage action, roll a dice. On a roll of 2+, allocate 1 damage point to that enemy fighter for each friendly fighter with this battle trait within 1\" of that enemy fighter."
+  }
+]

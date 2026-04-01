@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "98b09ffe",
+    "name": "Ścinające uderzenie",
+    "warband": "Scions of the Flame",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie krytyczne z następnej akcji ataku wręcz wykonanej przez tego wojownika.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Beheading Strike",
+    "sourceDescription": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the damage points allocated to enemy fighters by each critical hit from the next melee attack action made by this fighter."
+  },
+  {
+    "_id": "99093906",
+    "name": "Ognista moc",
+    "warband": "Scions of the Flame",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika dodaj połowę wartości tej zdolności (zaokrąglając w górę) do cechy Siła akcji ataku wręcz wykonywanych przez tego wojownika.",
+    "runemarks": [],
+    "sourceName": "Fiery Might",
+    "sourceDescription": "Until the end of this fighter's activation, add half the value of this ability (rounding up) to the Strength characteristic of melee attack actions made by this fighter."
+  },
+  {
+    "_id": "85c7d770",
+    "name": "Rzuć bombę ogniową",
+    "warband": "Scions of the Flame",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4-5 przydziel temu wojownikowi 1 punkt obrażeń. Za każdy wynik 6 przydziel temu wojownikowi liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Throw Fire Bomb",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice. For each roll of 4-5, allocate 1 damage point to that fighter. For each roll of 6, allocate a number of damage points to that fighter equal to the value of this ability."
+  },
+  {
+    "_id": "a672441f",
+    "name": "Rozpalony zapał",
+    "warband": "Scions of the Flame",
+    "cost": "triple",
+    "description": "Do końca rundy bitwy dodaj 1 do cechy Ataki akcji ataku wręcz wykonywanych przez widocznych sojuszniczych wojowników, gdy znajdują się oni w odległości 3\" od tego wojownika.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Ignited Fervour",
+    "sourceDescription": "Until the end of the battle round, add 1 to the Attacks characteristic of melee attack actions made by visible friendly fighters while they are within 3\" of this fighter."
+  },
+  {
+    "_id": "82e3f1ea",
+    "name": "Inferno",
+    "warband": "Scions of the Flame",
+    "cost": "triple",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 3\" od tego wojownika. Przy wyniku 4+ przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Inferno",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 4+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "533e5404",
+    "name": "Pochłoń w płomieniach",
+    "warband": "Scions of the Flame",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika i rzuć 6 kośćmi. Za każdy wynik 2+ przydziel temu wojownikowi liczbę punktów obrażeń równą połowie wartości tej zdolności (zaokrąglając w górę). Dodatkowo za każdy wynik 6 rzuć dodatkową kością według tych samych zasad (i tak dalej).",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Engulf in Flames",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter and roll 6 dice. For each roll of 2+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up). In addition, for each roll of 6, roll an extra dice as above (and so on)."
+  },
+  {
+    "_id": "5361f7e8",
+    "name": "Płomień furii",
+    "warband": "Scions of the Flame",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku wręcz, ale przed wykonaniem rzutów na trafienie. Za każdy rzut na trafienie z tej akcji ataku, który trafi, przydziel atakującemu wojownikowi 1 punkt obrażeń. Za każde trafienie krytyczne przydziel zamiast tego atakującemu wojownikowi 2 punkty obrażeń.",
+    "runemarks": [],
+    "sourceName": "Blaze of Fury",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by a melee attack action but before the hit rolls are made. For each hit roll from that attack action that hits, allocate 1 damage point to the attacking fighter. For each critical hit, allocate 2 damage points to the attacking fighter instead."
+  },
+  {
+    "_id": "5e51980a",
+    "name": "Przypalone rany",
+    "warband": "Scions of the Flame",
+    "cost": "battletrait",
+    "description": "Za każdym razem, gdy 1 lub więcej punktów obrażeń przydzielonych wrogiemu wojownikowi miałoby zostać usuniętych, odejmij 1 od łącznej liczby punktów obrażeń do usunięcia, do minimum 0.",
+    "runemarks": [],
+    "sourceName": "Seared Wounds",
+    "sourceDescription": "Each time 1 or more damage points allocated to an enemy fighter would be removed, subtract 1 from the total to be removed, to a minimum of 0."
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "_id": "964fb133",
+    "name": "Wypełniona przysięga",
+    "warband": "Darkoath Savagers",
+    "cost": "double",
+    "description": "Do końca aktywacji tego wojownika, za każdym razem gdy wrogi wojownik zostanie wyeliminowany, możesz wybrać albo cechę Wytrzymałość tego wojownika, albo cechę Ataki bądź Siła 1 broni, w którą ten wojownik jest uzbrojony. Do końca bitwy dodaj 1 do wybranej cechy.",
+    "runemarks": [],
+    "sourceName": "A Vow Fulfilled",
+    "sourceDescription": "Until the end of this fighter's activation, each time an enemy fighter is taken down, you can pick either this fighter's Toughness characteristic or the Attacks or Strength characteristic of 1 weapon this fighter is armed with. Until the end of the battle, add 1 to the characteristic you picked."
+  },
+  {
+    "_id": "dfe65d68",
+    "name": "Pokaz brutalności",
+    "warband": "Darkoath Savagers",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wykonaną przez niego podczas tej aktywacji. Ten wojownik wykonuje bonusową akcję ruchu albo bonusową akcję ataku.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Display of Brutality",
+    "sourceDescription": "A fighter can only use this ability if an enemy fighter has been taken down by an attack action made by them this activation. This fighter makes a bonus move action or a bonus attack action."
+  },
+  {
+    "_id": "ef30be4b",
+    "name": "Wizje chwały",
+    "warband": "Darkoath Savagers",
+    "cost": "double",
+    "description": "Rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 5+ dodaj jedną dziką kość do swoich zachowanych dzikich kości.",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Visions of Glory",
+    "sourceDescription": "Roll a number of dice equal to the value of this ability. For each roll of 5+, add one wild dice to your saved wild dice."
+  },
+  {
+    "_id": "fc38e638",
+    "name": "Klątwa więdnięcia",
+    "warband": "Darkoath Savagers",
+    "cost": "quad",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 3\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik 4-5 do końca rundy bitwy odejmij 1 od cechy Wytrzymałość tamtego wojownika (do minimum 1). Za każdy wynik 6 do końca bitwy odejmij 1 od cechy Wytrzymałość tamtego wojownika (do minimum 1).",
+    "runemarks": [
+      "mystic"
+    ],
+    "sourceName": "Curse of Withering",
+    "sourceDescription": "Pick a visible enemy fighter within 3\" of this fighter and roll a number of dice equal to the value of this ability. For each roll of 4-5, until the end of the battle round, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1). For each roll of 6, until the end of the battle, subtract 1 from that fighter's Toughness characteristic (to a minimum of 1)."
+  },
+  {
+    "_id": "a3ec1906",
+    "name": "Wściekła furia",
+    "warband": "Darkoath Savagers",
+    "cost": "triple",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 3\" od tego wojownika. Przy wyniku 3-4 przydziel wojownikowi, za którego wykonywany jest rzut, 1 punkt obrażeń. Przy wyniku 5+ przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "berserker"
+    ],
+    "sourceName": "Furious Rampage",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 3\" of this fighter. On a roll of 3-4, allocate 1 damage point to the fighter being rolled for. On a roll of 5+, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "812e4d39",
+    "name": "Cios śmierci",
+    "warband": "Darkoath Savagers",
+    "cost": "quad",
+    "description": "Dodaj wartość tej zdolności do punktów obrażeń przydzielanych wrogim wojownikom przez każde trafienie i trafienie krytyczne z następnej akcji ataku wręcz wykonanej przez tego wojownika podczas tej aktywacji.",
+    "runemarks": [],
+    "sourceName": "Deathblow",
+    "sourceDescription": "Add the value of this ability to the damage points allocated to enemy fighters by each hit and critical hit from the next melee attack action made by this fighter in this activation."
+  },
+  {
+    "_id": "dbb2c7b4",
+    "name": "Instynktowny unik",
+    "warband": "Darkoath Savagers",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję po tym, jak stanie się celem akcji ataku, po wykonaniu rzutów na trafienie. Rzuć kością za każde trafienie krytyczne. Przy wyniku 4+ to trafienie krytyczne staje się zamiast tego zwykłym trafieniem.",
+    "runemarks": [],
+    "sourceName": "Instinctive Dodge",
+    "sourceDescription": "A fighter can make this reaction after they are targeted by an attack action, after the hit rolls have been made. Roll a dice for each critical hit. On a roll of 4+, that critical hit becomes a hit instead."
+  },
+  {
+    "_id": "dd042d72",
+    "name": "Poszukiwanie chwały",
+    "warband": "Darkoath Savagers",
+    "cost": "battletrait",
+    "description": "Po tym, jak wrogi przywódca zostanie wyeliminowany przez akcję ataku wręcz wykonaną przez sojuszniczego wojownika z tą cechą bitewną, dodaj dwie dzikie kości do swoich zachowanych dzikich kości.",
+    "runemarks": [],
+    "sourceName": "Seeking Glory",
+    "sourceDescription": "After an enemy leader has been taken down by a melee attack action made by a friendly fighter with this battle trait, add two wild dice to your saved wild dice."
+  }
+]

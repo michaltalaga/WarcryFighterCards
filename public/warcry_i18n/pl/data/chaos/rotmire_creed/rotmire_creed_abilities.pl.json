@@ -1,0 +1,92 @@
+[
+  {
+    "_id": "7bef6213",
+    "name": "Dmuchawka",
+    "warband": "Rotmire Creed",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 6\" od tego wojownika i rzuć 2 kośćmi. Za każdy wynik 4+ przydziel tamtemu wojownikowi liczbę punktów obrażeń równą połowie wartości tej zdolności (zaokrąglając w górę). Dodatkowo za każdy wynik 6 odejmij 1 od cechy Wytrzymałość tamtego wojownika do końca rundy bitwy.",
+    "runemarks": [
+      "scout"
+    ],
+    "sourceName": "Blowpipe",
+    "sourceDescription": "Pick a visible enemy fighter within 6\" of this fighter and roll 2 dice.  For each 4+, allocate a number of damage points to that fighter equal to half the value of this ability (rounding up).  In addition, for each 6, subtract 1 from that fighter's Toughness characteristic until the end of the battle round."
+  },
+  {
+    "_id": "82851512",
+    "name": "Makabryczne żniwo",
+    "warband": "Rotmire Creed",
+    "cost": "double",
+    "description": "Wojownik może użyć tej zdolności tylko wtedy, gdy wrogi wojownik został wyeliminowany przez akcję ataku wręcz wykonaną przez niego podczas tej aktywacji. Ten wojownik ma teraz *potężną fiolkę* do końca bitwy. Gdy wojownik ma *potężną fiolkę* i używa zdolności, wartość tej zdolności jest traktowana jak 6, nawet jeśli kości zdolności pokazują inny wynik.",
+    "runemarks": [],
+    "sourceName": "Gruesome Harvest",
+    "sourceDescription": "A fighter can use this ability only if an enemy fighter has been taken down by a melee attack action made by them this activation.  This fighter now has a *potent vial* until the end of the battle.  While a fighter has a potent vial, when they use an ability, the value of the ability is treated as being 6 even if the ability dice show a different score."
+  },
+  {
+    "_id": "2f1ffed7",
+    "name": "Sieć z hakami",
+    "warband": "Rotmire Creed",
+    "cost": "double",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika i rzuć kością. Przy wyniku 3+ przydziel tamtemu wojownikowi liczbę punktów obrażeń równą wynikowi rzutu, a tamten wojownik nie może wykonywać akcji ruchu ani akcji wycofania przez resztę rundy bitwy.",
+    "runemarks": [
+      "trapper"
+    ],
+    "sourceName": "Hooked Net",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a dice.  On a 3+, allocate a number of damage points to that figther equal to the roll, and that fighter cannot make move actions or disengage actions for the rest of the battle round."
+  },
+  {
+    "_id": "beceda3a",
+    "name": "Śmiertelny zastrzyk",
+    "warband": "Rotmire Creed",
+    "cost": "triple",
+    "description": "Wybierz widocznego wrogiego wojownika w odległości 1\" od tego wojownika i rzuć liczbą kości równą wartości tej zdolności. Za każdy wynik przewyższający cechę Wytrzymałość tamtego wojownika przydziel mu 5 punktów obrażeń.",
+    "runemarks": [
+      "hero"
+    ],
+    "sourceName": "Lethal Injection",
+    "sourceDescription": "Pick a visible enemy fighter within 1\" of this fighter and roll a number of dice equal to the value of this ability.  For each roll that exceeds the Toughness characteristic of that fighter, allocate 5 damage points to them."
+  },
+  {
+    "_id": "810d4f1f",
+    "name": "Tnący atak",
+    "warband": "Rotmire Creed",
+    "cost": "triple",
+    "description": "Rzuć kością za każdego widocznego wrogiego wojownika w odległości 3\" od tego wojownika. Przy wyniku 3-4 przydziel wojownikowi, za którego wykonywany jest rzut, 1 punkt obrażeń. Przy wyniku 5-6 przydziel wojownikowi, za którego wykonywany jest rzut, liczbę punktów obrażeń równą wartości tej zdolności.",
+    "runemarks": [
+      "brute"
+    ],
+    "sourceName": "Slashing Attack",
+    "sourceDescription": "Roll a dice for each visible enemy fighter within 3\" of this fighter.  On a 3-4, allocate 1 damage point to the fighter being rolled for.  On a 5-6, allocate a number of damage points to the fighter being rolled for equal to the value of this ability."
+  },
+  {
+    "_id": "6e7c6843",
+    "name": "Pętające uderzenie",
+    "warband": "Rotmire Creed",
+    "cost": "quad",
+    "description": "Ten wojownik wykonuje dodatkową akcję ataku. Dodatkowo, jeśli ta akcja ataku uzyska jakiekolwiek trafienia krytyczne, docelowy wojownik nie może wykonywać akcji ruchu ani akcji wycofania przez resztę rundy bitwy.",
+    "runemarks": [
+      "destroyer"
+    ],
+    "sourceName": "Ensnaring Strike",
+    "sourceDescription": "This fighter makes a bonus attack action.  In addition, if that attack action scores any critical hits, the target fighter cannot make move actions or disengage actions for the rest of the battle round."
+  },
+  {
+    "_id": "65b404e9",
+    "name": "Żółciowa krew",
+    "warband": "Rotmire Creed",
+    "cost": "reaction",
+    "description": "Wojownik może wykonać tę reakcję, gdy stanie się celem akcji ataku wręcz. Po zsumowaniu obrażeń, ale przed przydzieleniem ich temu wojownikowi, rzuć kością za każde trafienie krytyczne uzyskane z tej akcji ataku. Za każdy wynik 3+ przydziel 3 punkty obrażeń wojownikowi, który wykonał tę akcję ataku.",
+    "runemarks": [],
+    "sourceName": "Bile Blood",
+    "sourceDescription": "A fighter can make this reaction when they are targeted by a melee attack action.  After the damage is totalled but before it is allocated to this fighter, roll a dice for each critical hit scored from that attack action.  For each 3+, allocate 3 damage points to the fighter that made that attack action."
+  },
+  {
+    "_id": "4a01b3c0",
+    "name": "W oczekiwaniu na Władcę Pijawek",
+    "warband": "Rotmire Creed",
+    "cost": "battletrait",
+    "description": "Wrodzy wojownicy, którzy znajdują się w odległości 1\" od dwóch lub większej liczby sojuszniczych wojowników z tą cechą bitewną, nie mogą wykonywać akcji wycofania.",
+    "runemarks": [],
+    "sourceName": "Waiting for the Lord Leech",
+    "sourceDescription": "Enemy fighters that are within 1\" of two or more friendly fighters with this battle trait cannot make disengage actions."
+  }
+]
