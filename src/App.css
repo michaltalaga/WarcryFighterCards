@@ -33,12 +33,39 @@
   padding: 1rem;
 }
 
+.app-header-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+}
+
+.app-header-copy {
+  flex: 1 1 24rem;
+  min-width: 0;
+}
+
 .app-header h1 {
   margin: 0 0 0.35rem;
 }
 
 .app-header p {
   margin: 0;
+}
+
+.locale-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.45rem;
+}
+
+.locale-label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #22343b;
 }
 
 .roster-import {
@@ -94,6 +121,7 @@
   color: #22343b;
 }
 
+.locale-toggle,
 .print-mode-toggle,
 .print-now-button {
   border: 1px solid #0f2a35;
@@ -104,11 +132,13 @@
   cursor: pointer;
 }
 
+.locale-toggle,
 .print-mode-toggle {
   background: #f2ebd8;
   color: #0f2a35;
 }
 
+.locale-toggle.is-active,
 .print-mode-toggle.is-active {
   background: #163f4f;
   color: #fff;

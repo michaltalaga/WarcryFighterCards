@@ -1,6 +1,7 @@
 import { renderToStaticMarkup } from 'react-dom/server'
 import { describe, expect, it } from 'vitest'
 import { FighterCard } from './FighterCard'
+import { getUiText } from '../i18n/uiText'
 import type { ImportedCard } from '../types/cards'
 
 const card: ImportedCard = {
@@ -24,7 +25,7 @@ const card: ImportedCard = {
 
 describe('FighterCard runemark rendering', () => {
   it('keeps runemarks under the fighter name and drops the runemark header text', () => {
-    const markup = renderToStaticMarkup(<FighterCard card={card} runemarkPlacement="under-name" />)
+    const markup = renderToStaticMarkup(<FighterCard card={card} runemarkPlacement="under-name" ui={getUiText('en')} />)
 
     expect(markup).not.toContain('Runemarks')
     expect(markup).toContain('Hero')

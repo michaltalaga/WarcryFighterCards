@@ -1,22 +1,24 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiceD6, faStar } from '@fortawesome/free-solid-svg-icons'
+import type { UiText } from '../i18n/uiText'
 import type { WarcryAbility } from '../types/warcry'
-import { getAbilityCostVisual } from '../utils/cardHelpers'
+import { getAbilityCostVisualWithLabels } from '../utils/cardHelpers'
 
 type AbilitySectionProps = {
   abilities: WarcryAbility[]
+  ui: UiText
 }
 
-export function AbilitySection({ abilities }: AbilitySectionProps) {
+export function AbilitySection({ abilities, ui }: AbilitySectionProps) {
   return (
     <section>
-      <h3>Abilities</h3>
+      <h3>{ui.abilitiesHeading}</h3>
       <ul className="abilities-list">
         {abilities.length === 0 ? (
-          <li>No matching abilities</li>
+          <li>{ui.noMatchingAbilities}</li>
         ) : (
           abilities.map((ability) => {
-            const costVisual = getAbilityCostVisual(ability.cost)
+            const costVisual = getAbilityCostVisualWithLabels(ability.cost, ui.abilityCostLabels)
             return (
               <li key={ability._id} className="ability-line">
                 <span className="ability-cost-slot">
@@ -28,7 +30,11 @@ export function AbilitySection({ abilities }: AbilitySectionProps) {
                     </span>
                   )}
                   {costVisual?.isPassive && (
-                    <span className="passive-badge" aria-label="Passive" title="Passive">
+                    <span
+                      className="passive-badge"
+                      aria-label={ui.abilityCostLabels.passive}
+                      title={ui.abilityCostLabels.passive}
+                    >
                       <FontAwesomeIcon icon={faStar} className="passive-icon" />
                     </span>
                   )}

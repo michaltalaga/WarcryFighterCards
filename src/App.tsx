@@ -1,9 +1,11 @@
-import { useRef, useState } from 'react'
+import { useEffect, useEffectEvent, useRef, useState } from 'react'
 import { WarbandHeader } from './components/WarbandHeader'
 import { FighterCard } from './components/FighterCard'
 import { CardBack } from './components/CardBack'
 import { parseWarcrierRoster } from './import/warcrierImport'
 import { isAbilityEligibleForFighter } from './integration/abilityEligibility'
+import { mergeAbilityTranslations, toAbilityTranslationPath, type WarcryAbilityTranslation } from './i18n/abilityLocalization'
+import { APP_LOCALES, getUiText, type AppLocale } from './i18n/uiText'
 import type { WarcryAbility, WarcryFighter } from './types/warcry'
 import type { ImportedCard, Manifest, WarbandHeaderInfo } from './types/cards'
 import { findBestFighterMatch, findWarbandEntry, sortAbilitiesByDice } from './utils/cardHelpers'
@@ -30,15 +32,35 @@ Skaven
 ----------
 Generated on Warcrier.net`
 
+const LOCALE_STORAGE_KEY = 'warcryfightercards.locale'
+
+function getInitialLocale(): AppLocale {
+  if (typeof window === 'undefined') {
+    return 'en'
+  }
+
+  const storedLocale = window.localStorage.getItem(LOCALE_STORAGE_KEY)
+  return storedLocale === 'pl' ? 'pl' : 'en'
+}
+
 function App() {
+  const [locale, setLocale] = useState<AppLocale>(getInitialLocale)
   const [printSide, setPrintSide] = useState<'front' | 'back'>('front')
   const [rosterText, setRosterText] = useState('')
+  const [lastImportedRosterText, setLastImportedRosterText] = useState<string | null>(null)
   const [rosterName, setRosterName] = useState<string | null>(null)
   const [warbandInfo, setWarbandInfo] = useState<WarbandHeaderInfo | null>(null)
   const [battleTraits, setBattleTraits] = useState<WarcryAbility[]>([])
   const [importedCards, setImportedCards] = useState<ImportedCard[]>([])
   const [importStatus, setImportStatus] = useState('')
-  const warbandDataCache = useRef<Record<string, { fighters: WarcryFighter[]; abilities: WarcryAbility[] }>>({})
+  const ui = getUiText(locale)
+  const previousLocale = useRef(locale)
+  const fighterDataCache = useRef<Record<string, WarcryFighter[]>>({})
+  const abilityDataCache = useRef<Record<string, WarcryAbility[]>>({})
+
+  useEffect(() => {
+    window.localStorage.setItem(LOCALE_STORAGE_KEY, locale)
+  }, [locale])
 
   function useSample() {
     setRosterText(SAMPLE_ROSTER)
@@ -48,13 +70,53 @@ function App() {
     window.print()
   }
 
-  async function importRoster() {
-    const parsed = parseWarcrierRoster(rosterText)
+  async function loadLocalizedAbilities(abilitiesPath: string): Promise<WarcryAbility[]> {
+    const cacheKey = `${locale}:${abilitiesPath}`
+    const cached = abilityDataCache.current[cacheKey]
+    if (cached) {
+      return cached
+    }
+
+    const abilitiesResponse = await fetch(withBasePath(abilitiesPath))
+    if (!abilitiesResponse.ok) {
+      throw new Error(ui.warbandDataLoadError)
+    }
+
+    const sourceAbilities = (await abilitiesResponse.json()) as WarcryAbility[]
+    const translationPath = toAbilityTranslationPath(abilitiesPath, locale)
+    if (!translationPath) {
+      abilityDataCache.current[cacheKey] = sourceAbilities
+      return sourceAbilities
+    }
+
+    let localizedAbilities = sourceAbilities
+
+    try {
+      const translationResponse = await fetch(withBasePath(translationPath))
+      if (translationResponse.ok) {
+        const translatedAbilities = (await translationResponse.json()) as WarcryAbilityTranslation[]
+        localizedAbilities = mergeAbilityTranslations(sourceAbilities, translatedAbilities)
+      }
+    } catch (error) {
+      console.warn('Failed to load localized abilities', error)
+    }
+
+    abilityDataCache.current[cacheKey] = localizedAbilities
+    return localizedAbilities
+  }
+
+  async function importRoster(inputText: string) {
+    setLastImportedRosterText(inputText)
+
+    const parsed = parseWarcrierRoster(inputText)
     const fighterNames = parsed.fighters.map((fighter) => fighter.name)
 
     if (fighterNames.length === 0) {
+      setRosterName(null)
+      setWarbandInfo(null)
+      setBattleTraits([])
       setImportedCards([])
-      setImportStatus('No fighter lines found. Paste the full roster export block.')
+      setImportStatus(ui.noFighterLinesStatus)
       return
     }
 
@@ -65,7 +127,7 @@ function App() {
     try {
       const manifestResponse = await fetch(withBasePath('warcry_data/manifest.json'))
       if (!manifestResponse.ok) {
-        throw new Error('Failed to load warband manifest')
+        throw new Error(ui.manifestLoadError)
       }
 
       const manifest = (await manifestResponse.json()) as Manifest
@@ -78,7 +140,7 @@ function App() {
           reactions: [],
         }))
         setImportedCards(unmatchedCards)
-        setImportStatus('Roster imported, but warband data was not found in local dataset.')
+        setImportStatus(ui.datasetNotFoundStatus)
         return
       }
 
@@ -91,23 +153,26 @@ function App() {
       let fighters: WarcryFighter[]
       let abilities: WarcryAbility[]
 
-      const cached = warbandDataCache.current[warbandEntry.key]
-      if (cached) {
-        fighters = cached.fighters
-        abilities = cached.abilities
-      } else {
-        const [fightersResponse, abilitiesResponse] = await Promise.all([
-          fetch(withBasePath(warbandEntry.fightersPath)),
-          fetch(withBasePath(warbandEntry.abilitiesPath)),
-        ])
+      const cachedFighters = fighterDataCache.current[warbandEntry.key]
+      const cachedAbilities = abilityDataCache.current[`${locale}:${warbandEntry.abilitiesPath}`]
 
-        if (!fightersResponse.ok || !abilitiesResponse.ok) {
-          throw new Error('Failed to load fighters/abilities for detected warband')
+      if (cachedFighters && cachedAbilities) {
+        fighters = cachedFighters
+        abilities = cachedAbilities
+      } else {
+        if (cachedFighters) {
+          fighters = cachedFighters
+        } else {
+          const fightersResponse = await fetch(withBasePath(warbandEntry.fightersPath))
+          if (!fightersResponse.ok) {
+            throw new Error(ui.warbandDataLoadError)
+          }
+
+          fighters = (await fightersResponse.json()) as WarcryFighter[]
+          fighterDataCache.current[warbandEntry.key] = fighters
         }
 
-        fighters = (await fightersResponse.json()) as WarcryFighter[]
-        abilities = (await abilitiesResponse.json()) as WarcryAbility[]
-        warbandDataCache.current[warbandEntry.key] = { fighters, abilities }
+        abilities = cachedAbilities ?? (await loadLocalizedAbilities(warbandEntry.abilitiesPath))
       }
 
       setBattleTraits(
@@ -148,46 +213,87 @@ function App() {
 
       setImportedCards(cards)
       const matchedCount = cards.filter((card) => card.fighter).length
-      setImportStatus(`Roster imported: matched ${matchedCount}/${cards.length}`)
+      setImportStatus(ui.matchedStatus(matchedCount, cards.length))
     } catch (error) {
       setImportedCards([])
+      setRosterName(null)
       setWarbandInfo(null)
       setBattleTraits([])
-      setImportStatus(error instanceof Error ? error.message : 'Import failed')
+      setImportStatus(error instanceof Error ? error.message : ui.importFailedStatus)
     }
   }
+
+  const rerunLastImport = useEffectEvent(async () => {
+    if (!lastImportedRosterText) {
+      return
+    }
+
+    await importRoster(lastImportedRosterText)
+  })
+
+  useEffect(() => {
+    if (previousLocale.current === locale) {
+      return
+    }
+
+    previousLocale.current = locale
+    if (!lastImportedRosterText) {
+      return
+    }
+
+    void rerunLastImport()
+  }, [lastImportedRosterText, locale])
 
   return (
     <main className="app-shell">
       <header className="app-header">
-        <h1>Roster Import</h1>
-        <p>Paste roster text. One card is generated for each imported fighter entry.</p>
+        <div className="app-header-top">
+          <div className="app-header-copy">
+            <h1>{ui.appTitle}</h1>
+            <p>{ui.appDescription}</p>
+          </div>
+
+          <div className="locale-controls" role="group" aria-label={ui.languagePickerAriaLabel}>
+            <span className="locale-label">{ui.languageLabel}:</span>
+            {APP_LOCALES.map((option) => (
+              <button
+                key={option}
+                type="button"
+                className={`locale-toggle ${locale === option ? 'is-active' : ''}`}
+                onClick={() => setLocale(option)}
+                aria-pressed={locale === option}
+              >
+                {option === 'en' ? ui.englishLabel : ui.polishLabel}
+              </button>
+            ))}
+          </div>
+        </div>
       </header>
 
       <section className="roster-import">
-        <p className="roster-title">Roster Text</p>
+        <p className="roster-title">{ui.rosterTitle}</p>
         <textarea
           rows={10}
           value={rosterText}
           onChange={(event) => setRosterText(event.target.value)}
-          placeholder="Paste full roster export text here"
+          placeholder={ui.rosterPlaceholder}
         />
-        <button type="button" onClick={importRoster}>
-          Import roster
+        <button type="button" onClick={() => void importRoster(rosterText)}>
+          {ui.importRosterButton}
         </button>
         <button type="button" onClick={useSample}>
-          Use Sample
+          {ui.useSampleButton}
         </button>
         {importedCards.length > 0 && (
-          <div className="print-controls" role="group" aria-label="Print mode C controls">
-            <span className="print-controls-label">Mode C print side:</span>
+          <div className="print-controls" role="group" aria-label={ui.printControlsAriaLabel}>
+            <span className="print-controls-label">{ui.printSideLabel}</span>
             <button
               type="button"
               className={`print-mode-toggle ${printSide === 'front' ? 'is-active' : ''}`}
               onClick={() => setPrintSide('front')}
               aria-pressed={printSide === 'front'}
             >
-              Fronts
+              {ui.frontsLabel}
             </button>
             <button
               type="button"
@@ -195,10 +301,10 @@ function App() {
               onClick={() => setPrintSide('back')}
               aria-pressed={printSide === 'back'}
             >
-              Backs
+              {ui.backsLabel}
             </button>
             <button type="button" className="print-now-button" onClick={printCurrentSide}>
-              Print {printSide === 'front' ? 'fronts' : 'backs'}
+              {printSide === 'front' ? ui.printFrontsButton : ui.printBacksButton}
             </button>
           </div>
         )}
@@ -207,7 +313,7 @@ function App() {
 
       {printSide === 'front' && (
         <section className="cards-grid">
-          <WarbandHeader rosterName={rosterName} warbandInfo={warbandInfo} battleTraits={battleTraits} />
+          <WarbandHeader rosterName={rosterName} warbandInfo={warbandInfo} battleTraits={battleTraits} locale={locale} ui={ui} />
         </section>
       )}
 
@@ -215,9 +321,9 @@ function App() {
         <section className={`cards-grid ${printSide === 'back' ? 'cards-grid-backs' : ''}`}>
           {importedCards.map((card, index) =>
             printSide === 'front' ? (
-              <FighterCard key={`${card.importedName}-${index}`} card={card} runemarkPlacement="under-name" />
+              <FighterCard key={`${card.importedName}-${index}`} card={card} runemarkPlacement="under-name" ui={ui} />
             ) : (
-              <CardBack key={`${card.importedName}-${index}`} card={card} />
+              <CardBack key={`${card.importedName}-${index}`} card={card} ui={ui} />
             ),
           )}
         </section>

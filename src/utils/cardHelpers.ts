@@ -169,19 +169,43 @@ export function formatRunemarkLabel(runemark: string): string {
     .join(' ')
 }
 
+export type AbilityCostLabels = {
+  double: string
+  triple: string
+  quad: string
+  passive: string
+}
+
+const defaultAbilityCostLabels: AbilityCostLabels = {
+  double: 'Double',
+  triple: 'Triple',
+  quad: 'Quad',
+  passive: 'Passive',
+}
+
 export function getAbilityCostVisual(cost: string):
+  | { diceCount: number; label: string; isPassive?: false }
+  | { diceCount: 0; label: string; isPassive: true }
+  | null {
+  return getAbilityCostVisualWithLabels(cost, defaultAbilityCostLabels)
+}
+
+export function getAbilityCostVisualWithLabels(
+  cost: string,
+  labels: AbilityCostLabels,
+):
   | { diceCount: number; label: string; isPassive?: false }
   | { diceCount: 0; label: string; isPassive: true }
   | null {
   switch (cost.trim().toLowerCase()) {
     case 'double':
-      return { diceCount: 2, label: 'Double' }
+      return { diceCount: 2, label: labels.double }
     case 'triple':
-      return { diceCount: 3, label: 'Triple' }
+      return { diceCount: 3, label: labels.triple }
     case 'quad':
-      return { diceCount: 4, label: 'Quad' }
+      return { diceCount: 4, label: labels.quad }
     case 'passive':
-      return { diceCount: 0, label: 'Passive', isPassive: true }
+      return { diceCount: 0, label: labels.passive, isPassive: true }
     default:
       return null
   }

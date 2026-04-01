@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { formatGrandAllianceLabel, type AppLocale, type UiText } from '../i18n/uiText'
 import type { WarcryAbility } from '../types/warcry'
 import type { WarbandHeaderInfo } from '../types/cards'
 import { buildFactionRunemarkCandidates } from '../utils/cardHelpers'
@@ -8,9 +9,11 @@ type WarbandHeaderProps = {
   rosterName: string | null
   warbandInfo: WarbandHeaderInfo | null
   battleTraits: WarcryAbility[]
+  locale: AppLocale
+  ui: UiText
 }
 
-export function WarbandHeader({ rosterName, warbandInfo, battleTraits }: WarbandHeaderProps) {
+export function WarbandHeader({ rosterName, warbandInfo, battleTraits, locale, ui }: WarbandHeaderProps) {
   const runemarkCandidates = useMemo(
     () => (warbandInfo ? buildFactionRunemarkCandidates(warbandInfo) : []),
     [warbandInfo],
@@ -24,10 +27,10 @@ export function WarbandHeader({ rosterName, warbandInfo, battleTraits }: Warband
     <article className="warband-header-card">
       <div className="warband-header-top">
         <div>
-          <h2>{rosterName || 'Imported Roster'}</h2>
+          <h2>{rosterName || ui.importedRosterFallback}</h2>
           {warbandInfo && (
             <p>
-              {warbandInfo.warbandName} | {warbandInfo.faction}
+              {warbandInfo.warbandName} | {formatGrandAllianceLabel(warbandInfo.faction, locale)}
             </p>
           )}
         </div>
@@ -35,17 +38,17 @@ export function WarbandHeader({ rosterName, warbandInfo, battleTraits }: Warband
           <IconWithFallback
             key={runemarkCandidates.join('|')}
             candidates={runemarkCandidates}
-            alt={`${warbandInfo.warbandName} runemark`}
+            alt={`${warbandInfo.warbandName} ${ui.runemarkLabel}`}
             className="faction-runemark"
           />
         )}
       </div>
 
       <section className="warband-traits">
-        <h3>Battle Traits</h3>
+        <h3>{ui.battleTraitsHeading}</h3>
         <ul className="abilities-list">
           {battleTraits.length === 0 ? (
-            <li>No battle traits</li>
+            <li>{ui.noBattleTraits}</li>
           ) : (
             battleTraits.map((ability) => <li key={ability._id}>{ability.name}</li>)
           )}
