@@ -4,12 +4,12 @@ import { FighterCard } from './components/FighterCard'
 import { CardBack } from './components/CardBack'
 import { LanguagePicker } from './components/LanguagePicker'
 import { parseWarcrierRoster } from './import/warcrierImport'
-import { isAbilityEligibleForFighter } from './integration/abilityEligibility'
+import { resolveRosterImport } from './integration/rosterImportResolution'
 import { mergeAbilityTranslations, toAbilityTranslationPath, type WarcryAbilityTranslation } from './i18n/abilityLocalization'
 import { getUiText, type AppLocale } from './i18n/uiText'
 import type { WarcryAbility, WarcryFighter } from './types/warcry'
-import type { ImportedCard, Manifest, WarbandHeaderInfo } from './types/cards'
-import { findBestFighterMatch, findWarbandEntry, sortAbilitiesByDice } from './utils/cardHelpers'
+import type { ImportedCard, Manifest, WarbandHeaderInfo, WarbandManifest } from './types/cards'
+import { findWarbandEntry } from './utils/cardHelpers'
 import './App.css'
 
 function withBasePath(resourcePath: string): string {
@@ -110,6 +110,26 @@ function App() {
     return localizedAbilities
   }
 
+  async function loadFightersForEntry(entry: WarbandManifest): Promise<WarcryFighter[]> {
+    const cached = fighterDataCache.current[entry.key]
+    if (cached) {
+      return cached
+    }
+
+    const fightersResponse = await fetch(withBasePath(entry.fightersPath))
+    if (!fightersResponse.ok) {
+      throw new Error(ui.warbandDataLoadError)
+    }
+
+    const fighters = (await fightersResponse.json()) as WarcryFighter[]
+    fighterDataCache.current[entry.key] = fighters
+    return fighters
+  }
+
+  async function loadAbilitiesForEntry(entry: WarbandManifest): Promise<WarcryAbility[]> {
+    return loadLocalizedAbilities(entry.abilitiesPath)
+  }
+
   async function importRoster(inputText: string) {
     setLastImportedRosterText(inputText)
 
@@ -155,70 +175,15 @@ function App() {
         faction: warbandEntry.grandAlliance,
       })
 
-      let fighters: WarcryFighter[]
-      let abilities: WarcryAbility[]
-
-      const cachedFighters = fighterDataCache.current[warbandEntry.key]
-      const cachedAbilities = abilityDataCache.current[`${locale}:${warbandEntry.abilitiesPath}`]
-
-      if (cachedFighters && cachedAbilities) {
-        fighters = cachedFighters
-        abilities = cachedAbilities
-      } else {
-        if (cachedFighters) {
-          fighters = cachedFighters
-        } else {
-          const fightersResponse = await fetch(withBasePath(warbandEntry.fightersPath))
-          if (!fightersResponse.ok) {
-            throw new Error(ui.warbandDataLoadError)
-          }
-
-          fighters = (await fightersResponse.json()) as WarcryFighter[]
-          fighterDataCache.current[warbandEntry.key] = fighters
-        }
-
-        abilities = cachedAbilities ?? (await loadLocalizedAbilities(warbandEntry.abilitiesPath))
-      }
-
-      setBattleTraits(
-        sortAbilitiesByDice(
-          abilities.filter((ability) => ability.cost.trim().toLowerCase() === 'battletrait'),
-        ),
-      )
-
-      const cards: ImportedCard[] = fighterNames.map((name) => {
-        const fighter = findBestFighterMatch(fighters, name)
-        if (!fighter) {
-          return {
-            importedName: name,
-            fighter: null,
-            abilities: [],
-            reactions: [],
-          }
-        }
-
-        const eligible = abilities.filter((ability) => isAbilityEligibleForFighter(ability, fighter))
-        const reactions = sortAbilitiesByDice(
-          eligible.filter((ability) => ability.cost.trim().toLowerCase() === 'reaction'),
-        )
-        const fighterAbilities = sortAbilitiesByDice(
-          eligible.filter((ability) => {
-            const cost = ability.cost.trim().toLowerCase()
-            return cost !== 'reaction' && cost !== 'battletrait'
-          }),
-        )
-
-        return {
-          importedName: name,
-          fighter,
-          abilities: fighterAbilities,
-          reactions,
-        }
+      const resolvedImport = await resolveRosterImport(manifest, parsed, warbandEntry, {
+        loadAbilities: loadAbilitiesForEntry,
+        loadFighters: loadFightersForEntry,
       })
 
-      setImportedCards(cards)
-      const matchedCount = cards.filter((card) => card.fighter).length
-      setImportStatus(ui.matchedStatus(matchedCount, cards.length))
+      setBattleTraits(resolvedImport.battleTraits)
+      setImportedCards(resolvedImport.cards)
+      const matchedCount = resolvedImport.cards.filter((card) => card.fighter).length
+      setImportStatus(ui.matchedStatus(matchedCount, resolvedImport.cards.length))
     } catch (error) {
       setImportedCards([])
       setRosterName(null)
