@@ -38,7 +38,8 @@ const WARCRIER_WARBANDS_URL = 'https://www.warcrier.net/docs/warbands'
 const GITHUB_URL = 'https://github.com/michaltalaga/WarcryFighterCards'
 const DATA_SOURCE_URL = 'https://github.com/krisling049/warcry_data'
 const CARD_ASSETS_URL = 'https://github.com/Stevrak/warcry_legions'
-const APP_VERSION = __APP_VERSION__
+const APP_BUILD_LABEL = __APP_BUILD_LABEL__
+const APP_BUILD_URL = __APP_BUILD_URL__
 
 function getInitialLocale(): AppLocale {
   if (typeof window === 'undefined') {
@@ -313,7 +314,18 @@ function App() {
         </section>
       )}
       <footer className="app-credits">
-        <span>Version: {APP_VERSION}</span>
+        {APP_BUILD_LABEL && (
+          <span>
+            Build:{' '}
+            {APP_BUILD_URL ? (
+              <a href={APP_BUILD_URL} target="_blank" rel="noreferrer">
+                {APP_BUILD_LABEL}
+              </a>
+            ) : (
+              APP_BUILD_LABEL
+            )}
+          </span>
+        )}
         <span>Author: <a href="https://cyberdynesystems.cc/" target="_blank" rel="noreferrer">Cyberdyne Systems</a></span>
         <span>Fighter &amp; ability data: <a href={DATA_SOURCE_URL} target="_blank" rel="noreferrer">krisling049/warcry_data</a></span>
         <span>Card assets &amp; runemarks: <a href={CARD_ASSETS_URL} target="_blank" rel="noreferrer">Stevrak/warcry_legions</a></span>
